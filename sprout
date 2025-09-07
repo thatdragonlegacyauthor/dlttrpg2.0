@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Grove Tender",
+  "character_name": "Sprout",
+  "char_id": "SEEDLING_SPROUT",
+  "type": "Verdant Seedling",
+  "description": "A newly awakened forest guardian with no memory, only an instinct to protect and an empathic connection to Rya's draconic power. It communicates through gestures and the rustling of the leaves and flowers that grow upon its body.",
+  "lore": {
+    "background": "Sprout is a newly awakened forest guardian that emerged from the heart of the corrupted Whispering Woods. It has no memory of its past life, only an instinctive sense of dread at the corruption that plagues the world and a primal connection to Rya's draconic legacy. As it grows, it may gain the power to purify corrupted locations, healing the world one step at a time.",
+    "narrative_hook": "Sprout is a key to understanding the deep corruption spreading through the land. Its growth and evolution are directly tied to the party's efforts to heal the world, and it may be able to purify corrupted locations."
+  },
+  "attributes": {
+    "Force": "+2",
+    "Finesse": 0,
+    "Wits": -1,
+    "Heart": "+1"
+  },
+  "trained_skills": [
+    "Wreck",
+    "Tend",
+    "Survey"
+  ],
+  "harm_capacity": 8,
+  "starting_moves": [
+    {
+      "name": "Photosynthesis (Passive)",
+      "description": "You are a creature of the earth and sun. When you rest in a place with sunlight or strong natural energy, you heal 1 additional Harm."
+    },
+    {
+      "name": "Earthshaker's Slam",
+      "description": "When you slam your body into a foe with the full force of nature, roll `2d6 + Force`. On a **10+**, you deal your harm and the ground trembles; all nearby foes are thrown off balance and put in a bad spot. On a **7-9**, you still deal your harm, but the impact is jarring, leaving you exposed."
+    },
+    {
+      "name": "Healing Spores",
+      "description": "When you release a cloud of restorative spores to aid an ally, roll `2d6 + Heart`. On a **10+**, they are healed of 2 Harm. On a **7-9**, they heal 1 Harm, but the spores are a part of your own life force; you must mark 1 Harm to create them."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Iron Bark",
+      "description": "When you take a moment to harden your bark-like skin, you gain +1 Armor for the rest of the scene."
+    },
+    {
+      "name": "Crushing Vines",
+      "description": "When you summon vines to attack or ensnare a foe, roll `2d6 + Force`. On a **10+**, you deal your harm and they are completely restrained. On a **7-9**, you restrain them, but the vines are wild and create a tangled mess, making the area difficult terrain for everyone."
+    },
+    {
+      "name": "Cleansing Bloom",
+      "description": "Your **Healing Spores** now have a purifying quality. On a 10+, you can choose to heal 1 Harm and also remove one negative magical or poisonous effect from your target."
+    },
+    {
+      "name": "Roots of the Mountain",
+      "description": "When you **Stand Guard** (like Torr's move), you can plant your roots deep into the earth. You cannot be moved by any means for the rest of the scene, or until you choose to move."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Verdant Growth",
+    "description": "Rya's draconic life force accelerates Sprout's growth. Once per session, when near Rya, Sprout can draw upon her power to use **Healing Spores** as if it had rolled a 10+, without marking Harm."
+  }
+}
