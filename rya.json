@@ -1,0 +1,58 @@
+{
+  "playbook_name": "The Dragon Heir",
+  "character_name": "Rya",
+  "char_id": "DRAGON_HEIR_RYA",
+  "type": "Human (Dragon-touched)",
+  "description": "An orphan with a forgotten past and a powerful, chaotic legacy. Her journey is to discover the truth of her heritage and learn to control the draconic power stirring within her.",
+  "lore": {
+    "background": "An orphan with distinctive blue hair, raised by Elder Elara in Windmark Village. Her journey is about finding her lost identity and confronting her powerful draconic legacy, which is revealed during a cataclysmic attack.",
+    "narrative_hook": "Grand Inquisitor Valerius and the Champions of Order believe Rya's power is a plague to be purged from the world, hunting her relentlessly. Her own power is a mystery, and its full potential—and the truth of its origins—is a central theme of the campaign."
+  },
+  "attributes": {
+    "Force": "+1",
+    "Finesse": 0,
+    "Wits": 0,
+    "Heart": "+2"
+  },
+  "trained_skills": [
+    "Choose any three skills to be Trained in."
+  ],
+  "harm_capacity": 7,
+  "starting_moves": [
+    {
+      "name": "Dragon's Soul (Passive)",
+      "description": "You are the heir to a draconic lineage. You begin play with one Draconic Lineage of your choice (e.g., Fire, Earth, Ice, etc.) and its corresponding 'Unleash' move. You can attune to new lineages by finding their nexuses in the world."
+    },
+    {
+      "name": "Unleash Draconic Power",
+      "description": "When you unleash your currently attuned draconic aspect, find the specific move for that lineage in the 'draconic_moves.json' file and follow its instructions."
+    },
+    {
+      "name": "Rally the Companions",
+      "description": "When you make a heartfelt plea or a rousing speech to your companions, roll `2d6 + Heart`. On a **10+**, all who follow you are inspired and take a +1 bonus on their next move. On a **7-9**, they are inspired, but the weight of leadership takes its toll; you must mark 1 Harm."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Primal Manifestation",
+      "description": "When you spend a Legacy Point to partially transform, your draconic power becomes more controlled. For the rest of the scene, any 'Unleash Draconic Power' roll of a 7-9 is treated as a 10+."
+    },
+    {
+      "name": "Drake Manifestation",
+      "requires": "Primal Manifestation",
+      "description": "You can spend a Legacy Point to assume a more powerful draconic form. For the rest of the scene, when you **Unleash Draconic Power** and roll a 10+, you can choose an additional benefit from the list."
+    },
+    {
+      "name": "Draconic Unity",
+      "description": "When you have forged a Confidant bond (Bond Level 3) with a companion, you can spend a Legacy Point to fuse with them for a scene, creating a powerful hybrid form with a unique move. (Examples: Fuse with Selra to become a Valkyrie, or with Zael to become a Wraith)."
+    },
+    {
+      "name": "A Will of a Different Color",
+      "description": "You learn to quickly switch your innate elemental nature. During a moment of calm, you can switch your attuned Draconic Lineage to any other lineage you have already unlocked."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Heart of the Party",
+    "description": "Rya is the bond that unites the party. She does not have a specific synergy with one character; instead, her **Draconic Unity** move evolves as she forges confidant bonds with each companion, unlocking new forms and abilities with each."
+  }
+}
