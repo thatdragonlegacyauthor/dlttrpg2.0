@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Sky-Princess",
+  "character_name": "Nina",
+  "char_id": "WYNDIA_NINA",
+  "type": "Wyndian (Winged Humanoid)",
+  "description": "The beloved, but burdened, princess of the floating city of Wyndia. She is a skilled duelist and wind mage, caught between her royal duties and her desire to forge her own path.",
+  "lore": {
+    "background": "The princess of the floating city of Wyndia, Nina was born to a life of duty and political machinations. She feels trapped by her royal duties and joins the party seeking the freedom to forge her own path, but her royal status brings both powerful connections and dangerous political enemies.",
+    "narrative_hook": "Nina is burdened by the political machinations of the Ember Concord and her father's strict expectations. She seeks freedom, but her royal status brings both powerful connections and dangerous political enemies."
+  },
+  "attributes": {
+    "Force": -1,
+    "Finesse": "+2",
+    "Wits": 0,
+    "Heart": "+1"
+  },
+  "trained_skills": [
+    "Sway",
+    "Maneuver",
+    "Know"
+  ],
+  "harm_capacity": 6,
+  "starting_moves": [
+    {
+      "name": "Royal Edict",
+      "description": "When you leverage your royal authority to command an NPC with a title or rank, roll `2d6 + Heart`. On a **10+**, they are compelled to obey a reasonable command. On a **7-9**, they obey, but it will cause political complications later, or they demand a significant favor in return."
+    },
+    {
+      "name": "Dance of the Gales",
+      "description": "When you use your wings to gracefully engage a foe in melee, roll `2d6 + Finesse`. On a **10+**, you deal your harm and choose one: you reposition to any advantageous spot, or you create an opening for an ally (+1 for their next move). On a **7-9**, you deal your harm, but your flamboyant attack leaves you exposed."
+    },
+    {
+      "name": "Gale Shield",
+      "description": "When an ally is about to take harm, you can shield them with a swirling gust of wind. Roll `2d6 + Finesse`. On a **10+**, the harm is completely negated. On a **7-9**, the harm is halved, but the effort leaves you staggered (take a -1 penalty on your next move)."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Diplomatic Immunity",
+      "description": "When you are in a civilized settlement, you can make your identity as the Princess of Wyndia known. When you do, you cannot be imprisoned or harmed by local authorities, but your presence will attract both powerful allies and dangerous enemies."
+    },
+    {
+      "name": "Inspiring Presence",
+      "description": "When you successfully use **Royal Edict**, your allies are inspired by your leadership. They all gain a +1 bonus on their next move."
+    },
+    {
+      "name": "Cyclone",
+      "description": "When you summon a powerful vortex of wind, roll `2d6 + Finesse`. On a **10+**, you create a zone of swirling wind that provides cover from ranged attacks and hinders enemy movement. On a **7-9**, the cyclone is chaotic and unpredictable, affecting allies and enemies alike."
+    },
+    {
+      "name": "Tempest Blade",
+      "description": "When you **Dance of the Gales**, on a 10+ you can choose to forgo your other options to instead push your target back and leave them disoriented."
+    }
+  ],
+  "bond_synergy": {
+    "name": "A Breath of Fresh Air",
+    "description": "Rya's untamed nature inspires Nina to act outside the rigid confines of her upbringing. Once per session, Nina can use her **Royal Edict** move on a commoner, bandit, or even a monster, using her force of personality rather than her title. It works as if she had rolled a 10+."
+  }
+}
