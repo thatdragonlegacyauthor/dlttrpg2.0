@@ -1,0 +1,81 @@
+{
+  "playbook_name": "The Living Ruin",
+  "character_name": "Rune",
+  "char_id": "ANCIENT_RUNE",
+  "type": "Soul-bound construct",
+  "description": "A rugged golem of cracked steel and glowing runes, animated by the fragmented memories of his pre-Shattering creator. He is a relic of a forgotten age on a quest to rediscover his own purpose.",
+  "lore": {
+    "background": "Rune is a powerful golem that lay inert for centuries. When he awoke, it was with the fragmented memories of his creator, a master artificer. Hunted by lore-keepers who view a souled construct as an abomination, his journey is one of self-discovery, piecing together the memories of his creator to find his own true purpose.",
+    "narrative_hook": "Rune's fragmented memories contain key information about the Shattering and the locations of other ancient technologies. He is hunted by a faction of lore-keepers who believe a souled construct is an abomination and wish to see him decommissioned."
+  },
+  "attributes": {
+    "Force": "+2",
+    "Finesse": -1,
+    "Wits": "+1",
+    "Heart": 0
+  },
+  "trained_skills": [
+    "Wreck",
+    "Know",
+    "Tinker"
+  ],
+  "harm_capacity": 8,
+  "starting_moves": [
+    {
+      "name": "Armament Configuration (Core Mechanic)",
+      "description": "Your body is a modular chassis. You begin with the 'Stone Fists' configuration. You can discover 'Runic Schematics' throughout the world. When you have downtime and tools, you can use the **Tinker** skill to integrate a schematic, permanently adding that configuration to your arsenal. You can switch between your integrated configurations during any period of rest."
+    },
+    {
+      "name": "Self-Repair Protocols",
+      "description": "When you have a moment to reroute power and mend your chassis, roll `2d6 + Wits`. On a **10+**, you heal 2 Harm. On a **7-9**, you heal 1 Harm, but the process is noisy and draws unwanted attention."
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Stone Fists (Default)",
+      "description": "Your default configuration. Your fists are hardened into rock-like mauls, designed for brutal melee.",
+      "move": {
+        "name": "Pulverize",
+        "description": "When you **Engage in Battle** with your Stone Fists, on a 10+, you deal your harm and can choose to either shatter a non-magical object nearby or send your foe stumbling back, creating an opening."
+      }
+    }
+  ],
+  "example_schematics": [
+    {
+      "schematic_name": "Schematic: Aegis Armature",
+      "configuration_name": "Aegis Armature",
+      "description": "Your arm reconfigures into a massive, interlocking shield.",
+      "move": {
+        "name": "Form the Aegis",
+        "description": "When you raise your shield to protect an ally, roll `2d6 + Force`. On a **10+**, you intercept the attack flawlessly; your ally takes no harm. On a **7-9**, you block the attack, but your shield arm is knocked out of commission until you can take a moment to reset it."
+      }
+    },
+    {
+      "schematic_name": "Schematic: Arc-Cannon",
+      "configuration_name": "Arc-Cannon",
+      "description": "Your arm transforms into a cannon that launches bolts of raw arcane lightning.",
+      "move": {
+        "name": "Unleash the Arc-Cannon",
+        "description": "When you fire a blast of energy at a distant foe, roll `2d6 + Wits`. On a **10+**, you deal your harm as lightning. On a **7-9**, you deal your harm, but the cannon overheats and is unusable until you can perform a quick repair."
+      }
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Combat Reconfiguration",
+      "description": "You can spend a Legacy Point to switch your Armament Configuration in the middle of a scene."
+    },
+    {
+      "name": "Overcharge",
+      "description": "When you use an offensive configuration move (like Pulverize or Unleash the Arc-Cannon), you can choose to overcharge it before rolling. The move deals +1d6 harm, but the configuration is automatically disabled after the move resolves."
+    },
+    {
+      "name": "Memory Fragment",
+      "description": "When you encounter Pre-Shattering technology, you can **Know** things about it with a +1d4 bonus, as a memory from your creator surfaces."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Resonant Frequencies",
+    "description": "Rya's draconic energy resonates with the ancient runes on Rune's chassis. Once per session, Rya can touch Rune, instantly resetting one of his disabled or overheated configurations."
+  }
+}
