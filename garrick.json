@@ -1,0 +1,63 @@
+{
+  "playbook_name": "The Vengeful Spirit",
+  "character_name": "Garrick",
+  "char_id": "VOID_GARRICK",
+  "type": "Human (Wraith)",
+  "description": "A spectral echo of a betrayed knight, bound to the world by sheer will and an undying thirst for vengeance. He is a ghost in the machine, a cold and calculated weapon of spite.",
+  "lore": {
+    "background": "Once a decorated Champion of Order, Garrick was cast into the Void Chasm by his superior, Grand Inquisitor Valerius, for discovering his heretical use of void energy. Garrick's absolute will for vengeance bound his spirit to the world as a wraith. He despises his new, unholy existence but sees his monstrous form as a necessary evil, a tool to be used against the man who made him a monster.",
+    "narrative_hook": "His singular focus is vengeance against Grand Inquisitor Valerius. He sees Rya's power not as a thing of hope, but as the most effective weapon he can possibly wield to achieve his goal."
+  },
+  "attributes": {
+    "Force": -1,
+    "Finesse": "+2",
+    "Wits": 0,
+    "Heart": "+1"
+  },
+  "trained_skills": [
+    "Prowl",
+    "Know",
+    "Intimidate"
+  ],
+  "harm_capacity": 5,
+  "starting_moves": [
+    {
+      "name": "Incorporeal Form (Passive)",
+      "description": "You are a being of shadow and spite. You can move through solid objects and other creatures as if they were difficult terrain. You cannot be physically grappled or restrained."
+    },
+    {
+      "name": "Life Drain",
+      "description": "When you **Engage in Battle** with your spectral blade, on a **10+**, you deal your harm and heal 1 Harm. On a **7-9**, you still deal harm, but the tainted energy you absorb takes its toll; the GM will introduce a complication related to your wraithly nature."
+    },
+    {
+      "name": "Whispers of Dread",
+      "description": "When you force an enemy to confront their deepest fears, roll `2d6 + Heart`. On a **10+**, they are terrified, hesitating or fleeing and exposing themselves to an ally's follow-up. On a **7-9**, they are frightened, but they lash out wildly at the nearest target in their panic."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Withering Touch",
+      "description": "When you touch a foe, you can drain their vitality. Roll `2d6 + Finesse`. On a success, their next action is weaker (they deal 1 less harm, or their effect is diminished). On a 10+, you can also choose to inflict a lingering debility."
+    },
+    {
+      "name": "Phase Shift",
+      "description": "When you are about to take harm, you can spend a Legacy Point to completely phase out of reality for a moment, ignoring the harm entirely."
+    },
+    {
+      "name": "Vengeful Echo",
+      "description": "When an ally is taken out of a scene, you can immediately make a move against the creature that defeated them as if you had rolled a 10+."
+    },
+    {
+      "name": "Possession",
+      "description": "When you attempt to dominate the will of a humanoid foe, roll `2d6 + Heart`. On a **10+**, you control their body for the next few moments. On a **7-9**, you control them, but the mental strain is immense; you both mark 1 Harm."
+    },
+    {
+      "name": "Mark of Betrayal",
+      "description": "You can mark one enemy as the target of your full hatred. Any time you use **Life Drain** against them, you heal 2 Harm instead of 1."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Unlikely Anchor",
+    "description": "Rya's inherent life force is a painful, searing anchor to a world Garrick no longer belongs to. When Garrick is about to be taken out of a scene, if Rya is nearby, she can choose to mark 1 Harm to keep him tethered to the world. He remains in the scene with 1 Harm box remaining."
+  }
+}
