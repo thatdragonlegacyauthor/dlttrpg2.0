@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Pack Leader",
+  "character_name": "Kei",
+  "char_id": "FROSTFANG_KEI",
+  "type": "Frostfang (Wolf-like humanoid)",
+  "description": "A proud and defiant scout, the rightful heir to his pack. Exiled by a usurper, he now fights to reclaim his honor and protect his new pack—the party.",
+  "lore": {
+    "background": "Kei was once considered an ideal heir to his pack's leadership in the frozen Glacial Maw, but a rival, Vargus, framed him for a crime against his people. In his lust for power, Vargus allied himself with the technologically advanced Arcane Dominion, an unforgivable betrayal. Exiled and hunted, Kei now travels with the party, his knowledge of the unforgiving tundra invaluable. His quest is to expose the conspiracy and reclaim his honor.",
+    "narrative_hook": "Kei's rival actively uses Arcane Dominion agents to hunt the party, leading to ambushes and tense tracking sequences in the wild. Kei's knowledge of the tundra is essential for finding hidden ruins and navigating the treacherous Glacial Maw."
+  },
+  "attributes": {
+    "Force": "+1",
+    "Finesse": "+2",
+    "Wits": 0,
+    "Heart": -1
+  },
+  "trained_skills": [
+    "Maneuver",
+    "Prowl",
+    "Survey"
+  ],
+  "harm_capacity": 7,
+  "starting_moves": [
+    {
+      "name": "Pack Tactics (Passive)",
+      "description": "When you and an ally are both in melee with the same foe, you deal +1 harm."
+    },
+    {
+      "name": "Harrier's Strike",
+      "description": "When you **Engage in Battle** to create an opening for an ally, roll `2d6 + Finesse`. On a **10+**, you deal your harm and your ally gets a clear shot; they take a +2 bonus on their next move against your target. On a **7-9**, you create the opening, but you overextend in the process, exposing yourself to danger."
+    },
+    {
+      "name": "Warning Snarl",
+      "description": "When an enemy is about to attack an ally, you can intercede. Roll `2d6 + Finesse`. On a **10+**, you intercept them flawlessly, and you get to act first. On a **7-9**, you intercept them, but you both stumble into a bad spot, with the enemy gaining the upper hand."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Go for the Throat",
+      "description": "When you deal harm to a surprised or vulnerable enemy, you can choose to deal +1d4 harm."
+    },
+    {
+      "name": "Coordinated Takedown",
+      "description": "When an ally successfully puts an enemy in a bad spot, you can immediately make a move to follow up, as if you had rolled a 10+."
+    },
+    {
+      "name": "Rallying Howl",
+      "description": "When you raise your voice in a rallying cry for your pack, roll `2d6 + Force`. On a **10+**, you and your allies are bolstered by your leadership; you all clear 1 Harm. On a **7-9**, the howl rallies you, but also alerts every enemy in the area to your exact position."
+    },
+    {
+      "name": "One with the Tundra",
+      "description": "When you **Survey** the environment in a cold or snowy region, you can ask one additional question, even on a miss."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Alpha's Trust",
+    "description": "Kei sees the strength of an Alpha in Rya. When Kei uses **Harrier's Strike** to set up an attack for Rya, Rya's subsequent move is automatically treated as a 10+."
+  }
+}
