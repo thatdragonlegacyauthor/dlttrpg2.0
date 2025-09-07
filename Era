@@ -1,0 +1,60 @@
+{
+  "playbook_name": "The Scrivener",
+  "character_name": "Era",
+  "char_id": "ASTORAN_ERA",
+  "type": "Astoran",
+  "description": "A young, curious Astoran chronicler whose bioluminescent scales shift with her emotions. She seeks to create a complete codex of the world's creatures by magically replicating their abilities.",
+  "lore": {
+    "background": "Era was a student of Loremaster Oris, tasked with chronicling Astoran history. Her curiosity led her to secretly document the abilities of living creatures, developing a unique magic that allowed her to replicate the skills she observed. Censured by her isolationist elders, she has ventured to the surface to prove that the world is a library, and every monster a book.",
+    "narrative_hook": "Era's quest to document the world's creatures puts her at odds with factions who would rather see them exploited or exterminated, such as the Arcane Dominion. Her unique magical abilities may also attract unwanted attention from those who see her as a threat or a tool."
+  },
+  "attributes": {
+    "Force": -1,
+    "Finesse": 0,
+    "Wits": "+2",
+    "Heart": "+1"
+  },
+  "trained_skills": [
+    "Know",
+    "Investigate",
+    "Survey"
+  ],
+  "harm_capacity": 6,
+  "starting_moves": [
+    {
+      "name": "Monster Codex (Core Mechanic)",
+      "description": "You carry a special codex to record the essence of creatures you encounter. You can have a number of abilities transcribed in your codex equal to your Wits score + 3. During a rest, you can prepare a number of these abilities equal to your Wits score (minimum 1)."
+    },
+    {
+      "name": "Transcribe Essence",
+      "description": "When you witness a creature use a signature, non-ultimate ability, you can take a moment to understand and record it. Roll `2d6 + Wits`. On a **10+**, you perfectly capture its essence; add the ability to your codex. On a **7-9**, you capture it, but the transcription is flawed: it will be weaker, unstable, or require a strange component to use. On a **6-**, you fail to grasp it and the feedback leaves you mentally vulnerable until you can clear your head."
+    },
+    {
+      "name": "Analyze Creature",
+      "description": "When you carefully study a creature, roll `2d6 + Wits`. On a **10+**, ask the GM 3 questions about its capabilities, instincts, or weaknesses. On a **7-9**, ask 1. The GM will answer truthfully."
+    }
+  ],
+  "clarification": "To use a prepared ability from the Codex, Era makes the 'Channel Power' move, with her intent being to replicate the monster's ability.",
+  "advanced_moves": [
+    {
+      "name": "Rapid Transcription",
+      "description": "You can now use **Transcribe Essence** in the heat of the moment. When you do, on a 7-9, you must also expose yourself to danger."
+    },
+    {
+      "name": "Arcane Syntax",
+      "description": "When you **Channel Power** to replicate a monster's ability, you can choose to make it more potent. The effect is stronger, but the potential for backfire on a miss is greater."
+    },
+    {
+      "name": "Primal Synthesis",
+      "description": "When you have transcribed at least two abilities, you can spend time during a rest to try and combine them into a new, hybrid ability. Tell the GM what you are trying to create."
+    },
+    {
+      "name": "Perfect Recall",
+      "description": "You can now prepare a number of transcribed abilities equal to your Wits score + 1."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Draconic Scholar",
+    "description": "Rya's draconic nature is a font of primal magic. When Era attempts to **Transcribe Essence** from any creature with Dragonkin or Elemental heritage, she may re-roll one of the dice."
+  }
+}
