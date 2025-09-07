@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Oracle",
+  "character_name": "Eldra",
+  "char_id": "MISTWRAITH_ELDRA",
+  "type": "Spectral humanoid",
+  "description": "The ghostly remnant of an ancient oracle, bound to the world to preserve the true history of the Shattering. She is a sorrowful, ephemeral figure who sees the echoes of the past and the possibilities of the future.",
+  "lore": {
+    "background": "Eldra's spirit was bound to the world in a powerful ritual meant to preserve the truth of the Shattering. Now, as a spectral humanoid, she is drawn to Rya's power, sensing a kinship with her draconic lineage. Her presence attracts other spirits, some benevolent, others malevolent. She joins the hero to uncover the true history of the world and to find her place in it.",
+    "narrative_hook": "Her spectral presence attracts other spirits who are drawn to her power, some seeking aid, others seeking to consume her. Her ancient knowledge can guide the party to forgotten ruins and artifacts."
+  },
+  "attributes": {
+    "Force": -1,
+    "Finesse": 0,
+    "Wits": "+2",
+    "Heart": "+1"
+  },
+  "trained_skills": [
+    "Know",
+    "Sense",
+    "Sway"
+  ],
+  "harm_capacity": 5,
+  "starting_moves": [
+    {
+      "name": "Incorporeal (Passive)",
+      "description": "You are a spirit. You can move through solid objects (though it is tiring) and cannot be physically grappled. You take 1 less harm from non-magical physical sources."
+    },
+    {
+      "name": "Fateful Glimpse",
+      "description": "When you gaze into the twisting paths of fate, roll `2d6 + Wits`. On a **10+**, you get a clear vision; hold 3 Fate. On a **7-9**, the vision is murky and dangerous; hold 1 Fate. You can spend a point of Fate at any time, after a roll is made, to add a +1 or -1 to the result of any character's roll (ally or enemy)."
+    },
+    {
+      "name": "Whispers of the Fallen",
+      "description": "When you channel the voices of the dead to unnerve a foe, roll `2d6 + Heart`. On a **10+**, your target is terrified and falters, unable to act on their next turn. On a **7-9**, the target is frightened and takes a penalty on their next action, but the psychic backlash from the spirits also affects a nearby ally, giving them a penalty as well."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Twist Fate",
+      "description": "You can spend 2 Fate to force a single character (ally or enemy) to re-roll their entire action. They must use the new result."
+    },
+    {
+      "name": "Weight of Ages",
+      "description": "When you curse a target with a vision of their own demise, roll `2d6 + Wits`. On a success, they are slowed and weakened for the scene. On a 10+, the effect is so potent they cannot take forceful actions without suffering harm."
+    },
+    {
+      "name": "Spirit Ward",
+      "description": "When you create a circle of protection, roll `2d6 + Heart`. On a **10+**, you create a zone where spirits (both good and evil) cannot enter, and your allies are immune to fear. On a **7-9**, the ward holds, but it is a beacon in the spirit world, attracting the attention of something ancient and powerful."
+    },
+    {
+      "name": "Augury",
+      "description": "When you spend a few moments in quiet contemplation to ask the spirits for guidance, you may ask the GM one question about a potential course of action. The GM will answer with an omen of 'weal' (if it will lead to a good outcome) or 'woe' (if it will lead to a bad one)."
+    }
+  ],
+  "bond_synergy": {
+    "name": "A Fated Path",
+    "description": "Eldra sees the threads of destiny woven around Rya. When Eldra uses **Fateful Glimpse** and holds Fate, she holds one additional Fate point. Furthermore, when she spends Fate on one of Rya's rolls, the bonus or penalty is 2 instead of 1."
+  }
+}
