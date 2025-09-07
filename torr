@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Bastion",
+  "character_name": "Torr",
+  "char_id": "PANGOLIN_TORR",
+  "type": "Pangolin-kin",
+  "description": "An exiled blacksmith of a resilient, craftsmen people. His immense, scaled body is a living fortress, and his will is as unbending as the star-metal he dreams of forging.",
+  "lore": {
+    "background": "An exiled blacksmith of the Pangolin-kin, a people of resilient craftsmen who carve their immense Forge-Cities into the heart of the Iron Peaks. He aims to craft a legendary weapon to defeat the Champions of Order who have stolen sacred relics from his clan and to forge a new legacy for himself.",
+    "narrative_hook": "The Champions of Order have stolen relics from Torr's clan, which the party must recover. His crafting skills can be used to repair or upgrade the party's gear throughout the campaign."
+  },
+  "attributes": {
+    "Force": "+2",
+    "Finesse": "-1",
+    "Wits": "+1",
+    "Heart": "+1"
+  },
+  "trained_skills": [
+    "Wreck",
+    "Know",
+    "Survey"
+  ],
+  "harm_capacity": 8,
+  "starting_moves": [
+    {
+      "name": "Stand Guard",
+      "description": "When you plant your feet to defend an ally, a position, or an object, roll `2d6 + Force`. On a **10+**, you are an immovable object; no harm will come to your charge. On a **7-9**, you hold, but at a cost; you protect your charge, but you take the full brunt of the attack, marking 2 Harm instead of 1."
+    },
+    {
+      "name": "Sunder",
+      "description": "When you **Engage in Battle** with your warhammer, you can choose to deal 1 less harm to instead shatter your opponent's gear. On a **10+**, their weapon is destroyed or their armor is rendered useless. On a **7-9**, their gear is merely damaged, giving them a penalty on their next action."
+    },
+    {
+      "name": "Master Craftsman",
+      "description": "When you have time and tools to repair or improve a piece of gear, roll `2d6 + Wits`. On a **10+**, you do it perfectly, granting the item a permanent +1 bonus (e.g., +1 Harm, +1 Armor). On a **7-9**, you do it, but it's a temporary fix or requires a rare component you now lack. An item can only be improved this way once."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Spiked Rebuke",
+      "description": "Your scales are fitted with defensive spikes. When an enemy deals harm to you in melee, they also take 1 harm."
+    },
+    {
+      "name": "Goading Challenge",
+      "description": "When you smash your hammer against your scales to draw attention, roll `2d6 + Force`. On a **10+**, you draw the full attention of every enemy on the battlefield; they must deal with you before any other target. On a **7-9**, you draw the attention of most, but one enemy slips past to attack a vulnerable ally."
+    },
+    {
+      "name": "Rolling Charge",
+      "description": "When you curl into a ball and roll into the fray, roll `2d6 + Force`. On a **10+**, you crash through your enemies, dealing your harm to up to three of them and scattering them. On a **7-9**, you still deal your harm, but your path is halted by the strongest foe."
+    },
+    {
+      "name": "Forge Fire",
+      "description": "When you use **Master Craftsman** on a weapon, you can imbue it with elemental power. It now deals fire or lightning harm instead of physical."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Forge of Legends",
+    "description": "When Rya's draconic power is on full display, Torr is inspired. Once per session, he can attempt to use his **Master Craftsman** move in the heat of battle, taking only a few moments to make a critical battlefield repair or upgrade."
+  }
+}
