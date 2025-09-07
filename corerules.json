@@ -1,0 +1,196 @@
+{
+  "project_name": "Dragon Legacy TTRPG",
+  "version": "4.0.1-narrative",
+  "last_updated": "2025-09-07T11:25:00-08:00",
+  "system_core": {
+    "system_info": {
+      "system": "Dragon Legacy: The Legacy System",
+      "version": "1.0.1"
+    },
+    "core_mechanics": {
+      "dice": "2d6-based",
+      "core_roll": "2d6 + Attribute + 1d4 (if Trained in a relevant skill)",
+      "outcome_thresholds": {
+        "name": "Outcome Thresholds for Narrative Moves",
+        "tiers": [
+          {
+            "name": "Full Success",
+            "condition": "Roll of 10+",
+            "effect": "You achieve your goal perfectly and may gain an additional advantage."
+          },
+          {
+            "name": "Success with a Cost",
+            "condition": "Roll of 7-9",
+            "effect": "You achieve your goal, but with a complication, a tough choice, or a lesser effect."
+          },
+          {
+            "name": "Miss",
+            "condition": "Roll of 6 or less",
+            "effect": "The situation escalates, a new danger appears, or you face a difficult consequence."
+          }
+        ]
+      },
+      "attributes": [
+        {
+          "name": "Force",
+          "description": "Represents a character's power, strength, and directness. Used for overcoming obstacles with brute strength, intimidation, and powerful displays of ability."
+        },
+        {
+          "name": "Finesse",
+          "description": "Represents a character's agility, precision, and subtlety. Used for stealth, delicate tasks, and hitting a precise weakness."
+        },
+        {
+          "name": "Wits",
+          "description": "Represents a character's knowledge, perception, and cunning. Used for noticing details, recalling lore, and devising clever plans."
+        },
+        {
+          "name": "Heart",
+          "description": "Represents a character's willpower, empathy, and social grace. Used for resisting fear, connecting with others, and inspiring action."
+        }
+      ],
+      "skills": {
+        "description": "Skills represent a character's specific training. If an action falls under a skill a character is Trained in, they add 1d4 to their core roll.",
+        "categories": [
+          {
+            "attribute": "Force",
+            "skills": [
+              {
+                "name": "Wreck",
+                "description": "Break things, create openings, cause chaos."
+              },
+              {
+                "name": "Intimidate",
+                "description": "Coerce or threaten someone through sheer presence."
+              }
+            ]
+          },
+          {
+            "attribute": "Finesse",
+            "skills": [
+              {
+                "name": "Prowl",
+                "description": "Move silently and remain unseen."
+              },
+              {
+                "name": "Maneuver",
+                "description": "Perform feats of acrobatics, climbing, and agile movement."
+              },
+              {
+                "name": "Tinker",
+                "description": "Disable traps, pick locks, and repair equipment."
+              }
+            ]
+          },
+          {
+            "attribute": "Wits",
+            "skills": [
+              {
+                "name": "Investigate",
+                "description": "Search a scene for clues and spot hidden details."
+              },
+              {
+                "name": "Know",
+                "description": "Recall lore, understand magic, and know history."
+              },
+              {
+                "name": "Survey",
+                "description": "Navigate the wilderness and track creatures."
+              }
+            ]
+          },
+          {
+            "attribute": "Heart",
+            "skills": [
+              {
+                "name": "Sway",
+                "description": "Persuade, deceive, or charm someone."
+              },
+              {
+                "name": "Sense",
+                "description": "Read a person's emotions and detect lies."
+              },
+              {
+                "name": "Tend",
+                "description": "Administer first aid and care for the sick or wounded."
+              }
+            ]
+          }
+        ]
+      },
+      "resources": {
+        "harm": {
+          "name": "Harm",
+          "description": "Represents physical and mental stress. Each character has a Harm Track with a certain capacity (e.g., 6 boxes). When a character takes harm, they mark off boxes. When the track is full, they are taken out of the scene. Certain moves or consequences may also apply penalties based on how much Harm is marked."
+        },
+        "legacy_points": {
+          "start": 3,
+          "max": 5,
+          "uses": [
+            "Add +2 to a roll (after rolling).",
+            "Activate a powerful Draconic Aspect or a companion's ultimate move.",
+            "Introduce a minor, helpful fact into the story.",
+            "Activate Draconic Unity."
+          ]
+        }
+      }
+    },
+    "character_creation": {
+      "guidelines": "Character creation in the Legacy System is about defining who the character is and what they are good at.",
+      "steps": [
+        "1. Choose a Playbook (e.g., The Dragon Heir for Rya, The Vengeful Spirit for Garrick).",
+        "2. Assign Attribute scores. Start with this array and assign one to each of the four attributes: +2, +1, +0, -1.",
+        "3. Choose a number of 'Trained' skills as defined by the character's Playbook (typically 3).",
+        "4. Note any starting 'Moves' or special abilities from the Playbook."
+      ]
+    },
+    "progression": {
+      "system_name": "Narrative Advancement",
+      "experience_points": {
+        "description": "Characters gain Experience Points (XP) by taking risks, learning from their failures, and engaging with the world. At the end of each session, answer these questions:",
+        "xp_questions": [
+          "Did you learn something new and important?",
+          "Did you overcome a significant obstacle?",
+          "Did you express your character's beliefs or background in a meaningful way?"
+        ],
+        "xp_award": "For each 'yes,' mark 1 XP."
+      },
+      "level_up_mechanics": {
+        "xp_per_level": 5,
+        "description": "When a character has marked 5 XP, they erase their marks and Level Up.",
+        "advancement_options": [
+          "Increase one Attribute by +1 (to a maximum of +3).",
+          "Become 'Trained' in a new skill.",
+          "Choose a new 'Move' from your character's Playbook."
+        ]
+      },
+      "bond_level_system": {
+        "description": "Bonds are forged through actions, unlocking benefits at each level.",
+        "earning_bp": [
+          "Completing a companion's personal quest (+3 BP)",
+          "A key dialogue choice deepens your relationship (+1 BP)",
+          "Successfully 'Aiding' a companion on a critical roll (+1 BP)"
+        ],
+        "levels": [
+          {
+            "level": 1,
+            "title": "Ally",
+            "bp_required": 0,
+            "benefit": "Starting level."
+          },
+          {
+            "level": 2,
+            "title": "Trusted Friend",
+            "bp_required": 10,
+            "benefit": "Unlock a unique passive Bond Synergy move."
+          },
+          {
+            "level": 3,
+            "title": "Confidant",
+            "bp_required": 30,
+            "benefit": "Unlock the ability to use Draconic Unity."
+          }
+        ]
+      }
+    }
+  }
+}
