@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Whisperer",
+  "character_name": "Zael",
+  "char_id": "VOID_ZAEL",
+  "type": "Human (Void-touched)",
+  "description": "A striking, almost ethereal figure tormented by beautiful, comforting whispers from an unknown source, a tempting voice that promises peace at the cost of his free will.",
+  "lore": {
+    "background": "Zael was a foundling discovered near the Void Chasm. He grew up alongside Rya in Windmark Village, a quiet and observant boy with the strange ability to instinctively sense the emotions of others. He now believes confronting his connection to the Void is the only way to protect his friends and his peaceful past.",
+    "narrative_hook": "His presence attracts attention from the Champions of Order. Mysterious whispers constantly echo in his mind, a tempting voice promising him the strength to protect his friends if only he would submit to a perfect, unchaotic order."
+  },
+  "attributes": {
+    "Force": -1,
+    "Finesse": +1,
+    "Wits": +2,
+    "Heart": +1
+  },
+  "trained_skills": [
+    "Prowl",
+    "Know",
+    "Sense"
+  ],
+  "harm_capacity": 6,
+  "starting_moves": [
+    {
+      "name": "Weave a Shadow",
+      "description": "When you use the shadows to create an illusion or conceal an ally, roll `2d6 + Wits`. On a **10+**, the illusion is perfect and convincing. On a **7-9**, the illusion works, but it has a subtle flaw or won't hold up to close scrutiny."
+    },
+    {
+      "name": "Chilling Whisper",
+      "description": "When you whisper a terrifying secret into someone's mind, roll `2d6 + Heart`. On a **10+**, they are frozen in fear for a moment, giving an ally a clear opening (they get a +2 bonus on their next move against the target). On a **7-9**, they hesitate, but your whisper draws their full, hostile attention to you."
+    },
+    {
+      "name": "Void Step",
+      "description": "When you use the darkness to instantly move, roll `2d6 + Finesse`. On a **10+**, you vanish and reappear in any shadowed spot you can see. On a **7-9**, you make the jump, but you either leave a ghostly trail behind or the journey through the Void marks you, attracting unwanted attention."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Enveloping Veil",
+      "description": "When you successfully **Weave a Shadow**, you can now conceal yourself and one other ally with the same illusion."
+    },
+    {
+      "name": "Mirror Image",
+      "description": "When you are about to take harm, you can spend a Legacy Point to create a perfect illusory duplicate of yourself. The harm is negated as the duplicate shatters, and you may immediately reposition yourself to any nearby shadow."
+    },
+    {
+      "name": "Mental Echo",
+      "description": "When you make physical contact with a creature, you can ask the GM, 'What is your most guarded secret?' The GM must answer truthfully."
+    },
+    {
+      "name": "Hall of Mirrors",
+      "description": "When you **Weave a Shadow** on a grand scale, you can create a zone of maddening illusions. On a 10+, choose two effects. On a 7-9, choose one. The zone lasts as long as you focus on it.\n- Enemies inside the zone are disoriented and have a -2 penalty on all their rolls.\n- Allies inside the zone appear as shifting, blurry images, making them harder to hit.\n- You can make any enemy inside the zone attack the closest creature to them."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Shared Silence",
+    "description": "When Rya is frightened or overwhelmed by her power, Zael can take her hand. As long as he is holding her hand, any roll she makes to control her draconic power is automatically a 10+."
+  }
+}
