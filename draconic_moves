@@ -1,0 +1,247 @@
+{
+  "draconic_moves": {
+    "system_description": "Each Draconic Lineage Rya attunes to unlocks a unique narrative move. When she uses her power in a significant way, the player describes their intent and then makes the corresponding move.",
+    "lineages": [
+      {
+        "lineage_name": "Fire",
+        "move_name": "Unleash the Dragon's Fire",
+        "description": "When you unleash your inner fire to destroy, create, or transform, roll `2d6 + Force`.",
+        "outcomes": {
+          "full_success": "On a 10+, your power is immense and controlled. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, the fire is powerful but wild. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, your power rages beyond your control, causing a new and immediate problem."
+        },
+        "benefits": [
+          "The fire avoids harming your allies or anything you didn't intend to.",
+          "The fire creates a lasting advantage on the battlefield (a wall of flame, difficult terrain).",
+          "The display of power is controlled and inspires courage in your allies."
+        ],
+        "consequences": [
+          "The fire spreads beyond your control, causing collateral damage.",
+          "The raw power takes a physical toll; you must mark 1 Harm.",
+          "The power is overwhelming and terrifies onlookers, causing them to panic or flee."
+        ]
+      },
+      {
+        "lineage_name": "Earth",
+        "move_name": "Command the Unbreaking Earth",
+        "description": "When you call upon the earth to protect, shatter, or restrain, roll `2d6 + Force`.",
+        "outcomes": {
+          "full_success": "On a 10+, the earth obeys your command flawlessly. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, the earth responds with brutal, untamed force. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, the earth rejects your command, causing a tremor or landslide that makes the situation worse."
+        },
+        "benefits": [
+          "The effect is precise and doesn't endanger your allies.",
+          "The effect is massive and widespread.",
+          "You reshape the battlefield, creating a clear advantage for your team."
+        ],
+        "consequences": [
+          "The effect is temporary and will soon crumble.",
+          "The raw power takes a physical toll; you must mark 1 Harm.",
+          "The ground is left unstable and treacherous for everyone."
+        ]
+      },
+      {
+        "lineage_name": "Ice",
+        "move_name": "Invoke the Unforgiving Ice",
+        "description": "When you call upon the ice to freeze, control, or shatter, roll `2d6 + Force`.",
+        "outcomes": {
+          "full_success": "On a 10+, your power is precise and absolute. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, the cold is powerful but spreads without check. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, the ice forms in a chaotic, unintended way, creating a new danger for you and your allies."
+        },
+        "benefits": [
+          "You completely immobilize a target.",
+          "You create a durable structure of ice that provides excellent cover.",
+          "The cold is focused, leaving your allies unaffected."
+        ],
+        "consequences": [
+          "The area is left dangerously slick and hazardous for everyone.",
+          "The raw power takes a physical toll; you must mark 1 Harm.",
+          "The ice shatters prematurely, sending dangerous shards everywhere."
+        ]
+      },
+      {
+        "lineage_name": "Storm",
+        "move_name": "Ride the Raging Storm",
+        "description": "When you command the wind and lightning to strike, reposition, or protect, roll `2d6 + Finesse`.",
+        "outcomes": {
+          "full_success": "On a 10+, you are the eye of the storm. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, the storm obeys, but with chaotic fury. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, the storm turns on you, putting you or your allies in the path of its fury."
+        },
+        "benefits": [
+          "Your control is absolute, allowing you to strike multiple targets.",
+          "You or an ally are repositioned with impossible speed.",
+          "The storm creates a lingering electrical field that hinders your foes."
+        ],
+        "consequences": [
+          "A stray bolt of lightning strikes something important or volatile.",
+          "The raw power takes a physical toll; you must mark 1 Harm.",
+          "The resulting thunder is deafening, attracting unwanted attention."
+        ]
+      },
+      {
+        "lineage_name": "Tide",
+        "move_name": "Channel the Living Tide",
+        "description": "When you use the power of water to heal, crush, or redirect, roll `2d6 + Heart`.",
+        "outcomes": {
+          "full_success": "On a 10+, the tide flows with your will. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, you summon the water, but the undertow is strong. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, the wave crashes over you, sweeping you up or putting you in a terrible position."
+        },
+        "benefits": [
+          "The water cleanses all wounds, healing all allies in a wide area.",
+          "You precisely control the flow, repositioning friends and foes as you desire.",
+          "You leave behind a pool of restorative water."
+        ],
+        "consequences": [
+          "The force of the water damages the environment, blocking a path or destroying something.",
+          "The raw power takes a physical toll; you must mark 1 Harm.",
+          "You pull a dangerous creature or object from the depths along with the water."
+        ]
+      },
+      {
+        "lineage_name": "Light",
+        "move_name": "Manifest the Sacred Light",
+        "description": "When you call upon the light to heal, protect, or pass judgment, roll `2d6 + Heart`.",
+        "outcomes": {
+          "full_success": "On a 10+, your light is a beacon of hope. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, the light answers your call, but its brilliance is blinding. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, the light reveals a painful or dangerous truth, or casts shadows that hide a new threat."
+        },
+        "benefits": [
+          "The light purifies all ailments, both magical and mundane.",
+          "You create a lasting ward of protection.",
+          "The light inspires your allies, giving them a bonus on their next action."
+        ],
+        "consequences": [
+          "The light is so intense it temporarily blinds everyone in the area, including allies.",
+          "The raw power takes a physical toll; you must mark 1 Harm.",
+          "The light attracts the attention of a powerful, opposing force."
+        ]
+      },
+      {
+        "lineage_name": "Void",
+        "move_name": "Whisper to the Void",
+        "description": "When you draw upon the void to deceive, corrupt, or drain, roll `2d6 + Wits`.",
+        "outcomes": {
+          "full_success": "On a 10+, the void is your instrument. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, you touch the void, and it touches you back. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, the void consumes your intent, creating a chaotic or actively harmful effect."
+        },
+        "benefits": [
+          "The illusion is perfect and undetectable.",
+          "You drain the life force of your target, restoring your own Harm track.",
+          "You leave behind a zone of silence and shadow."
+        ],
+        "consequences": [
+          "The whispers of the void linger, imposing a penalty on your next Heart roll.",
+          "The raw power takes a mental toll; you must mark 1 Harm.",
+          "The void's touch corrupts the area, making it dangerous for all."
+        ]
+      },
+      {
+        "lineage_name": "Mist",
+        "move_name": "Weave the Shifting Mists",
+        "description": "When you use mist to conceal, misdirect, or create illusions, roll `2d6 + Wits`.",
+        "outcomes": {
+          "full_success": "On a 10+, you are a phantom in the fog. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, the mist is thick but unpredictable. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, you are lost in your own illusion, becoming disoriented or revealing your position."
+        },
+        "benefits": [
+          "The illusion is complex and affects multiple senses.",
+          "You completely obscure the party's position, allowing for a safe escape.",
+          "You create a ghostly duplicate that can draw enemy fire."
+        ],
+        "consequences": [
+          "The mist is unnaturally cold, causing a penalty to your allies' next action.",
+          "The raw power takes a mental toll; you must mark 1 Harm.",
+          "The illusion reveals a frightening truth to one of your allies."
+        ]
+      },
+      {
+        "lineage_name": "Metal",
+        "move_name": "Forge the Adamant Will",
+        "description": "When you shape metal to defend, destroy, or construct, roll `2d6 + Force`.",
+        "outcomes": {
+          "full_success": "On a 10+, your will is unbreakable. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, the metal is strong but unrefined. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, the metal shatters or twists in an unintended way, creating a new hazard."
+        },
+        "benefits": [
+          "The construct or weapon you create is masterfully crafted and durable.",
+          "You create an impenetrable barrier that can withstand a massive blow.",
+          "Your attack shatters your opponent's defenses, leaving them vulnerable."
+        ],
+        "consequences": [
+          "The metal is dangerously sharp, creating a hazard for your allies.",
+          "The raw power takes a physical toll; you must mark 1 Harm.",
+          "The ringing of forged metal attracts unwanted attention."
+        ]
+      },
+      {
+        "lineage_name": "Psionic",
+        "move_name": "Unleash the Mind's Eye",
+        "description": "When you use your mind to move objects, read thoughts, or dominate wills, roll `2d6 + Wits`.",
+        "outcomes": {
+          "full_success": "On a 10+, your thoughts are a razor. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, your focus is strained. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, you are overwhelmed by psychic feedback, leaving you stunned or your plans revealed."
+        },
+        "benefits": [
+          "Your control is absolute, affecting multiple targets or a massive object.",
+          "You learn a deep, hidden secret from your target's mind.",
+          "You subtly implant a suggestion that will last beyond the current scene."
+        ],
+        "consequences": [
+          "You broadcast your surface thoughts to everyone nearby.",
+          "The raw power takes a mental toll; you must mark 1 Harm.",
+          "Your telekinetic grip slips, sending an object flying in an unintended direction."
+        ]
+      },
+      {
+        "lineage_name": "Chrono",
+        "move_name": "Bend the Flow of Time",
+        "description": "When you manipulate time to hasten, slow, or glimpse the future, roll `2d6 + Wits`.",
+        "outcomes": {
+          "full_success": "On a 10+, you are the master of moments. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, you create a temporal ripple. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, you create a paradox, causing a chaotic and unpredictable temporal anomaly."
+        },
+        "benefits": [
+          "You grant an ally a complete second turn immediately.",
+          "You receive a clear and direct vision of the immediate future.",
+          "You completely freeze a target in a bubble of slow time."
+        ],
+        "consequences": [
+          "You or an ally are temporarily shunted out of sync with time.",
+          "The raw power takes a mental toll; you must mark 1 Harm.",
+          "Your glimpse of the future is fragmented, terrifying, and incomplete."
+        ]
+      },
+      {
+        "lineage_name": "Cosmic",
+        "move_name": "Command the Cosmic Weave",
+        "description": "When you manipulate gravity, starlight, or space itself, roll `2d6 + Wits`.",
+        "outcomes": {
+          "full_success": "On a 10+, the cosmos answers your call. You achieve your goal and choose 2 benefits from the list below.",
+          "success_with_cost": "On a 7-9, your command is clumsy. You achieve your goal, but the GM will choose 1 consequence from the list below.",
+          "miss": "On a 6-, you tear a small, temporary hole in reality, and something unpleasant comes through."
+        },
+        "benefits": [
+          "You bring down a rain of meteors on your foes.",
+          "You create a zone of zero gravity, causing chaos.",
+          "You teleport the entire party a great distance instantly."
+        ],
+        "consequences": [
+          "The gravitational shift affects your allies, putting them off balance.",
+          "The raw power takes a mental toll; you must mark 1 Harm.",
+          "The cosmic energies linger, making the area magically unstable."
+        ]
+      }
+    ]
+  }
+}
