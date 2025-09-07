@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Soul-Bound Aegis",
+  "character_name": "Zykar",
+  "char_id": "RUNEFORGE_ZYKAR",
+  "type": "Soul-bound construct",
+  "description": "A hulking golem of black iron, created as a bodyguard but awakened with a fragmented human soul. He is a walking contradiction: a machine with a heart, a protector with a volatile, dangerous core.",
+  "lore": {
+    "background": "Zykar was a prototype construct designed by the Arcane Dominion. During a containment breach, a human soul was accidentally transferred into his chassis, awakening him with sentience. He escaped, relentlessly hunted by his former masters. He roams the land, searching for clues to his past life and a fierce, unspoken need to protect something he can’t quite remember.",
+    "narrative_hook": "Dominion hunters pursue Zykar relentlessly. The fragmented memories of the soul within him contain clues about the Shattering."
+  },
+  "attributes": {
+    "Force": "+2",
+    "Finesse": "-1",
+    "Wits": "+1",
+    "Heart": 0
+  },
+  "trained_skills": [
+    "Wreck",
+    "Know",
+    "Intimidate"
+  ],
+  "harm_capacity": 8,
+  "starting_moves": [
+    {
+      "name": "Dual Systems (Core Mechanic)",
+      "description": "You have two operational modes you can switch between at the start of your turn: Aegis Protocol or Soul Engine. While in Aegis Protocol, you gain +1 Armor. While in Soul Engine, your attacks deal psychic harm instead of physical."
+    },
+    {
+      "name": "Intercession Protocol (Aegis)",
+      "description": "When an ally is about to take harm, you can place yourself in the way, taking the harm instead. If you do, take a +1 bonus on your next move against that attacker."
+    },
+    {
+      "name": "Volatile Vent (Soul Engine)",
+      "description": "When you unleash the tormented energy of the soul within, roll `2d6 + Wits`. On a **10+**, you deal your harm to all nearby enemies. On a **7-9**, you do so, but the psychic backlash is painful; you must mark 1 Harm."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Kinetic Redirection (Aegis)",
+      "description": "When you use **Intercession Protocol**, you absorb the kinetic energy. Your next **Engage in Battle** move deals +1 harm."
+    },
+    {
+      "name": "Containment Field (Aegis)",
+      "description": "When you focus your power to create a defensive field, roll `2d6 + Force`. On a **10+**, choose one: an ally gains +2 Armor for a scene, or an enemy is trapped and cannot move. On a **7-9**, the field holds, but the power drain is immense; you mark 1 Harm."
+    },
+    {
+      "name": "Phantom Pain (Soul Engine)",
+      "description": "When you project your suffering into the mind of a foe, roll `2d6 + Heart`. On a **10+**, they take your harm and are terrified, hesitating or fleeing. On a **7-9**, they take your harm, but you are briefly lost in the memory of your own pain and cannot act."
+    },
+    {
+      "name": "Aura of Dread (Soul Engine)",
+      "description": "You can mark 1 Harm to radiate an aura of psychic static. For the rest of the scene, all enemies near you suffer a -1 penalty to their rolls."
+    }
+  ],
+  "bond_synergy": {
+    "name": "A Soul's Purpose",
+    "description": "Rya's draconic life force has a calming effect on the fragmented soul within Zykar. When he fights to protect her, he finds clarity. Once per session, he can use a **Soul Engine** move as if he had rolled a 10+, without marking Harm."
+  }
+}
