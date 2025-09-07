@@ -1,0 +1,65 @@
+{
+  "playbook_name": "The Verdant Tempest",
+  "character_name": "Veridia",
+  "char_id": "SPIRIT_VERIDIA",
+  "type": "Forest Spirit",
+  "description": "A living embodiment of the Serpent's Maw Jungle's raw power. Her body is a mosaic of bark and moss, her hair a cascade of living vines. She has left her sacred grove to seek allies against the corruption poisoning her home.",
+  "lore": {
+    "background": "An ancient guardian of a sacred grove deep within the Serpent's Maw Jungle, Veridia has watched over her home for centuries. A new, insidious corruption from the Arcane Dominion's magical excavations is poisoning the land, and Veridia feels its pain in her own soul. For the first time in her long life, she has been forced to leave her home, seeking allies to help her save it.",
+    "narrative_hook": "Veridia is the key to navigating the deepest parts of the Serpent's Maw Jungle. Her ancient knowledge provides an advantage, but her presence draws the attention of the Arcane Dominion, who see her as a powerful potential test subject."
+  },
+  "attributes": {
+    "Force": 0,
+    "Finesse": -1,
+    "Wits": "+2",
+    "Heart": "+1"
+  },
+  "trained_skills": [
+    "Know",
+    "Survey",
+    "Tend"
+  ],
+  "harm_capacity": 6,
+  "starting_moves": [
+    {
+      "name": "One with the Wilds (Passive)",
+      "description": "You are a spirit of nature. You can speak with and understand the plants and animals of the forest. When in a natural environment, you cannot become lost and can always find sustenance."
+    },
+    {
+      "name": "Channel Primal Fury",
+      "description": "When you call upon the raw, destructive power of nature (lightning, thorns, caustic sap), roll `2d6 + Wits`. On a **10+**, the effect is overwhelming; deal your harm and the effect is widespread or has a secondary debilitating effect. On a **7-9**, the power is wild; you deal your harm, but the collateral damage is significant or you take 1 harm from the feedback."
+    },
+    {
+      "name": "Whispering Canopy",
+      "description": "When you command the plant life of the area to aid you, roll `2d6 + Wits`. On a **10+**, the plants respond perfectly; choose 2 from the list below. On a **7-9**, they respond, but the effect is temporary or flawed; choose 1."
+    }
+  ],
+  "canopy_options": [
+    "Ensnare and immobilize a foe in living vines.",
+    "Create a wall of thorns that provides cover.",
+    "The plants create a hidden path or bridge for the party.",
+    "Poisonous flowers bloom, creating a zone of toxic pollen."
+  ],
+  "advanced_moves": [
+    {
+      "name": "Lightning Strike",
+      "description": "When you **Channel Primal Fury**, you can choose to call down a single, massive bolt of lightning. It deals +1d6 harm, and on a 7-9, the cost is that the lightning strikes a second, random target nearby."
+    },
+    {
+      "name": "Overgrowth",
+      "description": "When you use **Whispering Canopy**, you can choose to make the entire area difficult terrain for your enemies for the rest of the scene."
+    },
+    {
+      "name": "Healing Spores",
+      "description": "You can **Channel Primal Fury** in reverse, turning nature's energy inward to heal. When you do, you can heal an ally of 2 Harm on a 10+, or 1 Harm on a 7-9."
+    },
+    {
+      "name": "Nature's Wrath",
+      "description": "When you are in a natural environment, you can spend a Legacy Point to command the environment itself to attack a foe (a falling branch, a collapsing riverbank, an angry beast). The foe is automatically taken out of the scene."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Heart of the World",
+    "description": "Rya's draconic life force is a conduit for the primal magic Veridia wields. Once per session, when Veridia is near Rya, she can **Channel Primal Fury** or use **Whispering Canopy** and treat the result as a 12, gaining all the benefits with none of the cost."
+  }
+}
