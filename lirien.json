@@ -1,0 +1,59 @@
+{
+  "playbook_name": "The Ghost Panther",
+  "character_name": "Lirien",
+  "char_id": "SHADOWPELT_LIRIEN",
+  "type": "Panther-like humanoid",
+  "description": "A master hunter and infiltrator from the treetops of the Serpent's Maw Jungle. She moves with a silent, deadly grace, striking from the shadows to protect her people and the powerful relic she stole.",
+  "lore": {
+    "background": "Born among the secretive Shadowpelt, Lirien lived a life of stealth and theft. After stealing a powerful relic from an Arcane Dominion expedition to protect a sacred grove, she was betrayed by a rival and forced to flee her home. Now hunted, her journey is a desperate bid for survival, and the relic she carries may be the only way to save her people.",
+    "narrative_hook": "Arcane Dominion pursuers, led by a rival thief, frequently ambush the party. Her intimate knowledge of the jungle can uncover hidden paths and lost ruins."
+  },
+  "attributes": {
+    "Force": "+1",
+    "Finesse": "+2",
+    "Wits": 0,
+    "Heart": -1
+  },
+  "trained_skills": [
+    "Prowl",
+    "Maneuver",
+    "Survey"
+  ],
+  "harm_capacity": 6,
+  "starting_moves": [
+    {
+      "name": "Shadow Strike",
+      "description": "When you attack an enemy from hiding or from a position of advantage, roll `2d6 + Finesse`. On a **10+**, you deal your harm +1d6 extra harm and can immediately reposition to another hiding spot. On a **7-9**, you still deal your harm +1d6, but you are exposed; you cannot hide again without creating a new opportunity."
+    },
+    {
+      "name": "Poisoned Blade (Passive)",
+      "description": "You are always prepared. You start each adventure with a number of doses of a fast-acting toxin equal to 1 + your Wits (minimum 1). When you deal harm with a blade, you can expend one dose to make the harm 'poisonous'. You choose the poison's effect: debilitating (the target takes a -1 penalty on their next move) or damaging (the target takes 1 additional harm after their next move)."
+    },
+    {
+      "name": "Jungle Runner (Passive)",
+      "description": "You can move across any difficult terrain (rooftops, forest canopies, rigging) with ease. You don't need to make moves to keep your balance or make daring leaps, you just do it."
+    }
+  ],
+  "advanced_moves": [
+    {
+      "name": "Vanish",
+      "description": "When you are in shadow or cover, you can spend a Legacy Point to become invisible for the scene, or until you make an attack."
+    },
+    {
+      "name": "Expose Weakness",
+      "description": "When you **Investigate** a creature, on a 10+, you spot a critical flaw. The first time you or an ally attack that flaw, the attack bypasses the target's armor completely."
+    },
+    {
+      "name": "Silent Takedown",
+      "description": "When you use **Shadow Strike** on an unaware, minor NPC, you can choose to knock them out silently instead of dealing harm."
+    },
+    {
+      "name": "Venomous Strike",
+      "description": "Your **Poisoned Blade** is now more potent. You can choose to apply both the debilitating and damaging effects at the same time."
+    }
+  ],
+  "bond_synergy": {
+    "name": "Hunter's Instinct",
+    "description": "Rya's draconic senses and Lirien's predatory instincts work in perfect harmony. When Rya and Lirien are both tracking the same target, any **Survey** roll they make is automatically treated as a 10+."
+  }
+}
