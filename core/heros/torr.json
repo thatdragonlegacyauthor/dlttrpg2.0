@@ -8,17 +8,8 @@
     "background": "An exiled blacksmith of the Pangolin-kin, a people of resilient craftsmen who carve their immense Forge-Cities into the heart of the Iron Peaks. He aims to craft a legendary weapon to defeat the Champions of Order who have stolen sacred relics from his clan and to forge a new legacy for himself.",
     "narrative_hook": "The Champions of Order have stolen relics from Torr's clan, which the party must recover. His crafting skills can be used to repair or upgrade the party's gear throughout the campaign."
   },
-  "attributes": {
-    "Force": "+2",
-    "Finesse": "-1",
-    "Wits": "+1",
-    "Heart": "+1"
-  },
-  "trained_skills": [
-    "Wreck",
-    "Know",
-    "Survey"
-  ],
+  "attributes": { "Force": "+2", "Finesse": -1, "Wits": "+1", "Heart": "+1" },
+  "trained_skills": [ "Wreck", "Know", "Survey" ],
   "harm_capacity": 8,
   "starting_moves": [
     {
@@ -36,24 +27,24 @@
   ],
   "advanced_moves": [
     {
-      "name": "Spiked Rebuke",
-      "description": "Your scales are fitted with defensive spikes. When an enemy deals harm to you in melee, they also take 1 harm."
+      "name": "Rune of Warding",
+      "description": "When you use Master Craftsman on a piece of armor or a shield, you can choose to inscribe it with a temporary Pangolin-kin ward. Roll 2d6 + Wits. On a 10+, choose an element (Fire, Ice, Lightning); the wearer is resistant to that element for the rest of the day. On a 7-9, the rune is unstable; it will only protect against the next time they would take that type of harm."
     },
     {
-      "name": "Goading Challenge",
-      "description": "When you smash your hammer against your scales to draw attention, roll `2d6 + Force`. On a **10+**, you draw the full attention of every enemy on the battlefield; they must deal with you before any other target. On a **7-9**, you draw the attention of most, but one enemy slips past to attack a vulnerable ally."
+      "name": "Unbreakable Spirit",
+      "description": "Your will is as unbending as the star-metal you seek. When you Stand Guard to protect an ally, on a 10+, you can choose to take the harm for them. If you do, the harm is reduced by 1 before you mark it."
+    },
+    {
+      "name": "Knowledge of the Forge",
+      "description": "You are a master of materials and their weaknesses. When you Survey a structure or Investigate a construct, you gain +1 to your roll and can always ask the question: 'What is its structural weak point?'"
     },
     {
       "name": "Rolling Charge",
       "description": "When you curl into a ball and roll into the fray, roll `2d6 + Force`. On a **10+**, you crash through your enemies, dealing your harm to up to three of them and scattering them. On a **7-9**, you still deal your harm, but your path is halted by the strongest foe."
-    },
-    {
-      "name": "Forge Fire",
-      "description": "When you use **Master Craftsman** on a weapon, you can imbue it with elemental power. It now deals fire or lightning harm instead of physical."
     }
   ],
   "bond_synergy": {
     "name": "Forge of Legends",
-    "description": "When Rya's draconic power is on full display, Torr is inspired. Once per session, he can attempt to use his **Master Craftsman** move in the heat of battle, taking only a few moments to make a critical battlefield repair or upgrade."
+    "description": "When Rya's draconic power is on full display, Torr is inspired. Once per session, he can attempt to use his **Master Craftsman** move in the heat of battle, taking only a few moments to make a critical battlefield repair or upgrade. Rya's draconic scales temporarily harden in response to the masterwork forging; Rya gains +1 Armor for the scene."
   }
 }
