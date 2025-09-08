@@ -8,15 +8,8 @@
     "background": "An orphan with distinctive blue hair, raised by Elder Elara in Windmark Village. Her journey is about finding her lost identity and confronting her powerful draconic legacy, which is revealed during a cataclysmic attack.",
     "narrative_hook": "Grand Inquisitor Valerius and the Champions of Order believe Rya's power is a plague to be purged from the world, hunting her relentlessly. Her own power is a mystery, and its full potential—and the truth of its origins—is a central theme of the campaign."
   },
-  "attributes": {
-    "Force": "+1",
-    "Finesse": 0,
-    "Wits": 0,
-    "Heart": "+2"
-  },
-  "trained_skills": [
-    "Choose any three skills to be Trained in."
-  ],
+  "attributes": { "Force": "+1", "Finesse": 0, "Wits": 0, "Heart": "+2" },
+  "trained_skills": [ "Choose any three skills to be Trained in." ],
   "harm_capacity": 7,
   "starting_moves": [
     {
@@ -45,10 +38,40 @@
     {
       "name": "Draconic Unity",
       "description": "When you have forged a Confidant bond (Bond Level 3) with a companion, you can spend a Legacy Point to fuse with them for a scene, creating a powerful hybrid form with a unique move. (Examples: Fuse with Selra to become a Valkyrie, or with Zael to become a Wraith)."
+    }
+  ],
+  "draconic_manifestations": [
+    {
+      "name": "Primal Whelp",
+      "requirement": "Requires the 'Primal Manifestation' advanced move",
+      "activation": "Spend 1 Legacy Point",
+      "description": "You transform into a small, fierce dragon whelp for the rest of the scene. Your body is covered in nascent scales, your eyes glow with inner power, and small, non-functional wings sprout from your back.",
+      "effect": "While in this form, you are a being of pure, raw power. You gain +1 Armor. Additionally, when you Unleash Draconic Power, you can choose one additional benefit from the list, even on a 7-9.",
+      "consequence": "The transformation is taxing. When you revert to your normal form at the end of the scene, you must mark 1 Harm."
     },
     {
-      "name": "A Will of a Different Color",
-      "description": "You learn to quickly switch your innate elemental nature. During a moment of calm, you can switch your attuned Draconic Lineage to any other lineage you have already unlocked."
+      "name": "Drake Manifestation",
+      "requirement": "Requires the 'Drake Manifestation' advanced move",
+      "activation": "Spend 1 Legacy Point",
+      "description": "You transform into a powerful adolescent drake for the rest of the scene. Your scales harden, your wings become strong enough for short glides, and your voice deepens with a draconic resonance.",
+      "effect": "The power of a true dragon flows through you. You gain +1 Armor and your presence is more formidable; you gain a +1 bonus to Force rolls. Additionally, when you Unleash Draconic Power and roll a 10+, you can choose an additional benefit from the list.",
+      "consequence": "This greater power takes a heavier toll. When you revert to your normal form at the end of the scene, you must mark 2 Harm."
+    },
+    {
+      "name": "Wyrm Manifestation",
+      "requirement": "Requires the 'Drake Manifestation' advanced move and a significant narrative milestone, such as mastering several draconic abilities",
+      "activation": "Spend 2 Legacy Points",
+      "description": "You transform into a true, four-legged dragon of immense size for the rest of the scene. Your body is a fortress of hardened scales, your wings are powerful enough for true flight, and your voice is a roar that shakes the heavens.",
+      "effect": "You are a true dragon. You gain +2 Armor and a +1 bonus to both Force and Finesse rolls. When you Unleash Draconic Power, you deal +1 harm.",
+      "consequence": "The strain of containing this immense power is severe. When you revert to your normal form at the end of the scene, you must mark 3 Harm."
+    },
+    {
+      "name": "Kaiser Manifestation",
+      "requirement": "Unlock the Wyrm Manifestation and forge a Confidant bond with at least three companions",
+      "activation": "Spend 3 Legacy Points",
+      "description": "You achieve a perfect fusion of mortal and dragon, becoming a radiant humanoid wreathed in the pure energy of your lineage for the rest of the scene. You are the ultimate expression of draconic power.",
+      "effect": "You are the Kaiser. You gain +2 Armor and a +1 bonus to ALL rolls (Force, Finesse, Wits, and Heart). When you Unleash Draconic Power, you treat the result as if you had rolled a 12+—a complete, overwhelming success with extra benefits.",
+      "consequence": "This perfect form consumes all of your energy. When you revert at the end of the scene, you are immediately taken out, your body and spirit completely spent."
     }
   ],
   "bond_synergy": {
