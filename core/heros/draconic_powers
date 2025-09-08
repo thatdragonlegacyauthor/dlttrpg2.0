@@ -1,0 +1,237 @@
+{
+  "draconic_powers": {
+    "aspect_mastery_system": {
+      "description": "As Rya uses her draconic powers, she gains greater control over them. Each time Rya successfully uses an 'Unleash' move for a specific lineage (rolls a 7+), she marks 'Mastery' for that lineage. This progression unlocks new benefits.",
+      "steps": [
+        {
+          "step": 1,
+          "name": "Attuned",
+          "unlock_condition": "The initial state when a new lineage is unlocked.",
+          "effect": "You can use the 'Unleash' move for this lineage."
+        },
+        {
+          "step": 2,
+          "name": "Awakened",
+          "unlock_condition": "Mark 3 Mastery points for this lineage.",
+          "effect": "Your control over this aspect grows. When you 'Unleash' this power, you gain +1 to your roll."
+        },
+        {
+          "step": 3,
+          "name": "Mastered",
+          "unlock_condition": "Mark 5 Mastery points with this lineage after it has been Awakened (total of 8).",
+          "effect": "Your command over this aspect is absolute. When you 'Unleash' this power and roll a 7-9, you can choose the consequence yourself instead of the GM."
+        }
+      ]
+    },
+    "draconic_progression": {
+      "description": "The hero's personal journey of mastering their inner draconic power.",
+      "tier_1": {
+        "name": "Aspect Awakening",
+        "unlock": "Unlocked via significant narrative story beats."
+      },
+      "tier_2": {
+        "name": "Primal Whelp",
+        "unlock": "Master two Aspect Abilities from a single lineage."
+      },
+      "tier_3": {
+        "name": "Drake Manifestation",
+        "unlock": "Master four Aspect Abilities from a single lineage."
+      },
+      "tier_4": {
+        "name": "Wyrm Manifestation",
+        "unlock": "Master six Aspect Abilities from a single lineage."
+      },
+      "tier_5": {
+        "name": "Kaiser Manifestation",
+        "unlock": "Unlock the Wyrm Manifestation and use Draconic Unity with three companions."
+      }
+    },
+    "primal_whelp": {
+      "cost": "1 Legacy Point",
+      "duration": "3 rounds",
+      "effect": "Transform into a small dragon whelp, gain +1 to Might and Essence, and gain a simple breath weapon (e.g., 'Ember Spit' for Fire, deals 1d10 damage).",
+      "consequence": "Suffer 'Whelp Strain' (-1 to all attribute checks for 1 round) when it ends."
+    },
+    "drake_manifestation": {
+      "cost": "1 Legacy Point",
+      "duration": "3 rounds",
+      "effect": "Transform into an adolescent drake, gain +2 to a primary lineage Attribute (Might/Essence) and +1 to Agility. Unlocks an empowered breath weapon (e.g., 'Blazing Breath' for Fire, deals 2d8 damage).",
+      "consequence": "Suffer 'Drake Strain' (-2 to all attribute checks for 1 round) when it ends."
+    },
+    "wyrm_manifestation": {
+      "cost": "2 Legacy Points",
+      "duration": "3 rounds",
+      "effect": "Transform into a true dragon, gain +3 to a primary lineage Attribute (Might/Essence) and +2 to Agility. Unlocks a powerful breath weapon (e.g., 'Dragon's Inferno' for Fire, deals 3d10 damage).",
+      "consequence": "Suffer 'Wyrm Strain' (-3 to all attribute checks for 1 round) when it ends."
+    },
+    "kaiser_manifestation": {
+      "cost": "3 Legacy Points",
+      "duration": "3 rounds",
+      "effect": "Transform into a perfect draconic humanoid, a fusion of all attuned lineages. Gain +2 to all Attributes. Once during the transformation, you can unleash a 'Prismatic Breath', a cone of energy that combines all your aspects, dealing 5d12 damage of a mixed, chaotic type.",
+      "consequence": "When the form ends, the user is reduced to 1 Vitality and suffers 2 levels of exhaustion."
+    },
+    "draconic_unity": {
+      "description": "A parallel system of power based on bonds. The hero fuses with a companion.",
+      "requirement": "Bond Level 3 with a companion.",
+      "cost": "1 Legacy Point",
+      "duration": "3 rounds",
+      "consequence": "Both hero and companion suffer 'Fusion Strain' (-2 to all attributes for 1 round) when it ends.",
+      "fusion_forms": [
+        {
+          "partner": "Selra",
+          "form_name": "Valkyrie Form",
+          "ability": {
+            "name": "Divine Breath",
+            "effect": "15-ft cone, deals 2d8 holy damage to enemies and heals allies for 1d10 Vitality."
+          }
+        },
+        {
+          "partner": "Zael",
+          "form_name": "Wraith Form",
+          "ability": {
+            "name": "Void Gale",
+            "effect": "Deals 1d10 necrotic damage to a target and forces a Mind DC 13 check or their next successful action deals half damage."
+          }
+        }
+      ]
+    },
+    "lineages_directory": "draconic_abilities/",
+    "draconic_transformations": {
+      "kaiser_manifestation": {
+        "description": "A perfect fusion of mortal and dragon, the Kaiser form is a being of pure, prismatic light and hardened, shifting scales that reflect every attuned lineage. Its wings are woven from the elements—one of fire, one of ice, one of lightning, etc.—and its eyes contain a galaxy of starlight. It is surrounded by an aura of immense, controlled power, a perfect balance of all draconic aspects."
+      },
+      "Fire": {
+        "primal_whelp": {
+          "description": "A small, four-legged whelp with reddish-orange scales that shimmer like embers. Its eyes glow with an inner heat, and small, non-functional wings sprout from its back. A faint, smoldering smoke rises from its maw."
+        },
+        "drake_manifestation": {
+          "description": "An adolescent drake, taller and more muscular. Its scales are now a vibrant crimson, and its eyes burn like a bonfire. Its wings have grown, allowing for short, clumsy glides. It can exhale a jet of roaring flame, and its voice has a deep, rumbling quality."
+        },
+        "wyrm_manifestation": {
+          "description": "A true, four-legged dragon of immense size. Its body is covered in volcanic, obsidian scales with glowing cracks of orange and red magma. Its wings are fully formed and powerful, allowing for sustained flight. It breathes a torrent of liquid fire and its roar can be heard for miles."
+        }
+      },
+      "Earth": {
+        "primal_whelp": {
+          "description": "A squat, sturdy whelp with gray, rocky scales. Its body is segmented like a beetle's carapace, and its legs are thick and powerful. Small, crystalline horns poke from its head and it exudes a low, earthen vibration."
+        },
+        "drake_manifestation": {
+          "description": "A powerful, armored drake. Its scales are hardened into plates of petrified stone, with streaks of glowing mineral veins running through them. Its limbs are thick and solid, and its head is crowned with a single, immense horn. It can stomp the ground, creating localized tremors."
+        },
+        "wyrm_manifestation": {
+          "description": "A colossal, serpentine wyrm whose body is composed of shifting stone, dirt, and petrified wood. Its hide is a fortress of interlocking tectonic plates. It has no wings, but can burrow through the ground at impossible speeds and move with the force of an earthquake. Spikes of jagged rock protrude from its spine."
+        }
+      },
+      "Mist": {
+        "primal_whelp": {
+          "description": "A small, translucent whelp composed of swirling, ethereal mist. Its shape is fluid and indistinct, and its eyes are twin points of cold, spectral light. It is almost completely silent and weightless."
+        },
+        "drake_manifestation": {
+          "description": "A ghostly drake with a spectral, serpentine body that glides effortlessly through the air. Its form is constantly shifting, making it difficult to target. Its voice is a chorus of soft, disembodied whispers and its presence causes the air to turn frigid."
+        },
+        "wyrm_manifestation": {
+          "description": "A majestic, four-legged dragon that is a perfect fusion of living shadow and cold vapor. Its body is both physical and ethereal. It can phase through solid objects and its every movement leaves behind a trail of chilling, suffocating mist that freezes to the ground."
+        }
+      },
+      "Ice": {
+        "primal_whelp": {
+          "description": "A small, fox-like whelp with scales of pure, shimmering ice. Its tail is a swirling vortex of cold wind and its feet leave a trail of frost wherever it walks. It communicates in a series of tiny, crystalline chimes."
+        },
+        "drake_manifestation": {
+          "description": "A swift and elegant drake with scales of sharp, angular ice and pristine white fur. Its wings are like sheets of hardened snow, and its tail ends in a razor-sharp icicle. It moves with a silent, predatory grace and its every breath is a puff of frigid, bone-chilling mist."
+        },
+        "wyrm_manifestation": {
+          "description": "A terrifying, serpentine wyrm whose body is composed of a massive, living glacier. Its teeth are jagged icicles and its roar sounds like the cracking of a colossal iceberg. It can exhale a breath of pure absolute zero cold that instantly freezes everything it touches."
+        }
+      },
+      "Light": {
+        "primal_whelp": {
+          "description": "A small, winged whelp with scales of polished, flawless silver. It has no physical mouth, but its form is always smiling with an inner, benevolent glow. It moves with a weightless, flowing grace, and its presence feels warm and comforting."
+        },
+        "drake_manifestation": {
+          "description": "A radiant, winged drake made of pure, condensed light. Its body is a constant source of soft, warm light that can banish shadows and heal wounds. Its roar is a sound of perfect, harmonious tone. It is a symbol of hope and divine justice."
+        },
+        "wyrm_manifestation": {
+          "description": "An ethereal, six-winged wyrm of blinding white light and silver filigree. Its body is both physical and purely magical, and its presence can bring a feeling of intense peace or profound terror. It has an immense, protective aura that can absorb magical attacks and its divine breath can burn away evil."
+        }
+      },
+      "Storm": {
+        "primal_whelp": {
+          "description": "A small, compact whelp with scales the color of a bruised thunderhead. Faint bolts of electricity occasionally arc across its body, and its roar is a tiny pop of static. It has tiny, feathery wings that are constantly fluttering with unstable energy."
+        },
+        "drake_manifestation": {
+          "description": "A lean, agile drake with scales of stormy gray and deep blue. Its wings are large and powerful, allowing it to ride gusts of wind. Its teeth are crackling with raw electricity, and its roar is a resonant clap of thunder. Its body crackles with a constant field of static energy."
+        },
+        "wyrm_manifestation": {
+          "description": "A serpentine, four-winged wyrm that is perpetually surrounded by a miniature storm. Its body is a chaotic blend of swirling winds, rain, and crackling lightning. Its breath is a deadly bolt of raw, unfiltered lightning that can arc to multiple targets. It moves with the speed and unpredictability of a hurricane."
+        }
+      },
+      "Tide": {
+        "primal_whelp": {
+          "description": "A small, aquatic-looking whelp with pearlescent blue scales and large, webbed feet. It has gills on its neck and its tail is a fin that perpetually drips with water. It feels calm and comforting to the touch and can create small, soothing splashes of water."
+        },
+        "drake_manifestation": {
+          "description": "A sleek, powerful drake with fins and webbed claws. Its scales are a vibrant, deep blue, and its roar sounds like a distant whale's song. It can breathe a high-pressure jet of water and can manipulate the flow of liquids in a small area, making it a master of battlefield control."
+        },
+        "wyrm_manifestation": {
+          "description": "A colossal, serpentine water dragon. Its body is a constant flow of living water and bioluminescent light. It has no legs, moving with the immense power of a tidal wave. It is a fusion of both the calm and destructive aspects of the ocean, able to conjure massive tidal waves or summon torrents of healing energy."
+        }
+      },
+      "Duskveil": {
+        "primal_whelp": {
+          "description": "A small, serpentine whelp with scales of deep indigo and black. It has no physical limbs but moves like a tendril of living shadow. Its eyes glow with a dim, violet light, and its presence feels cold and unnerving."
+        },
+        "drake_manifestation": {
+          "description": "A predatory, four-legged drake with a lean, sinewy build. Its scales are a shifting mosaic of black and deep purple, and its movements are so fluid that it seems to melt in and out of the shadows. Its roar is a chilling, disembodied whisper that can cause a sense of profound loneliness and dread."
+        },
+        "wyrm_manifestation": {
+          "description": "A terrifying, ghostly dragon whose body is a swirling vortex of pure shadow and corrupted souls. Its wings are like tattered banners of night, and its eyes are pinpricks of malevolent violet light. Its breath is a cloud of soul-sapping necrotic energy that withers life and drains the will to live from its foes."
+        }
+      },
+      "Cosmic": {
+        "primal_whelp": {
+          "description": "A small, star-dusted whelp with skin that looks like the night sky. Its scales are tiny, glittering motes of starlight, and its eyes are twin constellations. It floats effortlessly and its presence feels serene and impossibly vast."
+        },
+        "drake_manifestation": {
+          "description": "A graceful, winged drake with scales of polished, cosmic rock. Its wings are like nebulae, and its voice is a resonant, deep tone that echoes with the sound of a distant supernova. It can manipulate gravity in small bursts and conjure bolts of concentrated starlight."
+        },
+        "wyrm_manifestation": {
+          "description": "A colossal, four-winged wyrm whose body is a living tapestry of stars and black holes. Its scales are made of solidified starlight, and its roar is a temporal distortion that echoes with the beginning and end of time. It can warp gravity itself and pull enemies into its wake."
+        }
+      },
+      "Chrono": {
+        "primal_whelp": {
+          "description": "A small, lizard-like whelp whose scales constantly shift through a spectrum of colors, like a static-filled television screen. Its movements are jerky and stuttering, and its presence causes nearby sounds to echo with a strange, temporal delay."
+        },
+        "drake_manifestation": {
+          "description": "A lithe, two-legged drake whose body appears as a series of slightly offset after-images, making it hard to track. Its roar is a cacophony of past, present, and future screams. It can speed up or slow down its allies and enemies with a touch."
+        },
+        "wyrm_manifestation": {
+          "description": "A serpentine, ethereal wyrm that appears as a single point in time, with its past and future selves constantly circling it. Its breath is a wave of temporal energy that can age a target instantly. Its wings are made of shimmering, distorted light."
+        }
+      },
+      "Metal": {
+        "primal_whelp": {
+          "description": "A small, armadillo-like whelp with a carapace of polished iron plates. Its movements are slow and deliberate, and it has no obvious mouth, communicating through a series of rhythmic clicks. Its claws are like sharpened steel and leave grooves in the ground."
+        },
+        "drake_manifestation": {
+          "description": "A stoic, four-legged drake with a body made of interlocking, runic-inscribed plates of bronze and steel. Its roar is a loud, ringing clang, and its bite can shatter stone. Its presence feels heavy and unyielding, like a fortress."
+        },
+        "wyrm_manifestation": {
+          "description": "A colossal, tank-like wyrm whose body is a living engine of pre-Shattering technology and raw magic. Its scales are like overlapping cannon plating, and its roar is a deafening sonic blast. It is a walking fortress of immense durability and destructive force."
+        }
+      },
+      "Psionic": {
+        "primal_whelp": {
+          "description": "A small, featureless whelp with a smooth, violet-colored hide. It has no eyes, but its head is crowned with a single, glowing crystal that pulses with a faint, psychic light. It communicates through telepathic whispers."
+        },
+        "drake_manifestation": {
+          "description": "A nimble, two-legged drake whose movements are accompanied by a faint psychic hum. Its body is lean and its eyes glow with an intense, violet energy. It can create small, tangible illusions and can attack its foes with bolts of pure thought."
+        },
+        "wyrm_manifestation": {
+          "description": "A large, floating wyrm whose body is a swirling vortex of pure mental energy. Its eyes are powerful, swirling orbs of psychic force that can cause maddening illusions. It has no physical mouth, but its voice echoes directly in the minds of its foes, a torrent of pure, unadulterated psychic power."
+        }
+      }
+    }
+  }
+}
