@@ -1,0 +1,20 @@
+{
+  "world_codex_narrative": {
+    "core_lore": {
+      "public_history": "The world of Eryndor was forged in the divine light of the Goddess Elysia. The age before her return is known as the Time of Chaos, when the destructive and tyrannical Dragon Lords waged an endless war that scarred the very planet. The cataclysm known as 'The Shattering' was the moment of Elysia's benevolent return, a divine intervention that purged the world of the dragons' chaotic reign and ushered in a new era of peace and order under the guidance of her devoted Champions.",
+      "secret_truth": "The Shattering was not a salvation, but a betrayal. Elysia, a being of absolute order, sought to extinguish all free will from Eryndor, viewing both the good and evil Dragon Lords as a single, chaotic threat. In a final, desperate act to save the world from her perfect, silent tyranny, the last of the heroic Dragon Lords of Light and their mortal allies sacrificed themselves in a ritual that sealed Elysia away, her prison being the world itself. The ritual's catastrophic release of energy was The Shattering. The history known by the world is a lie, crafted by Elysia's remaining followers to mask her imprisonment as a triumphant return."
+    },
+    "lore_moves": [
+      {
+        "move": "Reveal a Contradiction",
+        "trigger": "When a player closely examines an ancient ruin or consults a pre-Shattering text and gets a 'Success with a Cost' (7-9) on a Wits roll.",
+        "effect": "Present them with a piece of information that subtly contradicts the 'public_history'. Don't reveal the truth, but plant a seed of doubt."
+      },
+      {
+        "move": "Echoes of the Past",
+        "trigger": "When a player with a connection to the past (like Rya, Eldra, or Rune) meditates at a place of great power.",
+        "effect": "Show them a brief, confusing vision of the 'secret_truth'—a heroic-looking dragon fighting a being of blinding light, or a world falling silent under a golden glow."
+      }
+    ]
+  }
+}
