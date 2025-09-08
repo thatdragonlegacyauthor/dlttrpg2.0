@@ -8,17 +8,8 @@
     "background": "An ancient guardian of a sacred grove deep within the Serpent's Maw Jungle, Veridia has watched over her home for centuries. A new, insidious corruption from the Arcane Dominion's magical excavations is poisoning the land, and Veridia feels its pain in her own soul. For the first time in her long life, she has been forced to leave her home, seeking allies to help her save it.",
     "narrative_hook": "Veridia is the key to navigating the deepest parts of the Serpent's Maw Jungle. Her ancient knowledge provides an advantage, but her presence draws the attention of the Arcane Dominion, who see her as a powerful potential test subject."
   },
-  "attributes": {
-    "Force": 0,
-    "Finesse": -1,
-    "Wits": "+2",
-    "Heart": "+1"
-  },
-  "trained_skills": [
-    "Know",
-    "Survey",
-    "Tend"
-  ],
+  "attributes": { "Force": 0, "Finesse": -1, "Wits": "+2", "Heart": "+1" },
+  "trained_skills": [ "Know", "Survey", "Tend" ],
   "harm_capacity": 6,
   "starting_moves": [
     {
@@ -42,20 +33,20 @@
   ],
   "advanced_moves": [
     {
-      "name": "Lightning Strike",
-      "description": "When you **Channel Primal Fury**, you can choose to call down a single, massive bolt of lightning. It deals +1d6 harm, and on a 7-9, the cost is that the lightning strikes a second, random target nearby."
+      "name": "Caustic Sap",
+      "description": "Your Primal Fury can manifest as a corrosive acid. When you Channel Primal Fury and deal harm, you can choose to also melt your target's defenses. On a 10+, their armor is ruined for the scene. On a 7-9, it's merely damaged, giving them a penalty on their next action where armor would be a factor."
     },
     {
-      "name": "Overgrowth",
-      "description": "When you use **Whispering Canopy**, you can choose to make the entire area difficult terrain for your enemies for the rest of the scene."
+      "name": "Grasping Roots",
+      "description": "You can command the very earth to hold your foes. When you use Whispering Canopy, you can choose an additional option from its list: 'The ground erupts in a thicket of roots, restraining all enemies in a wide area until they can struggle free.'"
+    },
+    {
+      "name": "Wildfire",
+      "description": "When you Channel Primal Fury, you can choose to unleash a wave of uncontrollable fire. On a 10+, you deal your harm to all enemies in a wide cone and the area is now ablaze and hazardous. On a 7-9, you still create the wildfire, but the GM will choose an ally who is also caught in a bad spot by the spreading flames."
     },
     {
       "name": "Healing Spores",
       "description": "You can **Channel Primal Fury** in reverse, turning nature's energy inward to heal. When you do, you can heal an ally of 2 Harm on a 10+, or 1 Harm on a 7-9."
-    },
-    {
-      "name": "Nature's Wrath",
-      "description": "When you are in a natural environment, you can spend a Legacy Point to command the environment itself to attack a foe (a falling branch, a collapsing riverbank, an angry beast). The foe is automatically taken out of the scene."
     }
   ],
   "bond_synergy": {
