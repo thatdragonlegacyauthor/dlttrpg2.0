@@ -1,0 +1,308 @@
+{
+  "locations_narrative": [
+    {
+      "name": "Windmark Village",
+      "type": "Village",
+      "region": "The Azure Steppes",
+      "description": "The hero's starting home, located on the Azure Steppes. Once known for its serene wind-chimes, it is now rebuilding after a devastating attack by the Champions of Order.",
+      "gm_hooks": ["A villager asks the party to help find a lost memento in the ruins, leading them to an undiscovered cellar.", "The first new merchant caravan since the attack arrives, bringing news and trouble.", "A strange plant, mutated by Rya's power, begins growing in the Elderwood Grove."],
+      "key_characters": []
+    },
+    {
+      "name": "Wyndia",
+      "type": "City-State",
+      "region": "Ember Concord",
+      "description": "A majestic floating city, the jewel of the Ember Concord, ruled by a fae-like nobility with bird-like wings and powered by massive wind-magic spires.",
+      "gm_hooks": ["A political rival of Lord Aerion, Lady Zylphia, invites the party to a lavish party to pump them for information.", "The Aetherium Spires that keep the city afloat begin to fluctuate, causing a panic.", "A diplomatic envoy from Port Myria arrives, escalating the cold war between the two powers."],
+      "key_characters": ["WYNDIA_AERION", "WYNDIA_NINA", "WYNDIA_ZYLPHIA", "WYNDIA_SOLANUS", "WYNDIA_FAELAN"]
+    },
+    {
+      "name": "Port Myria",
+      "type": "Town",
+      "region": "Ember Concord",
+      "description": "A bustling port town on the southern coast, a major trade hub for the Ember Concord. A melting pot of cultures, but rife with political intrigue and black markets.",
+      "gm_hooks": ["Captain Eva 'Storm-Eye' Rostova offers the party passage on her ship for a dangerous, but profitable, smuggling run.", "Harbormaster Thorne impounds something belonging to the party, demanding a hefty 'fine'.", "A lead on a rare item surfaces in the Silken Market, but the Gilded Paw wants a favor in return."],
+      "key_characters": ["PORTMYRIA_THORNE", "PORTMYRIA_EVA", "PORTMYRIA_HEMLOCK", "GILDEDPAW_SILAS"]
+    },
+    {
+      "name": "Stonegard",
+      "type": "Fortress Town",
+      "region": "Scalebound Clans Territory",
+      "description": "A settlement of the lizard-like Stonekin carved into a mountain face. A key bastion for the Scalebound Clans, it guards a sacred passage to the Dragon's Graveyard.",
+      "gm_hooks": ["The rivalry between the Ancestral Wardens and Stone-Forged Zealots boils over into a public challenge.", "Grorn, the Barracks Master, demands the party prove their strength in the training grounds.", "A vital food shipment is overdue, and Quartermaster Hekla is desperate for help."],
+      "key_characters": ["SCALEBOUND_GRORN", "SCALEBOUND_HEKLA", "SCALEBOUND_HESH"]
+    },
+    {
+      "name": "Stonekin Outpost",
+      "type": "Outpost",
+      "region": "Scalebound Clans Territory",
+      "description": "A small, fortified outpost of the Scalebound Clans, located in the mountain pass.",
+      "gm_hooks": ["Grak, the Gatewarden, refuses the party entry until they complete a dangerous task.", "Karrus, the Master Smith, sees Rya's power and offers to forge a unique item if she can bring him a rare component.", "A young warrior, Vek, offers to help the party in defiance of his superiors."],
+      "key_characters": ["SCALEBOUND_GRAK", "SCALEBOUND_KARRUS", "SCALEBOUND_VEK"]
+    },
+    {
+      "name": "Tanglewood Reach",
+      "type": "Village",
+      "region": "The Whispering Woods",
+      "description": "A secluded village built high in the canopy of the Whispering Woods. Its inhabitants are isolationists with deep knowledge of natural remedies and ancient forest spirits.",
+      "gm_hooks": ["Elder Briar tasks the party with cleansing a corrupted part of the woods to prove their worth.", "Lyssa, the spirit-speaker, has a vision concerning one of the party members and requires their help to interpret it.", "Kaelen, the lead scout, needs help tracking a mysterious beast that has been preying on the local fauna."],
+      "key_characters": ["TANGLEWOOD_BRIAR", "TANGLEWOOD_KAELEN", "TANGLEWOOD_LYSSA"]
+    },
+    {
+      "name": "The Shattered Lands",
+      "type": "Region",
+      "region": "The Shattered Lands",
+      "description": "A vast, desolate wasteland scarred by the cataclysm that ended the last age. The land is twisted, inhabited by mutated beasts, and permeated by chaotic magical energy.",
+      "gm_hooks": ["A sudden, violent mana storm forces the party to seek shelter in an unknown ruin.", "The party discovers the fossilized remains of a colossal, unknown creature.", "A group of scavengers from Scavenger's Hope is pinned down by mutated beasts and needs rescue."],
+      "key_characters": []
+    },
+    {
+      "name": "The Crystal Spire",
+      "type": "Landmark",
+      "region": "Arcane Dominion Territory",
+      "description": "A towering monolith of pulsating crystal in the desert, harnessed by the Arcane Dominion as a massive power source for their unethical experiments.",
+      "gm_hooks": ["The Spire overloads, sending a shockwave of chaotic magic across the desert.", "A high-value prisoner escapes the Spire's labs and runs into the party.", "Archon Malakor invites the party to the Spire, seeing them as fascinating new test subjects."],
+      "key_characters": ["DOMINION_MALAKOR"]
+    },
+    {
+      "name": "Sunken City of Astora",
+      "type": "Dungeon",
+      "region": "The Mistwood Vale",
+      "description": "The ruins of a magnificent pre-Shattering city now lost beneath the waves. It is the true home of the Astoran Conclave and the nexus of the Tide lineage.",
+      "gm_hooks": ["A strong current reveals a new, previously inaccessible part of the ruins.", "The party finds an Astoran prophecy that directly relates to their current quest.", "A colossal, ancient sea creature, guardian of the city, awakens."],
+      "key_characters": []
+    },
+    {
+      "name": "Mount Dragnor",
+      "type": "Dungeon",
+      "region": "The Shattered Lands",
+      "description": "A dormant volcano where ancient followers of the Fire dragons built a grand temple. It is now a dangerous labyrinth and the nexus of the Fire lineage.",
+      "gm_hooks": ["The volcano shows signs of reawakening, sending tremors through the region.", "The Brood of Dragnor are attempting a dark ritual deep within the mountain.", "The party discovers a hidden chamber containing the lost history of the Fire dragons."],
+      "key_characters": []
+    },
+    {
+      "name": "The Whispering Woods",
+      "type": "Region",
+      "region": "Central Eryndor",
+      "description": "An ancient, mist-shrouded forest where the trees are said to hold the memories of the world. A place of potent natural magic and home to Tanglewood Reach.",
+      "gm_hooks": ["The mists thicken, and the paths begin to shift and change.", "A powerful forest spirit requests the party's aid in driving out a corrupting influence.", "The party stumbles upon a hidden grove that seems to exist outside of time."],
+      "key_characters": []
+    },
+    {
+      "name": "Elysian Grand Cathedral",
+      "type": "Landmark",
+      "region": "Champions of Order Territory",
+      "description": "The magnificent center of the Champions of Order's power. Publicly a place of healing and light, its hidden catacombs hold cells for those deemed 'chaotic'.",
+      "gm_hooks": ["The party learns a key ally has been taken to the 'Hall of Healing' for 'treatment'.", "A secret passage into the 'Chamber of Purification' is discovered.", "Grand Inquisitor Valerius announces a public sermon, creating a diversion for an infiltration."],
+      "key_characters": ["CHAMPIONS_VALERIUS"]
+    },
+    {
+      "name": "The Void Chasm",
+      "type": "Dungeon",
+      "region": "The Shattered Lands",
+      "description": "A bottomless abyss that tears through the Shattered Lands. Reality is thin here, and the 'Heart of the Void' at its center is the nexus of the Void lineage.",
+      "gm_hooks": ["Something valuable falls into the chasm, and the party must find a way to retrieve it.", "The whispers from the chasm grow louder, affecting a nearby settlement.", "A creature of pure shadow emerges from the depths, unlike anything seen before."],
+      "key_characters": []
+    },
+    {
+      "name": "The Glacial Maw",
+      "type": "Region",
+      "region": "The Far North",
+      "description": "A vast, frozen tundra in the far north, dominated by a colossal, moving glacier. It is the hunting ground of the Frostfang clans and a nexus of Ice lineage power.",
+      "gm_hooks": ["The great glacier begins to move at an unnatural speed, threatening the Frostfang Den.", "A legendary, prehistoric beast is sighted, drawing hunters from all over the world.", "A hidden cave is revealed by a blizzard, containing the frozen remains of a pre-Shattering expedition."],
+      "key_characters": []
+    },
+    {
+      "name": "Dragon's Graveyard",
+      "type": "Landmark",
+      "region": "Scalebound Clans Territory",
+      "description": "A sacred and desolate valley littered with the fossilized bones of colossal dragons. The 'Heart-Stone of the World-Serpent' within the largest skull is the nexus of the Earth lineage.",
+      "gm_hooks": ["The spirit of a dragon awakens and calls out for aid.", "The Brood of Dragnor attempts to desecrate the graveyard with fire magic.", "The ground trembles, revealing a new, undiscovered cavern beneath the bones."],
+      "key_characters": []
+    },
+    {
+      "name": "Tidewatch Spire",
+      "type": "Outpost",
+      "region": "The Mistwood Vale",
+      "description": "The sole embassy of the Astoran Conclave to the surface world. This lone, coral-encrusted tower stands on a remote, mist-shrouded coastline.",
+      "gm_hooks": ["Loremaster Oris offers a cryptic prophecy in exchange for the recovery of a lost Astorani artifact.", "Orin, the Spire Sentinel, bars the party from entry until they prove their worth.", "Lyra, a young acolyte, secretly contacts the party, wishing to see the surface world."],
+      "key_characters": ["ASTORAN_ORIS", "ASTORAN_ORIN", "ASTORAN_LYRA"]
+    },
+    {
+      "name": "The Oasis of Zha'Vask",
+      "type": "Town",
+      "region": "Arcane Dominion Territory",
+      "description": "A neutral, bustling trade hub deep within the southern deserts. The Oasis is the unofficial capital of the Gilded Paw Caravan and a haven for merchants, mercenaries, and spies.",
+      "gm_hooks": ["A rare goods auction is announced, with a key item the party needs up for sale.", "The oasis's magical water source begins to fail, causing panic and political instability.", "Farah, the Caravan Master, offers the party a lucrative but morally questionable job."],
+      "key_characters": ["GILDEDPAW_FARAH"]
+    },
+    {
+      "name": "Frostfang Den",
+      "type": "Village",
+      "region": "The Glacial Maw",
+      "description": "A fortified settlement carved into the ice of a massive glacier within the Glacial Maw, serving as the main den for Kei's pack.",
+      "gm_hooks": ["Vargus, the usurper chieftain, declares a 'Great Hunt' to solidify his power, with a target the party must protect.", "The Dominion allies of Vargus arrive with a new piece of dangerous technology.", "Elder Lyraka, the pack shaman, requests the party's help in a ritual to appease the angry spirits of the tundra."],
+      "key_characters": ["FROSTFANG_VARGUS", "FROSTFANG_LYRAKA"]
+    },
+    {
+      "name": "The Arcanum Vaults",
+      "type": "Dungeon",
+      "region": "Arcane Dominion Territory",
+      "description": "A vast, pre-Shattering ruin in the Dominion's territory, filled with dangerous automated defenses and lost technology. A hidden enclave of the Runeforge Remnants has taken up residence here.",
+      "gm_hooks": ["The vault's primary power core begins to overload, threatening a catastrophic explosion.", "Archivist Linnea believes Rune is the key to unlocking the vault's deepest, most dangerous secret.", "A rival faction (like the Scavengers) launches a raid on the vaults to steal its technology."],
+      "key_characters": ["RUNEFORGE_LINNEA"]
+    },
+    {
+      "name": "The Well of Souls",
+      "type": "Landmark",
+      "region": "The Azure Steppes",
+      "description": "A place where the veil between the world of the living and the echoes of the dead is unnaturally thin. Located in a secluded grotto, it appears as a pool of still, silvery water.",
+      "gm_hooks": ["Communing with the well reveals a vision of the Echo of Elara.", "The Champions of Order arrive, attempting to 'purify' the well with their holy magic.", "A tormented spirit emerges from the well, begging the party for help."],
+      "key_characters": ["SPIRIT_ELARA"]
+    },
+    {
+      "name": "Sky-Reach Aerie",
+      "type": "Village",
+      "region": "Serpent's Coil Mountains",
+      "description": "Carved into the highest peaks, this is the ancestral home of the Skyveil people. A city of vertical towers connected by rope bridges.",
+      "gm_hooks": ["Elder Vasha, the matriarch, requests the party's help to deal with Arcane Dominion incursions.", "A young Skyveil challenges Talia's right to be among the party, demanding a trial of archery.", "The path to the Roost of the Tempest becomes clear, offering a chance for Rya to gain a new power."],
+      "key_characters": ["SKYVEIL_VASHA"]
+    },
+    {
+      "name": "Havenwood",
+      "type": "Village",
+      "region": "The Whispering Woods",
+      "description": "A small, devout village on the edge of the Whispering Woods. Its people have been manipulated by the Champions of Order into fearing the 'old magic' of the woods.",
+      "gm_hooks": ["Mayor Theron hires the party to hunt a 'monster,' but the skeptical blacksmith's daughter, Brenna, believes there's more to the story.", "Priestess Isolde attempts to turn the village against the party.", "A villager has gone missing in the woods, and the local hunter, Finn, is the only one who knows where to look."],
+      "key_characters": ["HAVENWOOD_THERON", "CHAMPIONS_ISOLDE", "HAVENWOOD_BRENNA", "HAVENWOOD_FINN"]
+    },
+    {
+      "name": "The Serpent's Maw Jungle",
+      "type": "Region",
+      "region": "Southern Wilds",
+      "description": "A vast, sweltering jungle south of the Azure Steppes, named for the massive, snake-like river that carves through its heart. The jungle is a vertical maze of colossal trees and crumbling ruins.",
+      "gm_hooks": ["The party is hired to guide a Dominion expedition, forcing them to choose between profit and protecting the jungle.", "A hidden community, like the Black-Tusk Grotto, is discovered.", "The ruins of a forgotten civilization are found, containing both treasure and danger."],
+      "key_characters": []
+    },
+    {
+      "name": "The Mistwood Vale",
+      "type": "Region",
+      "region": "Western Coast",
+      "description": "A secluded and perpetually fog-shrouded valley where the veil between the physical and spirit worlds is thin. The landscape subtly shifts and memories of the past manifest as ghostly echoes.",
+      "gm_hooks": ["The party gets lost in the shifting mists and stumbles upon a ruin from the past.", "A powerful, tormented spirit begins haunting the vale, and the party must appease it.", "The Stillwater Shrine offers a cryptic vision related to the party's main quest."],
+      "key_characters": []
+    },
+    {
+      "name": "The Iron Peaks",
+      "type": "Region",
+      "region": "The North",
+      "description": "A harsh, mineral-rich mountain range where the Pangolin-kin carve their immense, geode-like Forge-Cities.",
+      "gm_hooks": ["The Pangolin-kin offer a reward for the return of their stolen forge-relics.", "A volcanic vent threatens to erupt, endangering one of the Forge-Cities.", "Torr is challenged by a rival blacksmith to a contest of skill."],
+      "key_characters": []
+    },
+    {
+      "name": "The Sunken Temple of Ahn'Qotl",
+      "type": "Dungeon",
+      "region": "The Serpent's Maw Jungle",
+      "description": "An ancient temple complex from a forgotten civilization, now half-swallowed by the jungle's swampy floor. It is a treacherous maze of water-filled corridors and territorial, amphibious beasts.",
+      "gm_hooks": ["The Arcane Dominion finds a key to the temple's inner sanctum, and the party must get it first.", "A flood reveals a new section of the temple.", "The temple's guardian beast is awakened."],
+      "key_characters": []
+    },
+    {
+      "name": "Black-Tusk Grotto",
+      "type": "Outpost",
+      "region": "The Serpent's Maw Jungle",
+      "description": "A hidden, neutral settlement built into a series of interconnected caves behind a waterfall. It serves as a black market and sanctuary for smugglers, treasure hunters, and outlaws.",
+      "gm_hooks": ["'Mama' Kiri has information the party needs, but her price is steep.", "A rival of Lirien tracks her to the grotto, leading to a tense standoff.", "The grotto's leaders are betrayed, and the party must choose a side in the ensuing power struggle."],
+      "key_characters": ["GROTTO_KIRI"]
+    },
+    {
+      "name": "The Hanging Gardens",
+      "type": "Landmark",
+      "region": "The Serpent's Maw Jungle",
+      "description": "A breathtakingly beautiful, yet deadly, series of ancient, terraced gardens built on the side of a massive plateau deep within the jungle. The flora here is unique and highly magical.",
+      "gm_hooks": ["A rare alchemical ingredient for a powerful potion can only be found here.", "A scholar hires the party to escort them through the gardens.", "A territorial beast has made its nest in the gardens, blocking access to a key area."],
+      "key_characters": []
+    },
+    {
+      "name": "The Ruins of Silverwood",
+      "type": "Village (Ruined)",
+      "region": "The Mistwood Vale",
+      "description": "The ancestral home of Eldra's tribe, now a collection of silent, crumbling stone structures overgrown with phosphorescent moss. Ghostly echoes of the villagers replay their final moments.",
+      "gm_hooks": ["A ghostly echo reveals a new clue about the Shattering.", "A powerful spirit is preventing the dead from resting, and Eldra must confront it.", "The party finds a hidden vault containing the lost lore of the oracles."],
+      "key_characters": []
+    },
+    {
+      "name": "The Weeping Barrows",
+      "type": "Dungeon",
+      "region": "The Mistwood Vale",
+      "description": "A series of ancient burial mounds, the final resting place for the tribe's most honored dead. The barrows are protected by powerful ancestral spirits who will test the party's resolve.",
+      "gm_hooks": ["The party must retrieve an item from the tomb of the First Oracle.", "Grave robbers have disturbed the barrows, angering the spirits.", "Eldra must complete a ritual here to unlock a new aspect of her power."],
+      "key_characters": []
+    },
+    {
+      "name": "The Stillwater Shrine",
+      "type": "Landmark",
+      "region": "The Mistwood Vale",
+      "description": "A hidden, circular clearing containing a perfectly still, mirror-like pool of water that shows visions of the past, present elsewhere, or possible futures.",
+      "gm_hooks": ["The party needs guidance and can attempt to commune with the pool.", "A creature of shadow attempts to corrupt the shrine's pure energy.", "The shrine shows a vision of an impending disaster that the party must prevent."],
+      "key_characters": []
+    },
+    {
+      "name": "The Titan's Crossing",
+      "type": "Landmark",
+      "region": "The Azure Steppes",
+      "description": "A massive, petrified skeleton of a colossal, unknown creature that forms a natural bridge over the Azure River. Local legends say the spirit of the beast still lingers.",
+      "gm_hooks": ["The spirit of the titan awakens, demanding a toll from those who wish to cross.", "A strange magical phenomenon near the Crossing affects the party's powers.", "A scholar wants to study the ancient carvings on the bones and hires the party for protection."],
+      "key_characters": []
+    },
+    {
+      "name": "The Rust-Rock Canyon",
+      "type": "Dungeon",
+      "region": "The Azure Steppes",
+      "description": "A network of deep, rust-colored canyons that have become a major den for bandits who prey on the trade routes.",
+      "gm_hooks": ["'One-Eye' Joric's bandits have stolen something important from a caravan.", "A rival bandit crew challenges Joric's rule, and the party is caught in the middle.", "The legendary restorative spring at the canyon's heart is discovered."],
+      "key_characters": ["BANDIT_JORIC"]
+    },
+    {
+      "name": "The Silent Fields",
+      "type": "Landmark",
+      "region": "The Azure Steppes",
+      "description": "A large, circular plain of grassland where no sound can be made. At the center is a single, perfectly smooth obsidian monolith that hums with a palpable, silent energy.",
+      "gm_hooks": ["A ritual must be performed at the monolith, but it must be done in complete silence.", "A creature that hunts by sound has made the fields its territory.", "The monolith activates, sending a silent pulse of energy across the plains."],
+      "key_characters": []
+    },
+    {
+      "name": "The Elderwood Grove",
+      "type": "Landmark",
+      "region": "The Whispering Woods",
+      "description": "A hidden, sacred grove deep within the forest where the most ancient trees reside. The air is thick with primal magic, and the trees are said to be sentient.",
+      "gm_hooks": ["The party seeks the wisdom of the sentient Elderwood trees.", "A powerful item, the Heartseed of the First Forest, is rumored to be located here.", "The grove is dying from a magical blight, and the party must find the source."],
+      "key_characters": []
+    },
+    {
+      "name": "The Gloomfang Caverns",
+      "type": "Dungeon",
+      "region": "The Whispering Woods",
+      "description": "A dark, web-choked network of caves that serves as the primary lair for the vicious Gloomfang Wolves and monstrous Giant Spiders.",
+      "gm_hooks": ["A rare alchemical ingredient needed by Lyssa can only be found in the caverns.", "The alpha Gloomfang wolf has become unnaturally large and intelligent.", "The caverns are the source of the corruption that once plagued the forest, and it is returning."],
+      "key_characters": []
+    },
+    {
+      "name": "The Crossroads Garrison",
+      "type": "Outpost",
+      "region": "Ember Concord",
+      "description": "A heavily fortified, neutral garrison built at the strategic intersection of the trade routes connecting Wyndia, Port Myria, and Stonegard.",
+      "gm_hooks": ["Commander Garran needs help dealing with a threat that both Wyndia and Myria refuse to handle due to politics.", "The garrison is besieged by a large bandit force, and the party is trapped inside.", "A high-stakes strategy tournament is being held, and Garran invites a party member to participate."],
+      "key_characters": ["GARRISON_GARRAN"]
+    },
+    {
+      "name": "The Ruined Citadel of the Dragon Lords",
+      "type": "Dungeon",
+      "region": "The Shattered Lands",
+      "description": "The skeletal remains of the pre-Shattering capital city, a place of immense power where the Dragon Lords once ruled. Now, it is a sprawling, high-level dungeon guarded by ancient defenses.",
+      "gm_hooks": ["A key to understanding Rya's full power lies within the citadel's throne room.", "An ancient, still-functional war golem activates and goes on a rampage.", "The party finds a complete, unredacted history of the Shattering."],
+      "key_characters": []
+    }
+  ]
+}
