@@ -1,0 +1,83 @@
+{
+  "roost_of_the_tempest": {
+    "start_room": "roost_base",
+    "rooms": {
+      "roost_base": {
+        "name": "Base of the Roost",
+        "description": "The path ends at the base of a colossal, jagged peak that seems to pierce the sky. A permanent, raging thunderstorm swirls around its summit, and the constant roar of wind and thunder is deafening. The air is charged with ozone. This is a place of raw, untamed elemental power.",
+        "exits": [
+          {
+            "direction": "Back to the Aerie",
+            "destination": "sky_reach_aerie"
+          },
+          {
+            "direction": "Ascend the Roost",
+            "destination": "windshear_path"
+          }
+        ]
+      },
+      "windshear_path": {
+        "name": "Wind-Shear Path",
+        "description": "The only way up is a narrow, treacherous path that clings to the side of the mountain. The wind howls with furious intensity, threatening to rip you from the rock face with every step.",
+        "exits": [
+          {
+            "direction": "Descend",
+            "destination": "roost_base"
+          },
+          {
+            "direction": "Continue Upward",
+            "destination": "lightning_field"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "traverse_the_path",
+            "action": "skill_check",
+            "details": "Requires a Hard DC 18 Might (Athletics) check to avoid being blown from the path. Characters with flight have an advantage on this check."
+          }
+        ]
+      },
+      "lightning_field": {
+        "name": "Lightning Field",
+        "description": "The path widens into a field of scorched, magnetized rock. Bolts of raw lightning arc between floating stones, striking the ground in unpredictable patterns. Crossing this field will require careful observation and timing.",
+        "exits": [
+          {
+            "direction": "Back Down",
+            "destination": "windshear_path"
+          },
+          {
+            "direction": "To the Summit",
+            "destination": "eye_of_the_storm"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "cross_the_field",
+            "action": "skill_check",
+            "details": "A successful Mind (Survival) or Agility (Acrobatics) check (DC 18) is needed to navigate the lightning strikes. Failure results in taking significant lightning damage."
+          }
+        ]
+      },
+      "eye_of_the_storm": {
+        "name": "The Eye of the Storm",
+        "description": "The summit of the Roost is a place of surreal calm. You stand on a circular platform of glass-like fulgurite, surrounded by the raging wall of the thunderstorm. In the center of the platform, a massive, crystallized lightning bolt is embedded in the rock, humming with immense power. This is the nexus of the Storm lineage.",
+        "exits": [
+          {
+            "direction": "Descend the Mountain",
+            "destination": "lightning_field"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "approach_the_nexus",
+            "action": "initiate_combat",
+            "combatants": [
+              "Storm Elemental"
+            ],
+            "details": "To attune to the Storm lineage, Rya must prove her worth by facing the nexus's guardian. This is the 'Trial of the Tempest'."
+          }
+        ]
+      }
+    }
+  }
+}
