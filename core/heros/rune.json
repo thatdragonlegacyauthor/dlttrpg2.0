@@ -8,17 +8,8 @@
     "background": "Rune is a powerful golem that lay inert for centuries. When he awoke, it was with the fragmented memories of his creator, a master artificer. Hunted by lore-keepers who view a souled construct as an abomination, his journey is one of self-discovery, piecing together the memories of his creator to find his own true purpose.",
     "narrative_hook": "Rune's fragmented memories contain key information about the Shattering and the locations of other ancient technologies. He is hunted by a faction of lore-keepers who believe a souled construct is an abomination and wish to see him decommissioned."
   },
-  "attributes": {
-    "Force": "+2",
-    "Finesse": -1,
-    "Wits": "+1",
-    "Heart": 0
-  },
-  "trained_skills": [
-    "Wreck",
-    "Know",
-    "Tinker"
-  ],
+  "attributes": { "Force": "+2", "Finesse": -1, "Wits": "+1", "Heart": 0 },
+  "trained_skills": [ "Wreck", "Know", "Tinker" ],
   "harm_capacity": 8,
   "starting_moves": [
     {
@@ -40,34 +31,55 @@
       }
     }
   ],
-  "example_schematics": [
+  "unlockable_configurations": [
     {
-      "schematic_name": "Schematic: Aegis Armature",
-      "configuration_name": "Aegis Armature",
-      "description": "Your arm reconfigures into a massive, interlocking shield.",
+      "name": "Aegis Armature",
+      "description": "Your arm reconfigures into a massive, interlocking shield, perfect for defending your allies.",
       "move": {
         "name": "Form the Aegis",
-        "description": "When you raise your shield to protect an ally, roll `2d6 + Force`. On a **10+**, you intercept the attack flawlessly; your ally takes no harm. On a **7-9**, you block the attack, but your shield arm is knocked out of commission until you can take a moment to reset it."
+        "description": "When you raise your shield to protect an ally from harm, roll `2d6 + Force`. On a 10+, you intercept the attack flawlessly; your ally takes no harm. On a 7-9, you block the attack, but your shield arm is knocked out of commission until you can take a moment to reset it."
       }
     },
     {
-      "schematic_name": "Schematic: Arc-Cannon",
-      "configuration_name": "Arc-Cannon",
+      "name": "Arc-Cannon",
       "description": "Your arm transforms into a cannon that launches bolts of raw arcane lightning.",
       "move": {
         "name": "Unleash the Arc-Cannon",
-        "description": "When you fire a blast of energy at a distant foe, roll `2d6 + Wits`. On a **10+**, you deal your harm as lightning. On a **7-9**, you deal your harm, but the cannon overheats and is unusable until you can perform a quick repair."
+        "description": "When you fire a blast of energy at a distant foe, roll `2d6 + Wits`. On a 10+, you deal 2-harm (ap, magical). On a 7-9, you deal your harm, but the cannon overheats and is unusable until you can perform a quick repair."
+      }
+    },
+    {
+      "name": "Harpoon Launcher",
+      "description": "A pneumatic launcher fires a tethered harpoon from your arm, meant for immobilizing large targets.",
+      "move": {
+        "name": "Fire the Harpoon",
+        "description": "When you fire your harpoon to restrain a foe, roll `2d6 + Finesse`. On a 10+, you hit and restrain them; they are stuck until they can break free. On a 7-9, you hit, but the force of the impact either pulls you into a bad spot or the cable snaps after a moment."
+      }
+    },
+    {
+      "name": "Seismic Gauntlet",
+      "description": "Your fist becomes encased in a massive, piston-driven gauntlet that can generate a localized shockwave.",
+      "move": {
+        "name": "Create Shockwave",
+        "description": "When you slam your gauntlet into the ground, roll `2d6 + Force`. On a 10+, you deal your harm to all enemies in a wide area and they are sent stumbling. On a 7-9, you still deal your harm to the group, but the uncontrolled shockwave puts an ally in a bad spot."
       }
     }
   ],
   "advanced_moves": [
     {
-      "name": "Combat Reconfiguration",
-      "description": "You can spend a Legacy Point to switch your Armament Configuration in the middle of a scene."
+      "name": "Pulverizing Pistons",
+      "requirement": "Have the 'Stone Fists' configuration.",
+      "description": "You upgrade the kinetic drivers in your arms. When you Pulverize a foe, you can now choose an additional option from the list: send them flying back across the room, OR their armor is shattered and useless for a short time."
     },
     {
-      "name": "Overcharge",
-      "description": "When you use an offensive configuration move (like Pulverize or Unleash the Arc-Cannon), you can choose to overcharge it before rolling. The move deals +1d6 harm, but the configuration is automatically disabled after the move resolves."
+      "name": "Retributive Guard",
+      "requirement": "Have the 'Aegis Armature' configuration.",
+      "description": "You reinforce your shield plating with kinetic resonators. When you Form the Aegis to protect an ally and successfully block the harm, the attacker takes 1-harm (ap) from the violent feedback."
+    },
+    {
+      "name": "Chain Reaction",
+      "requirement": "Have the 'Arc-Cannon' configuration.",
+      "description": "You install an experimental arcing capacitor. When you Unleash the Arc-Cannon and roll a 10+, you can choose to have the lightning leap from your initial target to a second nearby enemy for 1-harm."
     },
     {
       "name": "Memory Fragment",
@@ -76,6 +88,6 @@
   ],
   "bond_synergy": {
     "name": "Resonant Frequencies",
-    "description": "Rya's draconic energy resonates with the ancient runes on Rune's chassis. Once per session, Rya can touch Rune, instantly resetting one of his disabled or overheated configurations."
+    "description": "Rya's draconic energy resonates with the ancient runes on Rune's chassis. Once per session, Rya can touch Rune, instantly resetting one of his disabled or overheated configurations. The feedback from the ancient runes supercharges her own draconic core; Rya clears 1 Harm."
   }
 }
