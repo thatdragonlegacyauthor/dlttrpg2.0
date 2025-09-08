@@ -8,17 +8,8 @@
     "background": "Zykar was a prototype construct designed by the Arcane Dominion. During a containment breach, a human soul was accidentally transferred into his chassis, awakening him with sentience. He escaped, relentlessly hunted by his former masters. He roams the land, searching for clues to his past life and a fierce, unspoken need to protect something he can’t quite remember.",
     "narrative_hook": "Dominion hunters pursue Zykar relentlessly. The fragmented memories of the soul within him contain clues about the Shattering."
   },
-  "attributes": {
-    "Force": "+2",
-    "Finesse": "-1",
-    "Wits": "+1",
-    "Heart": 0
-  },
-  "trained_skills": [
-    "Wreck",
-    "Know",
-    "Intimidate"
-  ],
+  "attributes": { "Force": "+2", "Finesse": -1, "Wits": "+1", "Heart": 0 },
+  "trained_skills": [ "Wreck", "Know", "Intimidate" ],
   "harm_capacity": 8,
   "starting_moves": [
     {
@@ -36,24 +27,26 @@
   ],
   "advanced_moves": [
     {
+      "name": "Soul-Core Overcharge",
+      "description": "You can push the soul within you past its limits to empower your machine body. When you activate Aegis Protocol, you can choose to mark 1 Harm to supercharge your systems. If you do, the Armor bonus increases to +2 for the scene, but the GM will introduce a narrative complication from the soul's anguish (e.g., a painful memory flashback, a psychic scream that alerts others)."
+    },
+    {
+      "name": "Memory Bleed",
+      "requirement": "Be in Soul Engine mode.",
+      "description": "The memories of the soul within you are a weapon and a curse. When you try to Know things about the pre-Shattering world or the Arcane Dominion, on a 10+, you have a perfect, unbidden flashback; you get the information you need and can ask a follow-up question. On a 7-9, the memory is fragmented and painful; you get a cryptic clue, but the psychic backlash is intense, and you must mark 1 Harm."
+    },
+    {
+      "name": "Psychic Static",
+      "requirement": "Be in Soul Engine mode.",
+      "description": "Your tormented soul leaks a constant stream of psychic noise. Enemies close to you are unnerved and distracted, taking a -1 penalty on all their rolls while in your presence."
+    },
+    {
       "name": "Kinetic Redirection (Aegis)",
       "description": "When you use **Intercession Protocol**, you absorb the kinetic energy. Your next **Engage in Battle** move deals +1 harm."
-    },
-    {
-      "name": "Containment Field (Aegis)",
-      "description": "When you focus your power to create a defensive field, roll `2d6 + Force`. On a **10+**, choose one: an ally gains +2 Armor for a scene, or an enemy is trapped and cannot move. On a **7-9**, the field holds, but the power drain is immense; you mark 1 Harm."
-    },
-    {
-      "name": "Phantom Pain (Soul Engine)",
-      "description": "When you project your suffering into the mind of a foe, roll `2d6 + Heart`. On a **10+**, they take your harm and are terrified, hesitating or fleeing. On a **7-9**, they take your harm, but you are briefly lost in the memory of your own pain and cannot act."
-    },
-    {
-      "name": "Aura of Dread (Soul Engine)",
-      "description": "You can mark 1 Harm to radiate an aura of psychic static. For the rest of the scene, all enemies near you suffer a -1 penalty to their rolls."
     }
   ],
   "bond_synergy": {
     "name": "A Soul's Purpose",
-    "description": "Rya's draconic life force has a calming effect on the fragmented soul within Zykar. When he fights to protect her, he finds clarity. Once per session, he can use a **Soul Engine** move as if he had rolled a 10+, without marking Harm."
+    "description": "Rya's draconic life force has a calming effect on the fragmented soul within Zykar. When he fights to protect her, he finds clarity. Once per session, he can use a **Soul Engine** move as if he had rolled a 10+, without marking Harm. This moment of psychic harmony also grants Rya focus; she may ask the GM one question from the Investigate or Survey list as a free action."
   }
 }
