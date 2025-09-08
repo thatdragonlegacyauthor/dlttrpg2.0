@@ -1,0 +1,399 @@
+{
+  "bestiary": {
+    "tier_1_5": [
+      {
+        "name": "Goo Ball",
+        "description": "A small, gelatinous blob of pure mana. They are the simplest of magical life forms, often found near mana-rich Ley Lines. They are naturally docile and only attack when threatened.",
+        "impulse": "To absorb ambient magic.",
+        "harm_capacity": 2,
+        "tags": [
+          "Ooze",
+          "Magical",
+          "Amorphous"
+        ],
+        "gm_moves": [
+          "Engulf a limb or piece of gear, making it difficult to use.",
+          "Absorb a minor, undirected magical effect.",
+          "When it takes harm for the first time: Split into two smaller, 1-Harm Goo Balls."
+        ]
+      },
+      {
+        "name": "Eyepicker",
+        "description": "A scavenger bird with a razor-sharp beak and a piercing caw. They often nest in rocky outcroppings and are known for their unnerving ability to pick out the eyes of their fallen prey.",
+        "impulse": "To overwhelm and harry a single target.",
+        "harm_capacity": 1,
+        "tags": [
+          "Beast",
+          "Flying",
+          "Pack Hunter"
+        ],
+        "gm_moves": [
+          "Swoop in for a distracting peck, imposing a penalty on the target's next action.",
+          "Let out a piercing caw, giving an ally an opening.",
+          "Swarm a target with the rest of the flock."
+        ]
+      },
+      {
+        "name": "Nut Trooper",
+        "description": "A sentient plant that resembles a humanoid with a large, armored seed for a head. They are often found in forests, defending their territory with crude spears and hardened shells.",
+        "impulse": "To defend its territory.",
+        "harm_capacity": 4,
+        "tags": [
+          "Plant",
+          "Armored",
+          "Vulnerable (Fire)"
+        ],
+        "gm_moves": [
+          "Jab with a crude spear.",
+          "Withdraw into its shell, becoming temporarily immune to harm.",
+          "Stand its ground, forming a defensive line with its allies."
+        ]
+      },
+      {
+        "name": "Bandit",
+        "description": "A common thug or cutthroat, often found in the wilds or the back alleys of major cities. They rely on numbers and dirty tricks to get what they want.",
+        "impulse": "To rob and intimidate.",
+        "harm_capacity": 3,
+        "tags": [
+          "Humanoid",
+          "Skirmisher"
+        ],
+        "gm_moves": [
+          "Attack with a crude sword.",
+          "Throw sand in someone's eyes, disorienting them.",
+          "Attempt to flee when the fight turns against them."
+        ]
+      },
+      {
+        "name": "Sporeling",
+        "description": "A walking fungus that releases clouds of spores to disorient its enemies. They are a passive creature that only attacks in self-defense.",
+        "impulse": "To be left alone.",
+        "harm_capacity": 3,
+        "tags": [
+          "Plant",
+          "Magical"
+        ],
+        "gm_moves": [
+          "Release a cloud of confusing spores when struck.",
+          "Root itself to the ground, becoming immovable.",
+          "Deliver a surprisingly forceful headbutt."
+        ]
+      },
+      {
+        "name": "Cinder Pup",
+        "description": "A small, fire-infused canine from the slopes of Mount Dragnor. They are playful, but their touch is hot enough to burn flesh.",
+        "impulse": "To playfully spread fire.",
+        "harm_capacity": 3,
+        "tags": [
+          "Elemental",
+          "Fire",
+          "Pack Hunter"
+        ],
+        "gm_moves": [
+          "Deliver a searing bite that sets things aflame.",
+          "Release a puff of smoke to obscure vision.",
+          "Burn those who strike it in melee."
+        ]
+      },
+      {
+        "name": "Hobgoblin",
+        "description": "A highly organized and disciplined soldier of the goblinoid races. Hobgoblins are fiercely loyal to their commanders and fight with military precision.",
+        "impulse": "To execute tactical commands.",
+        "harm_capacity": 5,
+        "tags": [
+          "Humanoid",
+          "Armored",
+          "Soldier"
+        ],
+        "gm_moves": [
+          "Attack with a longsword.",
+          "Use a shield to bash an opponent off-balance.",
+          "Issue a command, allowing another goblinoid to reposition."
+        ]
+      },
+      {
+        "name": "Thorn Creeper",
+        "description": "An aggressive, carnivorous plant that uses thorny vines to ensnare its prey. They lie in wait, camouflaging themselves in dense foliage before attacking.",
+        "impulse": "To ambush and ensnare prey.",
+        "harm_capacity": 5,
+        "tags": [
+          "Plant",
+          "Ambusher",
+          "Vulnerable (Fire)"
+        ],
+        "gm_moves": [
+          "Lash out from hiding with thorny vines.",
+          "Ensnare a target, restraining them.",
+          "Meld back into the foliage, becoming hidden."
+        ]
+      },
+      {
+        "name": "Gloomfang Wolf",
+        "description": "A vicious, pack-hunting wolf from the shadowed forests. They are known for their venomous fangs and their mournful howls that can chill a hero to the bone.",
+        "impulse": "To hunt as a pack and wear down its prey.",
+        "harm_capacity": 4,
+        "tags": [
+          "Beast",
+          "Pack Hunter",
+          "Venomous"
+        ],
+        "gm_moves": [
+          "Deliver a venomous bite, inflicting poison.",
+          "Let out a howl that rallies other wolves to the fight.",
+          "Circle and harry a target, creating an opening for an ally."
+        ]
+      },
+      {
+        "name": "Scalebound Skirmisher",
+        "description": "A lizard-like warrior from the Scalebound Clans. They are master hunters and skirmishers, using their speed and agility to get the drop on their enemies.",
+        "impulse": "To maintain distance and pepper foes with arrows.",
+        "harm_capacity": 4,
+        "tags": [
+          "Humanoid",
+          "Ranged",
+          "Agile"
+        ],
+        "gm_moves": [
+          "Fire a shortbow from a distance.",
+          "Fade back after firing, repositioning to a safer spot.",
+          "Make a quick dagger strike against a foe that gets too close."
+        ]
+      },
+      {
+        "name": "Red Goo",
+        "description": "A volatile ooze that radiates a faint heat. It's surprisingly aggressive.",
+        "impulse": "To burn and melt.",
+        "harm_capacity": 3,
+        "tags": [
+          "Ooze",
+          "Elemental",
+          "Fire"
+        ],
+        "gm_moves": [
+          "Singe a target, causing them to burn.",
+          "Leave a trail of fire on the ground."
+        ]
+      },
+      {
+        "name": "Mage Goo",
+        "description": "A rare ooze shimmering with arcane energy. It has rudimentary magical abilities.",
+        "impulse": "To experiment with its newfound power.",
+        "harm_capacity": 3,
+        "tags": [
+          "Ooze",
+          "Magical",
+          "Elemental"
+        ],
+        "gm_moves": [
+          "Fire a spark of lightning.",
+          "Create a minor, harmless illusion to confuse someone."
+        ]
+      },
+      {
+        "name": "Poison Goo",
+        "description": "A sickly green ooze that leaks a foul-smelling toxin.",
+        "impulse": "To poison and debilitate.",
+        "harm_capacity": 3,
+        "tags": [
+          "Ooze",
+          "Venomous"
+        ],
+        "gm_moves": [
+          "Spit venom, inflicting poison.",
+          "Leave a puddle of toxic sludge on the ground."
+        ]
+      },
+      {
+        "name": "Bandit Thug",
+        "description": "A common highway robber looking for an easy score.",
+        "impulse": "To take what isn't theirs.",
+        "harm_capacity": 3,
+        "tags": [
+          "Humanoid"
+        ],
+        "gm_moves": [
+          "Attack with a crude sword.",
+          "Demand valuables with a clumsy threat.",
+          "Flee when the fight looks lost."
+        ]
+      }
+    ],
+    "tier_6_10": [
+      {
+        "name": "Banshee",
+        "description": "The sorrowful spirit of a woman whose shriek can drain the will to live.",
+        "impulse": "To share her unending sorrow.",
+        "harm_capacity": 8,
+        "tags": [
+          "Undead",
+          "Incorporeal",
+          "Terrifying"
+        ],
+        "gm_moves": [
+          "Unleash a wail of despair, overwhelming the senses and hearts of all who hear it.",
+          "Pass through a wall or character.",
+          "Touch a character with chilling sorrow, draining their will."
+        ]
+      },
+      {
+        "name": "Basilisk",
+        "description": "A reptilian beast whose gaze can turn living flesh to stone.",
+        "impulse": "To hunt and add to its stone garden.",
+        "harm_capacity": 7,
+        "tags": [
+          "Monstrosity",
+          "Petrifying"
+        ],
+        "gm_moves": [
+          "Lock its gaze on a target, beginning the petrification process.",
+          "Deliver a powerful, crushing bite."
+        ]
+      },
+      {
+        "name": "Crystal Entity",
+        "description": "A being of living crystal animated by the power of the Crystal Spire. It reflects magical energy.",
+        "impulse": "To absorb and refract arcane energy.",
+        "harm_capacity": 7,
+        "tags": [
+          "Elemental",
+          "Magical",
+          "Armored"
+        ],
+        "gm_moves": [
+          "Reflect a spell back at its caster.",
+          "Unleash a focused beam of stored energy.",
+          "Shatter a crystalline limb, creating a field of sharp hazards."
+        ]
+      },
+      {
+        "name": "Dominion Sorcerer",
+        "description": "An accomplished mage of the Arcane Dominion, wielding powerful and destructive elemental spells.",
+        "impulse": "To demonstrate arcane superiority.",
+        "harm_capacity": 6,
+        "tags": [
+          "Humanoid",
+          "Magical",
+          "Ranged"
+        ],
+        "gm_moves": [
+          "Unleash a bolt of chain lightning that arcs between targets.",
+          "Create a barrier of magical force.",
+          "Teleport to a more advantageous position."
+        ]
+      },
+      {
+        "name": "Iron Golem",
+        "description": "An upgraded golem forged from iron, nearly impervious to conventional weapons.",
+        "impulse": "To obey its master's commands without question.",
+        "harm_capacity": 10,
+        "tags": [
+          "Construct",
+          "Armored",
+          "Large",
+          "Magic-Resistant"
+        ],
+        "gm_moves": [
+          "Deliver a crushing iron fist blow.",
+          "Ignore a magical effect through sheer force of will.",
+          "Create a deafening, metallic roar."
+        ]
+      },
+      {
+        "name": "Mimic",
+        "description": "A cunning predator that disguises itself as a treasure chest, lashing out at greedy adventurers.",
+        "impulse": "To lure and consume the unwary.",
+        "harm_capacity": 6,
+        "tags": [
+          "Aberration",
+          "Ambusher",
+          "Amorphous"
+        ],
+        "gm_moves": [
+          "Reveal its true form in a surprise attack.",
+          "Adhere to a character's weapon or body.",
+          "Change its shape to escape or block a path."
+        ]
+      },
+      {
+        "name": "Minotaur",
+        "description": "A bull-headed humanoid of immense strength, often found in labyrinths.",
+        "impulse": "To stalk and overpower its prey.",
+        "harm_capacity": 8,
+        "tags": [
+          "Monstrosity",
+          "Brute",
+          "Large"
+        ],
+        "gm_moves": [
+          "Gore a target with its horns after a powerful charge.",
+          "Swing a massive greataxe.",
+          "Let out a bestial roar of frustration."
+        ]
+      },
+      {
+        "name": "Nightmare",
+        "description": "A terrifying horse-like creature with a mane of shadow and hooves of burning embers.",
+        "impulse": "To spread fear and fire.",
+        "harm_capacity": 7,
+        "tags": [
+          "Fiend",
+          "Fire",
+          "Fast"
+        ],
+        "gm_moves": [
+          "Charge forward, leaving a trail of fire in its wake.",
+          "Exhale a cloud of choking smoke.",
+          "Disappear into the shadows, only to reappear elsewhere."
+        ]
+      },
+      {
+        "name": "Ogre",
+        "description": "A large, brutish giant that is dim-witted but incredibly strong.",
+        "impulse": "To smash things.",
+        "harm_capacity": 8,
+        "tags": [
+          "Giant",
+          "Brute",
+          "Large"
+        ],
+        "gm_moves": [
+          "Swing a greatclub with devastating force.",
+          "Throw a rock or another smaller creature.",
+          "Fly into a rage when wounded."
+        ]
+      },
+      {
+        "name": "Order Knight",
+        "description": "A disciplined warrior of the Champions of Order, clad in steel plate armor.",
+        "impulse": "To enforce Elysia's will.",
+        "harm_capacity": 6,
+        "tags": [
+          "Humanoid",
+          "Armored",
+          "Soldier"
+        ],
+        "gm_moves": [
+          "Attack with a greatsword.",
+          "Use a shield to daze a target.",
+          "Form a defensive shield wall with other knights."
+        ]
+      },
+      {
+        "name": "Saberclaw Tiger",
+        "description": "A prehistoric tiger with immense fangs, a patient and deadly predator.",
+        "impulse": "To stalk and ambush its prey.",
+        "harm_capacity": 6,
+        "tags": [
+          "Beast",
+          "Ambusher",
+          "Fast"
+        ],
+        "gm_moves": [
+          "Pounce from hiding with advantage.",
+          "Deliver a deep, bleeding bite with its fangs.",
+          "Drag a smaller target away."
+        ]
+      }
+    ]
+  }
+}
