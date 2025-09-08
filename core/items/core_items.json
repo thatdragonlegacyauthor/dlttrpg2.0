@@ -1,216 +1,85 @@
 {
-  "core_items": {
+  "armory": {
     "weapons": [
-      {
-        "name": "Dagger",
-        "tags": "Melee, 1-harm, Finesse, Light, Thrown",
-        "description": "A simple, easily concealed blade. Can be thrown in a pinch."
-      },
-      {
-        "name": "Sword",
-        "tags": "Melee, 2-harm, Versatile",
-        "description": "A balanced and reliable blade. Can be wielded with one or two hands."
-      },
-      {
-        "name": "Greatsword",
-        "tags": "Melee, 3-harm (ap), Two-Handed, Forceful",
-        "description": "A massive, heavy blade that requires two hands and significant strength to wield effectively. It can cleave through armor."
-      },
-      {
-        "name": "Spear",
-        "tags": "Melee, 2-harm, Versatile, Reach",
-        "description": "A long polearm that can keep enemies at a distance."
-      },
-      {
-        "name": "Warhammer",
-        "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Siege",
-        "description": "A massive, two-handed hammer designed to shatter armor and fortifications."
-      },
-      {
-        "name": "Gauntlets",
-        "tags": "Melee, 1-harm, Brawling",
-        "description": "Armored gloves for brutal, close-quarters fighting."
-      },
-      {
-        "name": "Whip",
-        "tags": "Melee, 1-harm, Finesse, Reach, Grapple",
-        "description": "A flexible weapon that can be used to trip and entangle foes from a distance."
-      },
-      {
-        "name": "Shortbow",
-        "tags": "Ranged, 2-harm, Two-Handed",
-        "description": "A light, versatile bow, suitable for skirmishing."
-      },
-      {
-        "name": "Longbow",
-        "tags": "Ranged, 2-harm, Two-Handed, Far",
-        "description": "A powerful bow for a dedicated archer, capable of hitting targets at a great distance."
-      },
-      {
-        "name": "Crossbow",
-        "tags": "Ranged, 3-harm (ap), Two-Handed, Reload",
-        "description": "A powerful, armor-piercing ranged weapon that requires time to reload."
-      },
-      {
-        "name": "Sling",
-        "tags": "Ranged, 1-harm, Light",
-        "description": "A simple leather sling for hurling stones."
-      },
-      {
-        "name": "Heavy Club",
-        "tags": "Melee, 2-harm, Forceful, Crude",
-        "description": "A heavy, simple weapon for bludgeoning foes."
-      }
+      { "name": "Dagger", "tags": "Melee, 1-harm, Finesse, Light, Thrown", "description": "A simple, easily concealed blade. Can be thrown in a pinch." },
+      { "name": "Sword", "tags": "Melee, 2-harm, Versatile", "description": "A balanced and reliable blade. Can be wielded with one or two hands." },
+      { "name": "Runeblade", "tags": "Melee, 2-harm, Magical, Wits", "description": "A light blade etched with runes that channel the wielder's mental energy, guided by intellect and arcane will." },
+      { "name": "Greatsword", "tags": "Melee, 3-harm (ap), Two-Handed, Forceful", "description": "A massive, heavy blade that requires two hands and significant strength to wield effectively." },
+      { "name": "Spear", "tags": "Melee, 2-harm, Versatile, Reach", "description": "A long polearm that can keep enemies at a distance." },
+      { "name": "Heavy Club", "tags": "Melee, 2-harm, Forceful, Crude", "description": "A heavy, simple weapon for bludgeoning foes." },
+      { "name": "Warhammer", "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Siege", "description": "A massive, two-handed hammer designed to shatter armor and fortifications." },
+      { "name": "Gauntlets", "tags": "Melee, 1-harm, Brawling", "description": "Armored gloves for brutal, close-quarters fighting." },
+      { "name": "Whip", "tags": "Melee, 1-harm, Finesse, Reach, Grapple", "description": "A flexible weapon that can be used to trip and entangle foes from a distance." },
+      { "name": "Battle Rings", "tags": "Melee, 1-harm, Finesse, Light, Paired, Rally", "description": "Light, bladed rings used for swift, elegant, and inspiring combat." },
+      { "name": "Shortbow", "tags": "Ranged, 2-harm, Two-Handed", "description": "A light, versatile bow, suitable for skirmishing." },
+      { "name": "Longbow", "tags": "Ranged, 2-harm, Two-Handed, Far", "description": "A powerful bow for a dedicated archer, capable of hitting targets at a great distance." },
+      { "name": "Composite Bow", "tags": "Ranged, 3-harm, Two-Handed, Forceful", "description": "A reinforced bow that requires significant strength to draw, but offers incredible power." },
+      { "name": "Crossbow", "tags": "Ranged, 3-harm (ap), Two-Handed, Reload", "description": "A powerful, armor-piercing ranged weapon that requires time to reload." },
+      { "name": "Sling", "tags": "Ranged, 1-harm, Light", "description": "A simple leather sling for hurling stones." },
+      { "name": "Boomerang", "tags": "Ranged, 1-harm, Returning, Concussive", "description": "A curved throwing weapon that returns to the wielder's hand." },
+      { "name": "Crystal Shard Blade", "tags": "Melee, 1-harm, Finesse, Magical, Volatile", "description": "A dagger made from a shard of the pulsating Crystal Spire. Once per day, its wielder can cause it to flare with power, dealing extra harm." },
+      { "name": "Void-Kissed Blade", "tags": "Melee, 1-harm, Finesse, Magical, Wits, Void-touched", "description": "A dark, obsidian dagger imbued with Void energy. On a critical hit, the target is afflicted with a debilitating, supernatural chill." },
+      { "name": "Whisperfang Daggers", "tags": "Melee, 1-harm, Finesse, Paired, Magical, Silencing", "description": "A pair of daggers forged with void-touched metal. When they strike true, they seem to steal the sound from their victim's throat." },
+      { "name": "Blade of the Zephyr", "tags": "Melee, 2-harm, Versatile, Magical, Finesse", "description": "A lightweight sword crafted in Wyndia that feels almost weightless. It allows the wielder to strike with impossible speed." },
+      { "name": "Sunstone Blade", "tags": "Melee, 2-harm, Versatile, Magical, Holy, Blinding", "description": "A blade forged with a sunstone core. Once per scene, its wielder can command it to unleash a blinding flash of light, disorienting a foe." },
+      { "name": "Earth-Wrought Blade", "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Magical, Earth", "description": "A greatsword of blackened steel with swirling crystalline veins. It grants the wearer a +1 bonus to all Force checks." },
+      { "name": "Dragon's Tooth", "tags": "Melee, 3-harm (ap), Two-Handed, Magical, Draconic", "description": "A colossal blade carved from the tooth of an ancient dragon. It resonates with Rya's power, dealing extra harm of her currently attuned element." },
+      { "name": "Blade of the Unending Storm", "tags": "Melee, 3-harm (ap), Two-Handed, Magical, Storm", "description": "A colossal blade that crackles with contained lightning. On a successful hit, you can choose to deal 1 less harm to unleash a peal of thunder, disorienting all nearby enemies." },
+      { "name": "Sunforged Spear", "tags": "Melee, 2-harm, Versatile, Reach, Magical, Holy", "description": "The tip of this spear glows with a faint, warm light. It deals holy damage, which is anathema to the undead and creatures of the void." },
+      { "name": "Harvester's Pike", "tags": "Melee, 2-harm, Reach, Magical, Bleeding", "description": "A grim-looking spear with a wicked, barbed tip. When you deal harm with it, the wound bleeds profusely, causing the target to take additional harm on their next turn." },
+      { "name": "Piercing Gale", "tags": "Melee, 2-harm, Reach, Magical, Finesse, Armor-Piercing", "description": "A lightweight spear with a tip of enchanted, hardened air. It ignores 1 point of the target's armor." },
+      { "name": "Stonemason's Maul", "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Siege, Magical", "description": "A warhammer used in the construction of Stonegard. Once per day, it can be used to cast a move as if you were Rya with the Earth lineage attuned." },
+      { "name": "The Tyrant's Gavel", "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Magical, Intimidating", "description": "A fearsome warhammer that emits an aura of dread. When you Intimidate someone while holding it, you can use Force instead of Heart." },
+      { "name": "Golem-Wrecker", "tags": "Melee, 3-harm (ap), Two-Handed, Siege, Magical", "description": "A hammer inscribed with runes of unmaking. It is brutally effective against constructs, dealing +2 harm to them." },
+      { "name": "Grasping Gauntlets", "tags": "Melee, 1-harm, Brawling, Magical, Grappling", "description": "These iron gauntlets are etched with runes of binding. When you strike a foe, you may immediately attempt to grapple them as a free action." },
+      { "name": "Gauntlets of the Stone Titan", "tags": "Melee, 1-harm, Brawling, Magical, Forceful", "description": "Massive stone gauntlets. When you Wreck something while wearing them, treat your roll as one category higher." },
+      { "name": "Stormvine Whip", "tags": "Melee, 1-harm, Finesse, Reach, Magical, Lightning", "description": "A living whip braided from storm-infused vines. On a critical hit, the vines instinctively lash out, attempting to grapple the target." },
+      { "name": "Grasping Ivy", "tags": "Melee, 2-harm, Reach, Magical, Ensnaring", "description": "A legendary whip grown from a cutting of the purified Gloomwood Heart. It can be used to command nearby plants to ensnare a foe." },
+      { "name": "Wyndian Quill Bow", "tags": "Ranged, 2-harm, Magical, Lightning", "description": "A finely crafted shortbow that hums with wind magic. Arrows fired from it crackle with lightning." },
+      { "name": "Bow of the Silent Watcher", "tags": "Ranged, 2-harm, Magical, Stealthy", "description": "A darkwood bow that makes no sound when fired. When you attack from hiding with this bow, you do not reveal your position on a miss." },
+      { "name": "Heartwood Longbow", "tags": "Ranged, 2-harm, Two-Handed, Far, Magical, Living", "description": "A longbow carved from the heartwood of an ancient tree. It guides the archer's hand, granting a +1 bonus to Finesse when making a Called Shot." },
+      { "name": "The Sky-Piercer", "tags": "Ranged, 2-harm, Two-Handed, Far, Magical, Armor-Piercing", "description": "A bow crafted by the Skyveil to hunt armored mountain beasts. Arrows fired from it ignore 1 point of armor." },
+      { "name": "Soulstring Bow", "tags": "Ranged, 2-harm, Far, Magical, Wits", "description": "A bow strung with a strand of a wraith's essence. Its arrows are guided by the wielder's intellect to seek their target's life force." },
+      { "name": "Inquisitor's Crossbow", "tags": "Ranged, 3-harm (ap), Two-Handed, Reload, Magical, Holy", "description": "A heavy crossbow used by the Champions of Order. Its bolts are imbued with holy energy." },
+      { "name": "The Viper's Kiss", "tags": "Ranged, 3-harm (ap), Two-Handed, Reload, Magical, Poisonous", "description": "A crossbow with a sickly green-black wood stock. Its bolts magically carry a debilitating poison." }
     ],
-    "armor": [
-      {
-        "name": "Gambeson",
-        "type": "Light Armor",
-        "armor": 1,
-        "tags": "Light",
-        "description": "Padded cloth armor that offers basic protection."
-      },
-      {
-        "name": "Leather Armor",
-        "type": "Light Armor",
-        "armor": 1,
-        "tags": "Light"
-      },
-      {
-        "name": "Studded Leather",
-        "type": "Medium Armor",
-        "armor": 2,
-        "tags": "Medium",
-        "description": "Leather armor reinforced with metal studs."
-      },
-      {
-        "name": "Chain Mail",
-        "type": "Heavy Armor",
-        "armor": 2,
-        "tags": "Heavy, Noisy"
-      },
-      {
-        "name": "Scale Mail",
-        "type": "Heavy Armor",
-        "armor": 3,
-        "tags": "Heavy, Noisy",
-        "description": "A suit of overlapping metal scales."
-      },
-      {
-        "name": "Full Plate Armor",
-        "type": "Heavy Armor",
-        "armor": 3,
-        "tags": "Heavy, Noisy, Clumsy"
-      }
+    "armor_and_shields": [
+      { "name": "Gambeson", "armor": 1, "tags": "Light", "description": "Padded cloth armor that offers basic protection." },
+      { "name": "Leather Armor", "armor": 1, "tags": "Light" },
+      { "name": "Studded Leather", "armor": 2, "tags": "Medium", "description": "Leather armor reinforced with metal studs." },
+      { "name": "Chain Mail", "armor": 2, "tags": "Heavy, Noisy" },
+      { "name": "Scale Mail", "armor": 3, "tags": "Heavy, Noisy", "description": "A suit of overlapping metal scales." },
+      { "name": "Full Plate Armor", "armor": 3, "tags": "Heavy, Noisy, Clumsy" },
+      { "name": "Shield", "armor": "+1 Armor", "tags": "Shield" },
+      { "name": "Heavy Shield", "armor": "+1 Armor", "tags": "Shield, Brace", "description": "A large, sturdy shield that grants a bonus when you Stand Guard." },
+      { "name": "Whisper-weave Tunic", "armor": 1, "tags": "Light, Stealthy", "description": "A tunic woven with the silk of a Gloomfang Spider, enchanted to muffle sound. It negates the 'Noisy' tag from other pieces of armor." },
+      { "name": "Stone-Skin Vest", "armor": 1, "tags": "Empowering", "description": "A leather tunic reinforced with plates of rock from Scalebound territory. It fills the wearer with the resilience of the mountain, making them feel stronger." },
+      { "name": "Shadowpelt Jerkin", "armor": 2, "tags": "Medium, Stealthy", "description": "Armor made from the cured hide of a Shadowpelt beast. It is enchanted to move silently, negating the usual penalties for wearing armor when being stealthy." },
+      { "name": "Wyvern Scale Vest", "armor": 2, "tags": "Medium, Poison-Resistant", "description": "A vest of tough, interlocking wyvern scales. It provides excellent protection and grants the wearer resistance to poisons." },
+      { "name": "Ember-Scale Armor", "armor": 3, "tags": "Heavy, Fire-Immunity", "description": "A powerful suit of armor forged from the scales of a Cinder-Scale Tyrant. The wearer is immune to fire damage." },
+      { "name": "Bulwark of the Old Guard", "armor": 3, "tags": "Heavy, Stalwart", "description": "Masterwork plate armor from a bygone era. It is so well-balanced that it does not have the 'Clumsy' tag." },
+      { "name": "Bulwark of the Gatewarden", "armor": "+1 Armor", "tags": "Shield, Brace, Stalwart", "description": "A massive shield in the style of the Stonekin Gatewardens. When you use it to Stand Guard, you are considered an immovable object and cannot be pushed back." },
+      { "name": "Stone-Forged Aegis", "armor": "+1 Armor", "tags": "Shield, Magic-Resistant", "description": "A shield of pure mountain stone, imbued with a ward of divine light. It provides exceptional protection against hostile magic." },
+      { "name": "Mirage Mail", "armor": 2, "tags": "Medium, Magical, Illusory", "description": "A suit of shimmering chainmail that bends the light around it. Once per scene, when you take harm, you can create a perfect illusory duplicate of yourself to confuse your enemies." },
+      { "name": "Aegis of the Stalwart", "armor": "+1 Armor", "tags": "Shield, Magical, Protective", "description": "A heavy shield that can absorb a single, devastating blow. Once per adventure, you can declare that an attack against you deals no harm." }
     ],
-    "shields": [
-      {
-        "name": "Shield",
-        "armor": "+1 Armor",
-        "tags": "Shield"
-      },
-      {
-        "name": "Heavy Shield",
-        "armor": "+1 Armor",
-        "tags": "Shield, Brace",
-        "description": "A large, sturdy shield that grants a bonus when you Stand Guard."
-      }
-    ],
-    "adventuring_gear": [
-        {
-            "name": "Adventurer's Kit",
-            "description": "A backpack containing a bedroll, a mess kit, tinderbox, 10 torches, 10 days of rations, and a waterskin."
-        },
-        {
-            "name": "Rope (50 ft.)",
-            "description": "A sturdy length of hemp rope."
-        }
-    ],
-    "consumables": [
-      {
-        "name": "Healing Salve",
-        "description": "A common herbal remedy.",
-        "move": "When you apply this salve to a wounded creature, they heal 2 Harm."
-      },
-      {
-        "name": "Smoke Bomb",
-        "description": "A clay sphere packed with alchemical reagents.",
-        "move": "When you throw this, it creates a thick cloud of smoke, providing cover and a chance to escape or reposition."
-      },
-      {
-        "name": "Bandages",
-        "description": "A roll of clean cloth for first aid.",
-        "move": "When you take a few moments to apply these, you can help an ally who has been taken out of a scene. They are no longer dying, but remain unconscious."
-      },
-      {
-          "name": "Herbal Poultice",
-          "description": "A small, quickly-applied herbal remedy.",
-          "move": "When you apply this, you or an ally can heal 1 Harm, but it takes your whole turn to prepare and use."
-      }
-    ],
-    "tag_glossary": {
-      "weapon_tags": [
-        { "tag": "1/2/3-harm", "description": "The base amount of harm this weapon deals on a successful hit." },
-        { "tag": "(ap)", "description": "Stands for Armor Piercing. The target cannot use their armor to reduce harm from this weapon." },
-        { "tag": "Brawling", "description": "Designed for unarmed fighting." },
-        { "tag": "Far", "description": "Can be used to attack targets at a very long distance." },
-        { "tag": "Finesse", "description": "You can use your Finesse attribute instead of Force when you Engage in Battle with this weapon." },
-        { "tag": "Forceful", "description": "This weapon hits with incredible impact. On a 10+, you can also send your target flying, knock them down, or put them in a bad spot through sheer force." },
-        { "tag": "Grapple", "description": "This weapon can be used to entangle and restrain foes." },
-        { "tag": "Heavy", "description": "This weapon is large and requires two hands to use effectively." },
-        { "tag": "Light", "description": "This weapon is small and easy to handle." },
-        { "tag": "Magical", "description": "This weapon's harm is magical and can affect creatures immune to normal weapons." },
-        { "tag": "Melee", "description": "This weapon is used in close-quarters combat." },
-        { "tag": "Paired", "description": "When you wield two weapons with this tag, you can attack with both in the same action." },
-        { "tag": "Ranged", "description": "This weapon is used to attack from a distance." },
-        { "tag": "Reach", "description": "This weapon is longer than normal, allowing you to attack foes from a safe distance." },
-        { "tag": "Reload", "description": "This weapon requires a moment to reload after being fired, leaving you open." },
-        { "tag": "Siege", "description": "This weapon is designed to destroy structures and deals extra harm to them." },
-        { "tag": "Thrown", "description": "This weapon can be thrown at a nearby target." },
-        { "tag": "Two-Handed", "description": "This weapon requires two hands to wield." },
-        { "tag": "Versatile", "description": "Can be used with one or two hands. Often deals more harm when used with two." }
-      ],
-      "armor_tags": [
-        { "tag": "Armor", "description": "The numerical value of the armor's protection." },
-        { "tag": "+1 Armor", "description": "The bonus this item provides to a character's total Armor value." },
-        { "tag": "Brace", "description": "This shield is exceptionally sturdy. When you Stand Guard, you gain an additional benefit." },
-        { "tag": "Clumsy", "description": "This armor is bulky and restrictive, giving you a penalty to Finesse rolls." },
-        { "tag": "Light/Medium/Heavy", "description": "A general classification for armor, indicating its weight and the type of character likely to use it." },
-        { "tag": "Noisy", "description": "This armor makes a lot of noise, giving you a penalty to Prowl rolls." },
-        { "tag": "Shield", "description": "This item is a shield and can be used to block attacks." }
-      ],
-      "general_and_magical_tags": [
-        { "tag": "Accessory", "description": "A piece of gear worn by a character that provides a passive benefit or a unique move." },
-        { "tag": "Artifact", "description": "An item of immense, world-shaping power." },
-        { "tag": "Buff", "description": "This item provides a temporary positive effect." },
-        { "tag": "Cantrip", "description": "This item grants the ability to use a minor, repeatable magical effect." },
-        { "tag": "Commanding", "description": "This item enhances your ability to lead or inspire others." },
-        { "tag": "Curative", "description": "This item is designed to cure negative effects." },
-        { "tag": "Debuff", "description": "This item is used to inflict a negative effect on a foe." },
-        { "tag": "Draconic", "description": "This item is tied to draconic power and may have special effects for Rya." },
-        { "tag": "Empowering", "description": "This item enhances one of the wearer's core attributes." },
-        { "tag": "Ethereal", "description": "This item is partially incorporeal and has ghostly properties." },
-        { "tag": "Evolving", "description": "This item grows in power as its wielder completes narrative milestones." },
-        { "tag": "Fire/Ice/Lightning/etc.", "description": "Indicates the item has a specific elemental property." },
-        { "tag": "Healing", "description": "This item restores Harm." },
-        { "tag": "Holy", "description": "This item is imbued with sacred power, often effective against undead or fiends." },
-        { "tag": "Illusory", "description": "This item is capable of creating illusions." },
-        { "tag": "Living", "description": "This item is partially or fully alive and may have a will of its own." },
-        { "tag": "Magical-Focus", "description": "This item is used by a spellcaster to channel their power." },
-        { "tag": "Mystic", "description": "This item has a powerful, non-elemental magical effect." },
-        { "tag": "Necrotic", "description": "This item is infused with the power of death and decay." },
-        { "tag": "Poisonous", "description": "This item can inflict the 'poisoned' status." },
-        { "tag": "Potion", "description": "A magical liquid that is consumed for an effect." },
-        { "tag": "Precise", "description": "This weapon is exceptionally accurate, granting a bonus to certain types of attacks." },
-        { "tag": "Primal", "description": "This item is connected to the raw, untamed forces of nature." },
-        { "tag": "Protective", "description": "This item's primary purpose is to defend its wielder." },
-        { "tag": "Silencing", "description": "This item can prevent a target from speaking or casting spells." },
-        { "tag": "Stalwart", "description": "This item makes the user more difficult to move or knock down." },
-        { "tag": "Stealthy", "description": "This item helps the user remain unseen or unheard." },
-        { "tag": "Void-touched", "description": "This item is connected to the mysterious power of the Void." },
-        { "tag": "Volatile", "description": "This item has a powerful but limited-use ability that can be activated." },
-        { "tag": "Warding", "description": "This item is designed to protect against a specific type of harm or effect." }
-      ]
-    }
+    "adventuring_gear_and_consumables": [
+      { "name": "Adventurer's Kit", "description": "A backpack containing a bedroll, a mess kit, tinderbox, 10 torches, 10 days of rations, and a waterskin." },
+      { "name": "Rope (50 ft.)", "description": "A sturdy length of hemp rope." },
+      { "name": "Healing Salve", "tags": "Magical, Potion, Curative", "description": "A common herbal remedy.", "move": "When you apply this salve to a wounded creature, they heal 2 Harm." },
+      { "name": "Herbal Poultice", "description": "A small, quickly-applied herbal remedy.", "move": "When you apply this, you or an ally can heal 1 Harm, but it takes your whole turn to prepare and use." },
+      { "name": "Smoke Bomb", "description": "A clay sphere packed with alchemical reagents.", "move": "When you throw this, it creates a thick cloud of smoke, providing cover and a chance to escape or reposition." },
+      { "name": "Bandages", "description": "A roll of clean cloth for first aid.", "move": "When you take a few moments to apply these, you can help an ally who has been taken out of a scene. They are no longer dying, but remain unconscious." },
+      { "name": "Elderwood Poultice", "tags": "Magical, Potion, Protective", "description": "A thick, earthy paste that grants a temporary +1 Armor for a scene." },
+      { "name": "Sun-Kissed Petal", "tags": "Magical, Divine", "description": "A rare flower from the Azure Steppes that glows with a soft light.", "move": "When you consume this petal, you may clear 1 Harm and ask the GM a single question about your immediate future, which will be answered with a cryptic but truthful omen." },
+      { "name": "Moon Drop", "tags": "Magical, Potion, Healing, Mental", "description": "A vial of liquid that shimmers like the night sky.", "move": "When you drink this, you heal 1 Harm and may remove one mental effect (like fear, confusion, or magical influence)." },
+      { "name": "Firecracker", "tags": "Magical, Bomb, Fire", "description": "A tightly wrapped paper tube with a runic fuse.", "move": "When you throw this, you deal 1-harm (ap, fire) to all nearby enemies and put them in a bad spot." },
+      { "name": "Dragon Scale", "tags": "Magical, Charm, Protective", "description": "A single, perfectly formed scale from an ancient dragon, humming with latent power.", "move": "When you crush this scale, its magic is released. You gain +1 Armor for the rest of the scene." },
+      { "name": "Panacea", "tags": "Magical, Potion, Curative", "description": "A sparkling, effervescent liquid that seems to cure any ailment.", "move": "When you drink this, you are immediately cleared of all negative physical and magical effects." },
+      { "name": "Elixir of Might", "tags": "Magical, Potion, Buff", "description": "A thick, crimson liquid that temporarily enhances physical power.", "move": "When you drink this, your muscles surge with power. For the rest of the scene, your attacks deal +1 harm." },
+      { "name": "Draught of Haste", "tags": "Magical, Potion, Buff", "description": "A shimmering, silver liquid that seems to vibrate with energy.", "move": "When you drink this, you are filled with impossible speed. You may immediately take an extra action." },
+      { "name": "Ghost Pepper", "tags": "Magical, Food, Fire", "description": "A small, pale white pepper that is shockingly spicy.", "move": "When you eat this, your mouth is filled with magical fire. For the next few moments, you can breathe a short cone of flame that deals 1-harm (fire)." },
+      { "name": "Stone-Skin Potion", "tags": "Magical, Potion, Protective", "description": "A gritty, gray liquid that hardens the skin.", "move": "When you drink this, your skin takes on a stone-like quality. You gain +1 Armor for the rest of the scene." }
+    ]
   }
 }
