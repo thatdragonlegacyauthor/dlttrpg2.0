@@ -1,0 +1,67 @@
+{
+  "core_moves": [
+    {
+      "name": "Engage an Enemy",
+      "trigger": "When you attack a foe in melee or at range",
+      "roll": "Roll 2d6 + Force for a powerful attack, or + Finesse for a precise one.",
+      "outcomes": {
+        "full_success": "On a 10+, you deal your harm and choose one from the list below.",
+        "success_with_cost": "On a 7-9, you deal your harm, but the enemy makes an attack against you in return. You must suffer their counter-attack.",
+        "miss": "On a 6-, your attack misses or is turned against you. The GM will make a move."
+      },
+      "choices_10+": [
+        "You deal +1 harm.",
+        "You create an opening for an ally, giving them +1 forward to act against your target.",
+        "You avoid or negate your enemy's counter-attack.",
+        "You force your enemy into a bad spot (e.g., knocked down, disarmed, pushed back)."
+      ]
+    },
+    {
+      "name": "Influence Someone",
+      "trigger": "When you try to persuade, threaten, or deceive an NPC",
+      "roll": "Roll 2d6 + Heart for an honest plea, + Force for a threat, or + Wits for a clever lie.",
+      "outcomes": {
+        "full_success": "On a 10+, they are convinced and do what you want, or reveal what you want to know.",
+        "success_with_cost": "On a 7-9, they'll do it, but they require something in return first (a promise, a payment, a favor), or the GM will introduce a complication.",
+        "miss": "On a 6-, you've made a bad impression. Expect them to retaliate, make a demand, or create a new problem for you."
+      }
+    },
+    {
+      "name": "Investigate a Scene",
+      "trigger": "When you search a scene for clues or survey a situation for details",
+      "roll": "Roll 2d6 + Wits.",
+      "outcomes": {
+        "full_success": "On a 10+, ask the GM 3 questions from the list below.",
+        "success_with_cost": "On a 7-9, ask 1 question from the list below.",
+        "miss": "On a 6-, you overlook something crucial, or your investigation attracts unwanted attention."
+      },
+      "choices_questions": [
+        "What is my best way in/out/through?",
+        "What here is not what it appears to be?",
+        "Who or what is in control here?",
+        "What happened here recently?",
+        "What here is valuable or useful to me?"
+      ]
+    },
+    {
+      "name": "Stand Guard",
+      "trigger": "When you defend a person, place, or object from an immediate threat",
+      "roll": "Roll 2d6 + Force to hold a position, or + Finesse to deflect an attack.",
+      "outcomes": {
+        "full_success": "On a 10+, you protect your charge perfectly. The threat is thwarted or you redirect it.",
+        "success_with_cost": "On a 7-9, you protect your charge, but you suffer the harm, a consequence, or are put in a bad spot.",
+        "miss": "On a 6-, your defense fails and the threat has its way. The GM will make a move, and it will likely be worse for you."
+      }
+    },
+    {
+      "name": "Aid or Interfere",
+      "trigger": "When you try to help or hinder another character (PC or NPC) who is making a move",
+      "roll": "Roll 2d6 + Heart.",
+      "outcomes": {
+        "full_success": "On a 10+, they take a +2 bonus (if helping) or a -2 penalty (if hindering) to their roll.",
+        "success_with_cost": "On a 7-9, they get a +1 bonus or -1 penalty, but your help/hindrance puts you in danger.",
+        "miss": "On a 6-, your attempt backfires, creating an unexpected complication for your ally or an advantage for your enemy."
+      }
+    }
+  ]
+}
