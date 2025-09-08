@@ -1,0 +1,76 @@
+{
+  "prologue_narrative": {
+    "title": "The Festival of First Flames",
+    "description": "The hero's journey begins in the tranquil village of Windmark, but is shattered by a sudden, violent attack that awakens Rya's latent draconic power and sets the party on a path of survival and self-discovery, guided by the new narrative-focused ruleset.",
+    "new_game_protocol": {
+      "title": "Protocol for initiating a new campaign.",
+      "instructions": [
+        "1. Reset all 'party_status' and 'campaign_state' data using the shell files.",
+        "2. Guide the player through creating Rya using the 'The Dragon Heir' playbook and the rules from 'core/core_rules.json'.",
+        "3. Initialize a new campaign by loading the empty save files.",
+        "4. Begin the game loop with the following prologue chapters."
+      ]
+    },
+    "chapters": [
+      {
+        "part": 1,
+        "name": "A Simple Errand",
+        "setting": "The Azure Steppes, near Windmark Village",
+        "objective": "Elder Elara has asked Rya and her childhood friend Zael to find a rare Sun-Kissed Petal from a secluded grotto for the upcoming Festival of First Flames.",
+        "key_event": "The grotto is protected by docile, but territorial, Goo Balls. This first challenge introduces the core mechanics without lethal threat.",
+        "narrative_move": {
+          "name": "Navigate the Grotto",
+          "description": "When you try to get past the Goo Balls to the Sun-Kissed Petal, describe how you approach the situation. Do you try to sneak past them, distract them, or simply push through them? Then, roll 2d6 + the most relevant Attribute (Finesse for stealth, Wits for a clever distraction, Force for a direct approach).",
+          "outcomes": {
+            "full_success": "On a 10+, you get the petal without any trouble, and you notice something extra—a small, hidden alcove with a pouch of forgotten currency (gain 15 currency).",
+            "success_with_cost": "On a 7-9, you get the petal, but the Goo Balls are agitated. One of them latches onto your gear, making a piece of it sticky and difficult to use until it's properly cleaned.",
+            "miss": "On a 6-, you stumble, angering the Goo Balls. They merge into a larger, more aggressive slime, blocking your path and creating a more serious obstacle."
+          }
+        }
+      },
+      {
+        "part": 2,
+        "name": "The Eve of the Festival",
+        "setting": "Windmark Village",
+        "objective": "With the petal delivered, spend the afternoon celebrating before the festival's main event.",
+        "key_event": "This is a chance for roleplaying and introducing a key character. Selra, a visiting healer from Havenwood, is tending to villagers. Rya and Zael can interact with her, learning about her faith in Elysia and the Champions of Order from a gentle, devout perspective. This interaction will establish a connection that makes her decision to join them later more meaningful."
+      },
+      {
+        "part": 3,
+        "name": "The Champion's Arrival",
+        "setting": "Windmark Village",
+        "objective": "The festival is violently interrupted, forcing Rya to confront a dangerous new power within herself.",
+        "key_event": "Grand Inquisitor Valerius and his Champions of Order arrive, denouncing the festival as heresy. Elder Elara is killed protecting the children. In a moment of grief and rage, Rya's draconic power awakens.",
+        "player_choice": "Your power lashes out. What form does it take? Describe the raw, primal energy that erupts from you. This choice determines your starting Draconic Lineage (Fire, Earth, Ice, Storm, etc.). You will gain the 'Unleash Draconic Power' move for that lineage from the 'draconic_moves.json' file."
+      },
+      {
+        "part": 4,
+        "name": "A Light in the Woods",
+        "setting": "The Whispering Woods",
+        "objective": "Flee the ruined village with Zael and the horrified Selra, and find a path to safety through the corrupted woods.",
+        "key_event": "The journey to Tanglewood Reach is a series of narrative challenges, not just combats. The awakening of Rya's power has agitated the forest's corruption.",
+        "narrative_moves": [
+          {
+            "name": "Cross the Thorn-Choked Path",
+            "description": "When you try to navigate a path blocked by aggressive, corrupted Thorn Creepers, roll 2d6 + Survey. On a 10+, you find a clear path. On a 7-9, you find a way through, but one of you is snagged by thorns and takes 1-harm. On a 6-, the vines ensnare one of the party, and you're ambushed."
+          },
+          {
+            "name": "Face the Blightoad",
+            "description": "The source of the immediate corruption, a monstrous Blightoad, blocks the path. When you confront the Blightoad, it's not just a fight; it's a dynamic problem. The first character to act describes their approach and makes a move. A 10+ will deal significant harm *and* create an advantage (e.g., 'I use my fire to dry out its slimy skin, making it sluggish'). A 7-9 deals harm, but comes with a consequence ('The bile it spits back corrodes your armor'). A miss means the Blightoad introduces a new, dangerous element to the scene."
+          }
+        ]
+      },
+      {
+        "part": 5,
+        "name": "The Tanglewood Truce",
+        "setting": "Tanglewood Reach",
+        "objective": "Arrive at the treetop sanctuary and secure a place for your fledgling party.",
+        "key_event": "The party is brought before the village elders. Elder Briar is suspicious of Rya's power. Selra, using her training as a healer and her innate compassion, must speak for the group.",
+        "narrative_move": {
+          "name": "Plea for Sanctuary",
+          "description": "When Selra tries to convince the elders of Tanglewood to grant the party refuge, she rolls 2d6 + Heart. On a 10+, her sincerity wins them over completely; the party is welcomed. On a 7-9, Elder Briar agrees, but with a condition: the party must first prove their worth by helping the village with a dangerous task. On a 6-, her words fail, and the party is turned away, forced to find shelter in the dangerous woods alone."
+        }
+      }
+    ]
+  }
+}
