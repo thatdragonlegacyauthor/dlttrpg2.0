@@ -8,17 +8,8 @@
     "background": "Talia was born on the highest peak of the Serpent's Coil Mountains, home to the proud, independent Skyveil people. She left her isolationist home seeking adventure and to track down a notorious Arcane Dominion captain who shot her down and left her for dead. Her personal quest for vengeance is intertwined with the fate of the world. She is fiercely independent and loyal to those who earn her respect.",
     "narrative_hook": "Talia is on a personal quest to track down a notorious Arcane Dominion captain who shot her down and left her for dead. This captain is a recurring antagonist who holds a valuable relic the party needs."
   },
-  "attributes": {
-    "Force": 0,
-    "Finesse": "+2",
-    "Wits": "+1",
-    "Heart": -1
-  },
-  "trained_skills": [
-    "Maneuver",
-    "Survey",
-    "Prowl"
-  ],
+  "attributes": { "Force": 0, "Finesse": "+2", "Wits": "+1", "Heart": -1 },
+  "trained_skills": [ "Maneuver", "Survey", "Prowl" ],
   "harm_capacity": 6,
   "starting_moves": [
     {
@@ -45,10 +36,6 @@
       "description": "You can make a **Called Shot** from an extreme distance, far beyond a normal bow's range."
     },
     {
-      "name": "Pinning Shot",
-      "description": "When you successfully **Engage in Battle** with a ranged weapon, you can choose to deal 1 less harm to also pin your target's clothing to a nearby surface, trapping them."
-    },
-    {
       "name": "Hail of Arrows",
       "description": "When you fire a volley of arrows to suppress an area, roll `2d6 + Finesse`. On a **10+**, you deal your harm to all enemies in a wide area. On a **7-9**, you still deal harm, but you may also hit one of your allies in the chaos."
     },
@@ -59,6 +46,6 @@
   ],
   "bond_synergy": {
     "name": "Death From Above",
-    "description": "When Talia uses **Wind-Rider** while Rya is in a Draconic Manifestation, Rya's power can create a powerful updraft for her. Talia's roll is automatically a 10+, and she can make a free **Called Shot** as soon as she reaches her vantage point."
+    "description": "When Talia uses **Wind-Rider** while Rya is in a Draconic Manifestation, Rya's power can create a powerful updraft for her. Talia's roll is automatically a 10+, and she can make a free **Called Shot** as soon as she reaches her vantage point. This coordinated aerial assault gives Rya a perfect view of the battlefield; Rya takes +1 forward on her next action."
   }
 }
