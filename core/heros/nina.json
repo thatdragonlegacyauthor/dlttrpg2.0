@@ -8,17 +8,8 @@
     "background": "The princess of the floating city of Wyndia, Nina was born to a life of duty and political machinations. She feels trapped by her royal duties and joins the party seeking the freedom to forge her own path, but her royal status brings both powerful connections and dangerous political enemies.",
     "narrative_hook": "Nina is burdened by the political machinations of the Ember Concord and her father's strict expectations. She seeks freedom, but her royal status brings both powerful connections and dangerous political enemies."
   },
-  "attributes": {
-    "Force": -1,
-    "Finesse": "+2",
-    "Wits": 0,
-    "Heart": "+1"
-  },
-  "trained_skills": [
-    "Sway",
-    "Maneuver",
-    "Know"
-  ],
+  "attributes": { "Force": -1, "Finesse": "+2", "Wits": 0, "Heart": "+1" },
+  "trained_skills": [ "Sway", "Maneuver", "Know" ],
   "harm_capacity": 6,
   "starting_moves": [
     {
@@ -36,24 +27,24 @@
   ],
   "advanced_moves": [
     {
+      "name": "By Royal Decree",
+      "description": "When you use Royal Edict and roll a 12+, the NPC is so impressed by your authority that they carry out your command with haste and offer an additional, unexpected benefit (a resource, a secret, or future aid). However, the political complications on a 7-9 are now more severe."
+    },
+    {
+      "name": "Voice of the People",
+      "description": "You have learned to connect with people not as a princess, but as a peer. You can now use your Royal Edict move on commoners, merchants, or even bandits, relying on your personal charisma instead of your title. When you do, the complications on a 7-9 are personal rather than political (e.g., you create an emotional debt, or they misinterpret your intentions)."
+    },
+    {
+      "name": "Unfettered Flight",
+      "description": "When you use Wind-Rider, you can push yourself to fly with the reckless abandon of a wild falcon, not a trained royal. On a 10+, you can choose to arrive in a hidden or unexpected position, allowing your next action to be from cover or surprise. The cost on a 7-9 is that your flamboyant, un-princess-like display will be the talk of the court, causing political fallout for your family later."
+    },
+    {
       "name": "Diplomatic Immunity",
       "description": "When you are in a civilized settlement, you can make your identity as the Princess of Wyndia known. When you do, you cannot be imprisoned or harmed by local authorities, but your presence will attract both powerful allies and dangerous enemies."
-    },
-    {
-      "name": "Inspiring Presence",
-      "description": "When you successfully use **Royal Edict**, your allies are inspired by your leadership. They all gain a +1 bonus on their next move."
-    },
-    {
-      "name": "Cyclone",
-      "description": "When you summon a powerful vortex of wind, roll `2d6 + Finesse`. On a **10+**, you create a zone of swirling wind that provides cover from ranged attacks and hinders enemy movement. On a **7-9**, the cyclone is chaotic and unpredictable, affecting allies and enemies alike."
-    },
-    {
-      "name": "Tempest Blade",
-      "description": "When you **Dance of the Gales**, on a 10+ you can choose to forgo your other options to instead push your target back and leave them disoriented."
     }
   ],
   "bond_synergy": {
     "name": "A Breath of Fresh Air",
-    "description": "Rya's untamed nature inspires Nina to act outside the rigid confines of her upbringing. Once per session, Nina can use her **Royal Edict** move on a commoner, bandit, or even a monster, using her force of personality rather than her title. It works as if she had rolled a 10+."
+    "description": "Rya's untamed nature inspires Nina to act outside the rigid confines of her upbringing. Once per session, Nina can use her **Royal Edict** move on a commoner, bandit, or even a monster, using her force of personality rather than her title. It works as if she had rolled a 10+. When she does, Rya is inspired by her friend's courage and also takes a +1 bonus on her next move."
   }
 }
