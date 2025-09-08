@@ -1,0 +1,220 @@
+{
+  "npcs_narrative": [
+    {
+      "name": "Magister Vorlag",
+      "char_id": "DOMINION_VORLAG",
+      "faction": "Arcane Dominion",
+      "role": "Chief Bio-Arcanist",
+      "description": "A gaunt, cold-eyed man with ink-stained fingers and a perpetually weary expression. He oversees the horrific experiments in the Bio-Arcane Pens, viewing the creatures not as living beings, but as complex equations to be solved. His brilliance is matched only by his complete lack of empathy.",
+      "drive": "To unlock the secrets of life and magic through unethical experimentation, viewing all living things as resources.",
+      "gm_moves": [
+        "Unleash a new, horrifying creation from the Bio-Arcane Pens.",
+        "Offer a character a dangerous biological enhancement in exchange for their assistance.",
+        "Reveal a chillingly detached anatomical sketch of a creature the party cares about."
+      ],
+      "key_questions": [
+        "What is the price of knowledge?",
+        "Where is the line between scientific curiosity and monstrous cruelty?",
+        "Can a brilliant mind be devoid of a soul?"
+      ]
+    },
+    {
+      "name": "The Incarcerator",
+      "char_id": "DOMINION_INCARCERATOR",
+      "faction": "Arcane Dominion",
+      "role": "Magical Enforcer",
+      "description": "A hulking, magically-created golem of black iron and pulsating crystals. It serves as a field agent for the Arcane Dominion, tasked with capturing magical creatures and eliminating threats with brutal, unthinking efficiency. It does not speak, but communicates in a series of low, ominous hums.",
+      "drive": "To capture and contain any and all magical beings as per the orders of its creators.",
+      "gm_moves": [
+        "Arrive unexpectedly to capture a magical creature or ally.",
+        "Use its crystalline eye to analyze a character's abilities, adapting its tactics.",
+        "Unleash a devastating, area-of-effect containment field."
+      ],
+      "key_questions": [
+        "What is the nature of a soul?",
+        "Can a created being have a will of its own?",
+        "What is the difference between a tool and a person?"
+      ]
+    },
+    {
+      "name": "Elder Lyraka",
+      "char_id": "FROSTFANG_LYRAKA",
+      "faction": "The Frostfang Packs",
+      "role": "Pack Shaman",
+      "description": "An ancient Frostfang whose white fur is as pure as the driven snow. She is the spiritual leader of the pack and a staunch traditionalist who views Vargus's alliance with the Arcane Dominion as a betrayal of their ancestral ways. She is a powerful shaman who communes with the spirits of the Glacial Maw.",
+      "drive": "To preserve the traditions and spiritual health of the Frostfang people.",
+      "gm_moves": [
+        "Offer a cryptic prophecy about the party's future in the Glacial Maw.",
+        "Lead a ritual to ask the spirits of the tundra for guidance or aid.",
+        "Publicly denounce Vargus's actions, creating a schism in the pack."
+      ],
+      "key_questions": [
+        "When does tradition become a barrier to survival?",
+        "What is the true source of a people's strength?",
+        "How do you fight an enemy from within your own family?"
+      ]
+    },
+    {
+      "name": "Fenrir",
+      "char_id": "FROSTFANG_FENRIR",
+      "faction": "The Frostfang Packs",
+      "role": "Young Hunter",
+      "description": "A young, hot-headed Frostfang hunter who is fiercely loyal to Kei. He is a skilled tracker and a formidable warrior who chafes under Vargus's oppressive rule.",
+      "drive": "To prove his loyalty to Kei and restore the rightful order of the pack.",
+      "gm_moves": [
+        "Challenge a character to a duel to test their strength.",
+        "Bring the party a vital piece of information about Vargus's movements.",
+        "Lead a rebellious faction of young hunters against Vargus's enforcers."
+      ],
+      "key_questions": [
+        "What is the difference between loyalty and blind faith?",
+        "When is rebellion a necessary act?",
+        "Can youthful passion overcome entrenched power?"
+      ]
+    },
+    {
+      "name": "Master Valya",
+      "char_id": "RUNEFORGE_VALYA",
+      "faction": "The Runeforge Remnants",
+      "role": "Wandering Scholar",
+      "description": "A seasoned and well-traveled member of the Runeforge Remnants. She is a master of identifying and disabling ancient traps and security systems. She is a valuable source of information on pre-Shattering ruins, but her services always come at a price.",
+      "drive": "To uncover and understand the lost technologies of the past, treating history as a series of complex, fascinating puzzles.",
+      "gm_moves": [
+        "Offer to help the party bypass a complex trap... for a share of the treasure.",
+        "Reveal a hidden danger in a ruin that the party had overlooked.",
+        "Share a story about a key she owns, which provides a clue to a new location."
+      ],
+      "key_questions": [
+        "Is it better to preserve the past or to learn from it?",
+        "What is the value of knowledge?",
+        "Can the secrets of the past save the future?"
+      ]
+    },
+    {
+      "name": "Rico",
+      "char_id": "GILDEDPAW_RICO",
+      "faction": "The Gilded Paw Caravan",
+      "role": "Master of Disguise",
+      "description": "A chameleon-like beastman who is a master of infiltration and espionage for the Gilded Paw. He is a theatrical and flamboyant personality, but beneath the surface, he is a cold and calculating spy who can blend into any environment.",
+      "drive": "To gather secrets for the Gilded Paw, viewing every interaction as a performance and every secret as a prize.",
+      "gm_moves": [
+        "Appear in an unexpected place, disguised as a trusted ally.",
+        "Offer to sell the party a piece of vital information about their enemies.",
+        "Reveal that he has been secretly observing the party for some time."
+      ],
+      "key_questions": [
+        "What is the true face behind the mask?",
+        "Can you trust someone who is paid to lie?",
+        "When does a secret become a weapon?"
+      ]
+    },
+    {
+      "name": "Jaxx",
+      "char_id": "GILDEDPAW_JAXX",
+      "faction": "The Gilded Paw Caravan",
+      "role": "Quartermaster",
+      "description": "A large, powerfully built lion-like beastman who manages the logistics of the Gilded Paw's smuggling operations. He is a man of few words, but his loyalty to Farah is absolute. He is a formidable opponent in a fight, but prefers to work behind the scenes.",
+      "drive": "To ensure the smooth operation of the Gilded Paw's network, using his strength and efficiency to enforce Farah's will.",
+      "gm_moves": [
+        "Arrange a discreet and efficient delivery of a rare item the party needs.",
+        "Appear as a silent, intimidating presence during a negotiation.",
+        "Use his brute strength to clear an obstacle or deal with a threat to the Caravan's operations."
+      ],
+      "key_questions": [
+        "What does loyalty mean in a world of shifting alliances?",
+        "Is it possible to have a quiet life in a loud world?",
+        "When is silence more powerful than words?"
+      ]
+    },
+    {
+      "name": "The Ashen Priest",
+      "char_id": "BROOD_ASHEN_PRIEST",
+      "faction": "The Brood of Dragnor",
+      "role": "Cult Leader",
+      "description": "The charismatic and fanatical leader of the Brood of Dragnor. His face is hidden behind a mask of obsidian, and his robes are perpetually covered in a fine layer of volcanic ash. He preaches a doctrine of nihilistic destruction, believing that the world must be cleansed in fire to pave the way for a new age of dragons.",
+      "drive": "To bring about a fiery apocalypse and a new age of draconic rule.",
+      "gm_moves": [
+        "Incite a crowd of followers to a religious frenzy.",
+        "Perform a dark ritual to awaken a fire-based monster.",
+        "Offer a character a taste of draconic power in exchange for their loyalty."
+      ],
+      "key_questions": [
+        "What is the allure of destruction?",
+        "How is faith twisted into fanaticism?",
+        "Can a new world be born from the ashes of the old?"
+      ]
+    },
+    {
+      "name": "Kilgore, the Cinder-Clad",
+      "char_id": "BROOD_KILGORE",
+      "faction": "The Brood of Dragnor",
+      "role": "Cult Champion",
+      "description": "A massive, heavily armored warrior who has been granted a sliver of draconic power through the Brood's dark rituals. His armor is fused to his flesh, and his eyes glow with a malevolent, fiery light. He is the unstoppable will of the Ashen Priest made manifest.",
+      "drive": "To serve the Ashen Priest as an instrument of pure, unthinking destruction.",
+      "gm_moves": [
+        "Appear as an unstoppable force, shrugging off attacks that would fell a normal man.",
+        "Use his draconic power to create an environmental hazard, like a wall of fire.",
+        "Target the character who appears to be the biggest threat with overwhelming force."
+      ],
+      "key_questions": [
+        "What is the cost of power?",
+        "Can a man who has lost his humanity be saved?",
+        "What happens when a weapon gains a will of its own?"
+      ]
+    },
+    {
+      "name": "Ignis",
+      "char_id": "BROOD_IGNIS",
+      "faction": "The Brood of Dragnor",
+      "role": "Flame-Blessed Assassin",
+      "description": "A lithe and terrifyingly silent assassin whose body is covered in ritualistic burn scars. She moves with an unnatural speed, her daggers glowing with a faint, malevolent heat. She is one of the Ashen Priest's most trusted agents, sent to eliminate those who would oppose the Brood's rise.",
+      "drive": "To prove her devotion to the Ashen Priest through silent, deadly acts of assassination.",
+      "gm_moves": [
+        "Appear from the shadows to strike at a vulnerable party member.",
+        "Use her speed to move across the battlefield in a blur of motion.",
+        "Leave a cryptic, fire-related clue at the scene of an assassination."
+      ],
+      "key_questions": [
+        "What is the nature of true devotion?",
+        "Can a person be both a fanatic and a ghost?",
+        "What is the difference between a sacrifice and a murder?"
+      ]
+    },
+    {
+      "name": "Pyra",
+      "char_id": "BROOD_PYRA",
+      "faction": "The Brood of Dragnor",
+      "role": "Magma-Witch",
+      "description": "A powerful sorceress whose magic is drawn from the molten heart of Mount Dragnor. Her skin is cracked and glowing like cooling lava, and her eyes burn with an inner fire. She is a master of destructive fire magic, but her power is volatile and has twisted her mind, making her dangerously unpredictable.",
+      "drive": "To unleash the raw, chaotic power of the volcano upon the world.",
+      "gm_moves": [
+        "Cause a localized volcanic eruption, reshaping the battlefield.",
+        "Unleash a powerful, area-of-effect fire spell.",
+        "Have a sudden, violent mood swing, changing her tactics unpredictably."
+      ],
+      "key_questions": [
+        "What is the price of wielding untamed power?",
+        "Where is the line between madness and magic?",
+        "Can a force of nature be reasoned with?"
+      ]
+    },
+    {
+      "name": "Cinderclaw",
+      "char_id": "BROOD_CINDERCLAW",
+      "faction": "The Brood of Dragnor",
+      "role": "Corrupted Beast",
+      "description": "Once a great cave bear, this creature has been captured by the Brood and twisted by their dark magic into a monstrous engine of destruction. Its fur is perpetually smoldering, and its claws are superheated to a dull, cherry-red glow. It is a beast of pure, unthinking rage, loyal only to the commands of its masters.",
+      "drive": "To destroy everything in its path with blind, fiery rage.",
+      "gm_moves": [
+        "Go on a rampage, attacking the nearest creature, friend or foe.",
+        "Set a large part of the environment on fire.",
+        "Use its immense strength to shatter a piece of cover or an obstacle."
+      ],
+      "key_questions": [
+        "What is the nature of a corrupted soul?",
+        "Can a creature be a victim and a monster at the same time?",
+        "What happens when nature is twisted by unnatural forces?"
+      ]
+    }
+  ]
+}
