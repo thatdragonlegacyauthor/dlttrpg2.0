@@ -10,7 +10,7 @@
           "state": "Dormant",
           "unlock_condition": "Found in the Dragon's Graveyard after completing a trial of the Scalebound Clans.",
           "move": {
-            "name": "Lineage Affinity",
+            "name": "Lineage Affinity (Passive)",
             "description": "The blade adapts to your attuned lineage. When you Unleash Draconic Power, the weapon temporarily gains a tag appropriate to that element (e.g., 'Fire', 'Forceful', 'Freezing')."
           }
         },
@@ -18,7 +18,7 @@
           "state": "Awakened",
           "unlock_condition": "Master the Kaiser Manifestation for the first time.",
           "move": {
-            "name": "Elemental Brand",
+            "name": "Elemental Brand (Passive)",
             "description": "The blade now permanently deals +1 harm, and its damage type is always considered the same as your currently attuned lineage (e.g., fire harm, ice harm)."
           }
         },
@@ -27,7 +27,7 @@
           "unlock_condition": "Confront the truth of the Shattering and accept the full weight of the draconic legacy.",
           "move": {
             "name": "Primal Echo",
-            "description": "Once per session, you can unleash the full power of the blade in a wide arc, dealing 3-harm (ap) to all enemies in front of you."
+            "description": "Once per session, you can unleash the blade's full power in a wide arc. When you do, you automatically deal 3-harm (ap) to all enemies in front of you."
           }
         }
       ]
@@ -43,7 +43,7 @@
           "unlock_condition": "Manifests after Zael confronts the source of the Void's corruption for the first time.",
           "move": {
             "name": "Shadow Veil",
-            "description": "When you wield this blade, you can use your Weave a Shadow move without cost or consequence."
+            "description": "When you wield this blade, you may use your 'Weave a Shadow' move and treat a 7-9 result as a 10+."
           }
         },
         {
@@ -51,7 +51,7 @@
           "unlock_condition": "Achieve a Confidant bond with Rya, solidifying his will to protect others.",
           "move": {
             "name": "Void Tether",
-            "description": "Once per scene, after you deal harm to an enemy, you can link them to you with a tether of shadow. For the next few moments, whenever you take harm, they also take 1-harm."
+            "description": "Once per scene, after you deal harm, you can link the target to you with a shadow tether. For a few moments, when you take harm, they take 1-harm in return."
           }
         },
         {
@@ -59,7 +59,7 @@
           "unlock_condition": "Complete his personal quest, 'The Nature of the Void,' and fully awaken his draconic heritage.",
           "move": {
             "name": "Silence of the Void",
-            "description": "Once per session, you can plunge the blade into a shadow to silence an enemy. They cannot use any magical abilities or special moves until they are able to act against you directly."
+            "description": "Once per session, you can plunge the blade into a shadow to silence a foe. They cannot use magic or special abilities until they are able to act against you directly."
           }
         }
       ]
@@ -74,8 +74,8 @@
           "state": "Dormant",
           "unlock_condition": "Bestowed upon Selra after completing 'The Blighted Grove' quest.",
           "move": {
-            "name": "Mending Light",
-            "description": "When you use Shepherd's Prayer to heal, your target heals 1 additional Harm."
+            "name": "Mending Light (Passive)",
+            "description": "When you use your 'Shepherd's Prayer' move to heal, your target heals an additional 1-harm."
           }
         },
         {
@@ -83,7 +83,7 @@
           "unlock_condition": "Consciously reject the dogma of the Champions of Order in a key narrative moment.",
           "move": {
             "name": "Shepherd's Sanctuary",
-            "description": "Once per scene, you can plant the scepter in the ground to create an aura of peace. Enemies cannot enter the aura, and allies inside it are immune to fear."
+            "description": "Once per scene, you can plant the scepter in the ground to create an aura of peace. For a few moments, enemies cannot enter the aura, and allies inside it are immune to fear."
           }
         },
         {
@@ -107,7 +107,7 @@
           "unlock_condition": "Torr must gather three legendary components from across the world and forge the hammer.",
           "move": {
             "name": "Perfect Sunder",
-            "description": "When you use your Sunder move, on a 10+, the target's armor is permanently destroyed until it can be repaired at a proper forge."
+            "description": "When you use your 'Sunder' move and get a 10+, the target's armor is permanently destroyed until it can be repaired at a proper forge."
           }
         },
         {
@@ -138,8 +138,8 @@
           "state": "Dormant",
           "unlock_condition": "Found at the cleansed heart of the Gloomwood and absorbed by Sprout.",
           "move": {
-            "name": "Verdant Core",
-            "description": "The seed doubles the healing from your Photosynthesis move."
+            "name": "Verdant Core (Passive)",
+            "description": "Your 'Photosynthesis' move now heals an additional 1-harm."
           }
         },
         {
@@ -147,7 +147,7 @@
           "unlock_condition": "Heal a second major corrupted landmark in the world.",
           "move": {
             "name": "Gaea's Ward",
-            "description": "Once per scene, you can grant all allies nearby a shield of temporary vitality that can absorb 1 Harm."
+            "description": "Once per scene, you can grant all allies nearby a shield of temporary vitality that can absorb 1-harm."
           }
         },
         {
@@ -155,7 +155,7 @@
           "unlock_condition": "Channel its full power to shield the party from an otherwise unsurvivable blow.",
           "move": {
             "name": "One with the World",
-            "description": "Once per session, when an ally is about to be taken out, you can declare that you channel the life force of Eryndor to save them. The harm is negated, but the immense power required leaves you weakened; mark 2 Harm."
+            "description": "Once per session, when an ally is about to be taken out, you can declare that you channel the life force of Eryndor to save them. The harm is negated, but you mark 2-harm from the strain."
           }
         }
       ]
@@ -170,7 +170,7 @@
           "state": "Dormant",
           "unlock_condition": "Reclaimed after defeating the usurper chieftain, Vargus, in a duel for leadership.",
           "move": {
-            "name": "Pack Leader's Scent",
+            "name": "Pack Leader's Scent (Passive)",
             "description": "When you deal harm with this spear, your target is marked. The next move made by an ally against that target gets a +1 bonus."
           }
         },
@@ -179,7 +179,7 @@
           "unlock_condition": "Lead the Frostfang pack to victory in a major battle, saving them from a significant external threat.",
           "move": {
             "name": "Takedown Command",
-            "description": "Once per scene, you can point the spear at a target to grant an ally a clear opening; they get a +2 bonus on their next move against that target."
+            "description": "Once per scene, you can point the spear at a target to grant an ally a clear opening; they take a +2 bonus on their next move against that target."
           }
         },
         {
@@ -187,7 +187,7 @@
           "unlock_condition": "Complete a legendary hunt to defeat a mythical beast that has plagued the Glacial Maw for centuries.",
           "move": {
             "name": "Wrath of the Great Hunt",
-            "description": "Once per session, you can declare a Great Hunt on a single target. For the rest of the scene, any successful move made against that target by you or your allies also restores their spirit; they may clear 1 Harm."
+            "description": "Once per session, you can declare a Great Hunt on a single target. For the rest of the scene, any successful move made against that target by you or your allies also restores their spirit; they may clear 1-harm."
           }
         }
       ]
@@ -202,7 +202,7 @@
           "state": "Dormant",
           "unlock_condition": "Manifests after Garrick fully embraces his wraith form as a weapon of vengeance in the Void Chasm.",
           "move": {
-            "name": "Incorporeal Edge",
+            "name": "Incorporeal Edge (Passive)",
             "description": "This weapon's attacks ignore 1 Armor."
           }
         },
@@ -234,7 +234,7 @@
           "state": "Dormant",
           "unlock_condition": "Earned after completing a legendary trial of the Sky-Reach Aerie.",
           "move": {
-            "name": "True Shot",
+            "name": "True Shot (Passive)",
             "description": "This bow never suffers penalties for attacking at extreme distances."
           }
         },
@@ -266,8 +266,8 @@
           "state": "Dormant",
           "unlock_condition": "Awakens after Zykar interacts with a key item or location from his past life.",
           "move": {
-            "name": "Memory's Shield",
-            "description": "At the start of any dangerous scene, you gain a shield of temporary vitality that can absorb 1 Harm."
+            "name": "Memory's Shield (Passive)",
+            "description": "At the start of any dangerous scene, you gain a temporary shield that can absorb 1-harm."
           }
         },
         {
@@ -283,7 +283,7 @@
           "unlock_condition": "Confront the Dominion scientist who created him and make a defining moral choice.",
           "move": {
             "name": "Soulfire Rebuke",
-            "description": "Once per session, when you are about to be taken out, you can unleash an explosion of protective energy. You remain in the scene with 1 Harm, and all nearby enemies are terrified and put in a bad spot."
+            "description": "Once per session, when you are about to be taken out, you can unleash an explosion of protective energy. You remain in the scene with 1-harm, and all nearby enemies are terrified and put in a bad spot."
           }
         }
       ]
@@ -298,7 +298,7 @@
           "state": "Dormant",
           "unlock_condition": "Reclaimed after appeasing the spirits of her tribe's ancient burial ground.",
           "move": {
-            "name": "Flickering Form",
+            "name": "Flickering Form (Passive)",
             "description": "You are a ghostly, indistinct figure. Any action to attack you from a distance takes a -1 penalty."
           }
         },
@@ -307,7 +307,7 @@
           "unlock_condition": "Uncover a major secret about the Shattering that was thought to be lost forever.",
           "move": {
             "name": "Fateful Glimpse (Enhancement)",
-            "description": "When you use your Fateful Glimpse move, you hold 1 additional Fate on a 10+."
+            "description": "When you use your 'Fateful Glimpse' move, you hold 1 additional Fate on a 10+."
           }
         },
         {
@@ -315,7 +315,7 @@
           "unlock_condition": "Confront a powerful being that seeks to rewrite history and use the Shroud to preserve the true timeline.",
           "move": {
             "name": "Oracle's Decree",
-            "description": "Once per session, you can enter a trance. For the next few moments, you can dictate the outcome of a single roll made by any character (ally or enemy), changing it to either a perfect success or a critical failure."
+            "description": "Once per session, you can enter a trance. For the next few moments, you can dictate the outcome of a single roll made by any character, changing it to either a perfect success or a critical failure."
           }
         }
       ]
@@ -330,7 +330,7 @@
           "state": "Dormant",
           "unlock_condition": "Gifted by the spirit of the land after Veridia purifies a 'Heart-Spring'.",
           "move": {
-            "name": "Acid Lash",
+            "name": "Acid Lash (Passive)",
             "description": "When you deal harm with this weapon, you can choose to also make the harm acidic, melting your target's armor and leaving them vulnerable."
           }
         },
@@ -362,8 +362,8 @@
           "state": "Dormant",
           "unlock_condition": "Stolen from the legendary 'Onyx Vault' of a rival thieves' guild.",
           "move": {
-            "name": "Paired Strike",
-            "description": "When you Engage in Battle with both daggers, you deal +1 harm."
+            "name": "Paired Strike (Passive)",
+            "description": "When you 'Engage an Enemy' with both daggers, you deal +1 harm."
           }
         },
         {
@@ -371,7 +371,7 @@
           "unlock_condition": "Successfully assassinate a major, high-security target from an enemy faction.",
           "move": {
             "name": "Ghost Step",
-            "description": "Once per scene, after you hit an enemy with an attack, you can immediately use the Prowl move to hide, even if you are in plain sight."
+            "description": "Once per scene, after you hit an enemy with an attack, you can immediately use the 'Prowl' move to hide, even if you are in plain sight."
           }
         },
         {
@@ -379,7 +379,7 @@
           "unlock_condition": "Eliminate a 'legendary' target, thought to be untouchable, without ever being detected.",
           "move": {
             "name": "Sever Shadow",
-            "description": "Once per session, you can declare a killing blow before you Shadow Strike. If the move is a 10+, you deal double the harm you would normally inflict."
+            "description": "Once per session, you can declare a killing blow before you use your 'Shadow Strike' move. If the move is a 10+, you deal double the harm you would normally inflict."
           }
         }
       ]
@@ -400,7 +400,7 @@
         },
         {
           "state": "Awakened",
-          "unlock_condition": "Use his power to defend another 'abomination' (souled construct, peaceful monster, etc.), an act of empathy that resonates with his creator's soul.",
+          "unlock_condition": "Use his power to defend another 'abomination' (souled construct, peaceful monster, etc.).",
           "move": {
             "name": "Resonant Guard",
             "description": "Once per scene, when an ally is about to take harm, you can use your reaction to create a field of protective energy. You both take half the harm."
