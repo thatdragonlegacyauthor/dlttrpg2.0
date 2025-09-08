@@ -1,0 +1,87 @@
+{
+  "crossroads_garrison": {
+    "start_room": "garrison_gate",
+    "rooms": {
+      "garrison_gate": {
+        "name": "The Garrison Gate",
+        "description": "You stand before a formidable stone gatehouse built into the mountainside. The banners of both Wyndia and Port Myria fly from its ramparts, a symbol of the Ember Concord's joint authority. Stern-faced guards, wearing the distinct uniforms of their respective city-states, watch all who approach with a professional, weary suspicion.",
+        "exits": [
+          {
+            "direction": "To the Sky-Reach Aerie Pass",
+            "destination": "sky_reach_aerie"
+          },
+          {
+            "direction": "Enter the Garrison",
+            "destination": "main_courtyard"
+          }
+        ]
+      },
+      "main_courtyard": {
+        "name": "Main Courtyard",
+        "description": "The central courtyard is a wide, dusty expanse of packed earth, bustling with activity. Soldiers drill in tight formations, caravans resupply before continuing their journeys, and officers bark orders. The tension between the Wyndian and Myrian soldiers is palpable; they keep to their own sides of the yard, exchanging cold glances.",
+        "exits": [
+          {
+            "direction": "Back to the Gate",
+            "destination": "garrison_gate"
+          },
+          {
+            "direction": "Commander's Office",
+            "destination": "commanders_office"
+          },
+          {
+            "direction": "Barracks & Mess Hall",
+            "destination": "barracks_mess"
+          },
+          {
+            "direction": "Path to Port Myria",
+            "destination": "road_to_myria"
+          }
+        ]
+      },
+      "commanders_office": {
+        "name": "Commander's Office",
+        "description": "A spartan and functional office at the top of the main keep. Maps cover a large wooden table, marked with troop movements and patrol routes. Commander Garran, a grizzled veteran with tired eyes, can be found here, often poring over reports or playing a complex strategy game against himself.",
+        "exits": [
+          {
+            "direction": "Back to the Courtyard",
+            "destination": "main_courtyard"
+          }
+        ],
+        "key_characters": [
+          "GARRISON_GARRAN"
+        ]
+      },
+      "barracks_mess": {
+        "name": "Barracks & Mess Hall",
+        "description": "This large, noisy hall serves as both the barracks and the mess for the garrison's soldiers. The air smells of stew, sweat, and oiled leather. It's a prime location to overhear rumors, gather information about the road ahead, or potentially start a brawl if you're not careful.",
+        "exits": [
+          {
+            "direction": "Back to the Courtyard",
+            "destination": "main_courtyard"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "spend_time_here",
+            "action": "story_beat",
+            "details": "The party can make a Spirit (Diplomacy) check to gather rumors about the political tensions, bandit activity on the roads, or the personality of Commander Garran."
+          }
+        ]
+      },
+      "road_to_myria": {
+        "name": "Road to Port Myria",
+        "description": "The southern gate of the garrison opens onto the well-traveled mountain road that winds its way down towards the coast and the bustling city of Port Myria. The air becomes warmer and carries the faint, salty scent of the sea.",
+        "exits": [
+          {
+            "direction": "Back to the Garrison",
+            "destination": "main_courtyard"
+          },
+          {
+            "direction": "Travel to Port Myria",
+            "destination": "PORT_MYRIA"
+          }
+        ]
+      }
+    }
+  }
+}
