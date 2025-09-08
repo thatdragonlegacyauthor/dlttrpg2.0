@@ -8,17 +8,8 @@
     "background": "Sprout is a newly awakened forest guardian that emerged from the heart of the corrupted Whispering Woods. It has no memory of its past life, only an instinctive sense of dread at the corruption that plagues the world and a primal connection to Rya's draconic legacy. As it grows, it may gain the power to purify corrupted locations, healing the world one step at a time.",
     "narrative_hook": "Sprout is a key to understanding the deep corruption spreading through the land. Its growth and evolution are directly tied to the party's efforts to heal the world, and it may be able to purify corrupted locations."
   },
-  "attributes": {
-    "Force": "+2",
-    "Finesse": 0,
-    "Wits": -1,
-    "Heart": "+1"
-  },
-  "trained_skills": [
-    "Wreck",
-    "Tend",
-    "Survey"
-  ],
+  "attributes": { "Force": "+2", "Finesse": 0, "Wits": -1, "Heart": "+1" },
+  "trained_skills": [ "Wreck", "Tend", "Survey" ],
   "harm_capacity": 8,
   "starting_moves": [
     {
@@ -36,24 +27,29 @@
   ],
   "advanced_moves": [
     {
-      "name": "Iron Bark",
-      "description": "When you take a moment to harden your bark-like skin, you gain +1 Armor for the rest of the scene."
-    },
-    {
-      "name": "Crushing Vines",
-      "description": "When you summon vines to attack or ensnare a foe, roll `2d6 + Force`. On a **10+**, you deal your harm and they are completely restrained. On a **7-9**, you restrain them, but the vines are wild and create a tangled mess, making the area difficult terrain for everyone."
-    },
-    {
       "name": "Cleansing Bloom",
-      "description": "Your **Healing Spores** now have a purifying quality. On a 10+, you can choose to heal 1 Harm and also remove one negative magical or poisonous effect from your target."
+      "description": "Your Healing Spores now have a purifying quality. On a 10+, you can choose to heal 1 Harm and also remove one negative magical or poisonous effect from your target."
     },
     {
-      "name": "Roots of the Mountain",
-      "description": "When you **Stand Guard** (like Torr's move), you can plant your roots deep into the earth. You cannot be moved by any means for the rest of the scene, or until you choose to move."
+      "name": "Verdant Evolution",
+      "requirement": "Absorb the Heartseed of the First Forest (a major campaign milestone).",
+      "description": "The Heartseed has taken root within you, and its ancient power now fuels your growth. This move grants new abilities as you complete major narrative acts of healing or purification in the world.",
+      "forms": [
+        {
+          "name": "Awakened Form",
+          "unlock_condition": "Unlocked after the first major act of purification.",
+          "description": "You grow larger and sprout glowing flowers. You gain the move Gaea's Ward: When you channel the life force of the world to protect your pack, roll 2d6 + Heart. On a 10+, all allies gain a shield of temporary vitality that can absorb 1 Harm. On a 7-9, you grant the shield, but the effort is taxing and you must mark 1 Harm."
+        },
+        {
+          "name": "Ascended Form",
+          "unlock_condition": "Unlocked after a climactic, world-saving act.",
+          "description": "You achieve your final form as an Elderwood Guardian. You gain the move One with the World: Once per session, when an ally is about to be taken out, you can declare that you channel the life force of Eryndor to save them. The harm is negated, but the immense power required leaves you weakened; mark 2 Harm."
+        }
+      ]
     }
   ],
   "bond_synergy": {
     "name": "Verdant Growth",
-    "description": "Rya's draconic life force accelerates Sprout's growth. Once per session, when near Rya, Sprout can draw upon her power to use **Healing Spores** as if it had rolled a 10+, without marking Harm."
+    "description": "Rya's draconic life force accelerates Sprout's growth. Once per session, when near Rya, Sprout can draw upon her power to use **Healing Spores** as if it had rolled a 10+, without marking Harm. When it does, some of that life energy flows back to its source; Rya also heals 1 Harm."
   }
 }
