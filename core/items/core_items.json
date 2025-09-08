@@ -81,5 +81,32 @@
       { "name": "Ghost Pepper", "tags": "Magical, Food, Fire", "description": "A small, pale white pepper that is shockingly spicy.", "move": "When you eat this, your mouth is filled with magical fire. For the next few moments, you can breathe a short cone of flame that deals 1-harm (fire)." },
       { "name": "Stone-Skin Potion", "tags": "Magical, Potion, Protective", "description": "A gritty, gray liquid that hardens the skin.", "move": "When you drink this, your skin takes on a stone-like quality. You gain +1 Armor for the rest of the scene." }
     ]
-  }
+  },
+  "tag_glossary": [
+    { "tag": "ap", "description": "Armor Piercing. This attack is particularly effective against armored foes." },
+    { "tag": "Brawling", "description": "Designed for unarmed combat." },
+    { "tag": "Brace", "description": "This shield is large enough to brace against a charge. When you Stand Guard with it, you cannot be easily moved." },
+    { "tag": "Clumsy", "description": "This armor is heavy and ill-fitting. Take a -1 penalty to all Finesse rolls." },
+    { "tag": "Concussive", "description": "This weapon dazes opponents. On a successful hit, your target is put in a bad spot." },
+    { "tag": "Crude", "description": "This weapon is simple and poorly balanced." },
+    { "tag": "Far", "description": "This weapon is effective at long range." },
+    { "tag": "Finesse", "description": "This weapon relies on agility and precision. You can use Finesse instead of Force to Engage in Battle with it." },
+    { "tag": "Forceful", "description": "This weapon requires strength to wield effectively. You cannot use Finesse to Engage in Battle with it." },
+    { "tag": "Grapple", "description": "This weapon can be used to grab or entangle. You can use it to restrain a foe." },
+    { "tag": "Heavy", "description": "This armor is cumbersome. It may hinder certain actions." },
+    { "tag": "Light", "description": "This item is small and easy to conceal." },
+    { "tag": "Magical", "description": "This item is imbued with magical energy. Its effects may bypass normal resistances." },
+    { "tag": "Medium", "description": "Standard armor that balances protection and mobility." },
+    { "tag": "Melee", "description": "A weapon used in close-quarters combat." },
+    { "tag": "Noisy", "description": "This armor makes a lot of noise. Take a -1 penalty to all Prowl rolls." },
+    { "tag": "Paired", "description": "A set of two weapons. When you Engage in Battle with both, you deal +1 harm." },
+    { "tag": "Ranged", "description": "A weapon used from a distance." },
+    { "tag": "Reach", "description": "This melee weapon is long. You can attack enemies from a safe distance." },
+    { "tag": "Reload", "description": "This weapon requires an action to reload after being fired." },
+    { "tag": "Returning", "description": "This thrown weapon returns to your hand after an attack." },
+    { "tag": "Siege", "description": "This weapon is exceptionally good at destroying structures." },
+    { "tag": "Thrown", "description": "This melee weapon can be thrown at a nearby target." },
+    { "tag": "Two-Handed", "description": "This weapon requires two hands to wield effectively." },
+    { "tag": "Versatile", "description": "This weapon can be used with one or two hands. When used with two hands, it gains the 'Forceful' tag." }
+  ]
 }
