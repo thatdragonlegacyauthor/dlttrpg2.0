@@ -8,17 +8,8 @@
     "background": "Kei was once considered an ideal heir to his pack's leadership in the frozen Glacial Maw, but a rival, Vargus, framed him for a crime against his people. In his lust for power, Vargus allied himself with the technologically advanced Arcane Dominion, an unforgivable betrayal. Exiled and hunted, Kei now travels with the party, his knowledge of the unforgiving tundra invaluable. His quest is to expose the conspiracy and reclaim his honor.",
     "narrative_hook": "Kei's rival actively uses Arcane Dominion agents to hunt the party, leading to ambushes and tense tracking sequences in the wild. Kei's knowledge of the tundra is essential for finding hidden ruins and navigating the treacherous Glacial Maw."
   },
-  "attributes": {
-    "Force": "+1",
-    "Finesse": "+2",
-    "Wits": 0,
-    "Heart": -1
-  },
-  "trained_skills": [
-    "Maneuver",
-    "Prowl",
-    "Survey"
-  ],
+  "attributes": { "Force": "+1", "Finesse": "+2", "Wits": 0, "Heart": -1 },
+  "trained_skills": [ "Maneuver", "Prowl", "Survey" ],
   "harm_capacity": 7,
   "starting_moves": [
     {
@@ -36,20 +27,20 @@
   ],
   "advanced_moves": [
     {
-      "name": "Go for the Throat",
-      "description": "When you deal harm to a surprised or vulnerable enemy, you can choose to deal +1d4 harm."
+      "name": "Hunter's Guile",
+      "description": "You learned to survive alone in the unforgiving tundra. When you are in a natural environment (forest, snow, mountains), you can use the Prowl move even when only lightly obscured. When you attack from hiding using this move, you deal +1 harm."
     },
     {
-      "name": "Coordinated Takedown",
-      "description": "When an ally successfully puts an enemy in a bad spot, you can immediately make a move to follow up, as if you had rolled a 10+."
+      "name": "Ambush",
+      "description": "When you attack an enemy who is completely unaware of your presence, roll 2d6 + Finesse. On a 10+, it's a perfect strike; you deal 3-harm (ap). On a 7-9, you still deal your harm +1, but your attack exposes your position."
+    },
+    {
+      "name": "Hamstring",
+      "description": "When you Engage in Battle and deal harm, you can choose to deal 1 less harm to also strike at your target's leg. Your target is slowed and put in a bad spot until they can take a moment to recover."
     },
     {
       "name": "Rallying Howl",
       "description": "When you raise your voice in a rallying cry for your pack, roll `2d6 + Force`. On a **10+**, you and your allies are bolstered by your leadership; you all clear 1 Harm. On a **7-9**, the howl rallies you, but also alerts every enemy in the area to your exact position."
-    },
-    {
-      "name": "One with the Tundra",
-      "description": "When you **Survey** the environment in a cold or snowy region, you can ask one additional question, even on a miss."
     }
   ],
   "bond_synergy": {
