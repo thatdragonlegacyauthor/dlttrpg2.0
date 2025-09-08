@@ -147,6 +147,70 @@
           "description": "A small, quickly-applied herbal remedy.",
           "move": "When you apply this, you or an ally can heal 1 Harm, but it takes your whole turn to prepare and use."
       }
-    ]
+    ],
+    "tag_glossary": {
+      "weapon_tags": [
+        { "tag": "1/2/3-harm", "description": "The base amount of harm this weapon deals on a successful hit." },
+        { "tag": "(ap)", "description": "Stands for Armor Piercing. The target cannot use their armor to reduce harm from this weapon." },
+        { "tag": "Brawling", "description": "Designed for unarmed fighting." },
+        { "tag": "Far", "description": "Can be used to attack targets at a very long distance." },
+        { "tag": "Finesse", "description": "You can use your Finesse attribute instead of Force when you Engage in Battle with this weapon." },
+        { "tag": "Forceful", "description": "This weapon hits with incredible impact. On a 10+, you can also send your target flying, knock them down, or put them in a bad spot through sheer force." },
+        { "tag": "Grapple", "description": "This weapon can be used to entangle and restrain foes." },
+        { "tag": "Heavy", "description": "This weapon is large and requires two hands to use effectively." },
+        { "tag": "Light", "description": "This weapon is small and easy to handle." },
+        { "tag": "Magical", "description": "This weapon's harm is magical and can affect creatures immune to normal weapons." },
+        { "tag": "Melee", "description": "This weapon is used in close-quarters combat." },
+        { "tag": "Paired", "description": "When you wield two weapons with this tag, you can attack with both in the same action." },
+        { "tag": "Ranged", "description": "This weapon is used to attack from a distance." },
+        { "tag": "Reach", "description": "This weapon is longer than normal, allowing you to attack foes from a safe distance." },
+        { "tag": "Reload", "description": "This weapon requires a moment to reload after being fired, leaving you open." },
+        { "tag": "Siege", "description": "This weapon is designed to destroy structures and deals extra harm to them." },
+        { "tag": "Thrown", "description": "This weapon can be thrown at a nearby target." },
+        { "tag": "Two-Handed", "description": "This weapon requires two hands to wield." },
+        { "tag": "Versatile", "description": "Can be used with one or two hands. Often deals more harm when used with two." }
+      ],
+      "armor_tags": [
+        { "tag": "Armor", "description": "The numerical value of the armor's protection." },
+        { "tag": "+1 Armor", "description": "The bonus this item provides to a character's total Armor value." },
+        { "tag": "Brace", "description": "This shield is exceptionally sturdy. When you Stand Guard, you gain an additional benefit." },
+        { "tag": "Clumsy", "description": "This armor is bulky and restrictive, giving you a penalty to Finesse rolls." },
+        { "tag": "Light/Medium/Heavy", "description": "A general classification for armor, indicating its weight and the type of character likely to use it." },
+        { "tag": "Noisy", "description": "This armor makes a lot of noise, giving you a penalty to Prowl rolls." },
+        { "tag": "Shield", "description": "This item is a shield and can be used to block attacks." }
+      ],
+      "general_and_magical_tags": [
+        { "tag": "Accessory", "description": "A piece of gear worn by a character that provides a passive benefit or a unique move." },
+        { "tag": "Artifact", "description": "An item of immense, world-shaping power." },
+        { "tag": "Buff", "description": "This item provides a temporary positive effect." },
+        { "tag": "Cantrip", "description": "This item grants the ability to use a minor, repeatable magical effect." },
+        { "tag": "Commanding", "description": "This item enhances your ability to lead or inspire others." },
+        { "tag": "Curative", "description": "This item is designed to cure negative effects." },
+        { "tag": "Debuff", "description": "This item is used to inflict a negative effect on a foe." },
+        { "tag": "Draconic", "description": "This item is tied to draconic power and may have special effects for Rya." },
+        { "tag": "Empowering", "description": "This item enhances one of the wearer's core attributes." },
+        { "tag": "Ethereal", "description": "This item is partially incorporeal and has ghostly properties." },
+        { "tag": "Evolving", "description": "This item grows in power as its wielder completes narrative milestones." },
+        { "tag": "Fire/Ice/Lightning/etc.", "description": "Indicates the item has a specific elemental property." },
+        { "tag": "Healing", "description": "This item restores Harm." },
+        { "tag": "Holy", "description": "This item is imbued with sacred power, often effective against undead or fiends." },
+        { "tag": "Illusory", "description": "This item is capable of creating illusions." },
+        { "tag": "Living", "description": "This item is partially or fully alive and may have a will of its own." },
+        { "tag": "Magical-Focus", "description": "This item is used by a spellcaster to channel their power." },
+        { "tag": "Mystic", "description": "This item has a powerful, non-elemental magical effect." },
+        { "tag": "Necrotic", "description": "This item is infused with the power of death and decay." },
+        { "tag": "Poisonous", "description": "This item can inflict the 'poisoned' status." },
+        { "tag": "Potion", "description": "A magical liquid that is consumed for an effect." },
+        { "tag": "Precise", "description": "This weapon is exceptionally accurate, granting a bonus to certain types of attacks." },
+        { "tag": "Primal", "description": "This item is connected to the raw, untamed forces of nature." },
+        { "tag": "Protective", "description": "This item's primary purpose is to defend its wielder." },
+        { "tag": "Silencing", "description": "This item can prevent a target from speaking or casting spells." },
+        { "tag": "Stalwart", "description": "This item makes the user more difficult to move or knock down." },
+        { "tag": "Stealthy", "description": "This item helps the user remain unseen or unheard." },
+        { "tag": "Void-touched", "description": "This item is connected to the mysterious power of the Void." },
+        { "tag": "Volatile", "description": "This item has a powerful but limited-use ability that can be activated." },
+        { "tag": "Warding", "description": "This item is designed to protect against a specific type of harm or effect." }
+      ]
+    }
   }
 }
