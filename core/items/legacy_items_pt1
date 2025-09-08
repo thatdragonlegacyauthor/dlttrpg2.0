@@ -1,0 +1,132 @@
+{
+  "legacy_items": [
+    {
+      "name": "Dragon's Soul Brand",
+      "wielder": "Rya",
+      "type": "A blade forged around the heart of a Draconic Lord of Light, it is a living extension of Rya's power.",
+      "tags": "Melee, 2-harm, Magical, Draconic",
+      "evolution": [
+        {
+          "state": "Dormant",
+          "unlock_condition": "Found in the Dragon's Graveyard after completing a trial of the Scalebound Clans.",
+          "move": {
+            "name": "Lineage Affinity",
+            "description": "The blade adapts to your attuned lineage. When you Unleash Draconic Power, the weapon temporarily gains a tag appropriate to that element (e.g., 'Fire', 'Forceful', 'Freezing')."
+          }
+        },
+        {
+          "state": "Awakened",
+          "unlock_condition": "Master the Kaiser Manifestation for the first time.",
+          "move": {
+            "name": "Elemental Brand",
+            "description": "The blade now permanently deals +1 harm, and its damage type is always considered the same as your currently attuned lineage (e.g., fire harm, ice harm)."
+          }
+        },
+        {
+          "state": "Ascended",
+          "unlock_condition": "Confront the truth of the Shattering and accept the full weight of the draconic legacy.",
+          "move": {
+            "name": "Primal Echo",
+            "description": "Once per session, you can unleash the full power of the blade in a wide arc, dealing 3-harm (ap) to all enemies in front of you."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Whispering Parallax",
+      "wielder": "Zael",
+      "type": "A blade that seems carved from a tear in reality, humming with the silent energy of the Void.",
+      "tags": "Melee, 1-harm, Finesse, Magical, Void-touched",
+      "evolution": [
+        {
+          "state": "Dormant",
+          "unlock_condition": "Manifests after Zael confronts the source of the Void's corruption for the first time.",
+          "move": {
+            "name": "Shadow Veil",
+            "description": "When you wield this blade, you can use your Weave a Shadow move without cost or consequence."
+          }
+        },
+        {
+          "state": "Awakened",
+          "unlock_condition": "Achieve a Confidant bond with Rya, solidifying his will to protect others.",
+          "move": {
+            "name": "Void Tether",
+            "description": "Once per scene, after you deal harm to an enemy, you can link them to you with a tether of shadow. For the next few moments, whenever you take harm, they also take 1-harm."
+          }
+        },
+        {
+          "state": "Ascended",
+          "unlock_condition": "Complete his personal quest, 'The Nature of the Void,' and fully awaken his draconic heritage.",
+          "move": {
+            "name": "Silence of the Void",
+            "description": "Once per session, you can plunge the blade into a shadow to silence an enemy. They cannot use any magical abilities or special moves until they are able to act against you directly."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Heartwood Scepter",
+      "wielder": "Selra",
+      "type": "A staff crafted from the heartwood of a pre-Shattering tree, capped with a light-infused crystal.",
+      "tags": "Melee, 1-harm, Magical, Holy",
+      "evolution": [
+        {
+          "state": "Dormant",
+          "unlock_condition": "Bestowed upon Selra after completing 'The Blighted Grove' quest.",
+          "move": {
+            "name": "Mending Light",
+            "description": "When you use Shepherd's Prayer to heal, your target heals 1 additional Harm."
+          }
+        },
+        {
+          "state": "Awakened",
+          "unlock_condition": "Consciously reject the dogma of the Champions of Order in a key narrative moment.",
+          "move": {
+            "name": "Shepherd's Sanctuary",
+            "description": "Once per scene, you can plant the scepter in the ground to create an aura of peace. Enemies cannot enter the aura, and allies inside it are immune to fear."
+          }
+        },
+        {
+          "state": "Ascended",
+          "unlock_condition": "Complete her personal quest, 'Selra's Faith,' by defeating a major Champion antagonist.",
+          "move": {
+            "name": "Genesis Light",
+            "description": "Once per session, you can call upon the scepter's ultimate power to heal all allies nearby to their full health."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Forgeheart",
+      "wielder": "Torr",
+      "type": "The masterwork hammer Torr has spent his life trying to create, forged from the heart of a fallen star.",
+      "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Siege",
+      "evolution": [
+        {
+          "state": "Dormant",
+          "unlock_condition": "Torr must gather three legendary components from across the world and forge the hammer.",
+          "move": {
+            "name": "Perfect Sunder",
+            "description": "When you use your Sunder move, on a 10+, the target's armor is permanently destroyed until it can be repaired at a proper forge."
+          }
+        },
+        {
+          "state": "Awakened",
+          "unlock_condition": "Use the hammer to successfully defend a key Pangolin-kin location or shatter a major piece of enemy war machinery.",
+          "move": {
+            "name": "Mountain's Wrath",
+            "description": "Once per scene, you can slam the hammer down to create a shockwave, putting all nearby enemies in a bad spot."
+          }
+        },
+        {
+          "state": "Ascended",
+          "unlock_condition": "Defeat a legendary foe that threatens the existence of the Pangolin-kin people.",
+          "move": {
+            "name": "Unbreakable Spirit",
+            "description": "Once per session, when an ally is about to take a devastating blow, you can strike the ground with Forgeheart to negate the attack completely."
+          }
+        }
+      ]
+    }
+  ]
+}
