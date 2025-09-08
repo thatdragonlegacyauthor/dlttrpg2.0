@@ -8,17 +8,8 @@
     "background": "Era was a student of Loremaster Oris, tasked with chronicling Astoran history. Her curiosity led her to secretly document the abilities of living creatures, developing a unique magic that allowed her to replicate the skills she observed. Censured by her isolationist elders, she has ventured to the surface to prove that the world is a library, and every monster a book.",
     "narrative_hook": "Era's quest to document the world's creatures puts her at odds with factions who would rather see them exploited or exterminated, such as the Arcane Dominion. Her unique magical abilities may also attract unwanted attention from those who see her as a threat or a tool."
   },
-  "attributes": {
-    "Force": -1,
-    "Finesse": 0,
-    "Wits": "+2",
-    "Heart": "+1"
-  },
-  "trained_skills": [
-    "Know",
-    "Investigate",
-    "Survey"
-  ],
+  "attributes": { "Force": -1, "Finesse": 0, "Wits": "+2", "Heart": "+1" },
+  "trained_skills": [ "Know", "Investigate", "Survey" ],
   "harm_capacity": 6,
   "starting_moves": [
     {
@@ -34,27 +25,26 @@
       "description": "When you carefully study a creature, roll `2d6 + Wits`. On a **10+**, ask the GM 3 questions about its capabilities, instincts, or weaknesses. On a **7-9**, ask 1. The GM will answer truthfully."
     }
   ],
-  "clarification": "To use a prepared ability from the Codex, Era makes the 'Channel Power' move, with her intent being to replicate the monster's ability.",
   "advanced_moves": [
+    {
+      "name": "Mending Tide",
+      "description": "You can channel the restorative power of the deep ocean. When you Tend to an ally, you can choose to mark 1 Harm yourself to suffuse your care with life-giving water. If you do, they heal an additional 1 Harm and are cleansed of one physical effect (like poison or sickness)."
+    },
+    {
+      "name": "Tidal Pull",
+      "description": "When you call upon your innate connection to the ocean to control the battlefield, roll 2d6 + Heart. On a 10+, you create a powerful riptide; choose two from the list below. On a 7-9, the tide is wild; choose one, but the GM will introduce a complication.\n- An enemy is pulled into a bad spot.\n- You or an ally are repositioned safely.\n- You create a zone of churning, difficult terrain."
+    },
+    {
+      "name": "Abyssal Sight",
+      "description": "You have learned the Astorani art of scrying. When you spend a few moments in quiet contemplation with a source of water, you can ask the GM one question about a person, place, or object. The GM will answer with a cryptic but truthful vision."
+    },
     {
       "name": "Rapid Transcription",
       "description": "You can now use **Transcribe Essence** in the heat of the moment. When you do, on a 7-9, you must also expose yourself to danger."
-    },
-    {
-      "name": "Arcane Syntax",
-      "description": "When you **Channel Power** to replicate a monster's ability, you can choose to make it more potent. The effect is stronger, but the potential for backfire on a miss is greater."
-    },
-    {
-      "name": "Primal Synthesis",
-      "description": "When you have transcribed at least two abilities, you can spend time during a rest to try and combine them into a new, hybrid ability. Tell the GM what you are trying to create."
-    },
-    {
-      "name": "Perfect Recall",
-      "description": "You can now prepare a number of transcribed abilities equal to your Wits score + 1."
     }
   ],
   "bond_synergy": {
     "name": "Draconic Scholar",
-    "description": "Rya's draconic nature is a font of primal magic. When Era attempts to **Transcribe Essence** from any creature with Dragonkin or Elemental heritage, she may re-roll one of the dice."
+    "description": "Rya's draconic nature is a font of primal magic. When Era attempts to **Transcribe Essence** from any creature with Dragonkin or Elemental heritage, she may re-roll one of the dice. In return, when Rya uses Unleash Draconic Power against a creature Era has successfully used 'Analyze Creature' on, Rya's roll gains a +1 bonus."
   }
 }
