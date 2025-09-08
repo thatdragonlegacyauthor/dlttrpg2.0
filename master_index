@@ -1,131 +1,120 @@
 {
   "master_index": {
-    "description": "The master index for all core campaign and system data files for the Dragon Legacy Narrative System (dlttrpg2.0). This file serves as the primary reference for locating information and understanding the purpose of each data file.",
-    "files": [
+    "description": "The master index for all core campaign and system data files for the Dragon Legacy Narrative System (dlttrpg2.0).",
+    "file_groups": [
       {
-        "file_name": "core/core_rules.json",
-        "purpose": "The foundational rules and mechanics for the game system, including attributes, skills, and core moves.",
-        "key_objects": [ "system_core", "core_mechanics", "progression" ]
+        "category": "Core System Files",
+        "files": [
+          {
+            "file_name": "core/core_rules.json",
+            "purpose": "The foundational rules for the 2d6 narrative system, including attributes, skills, and progression."
+          },
+          {
+            "file_name": "core/core_moves.json",
+            "purpose": "Contains the universal moves that any character can perform (e.g., Engage an Enemy, Investigate a Scene)."
+          },
+          {
+            "file_name": "core/gm_guide.json",
+            "purpose": "The guide for the Game Master, outlining principles, agenda, and a list of generic GM moves."
+          }
+        ]
       },
       {
-        "file_name": "core/core_moves",
-        "purpose": "Contains the definitions for the basic, universal actions all characters can perform.",
-        "key_objects": [ "core_moves" ]
+        "category": "Player & Character Options",
+        "files": [
+          {
+            "file_name": "core/heros/[playbook_name].json",
+            "purpose": "A directory containing the 15 unique playbooks for Rya and her companions."
+          },
+          {
+            "file_name": "core/heros/rya/draconic_moves.json",
+            "purpose": "Defines the core 'Unleash Draconic Power' move for all 12 of Rya's lineages."
+          },
+          {
+            "file_name": "core/heros/rya/draconic_powers.json",
+            "purpose": "Details the supporting systems for Rya's abilities, including Aspect Mastery, Manifestations, and Draconic Unity."
+          },
+          {
+            "file_name": "core/draconic_grimoire.json",
+            "purpose": "A comprehensive list of the specific 'Draconic Techniques' Rya can learn as she masters her lineages."
+          }
+        ]
       },
       {
-        "file_name": "core/masters_system",
-        "purpose": "Details the system for finding hidden Masters who can teach unique 'Master Moves' to characters.",
-        "key_objects": [ "masters_system", "masters" ]
+        "category": "Equipment & Items",
+        "files": [
+          {
+            "file_name": "core/items/armory.json",
+            "purpose": "The consolidated and complete list of all standard and magical weapons, armor, and gear."
+          },
+          {
+            "file_name": "core/items/legacy_items_narrative.json",
+            "purpose": "The fully converted list of powerful, evolving legacy artifacts tied to specific characters and their narrative arcs."
+          }
+        ]
       },
       {
-        "file_name": "core/settlement_system",
-        "purpose": "Details the 'Legacy's Rest' town-building subsystem, including its core mechanics and management actions.",
-        "key_objects": [ "settlement_system", "core_mechanic", "master_builder_framework" ]
+        "category": "World Codex",
+        "files": [
+          {
+            "file_name": "world_codex/lore_narrative.json",
+            "purpose": "Contains the core world lore, including the Public History, the Secret Truth, and narrative Lore Moves."
+          },
+          {
+            "file_name": "world_codex/factions_narrative.json",
+            "purpose": "Details on all world factions, reframed with narrative drives, GM moves, and key questions."
+          },
+          {
+            "file_name": "world_codex/locations_narrative.json",
+            "purpose": "A comprehensive gazetteer of all world locations, complete with descriptions and narrative GM hooks."
+          },
+          {
+            "file_name": "world_codex/world_map_narrative.json",
+            "purpose": "Defines the world map and the core 'Make the Journey' move for handling travel."
+          },
+          {
+            "file_name": "world_codex/bestiaryp1.json",
+            "purpose": "The first part of the monster manual (Tiers 1-10), converted to the narrative system."
+          },
+          {
+            "file_name": "world_codex/bestiaryp2.json",
+            "purpose": "The second part of the monster manual (Tiers 11+ and Bosses), converted to the narrative system."
+          },
+          {
+            "file_name": "world_codex/explorable_areas/[location_name].json",
+            "purpose": "A directory of detailed maps for key locations, including rooms, exits, and narrative events."
+          }
+        ]
       },
       {
-        "file_name": "core/gm_guide",
-        "purpose": "Provides principles, guidelines, and tools for the Game Master to run the campaign.",
-        "key_objects": [ "gm_guide", "gm_principles", "gm_moves_list", "fronts_system" ]
+        "category": "Campaign & Subsystems",
+        "files": [
+          {
+            "file_name": "core/campaign_arc_chapter_one.json",
+            "purpose": "The narrative roadmap for the first chapter of the campaign, including the recruitment quest and major story beats."
+          },
+          {
+            "file_name": "core/masters_system.json",
+            "purpose": "Details the system for finding hidden Masters who can teach unique 'Master Moves'."
+          },
+          {
+            "file_name": "core/settlement_system.json",
+            "purpose": "Details the 'Legacy's Rest' town-building subsystem and its core mechanics."
+          }
+        ]
       },
       {
-        "file_name": "core/heros/rya/rya.json",
-        "purpose": "The main hero playbook for the protagonist, Rya.",
-        "key_objects": [ "playbook_name", "starting_moves", "advanced_moves", "draconic_manifestations" ]
-      },
-      {
-        "file_name": "core/heros/rya/draconic_moves.json",
-        "purpose": "A comprehensive list of the 'Unleash Draconic Power' moves for all 12 draconic lineages.",
-        "key_objects": [ "draconic_moves", "lineages" ]
-      },
-      {
-        "file_name": "core/heros/rya/draconic_powers.json",
-        "purpose": "Details the supporting systems for Rya's powers, including Aspect Mastery and Draconic Unity.",
-        "key_objects": [ "draconic_powers", "aspect_mastery_system", "draconic_unity" ]
-      },
-       {
-        "file_name": "core/heros/rya/draconic_grimoire",
-        "purpose": "A list of specific, learnable techniques for each draconic lineage that Rya can use on a successful roll.",
-        "key_objects": [ "draconic_grimoire", "lineages" ]
-      },
-      {
-        "file_name": "core/heros/[companion_name].json",
-        "purpose": "The 14 unique playbooks for each of Rya's potential companions, from Eldra to Zykar.",
-        "key_objects": [ "playbook_name", "character_name", "starting_moves", "advanced_moves", "bond_synergy" ]
-      },
-      {
-        "file_name": "core/items/core_items.json",
-        "purpose": "A list of all mundane and magical equipment, including weapons, armor, gear, and consumables.",
-        "key_objects": [ "armory" ]
-      },
-      {
-        "file_name": "core/items/legacy_items.json",
-        "purpose": "A list of powerful, evolving legacy artifacts tied to specific characters and their narrative arcs.",
-        "key_objects": [ "legacy_items" ]
-      },
-      {
-        "file_name": "world_codex/bestiaryp1.json",
-        "purpose": "The first part of the monster manual, detailing creatures from Tier 1-5 and Tier 6-10.",
-        "key_objects": [ "bestiary" ]
-      },
-      {
-        "file_name": "world_codex/bestiaryp2.json",
-        "purpose": "The second part of the monster manual, detailing high-level creatures and all major bosses.",
-        "key_objects": [ "bestiary" ]
-      },
-      {
-        "file_name": "world_codex/explorable_areas/[location_name].json",
-        "purpose": "A collection of files providing detailed maps for key locations, including rooms, exits, and narrative events.",
-        "key_objects": [ "start_room", "rooms", "events" ]
-      },
-      {
-        "file_name": "world_codex/factions_narrative.json",
-        "purpose": "Describes the major factions in the world, including their drives, moves, and key questions.",
-        "key_objects": [ "factions_narrative" ]
-      },
-      {
-        "file_name": "world_codex/locations.json",
-        "purpose": "Provides descriptions, GM hooks, and key characters for all major locations in the world.",
-        "key_objects": [ "locations_narrative" ]
-      },
-      {
-        "file_name": "world_codex/narrative.json",
-        "purpose": "Contains the core lore of the world, including the public history and the secret truth of the Shattering.",
-        "key_objects": [ "world_codex_narrative", "core_lore", "lore_moves" ]
-      },
-      {
-        "file_name": "world_codex/world_map.json",
-        "purpose": "Details the narrative travel system and the 'Make the Journey' core move.",
-        "key_objects": [ "world_map_narrative", "core_move" ]
-      },
-      {
-        "file_name": "story/prologue.json",
-        "purpose": "Contains the narrative structure and key events for the game's prologue.",
-        "key_objects": [ "prologue_narrative", "new_game_protocol", "chapters" ]
-      },
-      {
-        "file_name": "story/chapter_one.json",
-        "purpose": "Outlines the main story beats, quests, and climax for the first chapter of the campaign.",
-        "key_objects": [ "chapter_arc", "quests", "main_story_beats" ]
-      },
-      {
-        "file_name": "save/current/campaign_state",
-        "purpose": "Contains the current, active state of the campaign world, including active quests and narrative flags.",
-        "key_objects": [ "current_location", "world_state", "narrative_flags" ]
-      },
-      {
-        "file_name": "save/current/party_status",
-        "purpose": "Contains the current, active status of the player party, including inventory and character sheets.",
-        "key_objects": [ "active_party", "party_inventory", "character_sheets" ]
-      },
-      {
-        "file_name": "save/empty/campaign_state_shell",
-        "purpose": "A template file used to initialize a new campaign's world state.",
-        "key_objects": [ "world_state", "legacys_rest", "narrative_flags" ]
-      },
-      {
-        "file_name": "save/empty/party_status_shell",
-        "purpose": "A template file used to initialize a new campaign's party status.",
-        "key_objects": [ "active_party", "party_inventory", "character_sheets" ]
+        "category": "Save Data",
+        "files": [
+          {
+            "file_name": "save/current/[save_file].json",
+            "purpose": "The directory for the active campaign's state files."
+          },
+          {
+            "file_name": "save/empty/[shell_file].json",
+            "purpose": "The directory containing the template files for starting a new game."
+          }
+        ]
       }
     ]
   }
