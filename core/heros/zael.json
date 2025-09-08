@@ -8,17 +8,8 @@
     "background": "Zael was a foundling discovered near the Void Chasm. He grew up alongside Rya in Windmark Village, a quiet and observant boy with the strange ability to instinctively sense the emotions of others. He now believes confronting his connection to the Void is the only way to protect his friends and his peaceful past.",
     "narrative_hook": "His presence attracts attention from the Champions of Order. Mysterious whispers constantly echo in his mind, a tempting voice promising him the strength to protect his friends if only he would submit to a perfect, unchaotic order."
   },
-  "attributes": {
-    "Force": -1,
-    "Finesse": +1,
-    "Wits": +2,
-    "Heart": +1
-  },
-  "trained_skills": [
-    "Prowl",
-    "Know",
-    "Sense"
-  ],
+  "attributes": { "Force": -1, "Finesse": "+1", "Wits": "+2", "Heart": "+1" },
+  "trained_skills": [ "Prowl", "Know", "Sense" ],
   "harm_capacity": 6,
   "starting_moves": [
     {
@@ -36,20 +27,40 @@
   ],
   "advanced_moves": [
     {
+      "name": "Embrace the Dragon's Void",
+      "requirement": "Complete the quest 'The Nature of the Void.'",
+      "description": "You have faced the whispers and claimed your heritage. When you take this move, choose one of your starting moves and replace it with its Awakened counterpart below:",
+      "awakened_options": [
+        {
+          "replaces": "Weave a Shadow",
+          "move": {
+            "name": "Umbral Form",
+            "description": "When you melt into a creature's shadow, roll 2d6 + Wits. On a 10+, you are completely undetectable and can emerge from any other shadow nearby. On a 7-9, you hide successfully, but the void's touch is cold; you must either mark 1 Harm or the GM will introduce a complication from your prolonged exposure."
+          }
+        },
+        {
+          "replaces": "Chilling Whisper",
+          "move": {
+            "name": "Entropy Bolt",
+            "description": "When you lash out with a bolt of pure decay, roll 2d6 + Wits. On a 10+, you deal 2-harm (ap) and the target's next action is weakened (they deal less harm or their effect is diminished). On a 7-9, you deal your harm, but the entropic energy also affects a nearby ally, giving them a penalty on their next action."
+          }
+        },
+        {
+          "replaces": "Void Step",
+          "move": {
+            "name": "Abyssal Anchor",
+            "description": "When you step through the void, you can leave a rift behind. Roll 2d6 + Finesse. On a 10+, you appear in any shadow you can see and the rift remains, creating a hazardous area for your enemies. On a 7-9, you make the jump, but the rift is unstable and may have unintended side effects for anyone who passes near it, friend or foe."
+          }
+        }
+      ]
+    },
+    {
       "name": "Enveloping Veil",
       "description": "When you successfully **Weave a Shadow**, you can now conceal yourself and one other ally with the same illusion."
     },
     {
       "name": "Mirror Image",
       "description": "When you are about to take harm, you can spend a Legacy Point to create a perfect illusory duplicate of yourself. The harm is negated as the duplicate shatters, and you may immediately reposition yourself to any nearby shadow."
-    },
-    {
-      "name": "Mental Echo",
-      "description": "When you make physical contact with a creature, you can ask the GM, 'What is your most guarded secret?' The GM must answer truthfully."
-    },
-    {
-      "name": "Hall of Mirrors",
-      "description": "When you **Weave a Shadow** on a grand scale, you can create a zone of maddening illusions. On a 10+, choose two effects. On a 7-9, choose one. The zone lasts as long as you focus on it.\n- Enemies inside the zone are disoriented and have a -2 penalty on all their rolls.\n- Allies inside the zone appear as shifting, blurry images, making them harder to hit.\n- You can make any enemy inside the zone attack the closest creature to them."
     }
   ],
   "bond_synergy": {
