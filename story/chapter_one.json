@@ -1,0 +1,53 @@
+{
+  "chapter_arc": {
+    "chapter_number": 1,
+    "chapter_title": "Forging a Pack",
+    "chapter_theme": "From a group of disparate survivors, a true fellowship is forged. This chapter focuses on the party coming together, understanding the forces arrayed against them, and securing their first major alliance.",
+    "quests": [
+      {
+        "quest_name": "The Whispers on the Wind",
+        "quest_type": "Main Quest - Recruitment",
+        "status": "Not Started",
+        "trigger": "After securing refuge in Tanglewood Reach, a wounded Skyveil scout arrives with news of a crashed 'metal bird' in the Serpent's Coil mountains. Kaelen confirms seeing smoke and Champion patrols heading towards the site.",
+        "description": "Race against the Champions of Order to investigate a crashed Wyndian airship, where the party will encounter both a princess seeking freedom and a hunter seeking vengeance.",
+        "key_locations": [
+          "Tanglewood Reach",
+          "Serpent's Coil Pass",
+          "Fallen Sky Ship"
+        ],
+        "key_characters": [
+          "WYNDIA_NINA",
+          "SKYVEIL_TALIA"
+        ],
+        "climax": "The party must ally with Nina and Talia to defeat a squad of Arcane Dominion soldiers, including 'The Incarcerator', who are scavenging the wreck.",
+        "resolution": "Nina and Talia, finding common cause with the party, agree to join them. This formally begins their companion quests: 'The Weight of the Crown' and 'A Hunter's Mark'."
+      }
+    ],
+    "main_story_beats": [
+      {
+        "beat_number": 1,
+        "title": "A Princess's Plea & A Father's Decree",
+        "location": "Wyndia, the Floating City",
+        "plot": "The party travels to Wyndia with Nina so she can warn her father, Lord Aerion, about the increasing aggression of both the Champions of Order and the Arcane Dominion.",
+        "conflict": "Lord Aerion is bound by the delicate politics of the Ember Concord. He views Rya's uncontrolled power as a political liability and forbids Nina from leaving the city, placing her under a gilded house arrest. The party must navigate the political intrigue of the Wyndian court and find a way to leave the city with Nina.",
+        "outcome": "The party learns that established authorities cannot be relied upon for aid against the primary threats. Nina chooses her new friends and her own path over her royal duty, solidifying her commitment to the party."
+      },
+      {
+        "beat_number": 2,
+        "title": "The Hermit's Knowledge",
+        "location": "Rhys's Cabin, The Whispering Woods",
+        "plot": "Realizing they need better intelligence, the party follows rumors to the cabin of Rhys, a reclusive hermit and former Champion of Order.",
+        "conflict": "Rhys is deeply paranoid and cynical. The party must earn his trust by proving their worth, likely by undertaking a dangerous hunt or providing a valuable service that demonstrates their capabilities and intentions.",
+        "outcome": "Rhys provides them with crucial intelligence on Grand Inquisitor Valerius: his tactics, his fanatical mindset, and his current obsession with finding a place of great spiritual power called 'The Well of Souls' on the Azure Steppes."
+      },
+      {
+        "beat_number": 3,
+        "title": "The Siege of the Stonekin (Chapter Climax)",
+        "location": "Stonegard, Scalebound Clans Territory",
+        "plot": "Using the intel from Rhys, the party deduces that Valerius is not seeking the Well of Souls for its own power, but as a staging ground for an assault on Stonegard to seize the draconic relics in the Dragon's Graveyard. The party must race to warn the isolationist Scalebound Clans.",
+        "conflict": "The party must first get past the deeply suspicious Stonekin guards and convince the clan elders of the imminent threat. The climax is a multi-stage battle to defend Stonegard. The party will be tasked with a critical objective, such as holding a key chokepoint in the pass, sabotaging Champion siege weapons, or dueling one of Valerius's lieutenants to break the morale of the attacking force.",
+        "outcome": "The Champions' initial assault is repelled. While Valerius is not defeated, his plans are thwarted. The party's actions earn them the grudging respect and a temporary alliance with the powerful Scalebound Clans. The chapter concludes with the party having successfully forged their group into a capable unit and secured their first major allies in the fight to come."
+      }
+    ]
+  }
+}
