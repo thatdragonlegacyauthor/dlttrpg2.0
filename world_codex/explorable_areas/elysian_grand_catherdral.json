@@ -1,0 +1,57 @@
+{
+  "elysian_grand_cathedral": {
+    "start_room": "cathedral_entrance",
+    "rooms": {
+      "cathedral_entrance": {
+        "name": "Cathedral Entrance",
+        "description": "You stand before the immense, sun-bleached marble facade of the Elysian Grand Cathedral. The architecture is a marvel of perfect symmetry and soaring arches, designed to inspire both awe and a sense of insignificance. Massive, silver-inlaid doors stand open, inviting all to enter. The only sounds are the perfectly timed chimes of a distant bell and the crisp, synchronized marching of Champion patrols on the plaza.",
+        "exits": [
+          { "direction": "Enter", "destination": "grand_nave" }
+        ]
+      },
+      "grand_nave": {
+        "name": "Grand Nave",
+        "description": "The main hall of the Elysian Grand Cathedral is a breathtaking, cavernous space. Massive stained-glass windows depict scenes of Elysia's benevolence, casting long, colorful rays of light across the perfectly polished white floor. The air is cool and smells of incense and sterile stone. The atmosphere is one of profound silence and cold, imposing order. Patrols of Champions march with rigid precision.",
+        "exits": [
+          { "direction": "Exit Cathedral", "destination": "cathedral_entrance" },
+          { "direction": "West Processional", "destination": "west_processional" },
+          { "direction": "East Scriptorium Hall", "destination": "east_scriptorium_hall" },
+          { "direction": "Up the Grand Staircase", "destination": "grand_staircase" }
+        ]
+      },
+      "hall_of_healing": {
+        "name": "The Hall of Healing",
+        "description": "This long, peaceful hall is the public face of the Order's compassion. Clean, white cots are arranged in perfect rows, and healers in pristine robes tend to the sick and injured from nearby villages. The air is filled with the soft chanting of restorative hymns. It is a place of genuine succor, though the healers' devotion to Elysian doctrine is absolute and unsettling.",
+        "events": [
+          {
+            "trigger": "speak_with_healers",
+            "action": "narrative_move",
+            "details": "When you try to learn more from the healers about their work, roll 2d6 + Heart. On a 10+, they trust you and speak of the 'Chamber of Purification', where those with deep spiritual maladies are taken for 'special treatment'. On a 7-9, they are hesitant, but one of them lets slip a mention of the 'Purification' chamber before being silenced by a superior."
+          }
+        ]
+      },
+      "sanctum_of_doctrine": {
+        "name": "Sanctum of Doctrine",
+        "description": "This chamber serves as a vast library and scriptorium. Bookshelves stretch to the ceiling, filled with thousands of identical copies of Elysian scripture and heavily redacted histories of the world. Scribes work in absolute silence, copying texts with unnerving precision. A high-ranking Inquisitor pours over a map on a large table in the center.",
+        "events": [
+          {
+            "trigger": "search_the_archives",
+            "action": "narrative_move",
+            "details": "When you search for a discrepancy in the archives, roll 2d6 + Wits. On a 10+, you find an old, unredacted text that directly contradicts modern scripture, hinting at the secret truth of the Shattering. On a 7-9, you find a contradiction, but it is cryptic and raises more questions than answers. On a 6-, a scribe notices your unusual interest and alerts a nearby Inquisitor."
+          }
+        ]
+      },
+      "war_council_chamber": {
+        "name": "War Council Chamber",
+        "description": "This is the strategic heart of the Champions of Order. A massive, stone map of Eryndor covers the entire floor, with glowing runes representing troop movements and areas of chaotic influence. High-ranking Inquisitors and Knights plan their crusades here. The walls are bare, save for a single, massive banner bearing Elysia's symbol: a perfect, golden circle.",
+        "events": [
+          {
+            "trigger": "study_the_map",
+            "action": "narrative_move",
+            "details": "When you study the war map for strategic information, roll 2d6 + Wits. On a 10+, you discern the Champions' next major strategic target and the location of a hidden garrison. On a 7-9, you learn one of those two things, but not both."
+          }
+        ]
+      }
+    }
+  }
+}
