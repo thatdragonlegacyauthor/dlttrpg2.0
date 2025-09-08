@@ -1,0 +1,58 @@
+{
+  "gm_guide": {
+    "introduction": "This guide provides the principles and tools for running the Dragon Legacy TTRPG. Your role as the Game Master (GM) is not to be an adversary, but a facilitator of the story, the narrator of the world, and a fan of the player characters. Your job is to make their lives an adventure.",
+    "gm_agenda": [
+      "Make the world of Eryndor feel alive and dynamic.",
+      "Fill the characters' lives with adventure and consequence.",
+      "Challenge the characters' beliefs and loyalties through the actions of the factions.",
+      "Play to find out what happens. Don't pre-plan a plot; let the story emerge from the players' choices and the outcomes of the moves."
+    ],
+    "gm_principles": [
+      "Be a fan of the player characters. Celebrate their victories and make their struggles meaningful.",
+      "Ask provocative questions and build on the answers.",
+      "Address the characters, not the players.",
+      "Give every monster, NPC, and location a life of its own.",
+      "Never say the name of your move; describe what happens in the fiction.",
+      "Always follow the fiction. A move is only triggered when the narrative action happens."
+    ],
+    "making_a_gm_move": {
+      "trigger": "You make a GM move whenever there's a golden opportunity, such as:",
+      "conditions": [
+        "A player rolls a 6- on a move (a 'miss'). This is the most common trigger.",
+        "The players look to you to see what happens next.",
+        "A player gives you a golden opportunity by ignoring a clear and present danger."
+      ],
+      "description": "Your moves are your primary tool for introducing new challenges. They can be 'soft' (foreshadowing a threat) or 'hard' (making a threat immediate and concrete). A 6- roll on a player's move almost always calls for a hard move."
+    },
+    "gm_moves_list": [
+      { "name": "Reveal an unwelcome truth", "type": "Soft", "example": "The 'monster' you were hired to kill is actually protecting its young." },
+      { "name": "Show signs of an approaching threat", "type": "Soft", "example": "You find a fresh set of Champion of Order bootprints on the trail ahead." },
+      { "name": "Put someone in a spot", "type": "Soft", "example": "The guard captain asks you a direct question you can't easily lie your way out of." },
+      { "name": "Offer a deal with a cost", "type": "Soft", "example": "Farah can get you the information you need, but you'll owe the Gilded Paw a favor." },
+      { "name": "Tell them the consequences and ask", "type": "Soft", "example": "The ancient mechanism is unstable. You can try to activate it, but it might explode. What do you do?" },
+      { "name": "Deal harm", "type": "Hard", "example": "The Gloomfang Wolf lunges from the shadows and sinks its fangs into you. Take 2-harm." },
+      { "name": "Expend their resources", "type": "Hard", "example": "You tumble down the cliff, and your last healing salve is smashed on the rocks." },
+      { "name": "Put them in a worse spot", "type": "Hard", "example": "The floor gives way, and now you're dangling precariously over a chasm." },
+      { "name": "Separate them", "type": "Hard", "example": "A portcullis slams down, splitting the party in two." },
+      { "name": "Turn their move against them", "type": "Hard", "example": "Your attempt to intimidate the guard only strengthens his resolve, and he calls for reinforcements." },
+      { "name": "Announce an off-screen faction move", "type": "Hard", "example": "While you were dealing with the crisis here, the Arcane Dominion completed their ritual at the Sunken Temple." }
+    ],
+    "fronts_system": {
+      "title": "Using Fronts to Organize Threats",
+      "description": "A 'Front' is a collection of related dangers that pose a threat to the characters and the world. You can use our 'factions_narrative.json' file to easily create Fronts. A good Front has a core drive, a cast of key players, and a sequence of 'Impending Dooms' that will occur if the players don't intervene.",
+      "example_front": {
+        "name": "The Crusade for Order",
+        "faction": "The Champions of Order",
+        "drive": "To purge the 'chaotic heresy' of draconic power from the region.",
+        "key_players": ["Grand Inquisitor Valerius", "Priestess Isolde"],
+        "impending_dooms": [
+          "1. A key neutral settlement (like Havenwood) is swayed to their cause through manipulation.",
+          "2. They establish a fortified garrison (the Silverwood Garrison) to project their power.",
+          "3. They successfully assault Stonegard and seize the draconic relics within.",
+          "4. They discover Rya's location and capture her."
+        ],
+        "using_the_front": "When the players fail a roll or ignore this threat, you can advance the Front's clock by revealing the next Impending Doom has come to pass. This makes the world feel like it's moving and reacting to the players' actions (or inaction)."
+      }
+    }
+  }
+}
