@@ -8,17 +8,8 @@
     "background": "A healer raised in Havenwood, a village that worships Elysia as a benevolent goddess of order. Selra’s faith was shattered when she witnessed the Champions of Order's brutal attack on Windmark. The cruelty of their purge was a direct contradiction to everything she had ever believed. Now, traveling with Rya, she is a lost pilgrim, struggling to reconcile her faith with the injustice she has seen.",
     "narrative_hook": "Selra is torn between her deeply held faith in Elysia's goodness and the increasingly cruel actions of the Champions. Her personal quest is to find a balance between order and compassion, and to define her own faith."
   },
-  "attributes": {
-    "Force": -1,
-    "Finesse": 0,
-    "Wits": +1,
-    "Heart": +2
-  },
-  "trained_skills": [
-    "Sway",
-    "Know",
-    "Tend"
-  ],
+  "attributes": { "Force": -1, "Finesse": 0, "Wits": "+1", "Heart": "+2" },
+  "trained_skills": [ "Sway", "Know", "Tend" ],
   "harm_capacity": 6,
   "starting_moves": [
     {
@@ -37,24 +28,24 @@
   ],
   "advanced_moves": [
     {
-      "name": "Soothing Presence",
-      "description": "When you successfully use **Shepherd's Prayer**, your target also feels a sense of peace, clearing their mind of doubt or confusion."
+      "name": "Path of the Zealot",
+      "description": "When you witness an act of true cruelty that shakes your faith in pure compassion, you can channel your faith into righteous fury. When you Engage in Battle with righteous anger, you can use Heart instead of Force. The harm you deal is considered 'holy' and you may choose one:\n- Your attack strikes with the force of a Searing Bolt, dealing +1 Harm.\n- Your strike is a Blinding Light, and your target is temporarily blinded."
     },
     {
-      "name": "Path of the Zealot",
-      "description": "When you witness an act of true cruelty, you can channel your faith into righteous fury. Your next **Engage in Battle** move will use Heart instead of Force, and the harm you deal is considered 'holy'."
+      "name": "Aura of Retribution",
+      "description": "When you suffer harm from an enemy you have deemed wicked, you can mark 1 Harm to wreath yourself in a divine aura. For the rest of the scene, any enemy that strikes you in melee also takes 1-harm (ap) in return."
+    },
+    {
+      "name": "Divine Judgment",
+      "description": "When you condemn a creature for its sins, roll 2d6 + Heart. On a 10+, you mark them. The next time they would deal Harm, the Harm is reduced to zero as divine light intervenes. On a 7-9, the light still intervenes, but the backlash of such a direct miracle is taxing; mark 1 Harm."
     },
     {
       "name": "Beacon of Hope",
       "description": "When you hold your holy symbol aloft and stand against the darkness, roll `2d6 + Heart`. On a **10+**, all allies who can see you are healed of 1 Harm and are immune to fear for the scene. On a **7-9**, the same happens, but the light draws the full attention of every enemy in the area."
-    },
-    {
-      "name": "Divine Judgment",
-      "description": "When you condemn a creature for its sins, roll `2d6 + Heart`. On a success, you mark them. The next time they would deal Harm, the Harm is reduced to zero as divine light intervenes."
     }
   ],
   "bond_synergy": {
     "name": "A New Faith",
-    "description": "When Selra uses **Shepherd's Prayer** to aid Rya, she can choose an additional option from the list, even on a 7-9. Rya's inherent goodness strengthens Selra's wavering faith, allowing her to perform minor miracles."
+    "description": "When Selra uses **Shepherd's Prayer** to aid Rya, she can choose an additional option from the list, even on a 7-9. Rya's inherent goodness strengthens Selra's wavering faith, allowing her to perform minor miracles. In turn, Rya's own spirit is soothed by this act of pure faith, and she also clears 1 Harm."
   }
 }
