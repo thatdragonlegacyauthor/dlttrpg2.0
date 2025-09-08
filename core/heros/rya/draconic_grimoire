@@ -1,0 +1,139 @@
+{
+  "draconic_grimoire": {
+    "system_description": "As Rya gains Mastery in a lineage, she can learn specific Draconic Techniques. When she makes the 'Unleash Draconic Power' move and rolls a 10+, she can choose to perform one of her learned techniques for that lineage as one of her benefits.",
+    "lineages": [
+      {
+        "lineage_name": "Fire",
+        "techniques": [
+          { "name": "Searing Lash", "rank": "Novice", "description": "You unleash a whip of pure flame to strike a single target with precision, dealing your harm and leaving them wracked with pain (they take a penalty on their next action)." },
+          { "name": "Blast Furnace", "rank": "Novice", "description": "You exhale a short, wide cone of fire, dealing 1-harm (ap) to a group of close-range enemies." },
+          { "name": "Flame Blade", "rank": "Novice", "description": "You wreath your own or an ally's weapon in magical fire. For the rest of the scene, its attacks deal +1 harm and are considered 'magical' and 'fire'." },
+          { "name": "Cauterize Wound", "rank": "Adept", "description": "You use your inner fire to mend a wound. You touch an ally, healing them of 2-harm but causing them to take 1-harm (ap) first from the searing heat." },
+          { "name": "Wall of Fire", "rank": "Adept", "description": "You create a barrier of roaring flames, providing cover, creating a hazard, and reshaping the battlefield in your favor." },
+          { "name": "Firestorm", "rank": "Master", "description": "You create a swirling vortex of fire in a wide area. It deals 2-harm (ap) to all enemies within it and remains a dangerous hazard for the rest of the scene." }
+        ]
+      },
+      {
+        "lineage_name": "Earth",
+        "techniques": [
+          { "name": "Stone Shard", "rank": "Novice", "description": "You hurl a shard of rock at a single foe, dealing your harm and putting them off balance." },
+          { "name": "Earthen Aegis", "rank": "Novice", "description": "You raise a shield of rock, granting yourself or an ally +2 Armor for the next exchange." },
+          { "name": "Rooted Stance", "rank": "Novice", "description": "You anchor yourself to the ground, becoming immovable until you choose to move." },
+          { "name": "Earthen Grasp", "rank": "Adept", "description": "You cause the ground to erupt and trap a foe, restraining them until they can break free." },
+          { "name": "Wall of Stone", "rank": "Adept", "description": "You raise an impassable wall of rock, reshaping the battlefield." },
+          { "name": "Earthshatter", "rank": "Master", "description": "You strike the ground with furious power, creating a shockwave that deals your harm to all nearby enemies and leaves the terrain broken and hazardous." }
+        ]
+      },
+      {
+        "lineage_name": "Ice",
+        "techniques": [
+          { "name": "Frost Lance", "rank": "Novice", "description": "You hurl a spear of ice at a target, dealing your harm and inflicting a debilitating chill (they take a penalty on their next action)." },
+          { "name": "Frost Armor", "rank": "Novice", "description": "You cover yourself or an ally in a layer of magical frost. The next time they take harm, reduce it by 1." },
+          { "name": "Frozen Ground", "rank": "Novice", "description": "You freeze the ground in a wide area, creating a hazardous, slick surface for your enemies." },
+          { "name": "Hoarfrost", "rank": "Adept", "description": "You create a field of slick, treacherous ice, causing a group of enemies to become scattered and disoriented." },
+          { "name": "Frozen Prison", "rank": "Adept", "description": "You completely encase a single enemy in ice, trapping them until they can be freed." },
+          { "name": "Blizzard", "rank": "Master", "description": "You summon a swirling storm of ice and snow, dealing 1-harm (ap) to all enemies in a wide area and providing cover for your allies." }
+        ]
+      },
+      {
+        "lineage_name": "Storm",
+        "techniques": [
+          { "name": "Lightning Bolt", "rank": "Novice", "description": "You unleash a bolt of lightning at a single foe, dealing your harm (ap)." },
+          { "name": "Gale Push", "rank": "Novice", "description": "You create a powerful gust of wind, forcing a group of enemies back or into a bad spot." },
+          { "name": "Updraft", "rank": "Novice", "description": "You command the winds to lift you or an ally, allowing you to reach a high place or avoid an obstacle." },
+          { "name": "Chain Lightning", "rank": "Adept", "description": "You unleash a bolt of lightning that strikes your primary target for your harm, then leaps to a second nearby enemy for 1-harm." },
+          { "name": "Cyclone", "rank": "Adept", "description": "You create a swirling vortex of wind that provides cover and makes ranged attacks against your party more difficult." },
+          { "name": "Tornado", "rank": "Master", "description": "You summon a powerful tornado to rip through the battlefield, dealing 2-harm (ap) to everything in its path and dramatically reshaping the environment." }
+        ]
+      },
+      {
+        "lineage_name": "Tide",
+        "techniques": [
+          { "name": "Mending Flow", "rank": "Novice", "description": "You surround an ally with restorative waters, healing them of 1-harm and cleansing a minor negative effect." },
+          { "name": "Crushing Wave", "rank": "Novice", "description": "You slam a group of enemies with a powerful wave, dealing 1-harm and putting them in a bad spot." },
+          { "name": "Slipstream", "rank": "Novice", "description": "You create a current of water that allows an ally to reposition instantly without fear of reprisal." },
+          { "name": "Healing Flood", "rank": "Adept", "description": "You unleash a wave of healing energy, healing one ally of 2-harm, and all other nearby allies of 1-harm." },
+          { "name": "Whirlpool", "rank": "Adept", "description": "You create a vortex that traps a group of enemies, leaving them clustered together and vulnerable." },
+          { "name": "Tsunami", "rank": "Master", "description": "You summon a massive tidal wave that crashes over the battlefield, dealing 2-harm (ap) to all enemies and completely changing the landscape." }
+        ]
+      },
+      {
+        "lineage_name": "Light",
+        "techniques": [
+          { "name": "Searing Bolt", "rank": "Novice", "description": "You strike a foe with a bolt of pure, searing light, dealing your harm (ap)." },
+          { "name": "Glimmer", "rank": "Novice", "description": "You create a blinding flash of light, disorienting a group of foes and giving your allies an opening." },
+          { "name": "Healing Aura", "rank": "Novice", "description": "You emit a pulse of gentle light, healing all nearby allies of 1-harm." },
+          { "name": "Pillar of Dawn", "rank": "Adept", "description": "You call down a column of light that simultaneously heals all allies within it for 1-harm and deals 1-harm (ap) to all enemies within it." },
+          { "name": "Shield of Faith", "rank": "Adept", "description": "You grant an ally a shield of pure light that will absorb the next instance of harm they would take." },
+          { "name": "Wrath of the Heavens", "rank": "Master", "description": "You call down a storm of holy fire, dealing 2-harm (ap) to all enemies in a wide area and leaving them staggered." }
+        ]
+      },
+      {
+        "lineage_name": "Void",
+        "techniques": [
+          { "name": "Entropy Bolt", "rank": "Novice", "description": "You lash out with a bolt of pure decay, dealing your harm and causing the target's abilities to falter on their next turn." },
+          { "name": "Shadow Veil", "rank": "Novice", "description": "You grant an ally advantage on a stealth check or allow them to vanish from sight." },
+          { "name": "Minor Drain", "rank": "Novice", "description": "You touch a creature, dealing 1-harm and healing yourself of 1-harm." },
+          { "name": "Mirror Image", "rank": "Adept", "description": "You create a number of illusory duplicates that confuse your enemies, drawing their fire." },
+          { "name": "Life Siphon", "rank": "Adept", "description": "You create a life-draining beam on a foe. For a few moments, they take 1-harm at the start of their turn and you heal 1-harm." },
+          { "name": "Erase", "rank": "Master", "description": "You attempt to unravel a single, non-legendary creature from existence, dealing massive harm (3-harm ap) and leaving them spiritually shattered." }
+        ]
+      },
+      {
+        "lineage_name": "Mist",
+        "techniques": [
+          { "name": "Phantom Strike", "rank": "Novice", "description": "You create a shadowy duplicate that strikes a target, dealing your harm from an unexpected direction." },
+          { "name": "Mist Veil", "rank": "Novice", "description": "You create a patch of dense, concealing mist, providing cover for your allies." },
+          { "name": "Silent Veil", "rank": "Novice", "description": "You muffle all sound in an area, allowing your party to proceed with perfect stealth." },
+          { "name": "Disorienting Fog", "rank": "Adept", "description": "You create a wide area of magical fog that confuses your enemies, making them unable to use reactions or make opportunity attacks." },
+          { "name": "Mirror Image", "rank": "Adept", "description": "You create several illusory duplicates of yourself that draw enemy fire." },
+          { "name": "Hall of Mirrors", "rank": "Master", "description": "You create an area of maddening illusions, forcing enemies within it to attack the nearest creature, friend or foe." }
+        ]
+      },
+      {
+        "lineage_name": "Metal",
+        "techniques": [
+          { "name": "Geared Strike", "rank": "Novice", "description": "You hurl a shard of razor-sharp metal at a foe, dealing your harm (ap)." },
+          { "name": "Metal Plating", "rank": "Novice", "description": "You grant an ally a temporary shield of metal plates, giving them +1 Armor for the next exchange." },
+          { "name": "Reinforce", "rank": "Novice", "description": "You bolster an ally's weapon, allowing it to deal +1 harm on its next strike." },
+          { "name": "Wrecking Ball", "rank": "Adept", "description": "You hurl a heavy sphere of metal at a foe, dealing your harm and knocking them prone." },
+          { "name": "Steel Skin", "rank": "Adept", "description": "You grant an ally resistance to all physical harm for the next exchange." },
+          { "name": "Annihilation Protocol", "rank": "Master", "description": "You unleash a devastating torrent of shrapnel and force, dealing 2-harm (ap) to a single target and disabling one of their special abilities." }
+        ]
+      },
+      {
+        "lineage_name": "Psionic",
+        "techniques": [
+          { "name": "Mental Strike", "rank": "Novice", "description": "You strike a foe with a bolt of pure thought, dealing your harm (ap)." },
+          { "name": "Psionic Push", "rank": "Novice", "description": "You telekinetically shove a foe, putting them in a bad spot." },
+          { "name": "Mind Link", "rank": "Novice", "description": "You establish a silent, telepathic link with your entire party for the scene." },
+          { "name": "Crush", "rank": "Adept", "description": "You telekinetically crush a single target, dealing your harm and ignoring all armor and magical defenses." },
+          { "name": "Suggestion", "rank": "Adept", "description": "You subtly dominate the will of a target, compelling them to take (or not take) a specific action on their next turn." },
+          { "name": "Mind Blast", "rank": "Master", "description": "You unleash a devastating psychic blast in a wide cone, dealing 2-harm (ap) to all enemies and leaving them mentally stunned." }
+        ]
+      },
+      {
+        "lineage_name": "Chrono",
+        "techniques": [
+          { "name": "Haste", "rank": "Novice", "description": "You grant an ally a burst of speed, allowing them to take an immediate, extra movement." },
+          { "name": "Slow", "rank": "Novice", "description": "You inflict a curse of sluggishness on a foe, giving them a penalty on their next action." },
+          { "name": "Time Slip", "rank": "Novice", "description": "You allow an ally to completely re-roll a failed action, as if it never happened." },
+          { "name": "Temporal Shackles", "rank": "Adept", "description": "You trap a foe in a field of stasis, causing them to lose their next turn as they are frozen in time." },
+          { "name": "Accelerated Healing", "rank": "Adept", "description": "You speed up an ally's natural healing process, allowing them to heal 2-harm." },
+          { "name": "Time Stop", "rank": "Master", "description": "You briefly stop time for a single enemy. They cannot act or react at all until your next turn, leaving them completely defenseless." }
+        ]
+      },
+      {
+        "lineage_name": "Cosmic",
+        "techniques": [
+          { "name": "Starlight Bolt", "rank": "Novice", "description": "You unleash a bolt of pure stellar energy that deals your harm and bypasses all non-magical defenses." },
+          { "name": "Gravity Well", "rank": "Novice", "description": "You create a localized gravity distortion, pulling a group of foes together into a single, vulnerable cluster." },
+          { "name": "Weightless Step", "rank": "Novice", "description": "You reduce your own or an ally's gravity, allowing for a massive leap or a safe, feather-light fall." },
+          { "name": "Cosmic Ray", "rank": "Adept", "description": "You fire a beam of pure cosmic energy, dealing 2-harm (ap) to a single target." },
+          { "name": "Meteor Strike", "rank": "Adept", "description": "You call down a single, small meteor to strike a foe, dealing your harm and leaving them staggered." },
+          { "name": "Black Hole", "rank": "Master", "description": "You summon a miniature black hole that consumes a non-legendary foe, instantly removing them from the scene." }
+        ]
+      }
+    ]
+  }
+}
