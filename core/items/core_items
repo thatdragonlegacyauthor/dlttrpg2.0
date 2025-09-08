@@ -1,0 +1,90 @@
+{
+  "core_items": {
+    "weapons": [
+      {
+        "name": "Dagger",
+        "tags": "Melee, 1-harm, Finesse, Light, Thrown",
+        "description": "A simple, easily concealed blade. Can be thrown in a pinch."
+      },
+      {
+        "name": "Sword",
+        "tags": "Melee, 2-harm, Versatile",
+        "description": "A balanced and reliable blade. Can be wielded with one or two hands."
+      },
+      {
+        "name": "Runeblade",
+        "tags": "Melee, 2-harm, Magical, Wits",
+        "description": "A light blade etched with runes that channel the wielder's mental energy, guided by intellect and arcane will."
+      },
+      {
+        "name": "Greatsword",
+        "tags": "Melee, 3-harm (ap), Two-Handed, Forceful",
+        "description": "A massive, heavy blade that requires two hands and significant strength to wield effectively. It can cleave through armor."
+      },
+      {
+        "name": "Longbow",
+        "tags": "Ranged, 2-harm, Two-Handed, Far",
+        "description": "A powerful bow for a dedicated archer, capable of hitting targets at a great distance."
+      },
+      {
+        "name": "Spear",
+        "tags": "Melee, 2-harm, Versatile, Reach",
+        "description": "A long polearm that can keep enemies at a distance."
+      },
+      {
+        "name": "Warhammer",
+        "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Siege",
+        "description": "A massive, two-handed hammer designed to shatter armor and fortifications."
+      },
+      {
+        "name": "Gauntlets",
+        "tags": "Melee, 1-harm, Brawling",
+        "description": "Armored gloves for brutal, close-quarters fighting."
+      },
+      {
+        "name": "Whip",
+        "tags": "Melee, 1-harm, Finesse, Reach, Grapple",
+        "description": "A flexible weapon that can be used to trip and entangle foes from a distance."
+      }
+    ],
+    "armor": [
+      {
+        "name": "Leather Armor",
+        "type": "Light Armor",
+        "armor": 1,
+        "tags": "Light"
+      },
+      {
+        "name": "Chain Mail",
+        "type": "Heavy Armor",
+        "armor": 2,
+        "tags": "Heavy, Noisy"
+      },
+      {
+        "name": "Full Plate Armor",
+        "type": "Heavy Armor",
+        "armor": 3,
+        "tags": "Heavy, Noisy, Clumsy"
+      }
+    ],
+    "shields": [
+      {
+        "name": "Shield",
+        "armor": "+1 Armor",
+        "tags": "Shield"
+      }
+    ],
+    "consumables": [
+      {
+        "name": "Healing Salve",
+        "description": "A common herbal remedy.",
+        "move": "When you apply this salve to a wounded creature, they heal 2 Harm."
+      },
+      {
+        "name": "Smoke Bomb",
+        "description": "A clay sphere packed with alchemical reagents.",
+        "move": "When you throw this, it creates a thick cloud of smoke, providing cover and a chance to escape or reposition."
+      }
+    ]
+  }
+}
