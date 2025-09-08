@@ -1,0 +1,154 @@
+{
+  "factions_narrative": [
+    {
+      "name": "The Champions of Order",
+      "drive": "To impose the perfect, silent order of the goddess Elysia and purge the world of chaotic free will, especially draconic power.",
+      "gm_moves": [
+        "Dispatch an Inquisitor to 'purify' a location.",
+        "Declare a local tradition or festival to be heretical.",
+        "Offer protection to a community in exchange for absolute obedience.",
+        "Reveal that a trusted NPC is a secret informant for the Order."
+      ],
+      "key_questions": [
+        "What is the price of perfect safety?",
+        "When does order become tyranny?",
+        "Can good intentions justify monstrous actions?"
+      ]
+    },
+    {
+      "name": "Scalebound Clans",
+      "drive": "To protect their ancestral lands and the sacred Dragon's Graveyard from outsiders, while wrestling with an internal conflict between preserving the past and weaponizing it.",
+      "gm_moves": [
+        "Close their borders, cutting off a vital mountain pass.",
+        "Dispatch a warband to reclaim a 'stolen' artifact.",
+        "Challenge a character to a trial of strength to prove their worth.",
+        "An elder reveals a forgotten piece of draconic lore."
+      ],
+      "key_questions": [
+        "When does tradition become an obstacle?",
+        "Is strength defined by aggression or by the will to protect?",
+        "What is the burden of a sacred duty?"
+      ]
+    },
+    {
+      "name": "Arcane Dominion",
+      "drive": "To achieve ultimate knowledge and power through magical experimentation, viewing morality, nature, and life itself as acceptable resources to be consumed for progress.",
+      "gm_moves": [
+        "Unleash a magically-mutated beast into the world.",
+        "Begin excavating an ancient ruin, corrupting the surrounding area.",
+        "Offer a character a tempting shortcut to power at a terrible price.",
+        "Capture a unique creature or person for study."
+      ],
+      "key_questions": [
+        "What is the cost of unfettered progress?",
+        "Where is the line between science and sacrilege?",
+        "Are there secrets that humanity was not meant to know?"
+      ]
+    },
+    {
+      "name": "Ember Concord",
+      "drive": "To maintain a fragile peace and prosperity through politics, trade, and diplomacy, while its key members constantly jockey for power and influence.",
+      "gm_moves": [
+        "Impose a trade embargo that affects the party's supplies.",
+        "Dispatch a diplomat to offer the party a deal with political strings attached.",
+        "Announce a political marriage that will shift the balance of power.",
+        "A neutral territory falls under the control of one of the city-states."
+      ],
+      "key_questions": [
+        "Can true peace be achieved through compromise?",
+        "When does diplomacy become a shield for ambition?",
+        "Who gets left behind in the name of political stability?"
+      ]
+    },
+    {
+      "name": "The Frostfang Packs",
+      "drive": "To survive the harsh tundra, honor the spirits of the hunt, and protect their pack from outsiders, especially the encroaching Arcane Dominion.",
+      "gm_moves": [
+        "A hunting party goes missing.",
+        "The usurper chieftain, Vargus, uses a piece of Dominion tech to gain an advantage.",
+        "An elder shaman offers a cryptic prophecy about the coming winter.",
+        "Declare an outsider who has wronged them 'prey'."
+      ],
+      "key_questions": [
+        "What is the difference between survival and savagery?",
+        "Is loyalty to your leader more important than loyalty to your traditions?",
+        "What lines will you cross to protect your own?"
+      ]
+    },
+    {
+      "name": "The Runeforge Remnants",
+      "drive": "To uncover and preserve the lost technologies of the pre-Shattering era, while debating whether that knowledge should be shared or kept hidden.",
+      "gm_moves": [
+        "Activate a long-dormant automated defense system.",
+        "Offer to identify a strange artifact in exchange for a dangerous favor.",
+        "A radical member attempts to weaponize a newly discovered piece of tech.",
+        "Reveal that a common piece of technology is actually a remnant of a more powerful, ancient device."
+      ],
+      "key_questions": [
+        "Should the past be preserved or plundered?",
+        "Is some knowledge too dangerous to be known?",
+        "Who decides how the future is built?"
+      ]
+    },
+    {
+      "name": "The Astoran Conclave",
+      "drive": "To observe the changing tides of the surface world and guard the ancient secrets of the Shattering, intervening only when prophecy dictates.",
+      "gm_moves": [
+        "Deliver a cryptic prophecy or warning.",
+        "Reveal the location of a forgotten underwater ruin.",
+        "A young acolyte breaks protocol to seek aid from the party.",
+        "Seal off their territory as a major event unfolds on the surface."
+      ],
+      "key_questions": [
+        "What is the responsibility of those who know the future?",
+        "Is it better to preserve history or to live in it?",
+        "When does non-interference become complicity?"
+      ]
+    },
+    {
+      "name": "The Gilded Paw Caravan",
+      "drive": "To profit from the conflicts of others by treating information as the most valuable currency, selling secrets to all sides and maintaining a strict neutrality.",
+      "gm_moves": [
+        "Offer to sell crucial information to the party... and their enemies.",
+        "Use their network to smuggle a key person or item past a blockade.",
+        "An agent reveals they have compromising information about an ally.",
+        "Manipulate a local economy for their own gain."
+      ],
+      "key_questions": [
+        "Does everyone have a price?",
+        "What is the value of a secret?",
+        "When does neutrality become a moral failing?"
+      ]
+    },
+    {
+      "name": "The Brood of Dragnor",
+      "drive": "To 'cleanse' the world in fire and chaos in order to usher in a new age of draconic rule, following a fanatical and nihilistic doctrine of destruction.",
+      "gm_moves": [
+        "Attempt to awaken the dormant volcano, Mount Dragnor.",
+        "Perform a dark ritual to create a new fire-based monster.",
+        "Anoint a new 'Cinder-Clad' champion to lead an attack.",
+        "Incite a rebellion or riot under the banner of 'draconic liberation'."
+      ],
+      "key_questions": [
+        "Can destruction ever be a creative act?",
+        "What is the allure of absolute power?",
+        "How is faith twisted into fanaticism?"
+      ]
+    },
+    {
+      "name": "The Wardens of the Wilds",
+      "drive": "To protect the natural and spiritual balance of the world from the corrupting influence of the great nations, acting as guardians of ancient places and creatures.",
+      "gm_moves": [
+        "An ancient creature is stirred to rampage by a faction's actions.",
+        "A Warden offers the party a hidden path through dangerous territory.",
+        "A sacred grove begins to die, and the Warden demands the party find the cause.",
+        "Reveal that a 'monster' the party was hired to kill is actually a guardian."
+      ],
+      "key_questions": [
+        "What is the balance between civilization and nature?",
+        "Is the wild something to be tamed or revered?",
+        "Who speaks for those without a voice?"
+      ]
+    }
+  ]
+}
