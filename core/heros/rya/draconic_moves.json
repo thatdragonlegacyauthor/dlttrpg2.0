@@ -12,14 +12,16 @@
           "miss": "On a 6-, your power rages beyond your control, causing a new and immediate problem."
         },
         "benefits": [
-          "The fire avoids harming your allies or anything you didn't intend to.",
-          "The fire creates a lasting advantage on the battlefield (a wall of flame, difficult terrain).",
-          "The display of power is controlled and inspires courage in your allies."
+          "The fire is precise, like a Searing Lash; it harms only your intended targets, leaving allies untouched.",
+          "You shape the flames into a protective Wall of Fire, creating a barrier that provides cover for your allies.",
+          "The blaze is a Guiding Flame of inspiration; your allies are bolstered by the display and take a +1 bonus on their next move.",
+          "The sheer heat causes a secondary Combustion, creating an additional useful effect (e.g., stunning a foe, destroying an object, revealing a weakness)."
         ],
         "consequences": [
-          "The fire spreads beyond your control, causing collateral damage.",
-          "The raw power takes a physical toll; you must mark 1 Harm.",
-          "The power is overwhelming and terrifies onlookers, causing them to panic or flee."
+          "The fire spreads wildly, causing significant collateral damage to the environment or an unintended target.",
+          "The raw power creates a Backdraft that scorches you; you must mark 1 Harm.",
+          "The display is terrifyingly chaotic, causing a key ally or non-combatant to become frightened and act foolishly.",
+          "The fire consumes too much of your energy; you are drained and take a penalty on your next move."
         ]
       },
       {
@@ -32,14 +34,16 @@
           "miss": "On a 6-, the earth rejects your command, causing a tremor or landslide that makes the situation worse."
         },
         "benefits": [
-          "The effect is precise and doesn't endanger your allies.",
-          "The effect is massive and widespread.",
-          "You reshape the battlefield, creating a clear advantage for your team."
+          "You raise an Earthen Aegis to defend your allies, granting them all cover from an attack.",
+          "You summon a Wall of Stone, creating a durable barrier that reshapes the battlefield in your favor.",
+          "Your power is a mighty Quake; you shatter your target's footing or defenses, leaving them vulnerable and in a bad spot.",
+          "You call forth an Earthen Grasp, completely restraining a foe in hands of living rock."
         ],
         "consequences": [
-          "The effect is temporary and will soon crumble.",
-          "The raw power takes a physical toll; you must mark 1 Harm.",
-          "The ground is left unstable and treacherous for everyone."
+          "The ground is left unstable and treacherous for everyone, friend and foe alike.",
+          "The raw power takes a physical toll as the earth resists your command; you must mark 1 Harm.",
+          "The effect is a chaotic Rockslide; while your target is affected, an ally is also put in danger by falling debris.",
+          "Your control is incomplete; the barrier you create is brittle, or the foe you restrain will break free after only a moment."
         ]
       },
       {
@@ -52,14 +56,16 @@
           "miss": "On a 6-, the ice forms in a chaotic, unintended way, creating a new danger for you and your allies."
         },
         "benefits": [
-          "You completely immobilize a target.",
-          "You create a durable structure of ice that provides excellent cover.",
-          "The cold is focused, leaving your allies unaffected."
+          "You encase a target in a Frozen Prison, completely immobilizing them for a short time.",
+          "You raise a durable Glacial Wall, creating excellent cover for your allies.",
+          "The cold is focused, like a Frost Lance, leaving your allies completely unaffected and hitting your target with a debilitating chill.",
+          "You unleash an Avalanche of jagged ice, shattering your target's defenses and leaving them vulnerable."
         ],
         "consequences": [
-          "The area is left dangerously slick and hazardous for everyone.",
-          "The raw power takes a physical toll; you must mark 1 Harm.",
-          "The ice shatters prematurely, sending dangerous shards everywhere."
+          "The area is left dangerously slick, like Hoarfrost, creating hazardous terrain for everyone.",
+          "The raw power takes a physical toll as frost covers your own body; you must mark 1 Harm.",
+          "The ice shatters prematurely, sending dangerous shards everywhere and putting an ally in a bad spot.",
+          "The cold spreads without check, and an ally is caught in the freezing effect, slowing them or giving them a penalty on their next action."
         ]
       },
       {
@@ -72,14 +78,16 @@
           "miss": "On a 6-, the storm turns on you, putting you or your allies in the path of its fury."
         },
         "benefits": [
-          "Your control is absolute, allowing you to strike multiple targets.",
-          "You or an ally are repositioned with impossible speed.",
-          "The storm creates a lingering electrical field that hinders your foes."
+          "Your lightning arcs with precision, like a Chain Lightning; it strikes your primary target and then leaps to a secondary foe.",
+          "You command the winds to create a protective Gale Shield around an ally, granting them a temporary shield that can absorb the next harm they would take.",
+          "You ride a Tailwind of impossible speed, repositioning yourself or an ally anywhere on the battlefield instantly.",
+          "You unleash a deafening Thunder Clap, leaving your enemies staggered and creating an opening for your allies."
         ],
         "consequences": [
-          "A stray bolt of lightning strikes something important or volatile.",
-          "The raw power takes a physical toll; you must mark 1 Harm.",
-          "The resulting thunder is deafening, attracting unwanted attention."
+          "A stray bolt of lightning strikes something important or volatile in the environment.",
+          "The raw power of the storm is draining; you must mark 1 Harm.",
+          "The resulting thunder is deafening, attracting the unwanted attention of everything in the area.",
+          "The winds are chaotic; while your power strikes your foe, an ally is also thrown off balance by a powerful Gust, putting them in a bad spot."
         ]
       },
       {
@@ -92,14 +100,16 @@
           "miss": "On a 6-, the wave crashes over you, sweeping you up or putting you in a terrible position."
         },
         "benefits": [
-          "The water cleanses all wounds, healing all allies in a wide area.",
-          "You precisely control the flow, repositioning friends and foes as you desire.",
-          "You leave behind a pool of restorative water."
+          "Your power is a Mending Flow; you heal an ally of grievous wounds and cleanse them of a physical ailment like poison.",
+          "You summon a Crushing Wave to reposition your enemies, putting them in a bad spot or grouping them together.",
+          "You create a Tidal Shield around an ally, granting them a temporary shield that can absorb the next harm they would take.",
+          "The water is a Slipstream, allowing you and your allies to reposition flawlessly without reprisal."
         ],
         "consequences": [
-          "The force of the water damages the environment, blocking a path or destroying something.",
-          "The raw power takes a physical toll; you must mark 1 Harm.",
-          "You pull a dangerous creature or object from the depths along with the water."
+          "The force of the water is a Crushing Undertow that damages the environment, blocking a path or destroying something important.",
+          "The raw power takes a physical toll as the pressure builds within you; you must mark 1 Harm.",
+          "You summon a disorienting Ink Cloud, which obscures the vision of friend and foe alike, causing a complication.",
+          "The undertow is too strong, and you or an ally are pulled out of position."
         ]
       },
       {
@@ -112,14 +122,16 @@
           "miss": "On a 6-, the light reveals a painful or dangerous truth, or casts shadows that hide a new threat."
         },
         "benefits": [
-          "The light purifies all ailments, both magical and mundane.",
-          "You create a lasting ward of protection.",
-          "The light inspires your allies, giving them a bonus on their next action."
+          "Your power is a Sanctuary; you create a lasting ward of protection or heal a grievous wound.",
+          "You call down a Pillar of Dawn, simultaneously healing your allies and searing your foes within the light.",
+          "The light is a Divine Judgement, striking down a foe and leaving them staggered or vulnerable.",
+          "The light is a Beacon of Hope, inspiring your allies and giving them a bonus on their next action."
         ],
         "consequences": [
-          "The light is so intense it temporarily blinds everyone in the area, including allies.",
-          "The raw power takes a physical toll; you must mark 1 Harm.",
-          "The light attracts the attention of a powerful, opposing force."
+          "The light is an uncontrolled Glimmer, so intense it temporarily blinds everyone in the area, including allies.",
+          "Channeling such pure energy is taxing; you must mark 1 Harm.",
+          "The light is a beacon that attracts the attention of a powerful, opposing force (like the Champions of Order, who see it as heresy, or a creature of shadow).",
+          "The light is only partially controlled; it heals a foe as well as an ally, or a protective ward shatters prematurely."
         ]
       },
       {
@@ -132,14 +144,16 @@
           "miss": "On a 6-, the void consumes your intent, creating a chaotic or actively harmful effect."
         },
         "benefits": [
-          "The illusion is perfect and undetectable.",
-          "You drain the life force of your target, restoring your own Harm track.",
-          "You leave behind a zone of silence and shadow."
+          "You weave a perfect Mirror Image, creating a flawless illusion that confounds your foes and provides a clear advantage.",
+          "You Drain the vitality of your foe, healing yourself of harm as you inflict it.",
+          "You unleash a bolt of pure Entropy, not only dealing harm but also causing your target's abilities to falter on their next turn.",
+          "You become an Umbral Form, briefly melting into the shadows to reposition yourself perfectly for a follow-up attack."
         ],
         "consequences": [
-          "The whispers of the void linger, imposing a penalty on your next Heart roll.",
-          "The raw power takes a mental toll; you must mark 1 Harm.",
-          "The void's touch corrupts the area, making it dangerous for all."
+          "The whispers of the void linger in your mind, imposing a penalty on your next Heart roll.",
+          "The raw power takes a mental toll as you touch the abyss; you must mark 1 Harm.",
+          "The void's touch corrupts the area, making it supernaturally cold or dark and creating a complication for your allies.",
+          "Your control slips, and the illusion you create is a Phantom Pain that reveals one of your own fears to your enemy."
         ]
       },
       {
@@ -152,14 +166,16 @@
           "miss": "On a 6-, you are lost in your own illusion, becoming disoriented or revealing your position."
         },
         "benefits": [
-          "The illusion is complex and affects multiple senses.",
-          "You completely obscure the party's position, allowing for a safe escape.",
-          "You create a ghostly duplicate that can draw enemy fire."
+          "You create a Disorienting Fog, shrouding the area to confuse your enemies and hide your allies from sight.",
+          "You weave a convincing Mirror Image, creating a duplicate that can draw enemy fire or create a diversion.",
+          "Your power is a Silent Veil; you muffle all sound in an area, allowing your party to proceed with perfect stealth.",
+          "You execute a perfect Misty Step, teleporting yourself or an ally out of a dangerous situation to a safe one."
         ],
         "consequences": [
           "The mist is unnaturally cold, causing a penalty to your allies' next action.",
-          "The raw power takes a mental toll; you must mark 1 Harm.",
-          "The illusion reveals a frightening truth to one of your allies."
+          "The raw power takes a mental toll as you weave the illusion; you must mark 1 Harm.",
+          "The illusion reveals a frightening truth or a painful memory to one of your allies.",
+          "Your control is incomplete; the fog is not as thick as you intended, or the illusion has a subtle but dangerous flaw."
         ]
       },
       {
@@ -172,14 +188,16 @@
           "miss": "On a 6-, the metal shatters or twists in an unintended way, creating a new hazard."
         },
         "benefits": [
-          "The construct or weapon you create is masterfully crafted and durable.",
-          "You create an impenetrable barrier that can withstand a massive blow.",
-          "Your attack shatters your opponent's defenses, leaving them vulnerable."
+          "You form an Aegis of interlocking plates around an ally, granting them a temporary shield that can absorb the next harm they would take.",
+          "You unleash a Geared Strike, a barrage of razor-sharp shrapnel that shreds your target's defenses, leaving them vulnerable.",
+          "You create a Resonant Field, reinforcing your allies' armor and bolstering their defenses for the next exchange.",
+          "Your attack is a calculated System Shock, not only dealing harm but also stunning a construct or disabling a mechanism."
         ],
         "consequences": [
-          "The metal is dangerously sharp, creating a hazard for your allies.",
-          "The raw power takes a physical toll; you must mark 1 Harm.",
-          "The ringing of forged metal attracts unwanted attention."
+          "The metal you create is dangerously sharp and unfinished, creating a hazard for your allies.",
+          "The raw power takes a physical toll as you bend raw matter to your will; you must mark 1 Harm.",
+          "The ringing of forged metal is a Resonant Strike that echoes for miles, attracting unwanted attention.",
+          "The construct you create is unstable; it works, but it will fall apart after a short time or a single use."
         ]
       },
       {
@@ -192,14 +210,16 @@
           "miss": "On a 6-, you are overwhelmed by psychic feedback, leaving you stunned or your plans revealed."
         },
         "benefits": [
-          "Your control is absolute, affecting multiple targets or a massive object.",
-          "You learn a deep, hidden secret from your target's mind.",
-          "You subtly implant a suggestion that will last beyond the current scene."
+          "Your power is a Mental Storm; your telekinetic force strikes your primary target and then lashes out at all nearby foes.",
+          "You establish a Mind Link with your allies, allowing for perfect, silent coordination for the rest of the scene.",
+          "You create a Telekinetic Shield around an ally, a barrier of pure force that can absorb the next harm they would take.",
+          "Your will is a Suggestion; you subtly dominate the will of your target, compelling them to take (or not take) a specific action on their next turn."
         ],
         "consequences": [
-          "You broadcast your surface thoughts to everyone nearby.",
-          "The raw power takes a mental toll; you must mark 1 Harm.",
-          "Your telekinetic grip slips, sending an object flying in an unintended direction."
+          "You accidentally broadcast your surface thoughts to everyone nearby, friend and foe alike.",
+          "The raw psychic power causes a painful feedback loop in your mind; you must mark 1 Harm.",
+          "Your telekinetic grip slips, sending a large object flying in an unintended direction and creating a new hazard.",
+          "You see a flash of a painful or terrifying memory from your target's mind, imposing a penalty on your next Heart roll."
         ]
       },
       {
@@ -212,14 +232,16 @@
           "miss": "On a 6-, you create a paradox, causing a chaotic and unpredictable temporal anomaly."
         },
         "benefits": [
-          "You grant an ally a complete second turn immediately.",
-          "You receive a clear and direct vision of the immediate future.",
-          "You completely freeze a target in a bubble of slow time."
+          "You grant an ally Haste, allowing them to take an immediate, extra action.",
+          "You trap a foe in a field of Stasis, causing them to lose their next turn as they are frozen in time.",
+          "You create a Time Slip, allowing an ally to completely re-roll a failed action, as if it never happened.",
+          "You inflict a curse of Decay, causing an enemy's defenses to crumble and leaving them vulnerable to the next attack."
         ],
         "consequences": [
-          "You or an ally are temporarily shunted out of sync with time.",
-          "The raw power takes a mental toll; you must mark 1 Harm.",
-          "Your glimpse of the future is fragmented, terrifying, and incomplete."
+          "The temporal manipulation is unstable; you or an ally are temporarily shunted out of sync with time, taking a penalty on your next action.",
+          "The raw power takes a mental toll as you wrestle with causality; you must mark 1 Harm.",
+          "Your glimpse of the future is fragmented and terrifying, revealing a new danger and imposing a penalty on your next Heart roll.",
+          "The time bubble is unstable; it affects an ally by mistake, or the enemy you targeted breaks free much sooner than expected."
         ]
       },
       {
@@ -232,14 +254,16 @@
           "miss": "On a 6-, you tear a small, temporary hole in reality, and something unpleasant comes through."
         },
         "benefits": [
-          "You bring down a rain of meteors on your foes.",
-          "You create a zone of zero gravity, causing chaos.",
-          "You teleport the entire party a great distance instantly."
+          "You call down a Meteor Shower, devastating an area and reshaping the battlefield in your favor.",
+          "You create a Gravity Well, pulling your foes together into a single, vulnerable group.",
+          "You Warp Space, instantly teleporting the entire party a great distance or out of a deadly situation.",
+          "You unleash a Starlight Bolt of pure stellar energy that bypasses all non-magical defenses."
         ],
         "consequences": [
-          "The gravitational shift affects your allies, putting them off balance.",
-          "The raw power takes a mental toll; you must mark 1 Harm.",
-          "The cosmic energies linger, making the area magically unstable."
+          "The gravitational shift is unstable; your allies are thrown off balance and put in a bad spot.",
+          "Channeling the power of a star takes a physical toll; you must mark 1 Harm.",
+          "The cosmic energies linger, making the area magically unstable and unpredictable for everyone.",
+          "Your control is incomplete; the meteor you summon strikes dangerously close to an ally or a critical objective."
         ]
       }
     ]
