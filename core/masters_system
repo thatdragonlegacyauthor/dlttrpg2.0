@@ -1,0 +1,109 @@
+{
+  "masters_system": {
+    "description": "Throughout the world of Eryndor, there are hidden masters who can teach unique abilities to those who prove their worth. Finding a Master and meeting their conditions allows a character to learn one of their 'Master Moves', which function as new advanced moves for that character, regardless of their playbook.",
+    "masters": [
+      {
+        "name": "Commander Garran, the Battle Tactician",
+        "char_id": "GARRISON_GARRAN",
+        "location": "The Crossroads Garrison",
+        "philosophy": "A real battle isn't won by the strongest arm, but by the sharpest mind. Know when to press, when to hold, and when to break your opponent's rhythm before they even find it. Action, not words, proves your worth.",
+        "requirement_to_learn": "Impress Garran with martial prowess or tactical insight in a key narrative moment.",
+        "master_moves": [
+          {
+            "name": "Riposte",
+            "description": "When an enemy attacks you in melee and misses, you can immediately Engage in Battle against them as if you had rolled a 10+."
+          },
+          {
+            "name": "Opportunist",
+            "description": "Once per scene, when you see an enemy in a bad spot, you can make a free Engage in Battle move against them."
+          }
+        ]
+      },
+      {
+        "name": "Grorn, the Barracks Master",
+        "char_id": "SCALEBOUND_GRORN",
+        "location": "Stonegard",
+        "philosophy": "Strength is the only truth. A weapon is an extension of your will. A warrior's spirit is forged in the crucible of overwhelming force. Break your enemy, or be broken.",
+        "requirement_to_learn": "Survive a 'training' session with Grorn, proving your raw power and endurance.",
+        "master_moves": [
+          {
+            "name": "Heavy Hitter",
+            "description": "When you Wreck something (or someone) with a heavy weapon, you can choose to deal +1 harm, but you create a bigger mess or expose yourself to danger."
+          },
+          {
+            "name": "Intimidating Presence",
+            "description": "When you use your physical presence to Intimidate someone, you can use Force instead of Heart."
+          }
+        ]
+      },
+      {
+        "name": "Grak, the Gatewarden",
+        "char_id": "SCALEBOUND_GRAK",
+        "location": "Stonekin Outpost",
+        "philosophy": "The shield is as mighty as the spear. A wall stands not because of its stones, but because of the will of those who defend it. To protect your kin is the highest honor.",
+        "requirement_to_learn": "Prove your dedication to defense, either by holding a position against overwhelming odds or by physically shielding an ally from a devastating attack.",
+        "master_moves": [
+          {
+            "name": "Intercede",
+            "description": "When an ally is about to take harm, you can place yourself in the way, taking the harm instead. If you do, take +1 forward against that attacker."
+          },
+          {
+            "name": "Guardian's Resilience",
+            "description": "Once per session, when you would be taken out of a scene, you can choose to remain with 1 Harm box left."
+          }
+        ]
+      },
+      {
+        "name": "Rhys, the Hermit",
+        "char_id": "HERMIT_RHYS",
+        "location": "Rhys's Cabin, The Whispering Woods",
+        "philosophy": "The world is a savage beast. Survival is not about strength, but about understanding the battlefield before the first blow is even struck. Know your enemy, know the land, and you will never be caught unprepared.",
+        "requirement_to_learn": "Earn his trust by proving your self-sufficiency, such as by bringing him the pelt of a rare and dangerous beast.",
+        "master_moves": [
+          {
+            "name": "Guerilla Tactics",
+            "description": "When you are in a natural environment (forest, jungle, mountains), you gain a +1 bonus to all Prowl rolls."
+          },
+          {
+            "name": "Poisoner",
+            "description": "You know how to use natural ingredients to craft toxins. You start each adventure with a number of doses of a fast-acting poison equal to your Wits (minimum 1)."
+          }
+        ]
+      },
+      {
+        "name": "Archmage Solanus",
+        "char_id": "WYNDIA_SOLANUS",
+        "location": "The Pinnacle of the Gale, Wyndia",
+        "philosophy": "Magic is not a tool to be wielded, but a language to be understood. The smallest spark of arcane talent, if nurtured with curiosity and discipline, can grow into a magnificent flame.",
+        "requirement_to_learn": "Demonstrate a keen academic curiosity by bringing him a rare tome of magical theory or engaging him in a thoughtful debate about the nature of magic.",
+        "master_moves": [
+          {
+            "name": "Arcane Dabbler",
+            "description": "You have learned the basics of shaping magic. Choose one: you can create a small, harmless flame in your hand; you can create a puff of wind strong enough to blow out a candle; or you can make a small object glow with faint light."
+          },
+          {
+            "name": "Ritual Caster",
+            "description": "When you have time and safety, you can perform a complex magical ritual to achieve a powerful effect. Tell the GM what you are trying to do; they will tell you what you need and what the risks are."
+          }
+        ]
+      },
+      {
+        "name": "Fenris, the Silent Stalker",
+        "char_id": "HERMIT_FENRIS",
+        "location": "The Glacial Maw",
+        "philosophy": "The world is a hunter, and you are either the predator or the prey. Silence, patience, and a well-laid trap are deadlier than any sword. The smart hunter never fights a fair fight.",
+        "requirement_to_learn": "Prove your own survival skills by successfully tracking and hunting a dangerous beast in the Glacial Maw alone.",
+        "master_moves": [
+          {
+            "name": "Ambusher",
+            "description": "When you attack an enemy who is completely unaware of your presence, you deal +1d6 harm."
+          },
+          {
+            "name": "Trap Expert",
+            "description": "When you have time and materials, you can create a cunning trap. Tell the GM what you want it to do; they will tell you what you'll need and how long it will take to set up."
+          }
+        ]
+      }
+    ]
+  }
+}
