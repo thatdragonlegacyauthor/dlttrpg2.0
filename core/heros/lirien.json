@@ -8,17 +8,8 @@
     "background": "Born among the secretive Shadowpelt, Lirien lived a life of stealth and theft. After stealing a powerful relic from an Arcane Dominion expedition to protect a sacred grove, she was betrayed by a rival and forced to flee her home. Now hunted, her journey is a desperate bid for survival, and the relic she carries may be the only way to save her people.",
     "narrative_hook": "Arcane Dominion pursuers, led by a rival thief, frequently ambush the party. Her intimate knowledge of the jungle can uncover hidden paths and lost ruins."
   },
-  "attributes": {
-    "Force": "+1",
-    "Finesse": "+2",
-    "Wits": 0,
-    "Heart": -1
-  },
-  "trained_skills": [
-    "Prowl",
-    "Maneuver",
-    "Survey"
-  ],
+  "attributes": { "Force": "+1", "Finesse": "+2", "Wits": 0, "Heart": -1 },
+  "trained_skills": [ "Prowl", "Maneuver", "Survey" ],
   "harm_capacity": 6,
   "starting_moves": [
     {
@@ -36,20 +27,20 @@
   ],
   "advanced_moves": [
     {
+      "name": "Acrobatic Disengage",
+      "description": "When you need to get out of a bad spot, you can vault, tumble, and weave through the chaos. Roll `2d6 + Finesse`. On a 10+, you move to any safe spot you can see and can immediately take cover or hide. On a 7-9, you get away, but you either have to leave something important behind or you end up in another, different kind of trouble."
+    },
+    {
+      "name": "Environmental Hazard",
+      "description": "When you use the environment to create a hazard (a tripwire, a smoke bomb, a collapsing shelf), roll `2d6 + Wits`. On a 10+, it works perfectly; choose two effects. On a 7-9, it works, but with a complication; choose one.\n- It puts an enemy (or group of enemies) in a bad spot.\n- It creates a barrier or a zone of difficult terrain.\n- It provides excellent cover for you and your allies."
+    },
+    {
+      "name": "Grappling Hook",
+      "description": "You are a master of vertical movement. When you use your grappling hook to rapidly ascend or swing across a gap, you don't need to roll unless the situation is exceptionally dangerous. You can get to places others simply can't."
+    },
+    {
       "name": "Vanish",
       "description": "When you are in shadow or cover, you can spend a Legacy Point to become invisible for the scene, or until you make an attack."
-    },
-    {
-      "name": "Expose Weakness",
-      "description": "When you **Investigate** a creature, on a 10+, you spot a critical flaw. The first time you or an ally attack that flaw, the attack bypasses the target's armor completely."
-    },
-    {
-      "name": "Silent Takedown",
-      "description": "When you use **Shadow Strike** on an unaware, minor NPC, you can choose to knock them out silently instead of dealing harm."
-    },
-    {
-      "name": "Venomous Strike",
-      "description": "Your **Poisoned Blade** is now more potent. You can choose to apply both the debilitating and damaging effects at the same time."
     }
   ],
   "bond_synergy": {
