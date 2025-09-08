@@ -1,0 +1,29 @@
+{
+  "current_location": "windmark_village",
+  "current_room": "village_square",
+  "session_number": 1,
+  "world_state": {
+    "major_events": [],
+    "active_quests": [
+      "prologue_the_calm_before"
+    ],
+    "completed_quests": []
+  },
+  "legacys_rest": {
+    "unlocked": false,
+    "master_builder": null,
+    "community_attributes": {
+      "Industry": 0,
+      "Diligence": 0,
+      "Culture": 0
+    },
+    "settlers": 0,
+    "buildings": []
+  },
+  "narrative_flags": {
+    "windmark_attacked": false,
+    "met_nina": false,
+    "met_talia": false,
+    "garrisons_trust_level": "Neutral"
+  }
+}
