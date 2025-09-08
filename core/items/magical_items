@@ -1,0 +1,75 @@
+{
+  "magical_items": {
+    "weapons": [
+      {
+        "name": "Wyndian Quill Bow",
+        "tags": "Ranged, 2-harm, Magical, Lightning",
+        "description": "A finely crafted shortbow made with Wyndian feathers that hums with wind magic. Arrows fired from it crackle with lightning."
+      },
+      {
+        "name": "Crystal Shard Blade",
+        "tags": "Melee, 1-harm, Finesse, Magical, Volatile",
+        "description": "A dagger made from a shard of the pulsating Crystal Spire. Once per day, its wielder can cause it to flare with power, dealing extra harm."
+      },
+      {
+        "name": "Void-Kissed Blade",
+        "tags": "Melee, 2-harm, Magical, Wits, Void-touched",
+        "description": "A dark, obsidian runeblade imbued with Void energy. On a critical hit, the target is afflicted with a debilitating, supernatural chill."
+      },
+      {
+        "name": "Stormvine Whip",
+        "tags": "Melee, 1-harm, Finesse, Reach, Magical, Lightning",
+        "description": "A living whip braided from storm-infused vines. On a critical hit, the vines instinctively lash out, attempting to grapple the target."
+      },
+      {
+        "name": "Grasping Ivy",
+        "tags": "Melee, 2-harm, Reach, Magical, Ensnaring",
+        "description": "A legendary whip grown from a cutting of the purified Gloomwood Heart. It can be used to command nearby plants to ensnare a foe."
+      }
+    ],
+    "armor_and_shields": [
+      {
+        "name": "Stone-Skin Vest",
+        "type": "Light Armor",
+        "armor": 1,
+        "tags": "Empowering",
+        "description": "A leather tunic reinforced with plates of rock from Scalebound territory. It fills the wearer with the resilience of the mountain, making them feel stronger."
+      },
+      {
+        "name": "Stone-Forged Aegis",
+        "type": "Shield",
+        "armor": "+1 Armor",
+        "tags": "Magic-Resistant",
+        "description": "A shield of pure mountain stone, imbued with a ward of divine light. It provides exceptional protection against hostile magic."
+      }
+    ],
+    "foci": [
+      {
+        "name": "Channeler's Ring",
+        "type": "Magical Focus",
+        "tags": "Cantrip",
+        "description": "A simple copper ring that hums with a faint energy. When you wear this ring, you can unleash a minor bolt of pure magical force (1-harm, magical)."
+      },
+      {
+        "name": "Ring of Embers",
+        "type": "Magical Focus",
+        "tags": "Cantrip, Fire",
+        "description": "A ring of blackened steel that is always warm to the touch. When you wear this ring, you can unleash a bolt of searing fire (1-harm, magical, fire)."
+      },
+      {
+        "name": "Oracle's Gyre",
+        "type": "Magical Focus",
+        "tags": "Mystic, Debuff",
+        "description": "A spiraling ring of petrified wood and silver. Once per day, you can use it to mark a target with a terrible omen, causing them to falter and fail at their next significant action."
+      }
+    ],
+    "accessories": [
+      {
+        "name": "Tattered Map of the Azure Steppes",
+        "type": "Miscellaneous",
+        "description": "An old, worn map of the plains.",
+        "move": "When you consult this map while Surveying the Azure Steppes, you can ask one additional question, even on a miss."
+      }
+    ]
+  }
+}
