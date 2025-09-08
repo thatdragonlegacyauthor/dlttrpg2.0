@@ -1,0 +1,120 @@
+{
+  "serpents_coil_pass": {
+    "start_room": "pass_entrance",
+    "rooms": {
+      "pass_entrance": {
+        "name": "Pass Entrance",
+        "description": "The dense canopy of the Whispering Woods gives way to a rocky, windswept trail. The air grows thin and cold as the path begins its steep ascent into the Serpent's Coil mountains. The trail ahead is marked by the heavy bootprints of Champion patrols, all heading in the same direction.",
+        "exits": [
+          {
+            "direction": "Back to the Woods",
+            "destination": "tanglewood_reach"
+          },
+          {
+            "direction": "Ascend the Trail",
+            "destination": "trail_fork"
+          }
+        ]
+      },
+      "trail_fork": {
+        "name": "The Trail Fork",
+        "description": "The path splits here. The main trail continues as a wide, exposed ledge that winds around the mountainside. A second, much narrower path leads to a rickety-looking rope bridge spanning a deep chasm. A cold wind whistles through the chasm, carrying the faint scent of decay.",
+        "exits": [
+          {
+            "direction": "Take the Main Ledge",
+            "destination": "exposed_ledge"
+          },
+          {
+            "direction": "Cross the Rope Bridge",
+            "destination": "rope_bridge"
+          }
+        ]
+      },
+      "exposed_ledge": {
+        "name": "The Exposed Ledge",
+        "description": "This wide, windswept ledge offers a commanding view of the surrounding peaks, but it also leaves you completely exposed. The trail is clear and relatively safe to traverse, but offers no cover. Far in the distance, you can just make out a plume of black smoke rising into the sky.",
+        "exits": [
+          {
+            "direction": "Back to the Fork",
+            "destination": "trail_fork"
+          },
+          {
+            "direction": "Continue to the Ascent",
+            "destination": "final_ascent"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "cross_the_ledge",
+            "action": "encounter",
+            "details": "High chance of being spotted by a Champion of Order patrol, leading to a direct confrontation on open ground."
+          }
+        ]
+      },
+      "rope_bridge": {
+        "name": "The Rickety Rope Bridge",
+        "description": "This old rope bridge sways precariously over a seemingly bottomless chasm. The planks are weathered and several are missing. Crossing will require a steady hand and a brave heart.",
+        "exits": [
+          {
+            "direction": "Back to the Fork",
+            "destination": "trail_fork"
+          },
+          {
+            "direction": "Across the Bridge",
+            "destination": "harpy_nest"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "cross_the_bridge",
+            "action": "skill_check",
+            "details": "The party must make a series of Agility (Athletics) checks to cross safely. Failure could result in a fall or attracting unwanted attention from the chasm below."
+          }
+        ]
+      },
+      "harpy_nest": {
+        "name": "The Harpy Nest",
+        "description": "The dangerous path across the bridge leads to a series of caves carved into the cliff face. The air is filled with a foul stench and the ground is littered with bones and scraps of metal. This is clearly the nesting ground for a flock of territorial harpies.",
+        "exits": [
+          {
+            "direction": "Back across the Bridge",
+            "destination": "rope_bridge"
+          },
+          {
+            "direction": "Through the Caves",
+            "destination": "final_ascent"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "enter_the_caves",
+            "action": "initiate_combat",
+            "combatants": [
+              "Harpy",
+              "Harpy"
+            ],
+            "details": "Defeating the harpies and searching their nests might reveal some scavenged loot from past travelers. This path allows the party to emerge at the Final Ascent, potentially bypassing the main Champion patrol."
+          }
+        ]
+      },
+      "final_ascent": {
+        "name": "Final Ascent",
+        "description": "Both paths converge here. The trail becomes steeper and is now littered with the first signs of wreckage—small, twisted pieces of shining metal and patches of scorched earth. The smell of smoke is strong now. The crash site is close.",
+        "exits": [
+          {
+            "direction": "Back to the Ledge",
+            "destination": "exposed_ledge"
+          },
+          {
+            "direction": "Back to the Caves",
+            "destination": "harpy_nest"
+          },
+          {
+            "direction": "To the Crash Site",
+            "destination": "fallen_sky_ship"
+          }
+        ]
+      }
+    }
+  }
+}
