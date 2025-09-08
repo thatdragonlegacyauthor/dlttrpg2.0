@@ -1,0 +1,72 @@
+{
+  "master_index": {
+    "description": "The master index for all core campaign and system data files for the Dragon Legacy Narrative System (dlttrpg2.0). This file serves as the primary reference for locating information and understanding the purpose of each data file.",
+    "files": [
+      {
+        "file_name": "core/core_rules.json",
+        "purpose": "The foundational rules and mechanics for the game system, including attributes, skills, and core moves.",
+        "key_objects": [ "system_core", "core_mechanics", "progression" ]
+      },
+      {
+        "file_name": "core/masters_system.json",
+        "purpose": "Details the system for finding hidden Masters who can teach unique 'Master Moves' to characters.",
+        "key_objects": [ "masters_system", "masters" ]
+      },
+      {
+        "file_name": "core/settlement_system.json",
+        "purpose": "Details the 'Legacy's Rest' town-building subsystem, including its core mechanics and management actions.",
+        "key_objects": [ "settlement_system", "core_mechanic", "master_builder_framework" ]
+      },
+      {
+        "file_name": "core/heros/rya/rya.json",
+        "purpose": "The main hero playbook for the protagonist, Rya.",
+        "key_objects": [ "playbook_name", "starting_moves", "advanced_moves", "draconic_manifestations" ]
+      },
+      {
+        "file_name": "core/heros/rya/draconic_moves.json",
+        "purpose": "A comprehensive list of the 'Unleash Draconic Power' moves for all 12 draconic lineages.",
+        "key_objects": [ "draconic_moves", "lineages" ]
+      },
+      {
+        "file_name": "core/heros/rya/draconic_powers.json",
+        "purpose": "Details the supporting systems for Rya's powers, including Aspect Mastery and Draconic Unity.",
+        "key_objects": [ "draconic_powers", "aspect_mastery_system", "draconic_unity" ]
+      },
+      {
+        "file_name": "core/heros/[companion_name].json",
+        "purpose": "The 14 unique playbooks for each of Rya's potential companions, from Eldra to Zykar.",
+        "key_objects": [ "playbook_name", "character_name", "starting_moves", "advanced_moves", "bond_synergy" ]
+      },
+      {
+        "file_name": "core/items/core_items.json",
+        "purpose": "A list of all mundane equipment, including weapons, armor, gear, and consumables. Also contains the comprehensive Tag Glossary.",
+        "key_objects": [ "core_items", "tag_glossary" ]
+      },
+      {
+        "file_name": "core/items/magical_items.json",
+        "purpose": "A comprehensive list of magical weapons, armor, robes, foci, accessories, and consumables.",
+        "key_objects": [ "magical_items" ]
+      },
+      {
+        "file_name": "core/items/legacy_items.json",
+        "purpose": "A list of powerful, evolving legacy artifacts tied to specific characters and their narrative arcs.",
+        "key_objects": [ "legacy_items" ]
+      },
+      {
+        "file_name": "world_codex/bestiaryp1.json",
+        "purpose": "The first part of the monster manual, detailing creatures from Tier 1-5 and Tier 6-10.",
+        "key_objects": [ "bestiary" ]
+      },
+      {
+        "file_name": "world_codex/bestiaryp2.json",
+        "purpose": "The second part of the monster manual, detailing high-level creatures and all major bosses.",
+        "key_objects": [ "bestiary" ]
+      },
+      {
+        "file_name": "world_codex/explorable_areas/[location_name].json",
+        "purpose": "A collection of files providing detailed maps for key locations, including rooms, exits, and narrative events.",
+        "key_objects": [ "start_room", "rooms", "events" ]
+      }
+    ]
+  }
+}
