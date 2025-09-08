@@ -1,0 +1,95 @@
+{
+  "fallen_sky_ship": {
+    "start_room": "crash_approach",
+    "rooms": {
+      "crash_approach": {
+        "name": "Crash Site Approach",
+        "description": "A deep scar has been torn through the mountain forest. The air is thick with the smell of scorched earth and leaking aetherium. Broken trees and twisted metal debris litter the path, making the final approach to the crash site treacherous. The silence is unnerving, broken only by the creak of stressed metal.",
+        "exits": [
+          {
+            "direction": "Back to the Woods",
+            "destination": "tanglewood_reach"
+          },
+          {
+            "direction": "Towards the Wreckage",
+            "destination": "wreckage_exterior"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "search_the_area",
+            "action": "skill_check",
+            "details": "A successful Mind (Survival) check reveals two sets of tracks: the heavy, purposeful bootprints of Champions of Order patrols, and the lighter, more agile tracks of a lone hunter."
+          }
+        ]
+      },
+      "wreckage_exterior": {
+        "name": "Wreckage Exterior",
+        "description": "The elegant, white and green hull of a Wyndian airship is buried nose-first in the mountainside. Its once-graceful wings are shattered, and a large gash has been torn in its side, offering a precarious entry point. A few survivors, likely royal attendants, huddle near the wreckage, their fine silks torn and stained.",
+        "exits": [
+          {
+            "direction": "Back to the Approach",
+            "destination": "crash_approach"
+          },
+          {
+            "direction": "Enter the Main Cabin",
+            "destination": "main_cabin"
+          },
+          {
+            "direction": "Climb to the Cockpit",
+            "destination": "cockpit",
+            "status": "Difficult"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "navigate_wreckage",
+            "action": "skill_check",
+            "details": "An Agility (Athletics) check is required to safely climb into the main cabin through the torn hull without causing further collapse or injury."
+          }
+        ]
+      },
+      "main_cabin": {
+        "name": "Main Cabin",
+        "description": "The interior of the airship's main cabin is a scene of chaotic upheaval. Overturned furniture, shattered crystalware, and scattered personal belongings litter the floor. Despite the mess, the fine craftsmanship of Wyndian design is evident. Standing calmly amidst the chaos, a young woman with silver hair and small, feathery wings is directing the other survivors.",
+        "exits": [
+          {
+            "direction": "Exit to Wreckage",
+            "destination": "wreckage_exterior"
+          },
+          {
+            "direction": "Forward to Cockpit",
+            "destination": "cockpit"
+          }
+        ],
+        "key_characters": [
+          "WYNDIA_NINA"
+        ]
+      },
+      "cockpit": {
+        "name": "Cockpit",
+        "description": "The cockpit is surprisingly intact. Complex arcane instruments and glowing crystals still pulse with a faint light. A squad of Arcane Dominion soldiers are hastily trying to pry a valuable flight control module from the main console, led by a sneering captain. High above, perched silently on a broken support beam, a falcon-like woman with a crimson and black crest watches them, her bow already drawn.",
+        "exits": [
+          {
+            "direction": "Back to Main Cabin",
+            "destination": "main_cabin"
+          }
+        ],
+        "key_characters": [
+          "SKYVEIL_TALIA"
+        ],
+        "events": [
+          {
+            "trigger": "enter_room",
+            "action": "initiate_combat",
+            "combatants": [
+              "Dominion Apprentice",
+              "Dominion Sorcerer",
+              "The Incarcerator"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
