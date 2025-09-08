@@ -1,0 +1,18 @@
+{
+  "sky_reach_aerie": {
+    "start_room": "eyrie_ascent",
+    "rooms": {
+      "eyrie_ascent": {
+        "name": "The Eyrie Ascent",
+        "description": "The only approach to the Aerie is a series of narrow, hand-carved steps and rope ladders ascending a sheer cliff face. The wind howls around you, threatening to tear you from your holds. Far below, the clouds look like a soft, white sea.",
+        "events": [
+          {
+            "trigger": "make_the_climb",
+            "action": "narrative_move",
+            "details": "When you make the perilous climb, roll 2d6 + Finesse. On a 10+, you ascend with the grace of the Skyveil themselves. On a 7-9, you make it, but the climb is exhausting; mark 1 Harm. On a 6-, you slip, and are only saved by a companion, who must mark 1 Harm to rescue you."
+          }
+        ]
+      }
+    }
+  }
+}
