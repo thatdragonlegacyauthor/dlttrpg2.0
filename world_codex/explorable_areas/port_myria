@@ -1,0 +1,29 @@
+{
+  "port_myria": {
+    "start_room": "city_gates",
+    "rooms": {
+        "salty_siren_tavern": {
+            "name": "The Salty Siren Tavern",
+            "description": "A rowdy, welcoming tavern filled with off-duty sailors and merchants. The air is thick with smoke and the stories of the sea. It's the best place in town to gather rumors or find a game of cards. You spot a grizzled old fisherman, Old Man Hemlock, nursing a drink in the corner.",
+            "events": [
+              {
+                "trigger": "buy_hemlock_a_drink",
+                "action": "narrative_move",
+                "details": "When you try to get a story from Old Man Hemlock, roll 2d6 + Heart. On a 10+, he regales you with detailed sea legends, including tales of the Sunken City of Astora. On a 7-9, he gives you a cryptic clue about the sunken city, but his memory is hazy from the drink."
+              }
+            ]
+        },
+        "silken_market": {
+            "name": "The Silken Market",
+            "description": "Beyond the curtain lies a sprawling underground marketplace, lit by glowing fungi and arcane lanterns. Here, one can find anything for the right price, from rare artifacts and illegal spell components to sensitive political information. This is the domain of the Gilded Paw Caravan, and their agent, 'Silas', can be found in a quiet corner, dealing in secrets.",
+            "events": [
+              {
+                "trigger": "seek_information",
+                "action": "narrative_move",
+                "details": "When you try to navigate the underworld's social codes to deal with Silas, roll 2d6 + Wits. On a 10+, you impress him, and he will offer you reliable information for a fair price. On a 7-9, you make a minor faux pas; he'll still deal with you, but the price will be significantly higher."
+              }
+            ]
+        }
+    }
+  }
+}
