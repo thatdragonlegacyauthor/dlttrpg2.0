@@ -1,0 +1,29 @@
+{
+  "tanglewood_reach": {
+    "start_room": "canopy_lift",
+    "rooms": {
+      "great_bough_commons": {
+        "name": "The Great Bough Commons",
+        "description": "The rope bridge opens onto a series of massive, interconnected platforms built around the thickest boughs of the canopy. This is the heart of Tanglewood Reach. Villagers with clothes of woven leaves and bark move with quiet purpose, tending to moss gardens and conversing in low tones. Lanterns carved from glowing fungi provide a soft, warm light.",
+        "events": [
+          {
+            "trigger": "talk_to_villagers",
+            "action": "narrative_move",
+            "details": "When you try to gather rumors from the wary villagers, roll 2d6 + Heart. On a 10+, they open up to you, sharing vital information about the corrupted Gloomwood and the reclusive hermit, Rhys. On a 7-9, they offer only cryptic warnings and refuse to speak more."
+          }
+        ]
+      },
+      "spirit_totem_grove": {
+        "name": "Spirit Totem Grove",
+        "description": "A secluded, quiet platform surrounding a small, ancient-looking tree. Dozens of small, hand-carved wooden totems representing forest spirits hang from its branches, swaying gently in the wind. This is a sacred space where villagers come to meditate and leave offerings for the spirits.",
+        "events": [
+          {
+            "trigger": "meditate_at_grove",
+            "action": "narrative_move",
+            "details": "When you meditate at the grove and open your mind to the spirits, roll 2d6 + Wits. On a 10+, you receive a clear, prophetic vision or a temporary blessing. On a 7-9, you receive a vision, but it is fragmented and unsettling."
+          }
+        ]
+      }
+    }
+  }
+}
