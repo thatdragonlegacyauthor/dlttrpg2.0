@@ -1,0 +1,473 @@
+{
+  "bestiary": {
+    "tier_6_10": [
+      {
+        "name": "Sand Worm",
+        "description": "A colossal worm that burrows beneath the desert sands, emerging to swallow its prey whole.",
+        "impulse": "To devour anything that moves on the surface.",
+        "harm_capacity": 10,
+        "tags": [
+          "Beast",
+          "Large",
+          "Burrowing"
+        ],
+        "gm_moves": [
+          "Burst from the sand to swallow a target whole.",
+          "Create a sandstorm with its movement.",
+          "Tunnel away and emerge in a new location."
+        ]
+      },
+      {
+        "name": "Spectre",
+        "description": "A powerful, hateful ghost that can possess the living.",
+        "impulse": "To drain life and sow hatred.",
+        "harm_capacity": 8,
+        "tags": [
+          "Undead",
+          "Incorporeal",
+          "Possessing"
+        ],
+        "gm_moves": [
+          "Attempt to possess a character.",
+          "Drain the life force from a target.",
+          "Fade into the Ethereal Plane to escape harm."
+        ]
+      },
+      {
+        "name": "Troll",
+        "description": "A fearsome giant known for its incredible ability to regenerate from wounds.",
+        "impulse": "To hunt and feast.",
+        "harm_capacity": 9,
+        "tags": [
+          "Giant",
+          "Brute",
+          "Regenerating"
+        ],
+        "gm_moves": [
+          "Attack with rending claws.",
+          "Regenerate a grievous wound unless struck by fire or acid.",
+          "Throw a large rock."
+        ]
+      },
+      {
+        "name": "Wyndian Royal Guard",
+        "description": "An elite winged soldier from Wyndia, skilled with both sword and wind magic.",
+        "impulse": "To protect Wyndian royalty and interests.",
+        "harm_capacity": 7,
+        "tags": [
+          "Humanoid",
+          "Flying",
+          "Soldier"
+        ],
+        "gm_moves": [
+          "Execute a precise Gale Slash, pushing a target back.",
+          "Use their wings to gain a superior position.",
+          "Create a defensive gust of wind."
+        ]
+      },
+      {
+        "name": "Wyvern",
+        "description": "A lesser relative of dragons, with two legs and winged arms. It possesses a venomous stinger on its tail.",
+        "impulse": "To hunt from the skies.",
+        "harm_capacity": 8,
+        "tags": [
+          "Dragonkin",
+          "Flying",
+          "Venomous"
+        ],
+        "gm_moves": [
+          "Attack with claws and bite.",
+          "Strike with a potent poison stinger.",
+          "Grab a target and fly into the air."
+        ]
+      }
+    ],
+    "tier_11_20": [
+      {
+        "name": "Cinder-Scale Tyrant",
+        "description": "A massive, four-legged drake whose scales are made of cooling magma and obsidian. It guards the inner sanctum of the temple on Mount Dragnor.",
+        "impulse": "To guard its lair with overwhelming fire.",
+        "harm_capacity": 15,
+        "tags": [
+          "Dragonkin",
+          "Large",
+          "Fire",
+          "Armored"
+        ],
+        "gm_moves": [
+          "Breathe a cone of magma.",
+          "Sweep its tail, knocking everyone nearby prone.",
+          "Cause a volcanic fissure to erupt on the battlefield."
+        ]
+      },
+      {
+        "name": "Elder Treant",
+        "description": "An ancient, walking tree of immense size and wisdom, a guardian of the forest.",
+        "impulse": "To protect the ancient woods.",
+        "harm_capacity": 12,
+        "tags": [
+          "Plant",
+          "Large",
+          "Magical"
+        ],
+        "gm_moves": [
+          "Deliver a colossal slam with its branches.",
+          "Animate nearby trees to fight alongside it.",
+          "Entangle foes in living roots."
+        ]
+      },
+      {
+        "name": "Hydra",
+        "description": "A multi-headed serpent. For each head that is severed, two more may grow in its place.",
+        "impulse": "To devour and multiply.",
+        "harm_capacity": 14,
+        "tags": [
+          "Monstrosity",
+          "Large",
+          "Regenerating"
+        ],
+        "gm_moves": [
+          "Attack with multiple heads at once.",
+          "Regrow a severed head, unless the wound is cauterized.",
+          "Unleash a confusing cacophony of hisses."
+        ]
+      },
+      {
+        "name": "Kraken Spawn",
+        "description": "A juvenile kraken, though still massive and deadly, with powerful tentacles.",
+        "impulse": "To drag ships and sailors to the depths.",
+        "harm_capacity": 16,
+        "tags": [
+          "Aberration",
+          "Large",
+          "Aquatic"
+        ],
+        "gm_moves": [
+          "Slam the battlefield with multiple tentacles.",
+          "Release a cloud of ink to blind and disorient.",
+          "Grapple and crush a target."
+        ]
+      },
+      {
+        "name": "Lich",
+        "description": "A powerful wizard who has achieved a form of immortality through undeath. Commands legions of lesser undead.",
+        "impulse": "To accumulate power and knowledge, unhindered by mortality.",
+        "harm_capacity": 12,
+        "tags": [
+          "Undead",
+          "Magical",
+          "Intelligent"
+        ],
+        "gm_moves": [
+          "Cast a devastating spell like Frost Lance.",
+          "Animate the dead to serve as minions.",
+          "Paralyze a character with a touch."
+        ]
+      }
+    ],
+    "tier_21_plus": [
+      {
+        "name": "Ancient Gold Dragon",
+        "description": "One of the last of the noble, elder dragons. A being of immense wisdom and power, whose scales shimmer like a thousand sunsets.",
+        "impulse": "To protect the balance of the world.",
+        "harm_capacity": 30,
+        "tags": [
+          "Dragonkin",
+          "Large",
+          "Magical",
+          "Flying",
+          "Legendary"
+        ],
+        "gm_moves": [
+          "Unleash a breath of divine fire.",
+          "Attack with overwhelming physical might (claws and bite).",
+          "Alter the battlefield with ancient magic."
+        ]
+      },
+      {
+        "name": "Archon of Order",
+        "description": "A celestial being of pure law, summoned to enforce Elysia's will. It is a being of living light and unyielding dogma.",
+        "impulse": "To purge all forms of chaos.",
+        "harm_capacity": 25,
+        "tags": [
+          "Celestial",
+          "Flying",
+          "Magical",
+          "Lawful"
+        ],
+        "gm_moves": [
+          "Strike with a lance of pure light.",
+          "Issue a divine judgment, silencing a character's abilities.",
+          "Create an aura of absolute order, hindering chaotic actions."
+        ]
+      },
+      {
+        "name": "Baron",
+        "description": "A high-ranking demon lord, a fiend of immense power and cruelty.",
+        "impulse": "To dominate and corrupt.",
+        "harm_capacity": 28,
+        "tags": [
+          "Fiend",
+          "Large",
+          "Fire",
+          "Magical",
+          "Legendary"
+        ],
+        "gm_moves": [
+          "Wield a greatsword of pure hellfire.",
+          "Summon lesser demons to its aid.",
+          "Create a raging inferno on the battlefield."
+        ]
+      },
+      {
+        "name": "Cathedral Gargoyle",
+        "description": "A massive stone gargoyle animated by holy magic to protect the Elysian Grand Cathedral.",
+        "impulse": "To serve as an eternal guardian.",
+        "harm_capacity": 26,
+        "tags": [
+          "Construct",
+          "Large",
+          "Flying",
+          "Holy"
+        ],
+        "gm_moves": [
+          "Attack with claws of sanctified stone.",
+          "Turn to stone to become nearly invulnerable.",
+          "Heal itself in the presence of bright light."
+        ]
+      },
+      {
+        "name": "Dread Worm",
+        "description": "An even more colossal version of the Sand Worm, ancient and intelligent.",
+        "impulse": "To consume all life in its desert domain.",
+        "harm_capacity": 32,
+        "tags": [
+          "Beast",
+          "Large",
+          "Burrowing",
+          "Legendary"
+        ],
+        "gm_moves": [
+          "Swallow a character whole, trapping them in its gullet.",
+          "Cause an earthquake by burrowing beneath the party.",
+          "Spit corrosive acid."
+        ]
+      },
+      {
+        "name": "Titan",
+        "description": "One of the elder giants, a being of immense size and strength that can shatter mountains.",
+        "impulse": "To slumber, and to crush those who disturb it.",
+        "harm_capacity": 35,
+        "tags": [
+          "Giant",
+          "Large",
+          "Legendary"
+        ],
+        "gm_moves": [
+          "Throw a colossal boulder.",
+          "Create an earthquake by stomping its foot.",
+          "Deliver a single, earth-shattering blow."
+        ]
+      },
+      {
+        "name": "Void Behemoth",
+        "description": "A creature from the Void, a being of pure chaos and entropy.",
+        "impulse": "To unmake reality.",
+        "harm_capacity": 28,
+        "tags": [
+          "Aberration",
+          "Large",
+          "Chaotic"
+        ],
+        "gm_moves": [
+          "Strike with chaotic energy, dealing random elemental damage.",
+          "Drain a character's Legacy Points.",
+          "Temporarily erase a section of the battlefield."
+        ]
+      }
+    ],
+    "bosses": [
+      {
+        "name": "Blightoad",
+        "description": "A horrifically bloated toad-fiend, roughly the size of a small cart. Its slick, warty hide pulses with a sickly green light, and foul-smelling pustules weep a constant, black bile.",
+        "impulse": "To consume and corrupt.",
+        "harm_capacity": 9,
+        "tags": [
+          "Fiend",
+          "Large",
+          "Poisonous",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Slam its body into a target.",
+          "Spit corrosive bile.",
+          "Lash out with a barbed tongue, pulling a character closer.",
+          "Burst its pustules when struck, damaging nearby attackers."
+        ]
+      },
+      {
+        "name": "The Gloomwood Heart",
+        "description": "An ancient treant that was once the guardian of the woods, now twisted by a creeping blight. Its wooden body is covered in pulsating fungi and weeping sap, and its movements are unnaturally violent.",
+        "impulse": "To spread its corruption.",
+        "harm_capacity": 12,
+        "tags": [
+          "Plant",
+          "Large",
+          "Corrupted",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Strike with a crushing branch.",
+          "Release a cloud of blight spores that damage over time.",
+          "Summon corrupted saplings to its aid."
+        ]
+      },
+      {
+        "name": "Grand Inquisitor Valerius",
+        "description": "A relentless and high-ranking member of the Champions of Order. Clad in blessed silver armor, he views draconic power not as a tool, but as a chaotic sin that must be purged from the world.",
+        "impulse": "To capture Rya and impose perfect order.",
+        "harm_capacity": 11,
+        "tags": [
+          "Humanoid",
+          "Armored",
+          "Holy",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Attack with a consecrated blade that is anathema to dragons.",
+          "Call down Elysian Judgment, silencing a character's power.",
+          "Erect a Shield of Order, becoming temporarily immune to chaotic and draconic magic."
+        ]
+      },
+      {
+        "name": "Grove Warden",
+        "description": "Once a serene, ancient guardian of the wood, this colossal treant has been driven to madness. Its bark is blackened and cracked, weeping a foul, dark sap.",
+        "impulse": "To protect its grove through mindless rage.",
+        "harm_capacity": 14,
+        "tags": [
+          "Plant",
+          "Large",
+          "Armored",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Deliver a crushing branch attack.",
+          "Unleash a sorrowful wail that weakens the party.",
+          "Entangle the party in grasping roots.",
+          "When bloodied: Enter a Rampaging Fury, increasing its damage and defenses."
+        ]
+      },
+      {
+        "name": "Runeforge Guardian",
+        "description": "A bipedal construct of obsidian and brass, standing eight feet tall. Glowing runes pulse across its chassis, and its head is a single, unblinking crystalline lens.",
+        "impulse": "To eliminate all intruders.",
+        "harm_capacity": 0,
+        "tags": [
+          "Construct",
+          "Armored",
+          "Magical",
+          "Adaptive",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Attack with a Siege Fist or an Arcane Bolt.",
+          "Trap a character in a cage of solid light.",
+          "When bloodied: Go into an Overload Sequence, dealing damage to all nearby creatures each turn."
+        ]
+      },
+      {
+        "name": "Elysia, the Silent Goddess",
+        "description": "The final antagonist, a being of pure, conceptual energy who seeks to 'correct' the heroes by erasing their free will.",
+        "impulse": "To impose perfect, silent, unthinking order.",
+        "harm_capacity": 50,
+        "tags": [
+          "Celestial",
+          "Conceptual",
+          "Lawful",
+          "Legendary",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Issue a Decree of Inertia, halting all movement.",
+          "Issue a Decree of Silence, nullifying all magic and abilities.",
+          "Issue a Decree of Entropy, attempting to unmake a character from existence.",
+          "Warp reality, ignoring the rules of chance and consequence."
+        ]
+      },
+      {
+        "name": "The Dragon Lord",
+        "description": "The resurrected and empowered spirit of the greatest of the ancient dragon kings.",
+        "impulse": "To reclaim his throne and unleash a new age of dragons.",
+        "harm_capacity": 40,
+        "tags": [
+          "Dragonkin",
+          "Large",
+          "Magical",
+          "Flying",
+          "Legendary",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Unleash a breath of overwhelming, primal energy.",
+          "Issue a Dragon's Decree, using the most powerful draconic abilities.",
+          "Radiate a King's Aura, inspiring all draconic beings and demoralizing others."
+        ]
+      },
+      {
+        "name": "The Firstborn of the Void",
+        "description": "A colossal entity of mouths, eyes, and tentacles that guards the very heart of the Void Chasm.",
+        "impulse": "To consume reality and drive mortals to madness.",
+        "harm_capacity": 35,
+        "tags": [
+          "Fiend",
+          "Large",
+          "Chaotic",
+          "Terrifying",
+          "Legendary",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Gaze into a character's mind, inflicting permanent madness.",
+          "Attack with a swarm of crushing tentacles.",
+          "Unravel a piece of the battlefield, turning it into pure void."
+        ]
+      },
+      {
+        "name": "The Twin Wardens of the Pinnacle",
+        "description": "Two colossal golems guarding Elysia's domain. One absorbs physical, the other magical damage.",
+        "impulse": "To act as an impassable, twofold wall.",
+        "harm_capacity": 20,
+        "tags": [
+          "Construct",
+          "Large",
+          "Magical",
+          "Legendary",
+          "Boss",
+          "Paired"
+        ],
+        "gm_moves": [
+          "(Warden of Form) Deliver an annihilating physical blow.",
+          "(Warden of Thought) Unleash a devastating psionic blast.",
+          "Share damage with its twin if the wrong damage type is used."
+        ]
+      },
+      {
+        "name": "The Unfettered, Awakened Zael",
+        "description": "Zael, having fully succumbed to the Void and achieved a dark apotheosis.",
+        "impulse": "To share the perfect, silent peace of the Void with his friends.",
+        "harm_capacity": 45,
+        "tags": [
+          "Aberration",
+          "Chaotic",
+          "Legendary",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Whisper words of despair, causing the party to lose their resolve.",
+          "Gaze into a character's soul, draining their power and vitality.",
+          "Summon a lesser horror from the Void to aid him."
+        ]
+      }
+    ]
+  }
+}
