@@ -1,0 +1,15 @@
+{
+  "world_map_narrative": {
+    "system_description": "Travel in the Legacy System is handled narratively. When the party journeys from one point of interest to another, the GM presents them with the 'Make the Journey' move for that specific route.",
+    "core_move": {
+      "name": "Make the Journey",
+      "trigger": "When you travel the dangerous paths between locations",
+      "roll": "The GM will tell you the most relevant attribute for the journey (e.g., Survey for treacherous woods, Force for a grueling mountain climb, Heart for a diplomatic mission through hostile territory). Roll 2d6 + that Attribute.",
+      "outcomes": {
+        "full_success": "On a 10+, you arrive at your destination safely and efficiently. You may even discover something useful or make good time.",
+        "success_with_cost": "On a 7-9, you make it, but the journey takes a toll. You may face a minor encounter, lose some resources, or arrive exhausted.",
+        "miss": "On a 6-, the journey presents a major new problem. The GM will make a move, introducing a significant encounter, a dangerous hazard, or a complication that threatens your quest."
+      }
+    }
+  }
+}
