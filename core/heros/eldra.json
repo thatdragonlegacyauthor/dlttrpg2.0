@@ -8,17 +8,8 @@
     "background": "Eldra's spirit was bound to the world in a powerful ritual meant to preserve the truth of the Shattering. Now, as a spectral humanoid, she is drawn to Rya's power, sensing a kinship with her draconic lineage. Her presence attracts other spirits, some benevolent, others malevolent. She joins the hero to uncover the true history of the world and to find her place in it.",
     "narrative_hook": "Her spectral presence attracts other spirits who are drawn to her power, some seeking aid, others seeking to consume her. Her ancient knowledge can guide the party to forgotten ruins and artifacts."
   },
-  "attributes": {
-    "Force": -1,
-    "Finesse": 0,
-    "Wits": "+2",
-    "Heart": "+1"
-  },
-  "trained_skills": [
-    "Know",
-    "Sense",
-    "Sway"
-  ],
+  "attributes": { "Force": -1, "Finesse": 0, "Wits": "+2", "Heart": "+1" },
+  "trained_skills": [ "Know", "Sense", "Sway" ],
   "harm_capacity": 5,
   "starting_moves": [
     {
@@ -36,20 +27,20 @@
   ],
   "advanced_moves": [
     {
+      "name": "Misty Step",
+      "description": "When you dissolve into mist and reappear across the battlefield, roll `2d6 + Wits`. On a 10+, you teleport to any spot you can see, and the mist lingers, creating a patch of concealing fog. On a 7-9, you arrive at your destination, but the journey through the spirit world is disorienting; the GM will introduce a complication."
+    },
+    {
+      "name": "Disorienting Fog",
+      "description": "When you conjure a thick, unnatural fog to shroud the area, roll `2d6 + Wits`. On a 10+, the fog is a perfect maze of confusion; choose two effects from the list below. On a 7-9, choose one, but the fog is wild and may also hinder your allies.\n- Enemies inside are disoriented and take a penalty on their next action.\n- The fog provides excellent cover from ranged attacks.\n- Enemies inside cannot take reactions or make opportunity attacks."
+    },
+    {
+      "name": "Phase Strike",
+      "description": "When you Engage in Battle by striking with a chilling, spectral touch, on a 10+, you deal your harm and can immediately teleport to the opposite side of your target, leaving them exposed to a follow-up attack from an ally."
+    },
+    {
       "name": "Twist Fate",
       "description": "You can spend 2 Fate to force a single character (ally or enemy) to re-roll their entire action. They must use the new result."
-    },
-    {
-      "name": "Weight of Ages",
-      "description": "When you curse a target with a vision of their own demise, roll `2d6 + Wits`. On a success, they are slowed and weakened for the scene. On a 10+, the effect is so potent they cannot take forceful actions without suffering harm."
-    },
-    {
-      "name": "Spirit Ward",
-      "description": "When you create a circle of protection, roll `2d6 + Heart`. On a **10+**, you create a zone where spirits (both good and evil) cannot enter, and your allies are immune to fear. On a **7-9**, the ward holds, but it is a beacon in the spirit world, attracting the attention of something ancient and powerful."
-    },
-    {
-      "name": "Augury",
-      "description": "When you spend a few moments in quiet contemplation to ask the spirits for guidance, you may ask the GM one question about a potential course of action. The GM will answer with an omen of 'weal' (if it will lead to a good outcome) or 'woe' (if it will lead to a bad one)."
     }
   ],
   "bond_synergy": {
