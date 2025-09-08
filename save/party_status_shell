@@ -1,0 +1,38 @@
+{
+  "active_party": [
+    "DRAGON_HEIR_RYA"
+  ],
+  "party_inventory": {
+    "currency": 25,
+    "items": [
+      {
+        "name": "Herbal Poultice",
+        "quantity": 1
+      }
+    ]
+  },
+  "character_sheets": [
+    {
+      "char_id": "DRAGON_HEIR_RYA",
+      "current_harm": 0,
+      "max_harm": 7,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": "Fire",
+      "mastery_progress": {
+        "Fire": 0,
+        "Earth": 0,
+        "Ice": 0,
+        "Storm": 0,
+        "Tide": 0,
+        "Light": 0,
+        "Void": 0,
+        "Mist": 0,
+        "Metal": 0,
+        "Psionic": 0,
+        "Chrono": 0,
+        "Cosmic": 0
+      }
+    }
+  ]
+}
