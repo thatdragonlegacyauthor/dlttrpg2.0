@@ -12,19 +12,9 @@
         "description": "A balanced and reliable blade. Can be wielded with one or two hands."
       },
       {
-        "name": "Runeblade",
-        "tags": "Melee, 2-harm, Magical, Wits",
-        "description": "A light blade etched with runes that channel the wielder's mental energy, guided by intellect and arcane will."
-      },
-      {
         "name": "Greatsword",
         "tags": "Melee, 3-harm (ap), Two-Handed, Forceful",
         "description": "A massive, heavy blade that requires two hands and significant strength to wield effectively. It can cleave through armor."
-      },
-      {
-        "name": "Longbow",
-        "tags": "Ranged, 2-harm, Two-Handed, Far",
-        "description": "A powerful bow for a dedicated archer, capable of hitting targets at a great distance."
       },
       {
         "name": "Spear",
@@ -45,9 +35,41 @@
         "name": "Whip",
         "tags": "Melee, 1-harm, Finesse, Reach, Grapple",
         "description": "A flexible weapon that can be used to trip and entangle foes from a distance."
+      },
+      {
+        "name": "Shortbow",
+        "tags": "Ranged, 2-harm, Two-Handed",
+        "description": "A light, versatile bow, suitable for skirmishing."
+      },
+      {
+        "name": "Longbow",
+        "tags": "Ranged, 2-harm, Two-Handed, Far",
+        "description": "A powerful bow for a dedicated archer, capable of hitting targets at a great distance."
+      },
+      {
+        "name": "Crossbow",
+        "tags": "Ranged, 3-harm (ap), Two-Handed, Reload",
+        "description": "A powerful, armor-piercing ranged weapon that requires time to reload."
+      },
+      {
+        "name": "Sling",
+        "tags": "Ranged, 1-harm, Light",
+        "description": "A simple leather sling for hurling stones."
+      },
+      {
+        "name": "Heavy Club",
+        "tags": "Melee, 2-harm, Forceful, Crude",
+        "description": "A heavy, simple weapon for bludgeoning foes."
       }
     ],
     "armor": [
+      {
+        "name": "Gambeson",
+        "type": "Light Armor",
+        "armor": 1,
+        "tags": "Light",
+        "description": "Padded cloth armor that offers basic protection."
+      },
       {
         "name": "Leather Armor",
         "type": "Light Armor",
@@ -55,10 +77,24 @@
         "tags": "Light"
       },
       {
+        "name": "Studded Leather",
+        "type": "Medium Armor",
+        "armor": 2,
+        "tags": "Medium",
+        "description": "Leather armor reinforced with metal studs."
+      },
+      {
         "name": "Chain Mail",
         "type": "Heavy Armor",
         "armor": 2,
         "tags": "Heavy, Noisy"
+      },
+      {
+        "name": "Scale Mail",
+        "type": "Heavy Armor",
+        "armor": 3,
+        "tags": "Heavy, Noisy",
+        "description": "A suit of overlapping metal scales."
       },
       {
         "name": "Full Plate Armor",
@@ -72,7 +108,23 @@
         "name": "Shield",
         "armor": "+1 Armor",
         "tags": "Shield"
+      },
+      {
+        "name": "Heavy Shield",
+        "armor": "+1 Armor",
+        "tags": "Shield, Brace",
+        "description": "A large, sturdy shield that grants a bonus when you Stand Guard."
       }
+    ],
+    "adventuring_gear": [
+        {
+            "name": "Adventurer's Kit",
+            "description": "A backpack containing a bedroll, a mess kit, tinderbox, 10 torches, 10 days of rations, and a waterskin."
+        },
+        {
+            "name": "Rope (50 ft.)",
+            "description": "A sturdy length of hemp rope."
+        }
     ],
     "consumables": [
       {
@@ -84,6 +136,16 @@
         "name": "Smoke Bomb",
         "description": "A clay sphere packed with alchemical reagents.",
         "move": "When you throw this, it creates a thick cloud of smoke, providing cover and a chance to escape or reposition."
+      },
+      {
+        "name": "Bandages",
+        "description": "A roll of clean cloth for first aid.",
+        "move": "When you take a few moments to apply these, you can help an ally who has been taken out of a scene. They are no longer dying, but remain unconscious."
+      },
+      {
+          "name": "Herbal Poultice",
+          "description": "A small, quickly-applied herbal remedy.",
+          "move": "When you apply this, you or an ally can heal 1 Harm, but it takes your whole turn to prepare and use."
       }
     ]
   }
