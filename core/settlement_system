@@ -1,0 +1,79 @@
+{
+  "settlement_system": {
+    "system_name": "Legacy's Rest",
+    "description": "A settlement-building system inspired by the Breath of Fire series, allowing the player to rebuild a town, recruit unique tenants, and manage its growth through a hands-on community system.",
+    "unlock_condition": "The quest to establish Legacy's Rest will not become available until the party has grown to a total of at least five active members (Rya plus four companions).",
+    "location": "The ruins of Windmark Village.",
+    "core_mechanic": {
+      "move_name": "Guide Your Community",
+      "description": "When you spend downtime directing your settlers in a specific task (e.g., Gathering Resources, Holding a Festival), determine the most relevant Community Attribute and roll 2d6 + that Attribute's score.",
+      "outcomes": {
+        "full_success": "On a 10+, the task is completed with great success. You gain an additional benefit, such as a surplus of resources, a bigger morale boost, or a new opportunity.",
+        "success_with_cost": "On a 7-9, the task is completed, but with a complication. The GM will introduce a cost, such as strained resources, a minor accident, or a new, smaller problem that needs solving.",
+        "miss": "On a 6-, the settlers' efforts lead to a significant new problem that requires the party's direct attention."
+      }
+    },
+    "community_management": {
+      "description": "A hands-on management layer inspired by Breath of Fire 3's Faerie Village. During Downtime, the player can assign the general populace (Settlers) to tasks that develop the town's core attributes. These attributes have scores, typically from -1 to +3, that improve as the settlement grows.",
+      "community_attributes": [
+        {
+          "name": "Industry",
+          "description": "Represents the town's crafting and building efficiency. Used for checks related to construction and production."
+        },
+        {
+          "name": "Diligence",
+          "description": "Reflects the town's resource-gathering and exploration efforts. Used for checks related to gathering, scouting, and exploration."
+        },
+        {
+          "name": "Culture",
+          "description": "Measures the town's morale, artistic development, and appeal. Used for checks related to festivals, diplomacy, and attracting unique artisans."
+        }
+      ],
+      "settlement_actions": [
+        {
+          "name": "Gather Resources",
+          "description": "Assign settlers to a nearby resource node (e.g., forest, quarry). Make the 'Guide Your Community' move using Diligence to determine the yield."
+        },
+        {
+          "name": "Assist Construction",
+          "description": "Assign settlers to help the Master Builder. Make the 'Guide Your Community' move using Industry to reduce the time or material cost of a project."
+        },
+        {
+          "name": "Develop Land",
+          "description": "Clear ruins or prepare new plots of land. Make the 'Guide Your Community' move using Force to determine how quickly and effectively the land is cleared."
+        },
+        {
+          "name": "Scout the Region",
+          "description": "Send out scouting parties. Make the 'Guide Your Community' move using Diligence to see if they discover new resource nodes, hidden locations, or potential new residents."
+        },
+        {
+          "name": "Hold a Festival",
+          "description": "Organize a town event to boost morale. Make the 'Guide Your Community' move using Culture to determine its success and rewards."
+        }
+      ]
+    },
+    "master_builder_framework": {
+      "description": "The choice of a Master Builder determines the architectural style, focus, and unique capstone building of Legacy's Rest.",
+      "pre_defined_builders": [
+        {
+          "name": "Torr",
+          "char_id": "PANGOLIN_TORR",
+          "architectural_style": "Stalwart Pangolin-kin",
+          "focus": "Defense & Industry"
+        },
+        {
+          "name": "Archivist Elara",
+          "char_id": "RUNEFORGE_ELARA",
+          "architectural_style": "Arcane-Mechanical",
+          "focus": "Efficiency & Arcana"
+        },
+        {
+          "name": "Elder Briar",
+          "char_id": "TANGLEWOOD_BRIAR",
+          "architectural_style": "Verdant Harmony",
+          "focus": "Nature & Sustainability"
+        }
+      ]
+    }
+  }
+}
