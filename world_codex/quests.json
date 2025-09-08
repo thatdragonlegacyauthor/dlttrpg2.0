@@ -1,0 +1,148 @@
+{
+  "quests_narrative": {
+    "main_quests": [
+      {
+        "name": "A Dragon's Legacy",
+        "type": "Main Narrative",
+        "description": "Grand Inquisitor Valerius and the Champions of Order are a looming threat. The party must find a way to counter their growing influence, uncover the truth of the Shattering, and protect Rya from being captured.",
+        "trigger": "Ongoing from the prologue.",
+        "narrative_move": {
+          "name": "Confront the Order's Influence",
+          "description": "When you take direct action to oppose the Champions of Order's influence in a community, roll 2d6 + Heart. On a 10+, you successfully sway public opinion or disrupt their plans, creating a safe haven for a time. On a 7-9, you succeed, but your actions draw the direct attention of a high-ranking Inquisitor, escalating the threat. On a 6-, your efforts backfire, and the community becomes even more entrenched in the Order's dogma."
+        }
+      },
+      {
+        "name": "The Unwritten Axiom",
+        "type": "Main Narrative / Legacy",
+        "description": "Loremaster Oris has revealed a prophecy that offers a single hope against Elysia's absolute power: to forge an artifact of pure possibility by gathering three conceptual 'echoes' from across Eryndor.",
+        "trigger": "Party reaches Level 15 and confronts Loremaster Oris about Elysia.",
+        "narrative_move": {
+          "name": "Gather an Echo",
+          "description": "When you attempt to capture a conceptual echo (e.g., the 'echo of defiance' from a legendary battlefield, the 'echo of creation' from a master forge), describe how you embody that concept and roll 2d6 + the most relevant Attribute. On a 10+, you successfully capture the echo. On a 7-9, you capture it, but the process leaves a psychic imprint on you, introducing a new personal complication. On a 6-, the echo overwhelms you, and you are faced with a difficult choice that challenges your very identity."
+        }
+      }
+    ],
+    "companion_quests": [
+      {
+        "name": "The Nature of the Void",
+        "type": "Companion (Zael)",
+        "description": "The whispers in Zael's mind have been silenced, but he now knows the Void itself is not evil. He is determined to discover what force is corrupting its pure energy and to learn the truth of his own origins.",
+        "trigger": "Activated after Rya attunes to the Void lineage.",
+        "narrative_move": {
+          "name": "Confront the Corruption",
+          "description": "When Zael confronts a manifestation of the Void's corruption, roll 2d6 + Wits. On a 10+, he is able to purify it, learning a piece of the truth about his origins in the process. On a 7-9, he purifies it, but the corrupting force lashes out, revealing a painful secret about his past. On a 6-, the corruption is too strong, and he is tempted by the whispers of a powerful, malevolent entity."
+        }
+      },
+      {
+        "name": "Selra's Faith",
+        "type": "Companion (Selra)",
+        "description": "After witnessing the events in the Void Chasm, Selra is deeply conflicted. She must reconcile the goodness of her faith with the cruel actions of the Champions of Order and decide where her true loyalties lie.",
+        "trigger": "Activated after the party escapes the Elysian Grand Cathedral.",
+        "narrative_move": {
+          "name": "Define Your Faith",
+          "description": "When Selra takes an action that directly contradicts the doctrine of the Champions of Order but aligns with her own sense of compassion, roll 2d6 + Heart. On a 10+, her faith is strengthened, and she gains a new, personal divine move that reflects her new path. On a 7-9, her action succeeds, but she is wracked with guilt and doubt, taking a penalty on her next move. On a 6-, her faith is shattered, and she is unable to use any of her divine abilities until she can find a new source of conviction."
+        }
+      },
+      {
+        "name": "The Price of Vengeance",
+        "type": "Companion (Garrick)",
+        "description": "Garrick was betrayed by Grand Inquisitor Valerius. He seeks Rya's power as a weapon against the man who made him a monster and will stop at nothing to see Valerius pay.",
+        "trigger": "Garrick joins the party.",
+        "narrative_move": {
+          "name": "Embrace the Wraith",
+          "description": "When Garrick gives in to his desire for vengeance to gain an advantage, roll 2d6 + Force. On a 10+, he unleashes his full power, dealing devastating harm to his target and putting them in a terrible spot. On a 7-9, he succeeds, but the act of vengeance takes a toll on his soul, and he marks 1 Harm as his connection to the world weakens. On a 6-, his vengeance consumes him, and he attacks the nearest creature, friend or foe, in a blind rage."
+        }
+      },
+      {
+        "name": "A Stolen Past, A Stolen Future",
+        "type": "Companion (Lirien)",
+        "description": "Lirien stole a powerful relic to disrupt an Arcane Dominion ritual. Now, pursuers led by a rival thief frequently ambush the party, forcing Lirien to confront his past.",
+        "trigger": "Lirien joins the party.",
+        "narrative_move": {
+          "name": "Confront Your Rival",
+          "description": "When Lirien confronts his rival, roll 2d6 + Finesse. On a 10+, he outsmarts them, turning their own trap against them and gaining a valuable piece of information about the Arcane Dominion. On a 7-9, he escapes, but his rival reveals a damaging secret about Lirien's past to the party. On a 6-, his rival gets the upper hand, and Lirien must choose between giving up the relic or sacrificing an ally's safety."
+        }
+      },
+      {
+        "name": "The Soul Within",
+        "type": "Companion (Zykar)",
+        "description": "Hunted by the Arcane Dominion, Zykar seeks to understand the human soul trapped within his construct body. The fragmented memories it holds may contain clues about the Shattering.",
+        "trigger": "Zykar joins the party.",
+        "narrative_move": {
+          "name": "Unlock a Memory",
+          "description": "When Zykar encounters a place or object from his past life, roll 2d6 + Wits. On a 10+, he experiences a clear, coherent memory, revealing a vital clue about the Shattering and his own identity. On a 7-9, the memory is fragmented and painful, revealing a clue but also causing a temporary system malfunction. On a 6-, the memory is a psychic backlash, causing Zykar to go on a rampage, attacking the nearest creature."
+        }
+      },
+      {
+        "name": "The Weight of the Crown",
+        "type": "Companion (Nina)",
+        "description": "Torn between her royal duties and a desire for freedom, Princess Nina must navigate the political machinations of the Ember Concord and her father's strict expectations.",
+        "trigger": "Nina joins the party.",
+        "narrative_move": {
+          "name": "Defy Expectation",
+          "description": "When Nina takes an action that directly defies her father's orders or the expectations of her station, roll 2d6 + Heart. On a 10+, her bold action succeeds, and she earns the respect of a key political figure. On a 7-9, she succeeds, but creates a major political scandal for her family. On a 6-, her defiance is seen as weakness, and a political rival uses the opportunity to seize more power."
+        }
+      },
+      {
+        "name": "The Stolen Forge-Relics",
+        "type": "Companion (Torr)",
+        "description": "The Champions of Order have stolen sacred relics from Torr's clan. He aims to recover them and craft a legendary weapon to defeat the Order.",
+        "trigger": "Torr joins the party.",
+        "narrative_move": {
+          "name": "Reclaim a Relic",
+          "description": "When Torr attempts to recover a stolen forge-relic, roll 2d6 + Force. On a 10+, he successfully reclaims the relic and unlocks a new, powerful crafting recipe. On a 7-9, he reclaims the relic, but it is damaged and must be repaired before it can be used. On a 6-, the relic is being used as a power source for a powerful Champion war machine, and Torr must choose between reclaiming the relic or saving a group of innocent people."
+        }
+      },
+      {
+        "name": "A Hunter's Mark",
+        "type": "Companion (Talia)",
+        "description": "Talia is on a personal quest to track down a notorious Arcane Dominion captain who shot her down and left her for dead. This captain is a recurring antagonist who holds a valuable relic the party needs.",
+        "trigger": "Talia joins the party.",
+        "narrative_move": {
+          "name": "Close in on Your Prey",
+          "description": "When Talia follows a lead on the Dominion captain, roll 2d6 + Survey. On a 10+, she successfully tracks him to his current location and gains a tactical advantage for the ensuing confrontation. On a 7-9, she finds him, but he has laid a trap for her. On a 6-, the trail leads to an ambush, and Talia must choose between continuing the pursuit or protecting the party from the immediate threat."
+        }
+      },
+      {
+        "name": "The Blighted Glade",
+        "type": "Companion (Veridia)",
+        "description": "The encroaching magical pollution from the Arcane Dominion's excavations is poisoning Veridia's sacred grove. She must find allies to help her save it.",
+        "trigger": "Veridia joins the party.",
+        "narrative_move": {
+          "name": "Heal the Land",
+          "description": "When Veridia attempts to purify a corrupted area, roll 2d6 + Wits. On a 10+, she successfully cleanses the area and learns a new nature-based ability. On a 7-9, she cleanses the area, but the corruption lashes out, inflicting a temporary debuff on her. On a 6-, the corruption is too strong, and it fights back, spawning a powerful, corrupted elemental that the party must defeat."
+        }
+      },
+      {
+        "name": "The Usurper's Reign",
+        "type": "Companion (Kei)",
+        "description": "Framed for a crime against his people, Kei was exiled by a rival who allied with the Arcane Dominion. He must expose the conspiracy to protect his pack.",
+        "trigger": "Kei joins the party.",
+        "narrative_move": {
+          "name": "Challenge the Usurper",
+          "description": "When Kei challenges Vargus's authority, roll 2d6 + Force. On a 10+, he successfully exposes Vargus's treachery and rallies the pack to his side. On a 7-9, he exposes the truth, but the pack is divided, leading to a civil war. On a 6-, Vargus uses a piece of Dominion technology to defeat Kei, and the party must rescue him from being executed."
+        }
+      },
+      {
+        "name": "The Abomination's Purpose",
+        "type": "Companion (Rune)",
+        "description": "Hunted by a faction of lore-keepers who believe a souled construct is an abomination, Rune seeks to understand his creator's fragmented memories and his purpose in this new world.",
+        "trigger": "Rune joins the party.",
+        "narrative_move": {
+          "name": "Integrate a Schematic",
+          "description": "When Rune attempts to integrate a new runic schematic into his body, roll 2d6 + Tinker. On a 10+, he successfully integrates the new technology, gaining a powerful new ability. On a 7-9, he succeeds, but the integration is unstable, and the new ability has a random, unpredictable side effect. On a 6-, the integration fails, and the schematic is destroyed, but the feedback unlocks a fragmented memory of his creator."
+        }
+      },
+      {
+        "name": "The Oracle's Burden",
+        "type": "Companion (Eldra)",
+        "description": "As the ghostly remnant of an ancient oracle, Eldra is bound to uncover the true history of the Shattering, but her spectral presence attracts other spirits, some benevolent, some malevolent.",
+        "trigger": "Eldra joins the party.",
+        "narrative_move": {
+          "name": "Commune with the Past",
+          "description": "When Eldra attempts to commune with a powerful spirit, roll 2d6 + Wits. On a 10+, she receives a clear, useful vision of the past. On a 7-9, the vision is fragmented and cryptic. On a 6-, the spirit is malevolent and attempts to possess her."
+        }
+      }
+    ]
+  }
+}
