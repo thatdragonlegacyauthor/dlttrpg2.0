@@ -1,0 +1,126 @@
+{
+  "void_chasm": {
+    "start_room": "chasm_edge",
+    "rooms": {
+      "chasm_edge": {
+        "name": "Edge of the Void Chasm",
+        "description": "You stand on a precipice of cracked, black rock, staring into a bottomless abyss. The air is unnaturally still and cold. A narrow, treacherous path winds down into the darkness below.",
+        "exits": [
+          {
+            "direction": "Descend the Path",
+            "destination": "unstable_trail"
+          }
+        ]
+      },
+      "unstable_trail": {
+        "name": "The Unstable Trail",
+        "description": "The path is narrow and covered in loose, sharp scree. To your left is the sheer cliff face; to your right, a drop into nothingness. The silence is unsettling, and you get the feeling you are being watched by the abyss itself.",
+        "exits": [
+          {
+            "direction": "Up to the Edge",
+            "destination": "chasm_edge"
+          },
+          {
+            "direction": "Continue Downward",
+            "destination": "fractured_path"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "traverse_path",
+            "action": "skill_check",
+            "details": "Requires a Moderate DC 14 Agility (Athletics) check to avoid slipping. A failure might cause a rockslide, alerting creatures deeper within the chasm."
+          }
+        ]
+      },
+      "fractured_path": {
+        "name": "The Fractured Path",
+        "description": "The solid trail ends here. Ahead, a series of disconnected, floating stones hang suspended in the void, defying gravity. Leaping from one to the next will require careful timing and a steady nerve.",
+        "exits": [
+          {
+            "direction": "Back to the Trail",
+            "destination": "unstable_trail"
+          },
+          {
+            "direction": "Leap Across",
+            "destination": "crystal_cave_entrance"
+          },
+          {
+            "direction": "Leap to the Side Ledge",
+            "destination": "whispering_ledge",
+            "status": "Hidden"
+          }
+        ]
+      },
+      "whispering_ledge": {
+        "name": "The Whispering Ledge",
+        "description": "This small, hidden ledge is out of sight from the main path. A single, flawless purple crystal grows from the rock wall. Touching it floods your mind with a cacophony of whispers—fragments of forgotten memories and echoes of desperate last words from those the Void has claimed.",
+        "exits": [
+          {
+            "direction": "Leap back to the Path",
+            "destination": "fractured_path"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "touch_crystal",
+            "action": "story_beat",
+            "details": "Receive a cryptic clue about the true nature of the Void or Zael's origins, but suffer minor psychic damage (1d6 Resolve)."
+          }
+        ]
+      },
+      "crystal_cave_entrance": {
+        "name": "Crystal Cave Entrance",
+        "description": "The floating path leads to the mouth of a dark cave. The interior glitters with the faint, purple light of countless crystals embedded in the walls and ceiling.",
+        "exits": [
+          {
+            "direction": "Back to the Path",
+            "destination": "fractured_path"
+          },
+          {
+            "direction": "Enter the Cave",
+            "destination": "chamber_of_echoes"
+          }
+        ]
+      },
+      "chamber_of_echoes": {
+        "name": "The Chamber of Echoes",
+        "description": "The whispers of the Void are deafening in this cavern. The purple crystals on the walls pulse in time with a low hum, projecting shadowy, phantasmal images on the walls—manifestations of your deepest fears and self-doubts. This is the 'Trial of the Echo,' a test of will.",
+        "exits": [
+          {
+            "direction": "Back to Entrance",
+            "destination": "crystal_cave_entrance"
+          },
+          {
+            "direction": "Press on to the Heart",
+            "destination": "heart_of_the_void"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "endure_the_trial",
+            "action": "skill_check",
+            "details": "Each party member must make a Hard DC 18 Spirit check to overcome their inner demons. Failure results in taking psychic damage and suffering a temporary penalty to their Spirit attribute."
+          }
+        ]
+      },
+      "heart_of_the_void": {
+        "name": "Heart of the Void",
+        "description": "In the center of a vast, silent chamber floats a perfect sphere of absolute blackness, a miniature tear in reality. This is a powerful nexus of void energy, the focal point for draconic attunement.",
+        "exits": [
+          {
+            "direction": "Leave the Heart",
+            "destination": "chamber_of_echoes"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "meditate",
+            "action": "story_beat",
+            "details": "Opportunity to unlock the Void Aspect after passing the Trial of the Echo."
+          }
+        ]
+      }
+    }
+  }
+}
