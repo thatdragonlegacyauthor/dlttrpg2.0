@@ -103,6 +103,57 @@
             "description": "When you have time and materials, you can create a cunning trap. Tell the GM what you want it to do; they will tell you what you'll need and how long it will take to set up."
           }
         ]
+      },
+      {
+        "name": "Silas, the Whisper Broker",
+        "char_id": "GILDEDPAW_SILAS",
+        "location": "Port Myria's Silken Market",
+        "philosophy": "A secret is the most valuable currency in the world. Knowing when to keep it, when to trade it, and when to spend it is the difference between a fool and a king.",
+        "requirement_to_learn": "Prove your worth by successfully stealing a crucial, well-guarded secret from a powerful faction without being detected.",
+        "master_moves": [
+          {
+            "name": "Eavesdropper's Ear",
+            "description": "When you spend a moment listening to a conversation in a crowded room, you can make a Wits roll. On a 10+, you overhear a crucial, unguarded secret. On a 7-9, you learn something useful, but it comes with a complication or a new danger."
+          },
+          {
+            "name": "Social Masquerade",
+            "description": "Once per scene, you can flawlessly adopt a new persona or disguise. You gain a +2 bonus on all Sway and Influence Someone moves against anyone who does not know your true identity."
+          }
+        ]
+      },
+      {
+        "name": "Loremaster Oris, the Chronographer",
+        "char_id": "ASTORAN_ORIS",
+        "location": "Tidewatch Spire",
+        "philosophy": "The future is a river of possibilities, but the past is an ocean of truth. To read the flow of one, you must first understand the tides of the other. All things are connected by fate, and a wise navigator knows when to sail with the current and when to fight it.",
+        "requirement_to_learn": "Successfully decipher a cryptic Astoran prophecy or pass a mental trial of foresight and self-knowledge.",
+        "master_moves": [
+          {
+            "name": "Fated Glimpse",
+            "description": "Once per session, after a character (ally or enemy) makes a roll, you can spend a Legacy Point to declare you foresaw the outcome. You can then add a +2 or a -2 to the result of that roll."
+          },
+          {
+            "name": "Mind of the Deep",
+            "description": "When you are faced with a social or mental attack (e.g., psychic influence, a verbal threat), you can make a Heart roll. On a 10+, you resist the effect completely and understand the attacker's true intent. On a 7-9, you resist, but the effort is taxing; you take a -1 penalty on your next move."
+          }
+        ]
+      },
+      {
+        "name": "Kilgore, the Cinder-Clad",
+        "char_id": "BROOD_KILGORE",
+        "location": "Mount Dragnor",
+        "philosophy": "Only in the cleansing fire can a new world be born from the ashes of the old. The Dragon's power is not a gift to be cherished, but a weapon to be wielded. Embrace the fire, and you will find your true strength.",
+        "requirement_to_learn": "Defeat Kilgore in single combat and prove your loyalty to the Brood by successfully performing a dark ritual in their name.",
+        "master_moves": [
+          {
+            "name": "Searing Presence",
+            "description": "When you use your physical presence to Intimidate someone, you can spend a Legacy Point to wreath yourself in a faint heat. Your successful intimidation deals 1-harm to the target as their skin begins to burn."
+          },
+          {
+            "name": "Conflagration Strike",
+            "description": "When you Engage in Battle with a heavy weapon, you can spend a Legacy Point. If you do, your attack now deals +1d6 harm and the area around the impact is left as a hazardous, burning zone for the rest of the scene."
+          }
+        ]
       }
     ]
   }
