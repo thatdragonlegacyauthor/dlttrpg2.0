@@ -23,7 +23,23 @@
     "windmark_attacked": false,
     "met_nina": false,
     "met_talia": false,
-    "garrisons_trust_level": "Neutral"
+    "met_zykar": false,
+    "met_veridia": false,
+    "met_torr": false,
+    "met_sprout": false,
+    "met_rune": false,
+    "met_lirien": false,
+    "met_kei": false,
+    "met_garrick": false,
+    "met_era": false,
+    "met_eldra": false,
+    "garrisons_trust_level": "Neutral",
+    "kaiser_unlocked": false,
+    "astora_allied": false,
+    "mount_dragnor_pacified": false,
+    "arcanum_vaults_secured": false,
+    "elysia_defeated": false,
+    "world_saved": false
   },
   "chronicle": {}
 }
