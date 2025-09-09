@@ -3,7 +3,7 @@
     "description": "The master index for all core campaign and system data files for the Dragon Legacy Narrative System (dlttrpg2.0).",
     "file_groups": [
       {
-        "category": "Campaign & Subsystems",
+        "category": "Campaign & Story Arcs",
         "files": [
           {
             "file_name": "campaign/story_arc/prologue.json",
@@ -12,14 +12,39 @@
           {
             "file_name": "campaign/story_arc/chapter_one.json",
             "purpose": "The narrative roadmap for the first chapter of the campaign."
+          }
+        ]
+      },
+      {
+        "category": "Campaign Flashpoints",
+        "files": [
+          {
+            "file_name": "campaign/flashpoints/the_siege_of_stonegard.json",
+            "purpose": "Flashpoint scenario for the assault on Stonegard."
           },
           {
-            "file_name": "system/subsystems/masters_system",
-            "purpose": "Details the system for finding hidden Masters who can teach unique 'Master Moves'."
+            "file_name": "campaign/flashpoints/the_havenwood_heresy.json",
+            "purpose": "Flashpoint scenario for the ideological conflict in Havenwood."
           },
           {
-            "file_name": "system/subsystems/settlement_system",
-            "purpose": "Details the 'Legacy's Rest' town-building subsystem and its core mechanics."
+            "file_name": "campaign/flashpoints/the_shadow_war_of_port_myria.json",
+            "purpose": "Flashpoint scenario for the underworld conflict in Port Myria."
+          },
+          {
+            "file_name": "campaign/flashpoints/the_race_for_the_arcanum_vaults.json",
+            "purpose": "Flashpoint scenario for the expedition to the Arcanum Vaults."
+          },
+          {
+            "file_name": "campaign/flashpoints/the_heart_of_the_inferno.json",
+            "purpose": "Flashpoint scenario for the ritual at Mount Dragnor."
+          },
+          {
+            "file_name": "campaign/flashpoints/the_tidewatch_prophecy.json",
+            "purpose": "Flashpoint scenario for the expedition to the Sunken City of Astora."
+          },
+          {
+            "file_name": "campaign/flashpoints/the_wyndian_gambit.json",
+            "purpose": "Flashpoint scenario for the political intrigue in Wyndia."
           }
         ]
       },
@@ -65,10 +90,6 @@
           {
             "file_name": "world/codex/factions_narrative.json",
             "purpose": "Details on all world factions, reframed with narrative drives, GM moves, and key questions."
-          },
-           {
-            "file_name": "world/codex/flashpoints.json",
-            "purpose": "A list of major, world-shaping scenarios with branching narrative outcomes."
           },
           {
             "file_name": "world/locations/locations_gazetteer.json",
