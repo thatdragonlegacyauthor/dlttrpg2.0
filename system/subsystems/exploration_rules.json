@@ -1,0 +1,61 @@
+{
+  "exploration_rules": {
+    "system_description": "This file contains custom travel tables for specific regions in Eryndor, designed to add flavor and unique challenges to the core 'Make the Journey' move.",
+    "regional_tables": [
+      {
+        "region": "The Whispering Woods",
+        "primary_attribute": "Wits",
+        "outcomes": {
+          "full_success": "On a 10+, you navigate the ancient paths with an intuitive grace. Not only do you arrive at your destination, but you also choose one: discover a hidden, tranquil grove (clear 1 Harm); find an ancient Runestone with a cryptic clue; or the spirits guide you, saving a day of travel.",
+          "success_with_cost": "On a 7-9, you reach your destination, but the woods take a toll. The GM will choose one: you expend extra resources; you are confronted by a sorrowful spirit (mark 1 Harm from psychic strain); or you attract the attention of a Corrupted Beast.",
+          "miss": "On a 6-, the woods actively work against you. You become hopelessly lost and are ambushed by a powerful creature or emerge in a completely different, unknown part of the forest."
+        }
+      },
+      {
+        "region": "The Azure Steppes",
+        "primary_attribute": "Heart",
+        "outcomes": {
+          "full_success": "On a 10+, your journey is swift and uneventful. You also choose one: meet a friendly traveler with valuable info; discover a hidden grotto with a restorative spring (clear 1 Harm); or make excellent time (gain +1 forward at your destination).",
+          "success_with_cost": "On a 7-9, you arrive safely, but the journey takes a toll. The GM will choose one: you are hassled by bandits and lose resources; a fierce storm delays you; or you have a tense encounter with a Champions of Order patrol.",
+          "miss": "On a 6-, the plains are more dangerous than they appear. You are ambushed by bandits or a territorial Saberclaw Tiger, or you stumble upon a powerful, angry spirit."
+        }
+      },
+      {
+        "region": "The Shattered Lands",
+        "primary_attribute": "Force",
+        "outcomes": {
+          "full_success": "On a 10+, you navigate the desolate wastes. You also choose one: find a scavenger's cache with useful items; discover an intact pre-Shattering ruin with a piece of lore; or find an unexpected oasis (clear 1 Harm).",
+          "success_with_cost": "On a 7-9, you make it, but the wasteland leaves its mark. The GM will choose one: a corrosive ash storm damages a piece of gear; you are stalked by a mutated beast; or you pass through a pocket of chaotic magic, causing a strange, temporary effect.",
+          "miss": "On a 6-, the Shattered Lands try to consume you. You are caught in a Glass-Storm, or you wander into the territory of a Dread Worm or a Brood of Dragnor cult patrol."
+        }
+      },
+      {
+        "region": "The Glacial Maw",
+        "primary_attribute": "Wits",
+        "outcomes": {
+          "full_success": "On a 10+, you traverse the frozen expanse with skill. You also choose one: find a hidden thermal spring (clear 1 Harm); discover a preserved prehistoric beast (valuable resources); or the Sky-Fire Peaks guide you, revealing a shortcut.",
+          "success_with_cost": "On a 7-9, you survive the cold, but not without hardship. The GM will choose one: a whiteout blizzard consumes extra resources; you are forced to abandon gear on unstable ice; or you are spotted by a Frostfang hunting party.",
+          "miss": "On a 6-, the cold is a relentless predator. An avalanche separates the party, or you are ambushed by a Saberclaw Tiger or a hostile Frostfang warband."
+        }
+      },
+      {
+        "region": "Serpent's Coil Mountains",
+        "primary_attribute": "Finesse",
+        "outcomes": {
+          "full_success": "On a 10+, you navigate the peaks with confidence. You also choose one: find a hidden Skyveil hunting perch (+1 forward on next Survey/Prowl); discover a rich mineral vein; or find a secret eagle's path, saving time.",
+          "success_with_cost": "On a 7-9, the mountains test your limits. The GM will choose one: a rockslide forces a long detour (lose resources); a territorial Wyvern begins stalking you; or the climb causes mental and physical strain (mark 1 Harm).",
+          "miss": "On a 6-, the mountains are actively hostile. You are ambushed by Harpies in a narrow pass, or you are caught in a violent electrical storm near the Roost of the Tempest."
+        }
+      },
+      {
+        "region": "Arcane Dominion Territory",
+        "primary_attribute": "Wits",
+        "outcomes": {
+          "full_success": "On a 10+, you cross the dunes with purpose. You also choose one: find a hidden oasis (replenish all water/resources); discover an abandoned Gilded Paw caravan with salvageable goods; or spot a Dominion patrol from a distance and learn their route.",
+          "success_with_cost": "On a 7-9, you survive the desert, but it demands a price. The GM will choose one: a sandstorm delays you (lose resources); you suffer from heat exhaustion (mark 1 Harm); or you find the tracks of a Sand Worm, indicating you are in its territory.",
+          "miss": "On a 6-, the desert is the Dominion's weapon. You are ambushed by a powerful Dominion patrol, or you stumble into a volatile, unstable magical experiment site."
+        }
+      }
+    ]
+  }
+}
