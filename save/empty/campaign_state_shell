@@ -1,7 +1,6 @@
 {
   "current_location": "windmark_village",
-  "current_room": "village_square",
-  "session_number": 1,
+  "session_number": 0,
   "world_state": {
     "major_events": [],
     "active_quests": [
@@ -25,5 +24,6 @@
     "met_nina": false,
     "met_talia": false,
     "garrisons_trust_level": "Neutral"
-  }
+  },
+  "chronicle": {}
 }
