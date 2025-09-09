@@ -32,7 +32,7 @@
           },
           {
             "name": "Intimidating Presence",
-            "description": "When you use your physical presence to Intimidate someone, you can use Force instead of Heart."
+            "description": "When you use your physical presence to Intimidate someone, you can roll `2d6 + Force` instead of Heart."
           }
         ]
       },
@@ -113,7 +113,7 @@
         "master_moves": [
           {
             "name": "Eavesdropper's Ear",
-            "description": "When you spend a moment listening to a conversation in a crowded room, you can make a Wits roll. On a 10+, you overhear a crucial, unguarded secret. On a 7-9, you learn something useful, but it comes with a complication or a new danger."
+            "description": "When you spend a moment listening to a conversation in a crowded room, roll `2d6 + Wits`. On a 10+, you overhear a crucial, unguarded secret. On a 7-9, you learn something useful, but it comes with a complication or a new danger."
           },
           {
             "name": "Social Masquerade",
@@ -134,7 +134,7 @@
           },
           {
             "name": "Mind of the Deep",
-            "description": "When you are faced with a social or mental attack (e.g., psychic influence, a verbal threat), you can make a Heart roll. On a 10+, you resist the effect completely and understand the attacker's true intent. On a 7-9, you resist, but the effort is taxing; you take a -1 penalty on your next move."
+            "description": "When you are faced with a social or mental attack (e.g., psychic influence, a verbal threat), roll `2d6 + Heart`. On a 10+, you resist the effect completely and understand the attacker's true intent. On a 7-9, you resist, but the effort is taxing; you take a -1 penalty on your next move."
           }
         ]
       },
