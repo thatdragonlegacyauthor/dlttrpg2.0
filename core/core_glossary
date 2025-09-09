@@ -1,0 +1,272 @@
+{
+  "core_glossary": [
+    {
+      "tag": "Aberration",
+      "description": "A creature from an alternate reality or dimension, often with bizarre and chaotic abilities. They defy natural laws and reason."
+    },
+    {
+      "tag": "Ambusher",
+      "description": "A creature that specializes in striking from hiding or from a position of surprise. They are often stealthy and their attacks are more potent when they have the element of surprise."
+    },
+    {
+      "tag": "Amorphous",
+      "description": "A creature with no fixed shape or form. They are often immune to physical grappling and can squeeze through small spaces."
+    },
+    {
+      "tag": "Aquatic",
+      "description": "A creature that lives in or around water. Their abilities are often tied to water magic, and they are most dangerous in their native element."
+    },
+    {
+      "tag": "Armored",
+      "description": "A creature with natural or physical armor, such as thick plates or scales. They are highly resistant to harm from physical attacks."
+    },
+    {
+      "tag": "Beast",
+      "description": "A natural creature of the world. They are driven by instinct and can be found in the wilds of Eryndor."
+    },
+    {
+      "tag": "Bleeding",
+      "description": "A condition that causes a target to take ongoing harm over time. A creature with this condition takes 1-harm at the beginning of its turn until the bleeding is stopped with a medical or magical action."
+    },
+    {
+      "tag": "Boss",
+      "description": "A particularly powerful and important enemy. Bosses are designed to be a significant challenge, often with multiple stages or unique abilities that require a specific strategy to defeat."
+    },
+    {
+      "tag": "Brace",
+      "description": "This shield is large enough to brace against a charge. When you Stand Guard with it, you cannot be easily moved."
+    },
+    {
+      "tag": "Brute",
+      "description": "A creature of immense strength and physical power. Their attacks are often slow but devastating, and they are difficult to stop once they get moving."
+    },
+    {
+      "tag": "Burrowing",
+      "description": "A creature that can move and attack from beneath the earth. They are difficult to track and can ambush the party from unexpected locations."
+    },
+    {
+      "tag": "Chaotic",
+      "description": "A creature with unpredictable and volatile abilities. Their actions can have a wide range of effects, both positive and negative, on the battlefield."
+    },
+    {
+      "tag": "Chilling",
+      "description": "A debilitating cold that affects a character's body or mind, causing them to falter or become staggered."
+    },
+    {
+      "tag": "Conceptual",
+      "description": "A being of pure thought or energy, rather than a physical creature. Their harm and attacks are often conceptual, and they may be immune to physical harm or even able to bend reality itself."
+    },
+    {
+      "tag": "Construct",
+      "description": "An artificial creature, often built from metal, stone, or magic. They are immune to poisons, diseases, and many mental effects, and can be difficult to take out with conventional attacks."
+    },
+    {
+      "tag": "Controlling",
+      "description": "An item or ability that can suppress a target's free will, making them susceptible to commands or forcing them to act against their own desires."
+    },
+    {
+      "tag": "Corrupted",
+      "description": "A creature that has been twisted and warped by a malevolent force. Their abilities are often toxic and focused on spreading their corruption."
+    },
+    {
+      "tag": "Corrosive",
+      "description": "An acid-based effect that can damage or melt a target's armor, leaving them vulnerable."
+    },
+    {
+      "tag": "Crude",
+      "description": "This weapon is simple and poorly balanced."
+    },
+    {
+      "tag": "Draconic",
+      "description": "An item or creature imbued with the essence of a Dragon. Attacks made with these items can deal an extra 1-harm of the wielder's currently attuned element. These items resonate with Rya's power, and their abilities may grow alongside her own."
+    },
+    {
+      "tag": "Dragonkin",
+      "description": "A creature that shares a lineage with the ancient dragons. They are often immense in size and possess powerful draconic or elemental abilities."
+    },
+    {
+      "tag": "Elemental",
+      "description": "A creature of pure, elemental energy, such as fire, ice, or earth. They are often immune to their own element and can manipulate it to reshape the battlefield."
+    },
+    {
+      "tag": "Empowering",
+      "description": "A piece of gear that empowers the wielder. It can grant a temporary bonus to a physical attribute or provide a unique, but short-term, buff."
+    },
+    {
+      "tag": "Far",
+      "description": "This weapon is effective at long range."
+    },
+    {
+      "tag": "Fiend",
+      "description": "A creature from the lower planes, such as a demon or devil. Their abilities are often tied to fire, shadow, or malevolent magic, and they seek to corrupt and destroy."
+    },
+    {
+      "tag": "Fire",
+      "description": "A creature with a strong connection to the element of fire. Their attacks often deal fire harm, and they can manipulate flames to their advantage."
+    },
+    {
+      "tag": "Fire-Immunity",
+      "description": "A character or creature with this tag is immune to all forms of fire harm. They do not take damage from fire-based attacks or hazards."
+    },
+    {
+      "tag": "Flying",
+      "description": "A creature that can fly, giving them a tactical advantage in combat. They can attack from a distance, escape melee, and reposition with ease."
+    },
+    {
+      "tag": "Forceful",
+      "description": "This weapon requires strength to wield effectively. You cannot use Finesse to Engage in Battle with it."
+    },
+    {
+      "tag": "Freezing",
+      "description": "An extreme cold that can immobilize a target, slow them, or encase them in a block of ice."
+    },
+    {
+      "tag": "Giant",
+      "description": "A creature of immense size. They are often slow but possess incredible strength and can reshape the battlefield with their physical might."
+    },
+    {
+      "tag": "Grapple",
+      "description": "A move or weapon that can be used to grab, restrain, or ensnare a foe, making them unable to move freely."
+    },
+    {
+      "tag": "Holy",
+      "description": "A creature imbued with holy power. They are often resistant to dark or chaotic magic, and their attacks are especially effective against undead and fiends."
+    },
+    {
+      "tag": "Humanoid",
+      "description": "A sentient or semi-sentient creature with a humanoid form. They are often tactically minded and can wield weapons and wear armor."
+    },
+    {
+      "tag": "Illusory",
+      "description": "An item or ability that creates a convincing illusion. This can be used to confuse enemies or to create a diversion."
+    },
+    {
+      "tag": "Incorporeal",
+      "description": "A creature that is not bound to a physical form, such as a ghost or a spirit. They can move through objects and are immune to non-magical physical attacks."
+    },
+    {
+      "tag": "Intelligent",
+      "description": "A creature of high intellect and cunning. They are capable of strategy, complex plans, and social manipulation."
+    },
+    {
+      "tag": "Intimidating",
+      "description": "An ability or weapon that causes a character to be fearful or unnerved, making it easier to influence them with an 'Intimidate' roll."
+    },
+    {
+      "tag": "Large",
+      "description": "A creature that is significantly larger than a humanoid. They are intimidating, powerful, and difficult to push around."
+    },
+    {
+      "tag": "Lawful",
+      "description": "A creature that embodies the principles of law and order. Their abilities are often tied to control and discipline, and they are anathema to chaos."
+    },
+    {
+      "tag": "Living",
+      "description": "A magical item that is, in fact, a living piece of flora. It often has unique abilities or a connection to nature."
+    },
+    {
+      "tag": "Magical",
+      "description": "An item or ability imbued with magical properties. Its harm or effects can bypass a creature's natural resistance to non-magical harm."
+    },
+    {
+      "tag": "Magic-Resistant",
+      "description": "A character or creature with this tag is highly resistant to magical effects. All incoming magic attacks against them have a -1 penalty."
+    },
+    {
+      "tag": "Necrotic",
+      "description": "A type of harm that directly affects the life force or soul of a creature, making it particularly effective against living beings and spirits."
+    },
+    {
+      "tag": "Ooze",
+      "description": "A creature with a gelatinous body. They are immune to blunt force and piercing attacks, and they often have corrosive or absorptive properties."
+    },
+    {
+      "tag": "Paired",
+      "description": "A set of two weapons that are designed to be used together, granting a bonus when wielded in tandem."
+    },
+    {
+      "tag": "Pack Hunter",
+      "description": "A creature that hunts in groups. Their attacks are more effective when they are fighting alongside their allies, and they can coordinate to overwhelm a single target."
+    },
+    {
+      "tag": "Petrifying",
+      "description": "A creature that can turn living flesh to stone. Their attacks can be a slow, debilitating curse that requires a specific counter to reverse."
+    },
+    {
+      "tag": "Plant",
+      "description": "A creature that is part of the natural flora. They are often vulnerable to fire and their abilities are tied to the growth and manipulation of plant life."
+    },
+    {
+      "tag": "Poisonous",
+      "description": "A creature with a venomous bite or attack. Their harm is often debilitating and can continue to affect a character long after the initial harm is dealt."
+    },
+    {
+      "tag": "Poison-Resistant",
+      "description": "A character or creature with this tag is highly resistant to poison. They take a -1 penalty on rolls to resist poison and take half harm from its effects."
+    },
+    {
+      "tag": "Protective",
+      "description": "An item or ability that provides a defensive boost, such as granting a temporary shield or resistance to a specific type of harm."
+    },
+    {
+      "tag": "Rally",
+      "description": "An effect that boosts the morale or resolve of an ally, often granting them a bonus on their next roll or clearing a negative status effect."
+    },
+    {
+      "tag": "Ranged",
+      "description": "A creature that prefers to attack from a distance. They are often difficult to engage in melee and can provide support from afar."
+    },
+    {
+      "tag": "Regenerating",
+      "description": "A creature that can heal itself from wounds. Their wounds will close over time, making them a difficult foe to take out with a single strike."
+    },
+    {
+      "tag": "Restorative",
+      "description": "An item or ability that can heal or cleanse a character, often removing harm, status effects, or magical ailments."
+    },
+    {
+      "tag": "Returning",
+      "description": "A thrown weapon that, after being used, automatically returns to the wielder's hand."
+    },
+    {
+      "tag": "Ritualist",
+      "description": "A creature or character who can perform complex rituals, often with powerful and far-reaching magical effects."
+    },
+    {
+      "tag": "Silencing",
+      "description": "An effect that can temporarily nullify or interrupt a target's ability to use magic, abilities, or to speak."
+    },
+    {
+      "tag": "Soldier",
+      "description": "A creature that fights with military discipline and training. They are often armored and can work in a coordinated fashion to create a tactical advantage."
+    },
+    {
+      "tag": "Stalwart",
+      "description": "An item or ability that is exceptionally resilient. It may grant a bonus when a character takes a defensive action or is used to hold a position."
+    },
+    {
+      "tag": "Stealthy",
+      "description": "An item or ability that aids a character in remaining unseen or unheard. It can grant a bonus on 'Prowl' rolls or negate penalties from other tags."
+    },
+    {
+      "tag": "Terrifying",
+      "description": "A creature that instills fear in those who face it. Their presence alone is a mental or spiritual threat that can cause characters to hesitate or flee."
+    },
+    {
+      "tag": "Undead",
+      "description": "A creature that has been reanimated after death. They are often immune to mental effects, poisons, and diseases, and they may possess abilities that drain the life or will from a character."
+    },
+    {
+      "tag": "Venomous",
+      "description": "A creature with a venomous bite or attack. Their harm is often debilitating and can continue to affect a character long after the initial harm is dealt."
+    },
+    {
+      "tag": "Void-touched",
+      "description": "An item that draws its power from the Void. It often causes necrotic or chilling harm and can affect a creature's will or soul."
+    },
+    {
+      "tag": "Volatile",
+      "description": "An ability or item that is unpredictable and dangerous. An attack with this tag may deal extra harm, but a complication could arise or a consequence might be required on a failed roll."
+    }
+  ]
+}
