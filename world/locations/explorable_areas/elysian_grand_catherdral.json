@@ -19,20 +19,43 @@
           { "direction": "Up the Grand Staircase", "destination": "grand_staircase" }
         ]
       },
+      "west_processional": {
+        "name": "The West Processional",
+        "description": "A long, vaulted hallway used for solemn processions. The walls are lined with statues of beatified saints of the Order, each with an identical, serene expression. The echo of your footsteps is the only sound. There are alcoves here that could hide a patient observer.",
+        "exits": [
+          { "direction": "Back to Nave", "destination": "grand_nave" },
+          { "direction": "To Hall of Healing", "destination": "hall_of_healing" }
+        ]
+      },
       "hall_of_healing": {
         "name": "The Hall of Healing",
         "description": "This long, peaceful hall is the public face of the Order's compassion. Clean, white cots are arranged in perfect rows, and healers in pristine robes tend to the sick and injured from nearby villages. The air is filled with the soft chanting of restorative hymns. It is a place of genuine succor, though the healers' devotion to Elysian doctrine is absolute and unsettling.",
+        "exits": [
+            { "direction": "Back to West Processional", "destination": "west_processional" }
+        ],
         "events": [
           {
             "trigger": "speak_with_healers",
             "action": "narrative_move",
-            "details": "When you try to learn more from the healers about their work, roll 2d6 + Heart. On a 10+, they trust you and speak of the 'Chamber of Purification', where those with deep spiritual maladies are taken for 'special treatment'. On a 7-9, they are hesitant, but one of them lets slip a mention of the 'Purification' chamber before being silenced by a superior."
+            "details": "When you try to learn more from the healers about their work by Influencing them, roll 2d6 + Heart. On a 10+, they trust you and speak of the 'Chamber of Purification,' where those with deep spiritual maladies are taken for 'special treatment.' On a 7-9, they are hesitant, but one of them lets slip a mention of the 'Purification' chamber before being silenced by a superior."
           }
+        ]
+      },
+      "east_scriptorium_hall": {
+        "name": "The East Scriptorium Hall",
+        "description": "This wide, chilly hallway is filled with the faint scratching of quills on parchment from the nearby Sanctum. The walls are covered in immense, illuminated manuscripts depicting Elysia's divine laws. The sheer volume of text is overwhelming.",
+        "exits": [
+          { "direction": "Back to Nave", "destination": "grand_nave" },
+          { "direction": "To Sanctum of Doctrine", "destination": "sanctum_of_doctrine" }
         ]
       },
       "sanctum_of_doctrine": {
         "name": "Sanctum of Doctrine",
         "description": "This chamber serves as a vast library and scriptorium. Bookshelves stretch to the ceiling, filled with thousands of identical copies of Elysian scripture and heavily redacted histories of the world. Scribes work in absolute silence, copying texts with unnerving precision. A high-ranking Inquisitor pours over a map on a large table in the center.",
+        "exits": [
+            { "direction": "Back to Hall", "destination": "east_scriptorium_hall" },
+            { "direction": "Hidden Stairwell", "destination": "hidden_servants_stairwell", "status": "Hidden" }
+        ],
         "events": [
           {
             "trigger": "search_the_archives",
@@ -41,14 +64,105 @@
           }
         ]
       },
+      "grand_staircase": {
+        "name": "The Grand Staircase",
+        "description": "A massive, spiraling staircase of pure white marble that ascends to the upper levels. The walls alongside the stairs are a single, continuous stained-glass window that tells the (heavily redacted) history of the Dragonfall War. Every step feels like a climb towards judgment.",
+        "exits": [
+          { "direction": "Down to Nave", "destination": "grand_nave" },
+          { "direction": "Up to Balcony", "destination": "upper_nave_balcony" }
+        ]
+      },
+      "hidden_servants_stairwell": {
+        "name": "Hidden Servant's Stairwell",
+        "description": "A narrow, dusty, and forgotten spiral staircase hidden behind a tapestry in the Sanctum of Doctrine. It seems to connect all levels of the Cathedral, offering a discreet but dangerous path through the complex.",
+        "exits": [
+          { "direction": "Up to Inquisitor's Quarters", "destination": "inquisitors_quarters" },
+          { "direction": "Down to Reliquary", "destination": "reliquary_of_order" }
+        ]
+      },
+      "upper_nave_balcony": {
+        "name": "Upper Nave Balcony",
+        "description": "A wide marble balcony that overlooks the immense Grand Nave from above. The view of the stained-glass windows from this height is magnificent. The silence here is even more profound, broken only by the echo of footsteps from the halls below. Two stern-faced Inquisitors guard the entrance to the private chambers beyond.",
+        "exits": [
+          { "direction": "Downstairs", "destination": "grand_staircase" },
+          { "direction": "West Wing (War Council)", "destination": "war_council_chamber", "status": "Guarded" },
+          { "direction": "East Wing (Quarters)", "destination": "inquisitors_quarters", "status": "Guarded" }
+        ]
+      },
       "war_council_chamber": {
         "name": "War Council Chamber",
         "description": "This is the strategic heart of the Champions of Order. A massive, stone map of Eryndor covers the entire floor, with glowing runes representing troop movements and areas of chaotic influence. High-ranking Inquisitors and Knights plan their crusades here. The walls are bare, save for a single, massive banner bearing Elysia's symbol: a perfect, golden circle.",
+        "exits": [
+          { "direction": "Back to Balcony", "destination": "upper_nave_balcony" }
+        ],
+        "key_characters": [ "Grand Inquisitor Valerius" ],
         "events": [
           {
             "trigger": "study_the_map",
             "action": "narrative_move",
             "details": "When you study the war map for strategic information, roll 2d6 + Wits. On a 10+, you discern the Champions' next major strategic target and the location of a hidden garrison. On a 7-9, you learn one of those two things, but not both."
+          }
+        ]
+      },
+      "inquisitors_quarters": {
+        "name": "Inquisitors' Quarters",
+        "description": "A long, austere hallway lined with identical, unmarked wooden doors. Each leads to the private cell of an Inquisitor. The quarters are stark and functional, containing only a simple bed, a desk with religious texts, and a rack for armor. There is no personalization; the individual is secondary to the Order.",
+        "exits": [
+          { "direction": "Back to Balcony", "destination": "upper_nave_balcony" },
+          { "direction": "Valerius's Quarters", "destination": "valerius_quarters", "status": "Locked" },
+          { "direction": "Hidden Stairwell", "destination": "hidden_servants_stairwell", "status": "Hidden" }
+        ]
+      },
+      "valerius_quarters": {
+        "name": "Grand Inquisitor Valerius's Quarters",
+        "description": "The personal chambers of the Grand Inquisitor are as cold and unforgiving as the man himself. The room is impeccably clean and orderly. A single bed is made with military precision. On his desk, alongside strategic maps, lies a black, ornate box that seems to absorb the light around it, humming with a faint, contained energy.",
+        "key_characters": [ "Grand Inquisitor Valerius" ],
+        "exits": [
+          { "direction": "Back to Hallway", "destination": "inquisitors_quarters" }
+        ],
+        "events": [
+          {
+            "trigger": "inspect_box",
+            "action": "story_beat",
+            "details": "The box is sealed with a complex puzzle lock. Opening it may reveal Valerius's connection to the Void and the source of his fanatical power."
+          }
+        ]
+      },
+      "reliquary_of_order": {
+        "name": "Reliquary of Order",
+        "description": "The hidden staircase descends into a cold, circular chamber lined with magically shielded vaults. This is where the Champions of Order contain 'chaotic' artifacts they have seized from the world. The air hums with suppressed magical energy, and the faint, angry whispers of contained spirits can be heard. A large, rune-sealed iron door leads deeper into the complex.",
+        "exits": [
+          { "direction": "Up (Servant's Stairwell)", "destination": "hidden_servants_stairwell" },
+          { "direction": "Through Iron Door", "destination": "detention_block_main" }
+        ]
+      },
+      "detention_block_main": {
+        "name": "Main Detention Block",
+        "description": "The air here is frigid and filled with despair. A long, grim corridor is lined with magically reinforced cells. Beings deemed 'chaotic'—from simple beastfolk to captured mages—huddle in the darkness, their spirits broken by the absolute, soul-crushing order of this place.",
+        "exits": [
+          { "direction": "Back to Reliquary", "destination": "reliquary_of_order" },
+          { "direction": "Deeper Halls", "destination": "hall_of_lament" }
+        ]
+      },
+      "hall_of_lament": {
+        "name": "Hall of Lament",
+        "description": "This hallway is darker and colder than the main block. The cells here are for 'special' prisoners—those with powerful abilities the Order wishes to study or suppress. Faint, sorrowful cries echo from the sealed chambers.",
+        "exits": [
+          { "direction": "Back to Main Block", "destination": "detention_block_main" },
+          { "direction": "Chamber of Purification", "destination": "chamber_of_purification", "status": "Guarded" }
+        ]
+      },
+      "chamber_of_purification": {
+        "name": "The Chamber of Purification",
+        "description": "This is the ideological and surgical heart of the Order's crusade. A large, circular chamber with a floor inscribed with a massive, glowing Elysian rune. At the center is a raised altar of black, soulless stone where the Order performs its darkest rites: the 'purification' of chaotic souls and the siphoning of power from draconic artifacts. The process is a sterile, magical form of torture, designed to erase free will and impose perfect, silent order.",
+        "exits": [
+          { "direction": "Back to Hall", "destination": "hall_of_lament" }
+        ],
+        "events": [
+          {
+            "trigger": "enter_room",
+            "action": "story_beat",
+            "details": "A high-ranking Inquisitor is likely overseeing a grim ritual here, leading to a climactic confrontation."
           }
         ]
       }
