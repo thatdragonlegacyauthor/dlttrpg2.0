@@ -18,7 +18,11 @@
     },
     {
       "tag": "Armored",
-      "description": "A creature with natural or physical armor, such as thick plates or scales. They are highly resistant to harm from physical attacks."
+      "description": "A creature with natural or physical armor, such as thick plates or scales. They are highly resistant to harm from physical attacks. Some creatures have varying degrees of armor, noted as a number in parenthesis, e.g. 'Armored (+2)'."
+    },
+    {
+      "tag": "Assassin",
+      "description": "A creature that specializes in stealth, surprise, and lethal attacks against a single target. They are quick, deadly, and often strike from the shadows."
     },
     {
       "tag": "Beast",
@@ -93,6 +97,10 @@
       "description": "A piece of gear that empowers the wielder. It can grant a temporary bonus to a physical attribute or provide a unique, but short-term, buff."
     },
     {
+      "tag": "Ensnaring",
+      "description": "A move or weapon that can be used to grab, restrain, or ensnare a foe, making them unable to move freely."
+    },
+    {
       "tag": "Far",
       "description": "This weapon is effective at long range."
     },
@@ -127,6 +135,10 @@
     {
       "tag": "Grapple",
       "description": "A move or weapon that can be used to grab, restrain, or ensnare a foe, making them unable to move freely."
+    },
+    {
+      "tag": "Grimy",
+      "description": "A creature that is dirty, unkempt, and uses its grimy nature to its advantage, such as by throwing mud or dirt in a foe's eyes."
     },
     {
       "tag": "Holy",
@@ -235,6 +247,14 @@
     {
       "tag": "Silencing",
       "description": "An effect that can temporarily nullify or interrupt a target's ability to use magic, abilities, or to speak."
+    },
+    {
+      "tag": "Skirmisher",
+      "description": "A creature that uses hit-and-run tactics, preferring to get in close for a quick attack before retreating to a safer position."
+    },
+    {
+      "tag": "Slow",
+      "description": "A creature that is exceptionally slow. It is often easy to outmaneuver or kite, but it may possess immense physical power or defensive capabilities to compensate."
     },
     {
       "tag": "Soldier",
