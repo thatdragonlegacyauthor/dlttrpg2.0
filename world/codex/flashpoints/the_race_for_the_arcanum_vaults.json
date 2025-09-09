@@ -1,0 +1,44 @@
+{
+  "flashpoints": [
+    {
+      "name": "The Race for the Arcanum Vaults",
+      "theme": "Science vs. History",
+      "factions_involved": ["Arcane Dominion", "Runeforge Remnants"],
+      "setup": "The Arcane Dominion discovers the location of the Arcanum Vaults, a treasure trove of pre-Shattering technology. The party must side with the secretive Runeforge Remnants to protect this history from being plundered for unethical experiments.",
+      "key_players": [
+        "DOMINION_VORLAG",
+        "RUNEFORGE_LINNEA",
+        "RUNEFORGE_ZYKAR"
+      ],
+      "narrative_paths": [
+        {
+          "title": "Knowledge Preserved",
+          "outcome": "The party successfully outwits the Dominion and secures the vaults. They earn the trust of the Runeforge Remnants and a deeper understanding of the world's ancient technology.",
+          "consequences": [
+            "The party forges a strong alliance with the Remnants, gaining access to unique gear and upgrades.",
+            "Rune's personal quest advances significantly, and he may gain a new, powerful configuration.",
+            "Magister Vorlag becomes a recurring antagonist, obsessed with capturing Rune."
+          ]
+        },
+        {
+          "title": "A Dangerous Secret Unleashed",
+          "outcome": "The party succeeds in repelling the Dominion, but not before a dangerous piece of technology is stolen or unleashed into the world, creating a new and immediate threat.",
+          "consequences": [
+            "The party gains a tentative alliance with the Remnants, but it is strained by the new danger.",
+            "A new quest is generated to deal with the escaped technology, which could become a recurring problem.",
+            "The Dominion advances their 'Front' and now possesses a valuable asset."
+          ]
+        },
+        {
+          "title": "Progress at Any Cost",
+          "outcome": "The Dominion seizes control of the vaults. The party is either defeated or manipulated into helping them, unleashing a far greater evil upon the world.",
+          "consequences": [
+            "The Dominion's 'Front' advances significantly, giving them a treasure trove of new technology.",
+            "Rune's personal quest takes a dark turn, and he is hunted more relentlessly than ever.",
+            "The party may have received a powerful reward but has made a permanent enemy of the Runeforge Remnants."
+          ]
+        }
+      ]
+    }
+  ]
+}
