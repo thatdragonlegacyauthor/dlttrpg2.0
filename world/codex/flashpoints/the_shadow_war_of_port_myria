@@ -1,0 +1,45 @@
+{
+  "flashpoints": [
+    {
+      "name": "The Shadow War of Port Myria",
+      "theme": "Underworld Crime & Espionage",
+      "factions_involved": ["The Gilded Paw Caravan", "The Azure Syndicate"],
+      "setup": "A new, ruthless smuggling ring secretly funded by a Wyndian noble challenges the Gilded Paw's control of Port Myria's black market, leading to a shadow war of informants and double-crosses. The party gets caught in the middle.",
+      "key_players": [
+        "GILDEDPAW_FARAH",
+        "GILDEDPAW_SILAS",
+        "WYNDIA_VALERIUS",
+        "PORTMYRIA_THORNE"
+      ],
+      "narrative_paths": [
+        {
+          "title": "Friends in Low Places",
+          "outcome": "The party aligns with the Gilded Paw, helping them dismantle the Azure Syndicate's network. The Gilded Paw's dominance is restored, and the party earns a powerful underworld alliance.",
+          "consequences": [
+            "The party gains access to the Gilded Paw's extensive network of information and resources.",
+            "Lord Valerius becomes a personal antagonist, using his political influence to oppose the party.",
+            "Port Myria remains a functional, if corrupt, trade hub."
+          ]
+        },
+        {
+          "title": "The War Escalates",
+          "outcome": "The party gets what they need but leaves a trail of chaos, and the shadow war erupts into a full-blown political crisis. The fragile peace of the Ember Concord is pushed to its breaking point.",
+          "consequences": [
+            "The party earns the enmity of both factions and is wanted by both sides of the conflict.",
+            "The Ember Concord is destabilized, leading to new political machinations and consequences.",
+            "Port Myria becomes an unstable and dangerous city to operate in."
+          ]
+        },
+        {
+          "title": "A New Boss in Town",
+          "outcome": "The party is outmaneuvered by the Azure Syndicate. The Gilded Paw's network is crippled, and the ruthless Syndicate seizes control of the underworld.",
+          "consequences": [
+            "The party loses access to the Gilded Paw's network and may gain a dangerous, treacherous new ally in Lord Valerius.",
+            "Port Myria becomes a more violent and unpredictable city, operating on fear instead of profit.",
+            "The campaign gains a new and powerful antagonist in the Azure Syndicate."
+          ]
+        }
+      ]
+    }
+  ]
+}
