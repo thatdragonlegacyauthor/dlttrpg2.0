@@ -1,0 +1,75 @@
+{
+  "sunken_city_astora": {
+    "start_room": "sunken_gate",
+    "rooms": {
+      "sunken_gate": {
+        "name": "The Sunken Gate",
+        "description": "You stand before the colossal, coral-encrusted gate of the Sunken City of Astora. A massive, magical bubble of perfectly still water surrounds the entire city, creating a breathable, but surreal, environment. The gate is flanked by two immense statues of sea serpents, and the entrance is guarded by a vigilant squad of Astorani Conclave sentinels.",
+        "exits": [
+          {
+            "direction": "Enter the City",
+            "destination": "grand_plaza"
+          }
+        ]
+      },
+      "grand_plaza": {
+        "name": "The Grand Plaza of Astora",
+        "description": "The city's main plaza is a breathtaking, ethereal space. Schools of luminous fish drift through the air, and bioluminescent corals line the ancient streets. In the center, a colossal, pearlescent seashell serves as a gathering place. The city is silent and hauntingly beautiful, a testament to a lost civilization. The plaza is patrolled by Astorani scholars and guardians.",
+        "exits": [
+          {
+            "direction": "Back to the Gate",
+            "destination": "sunken_gate"
+          },
+          {
+            "direction": "The Great Library",
+            "destination": "great_library"
+          },
+          {
+            "direction": "The Nexus of the Tide",
+            "destination": "nexus_of_the_tide"
+          },
+          {
+            "direction": "The Temple of the First Wave",
+            "destination": "temple_of_the_first_wave"
+          }
+        ]
+      },
+      "great_library": {
+        "name": "The Great Library",
+        "description": "A massive, spiraling library where ancient Astorani prophecies and lore are recorded on glowing, crystalline tablets. Loremaster Oris can be found here, studying the tablets and trying to decipher the meaning of the Tidewatch Prophecy. The library is a place of sacred knowledge and history.",
+        "key_characters": [
+          "ASTORAN_ORIS"
+        ],
+        "exits": [
+          {
+            "direction": "Back to the Plaza",
+            "destination": "grand_plaza"
+          }
+        ]
+      },
+      "nexus_of_the_tide": {
+        "name": "The Nexus of the Tide",
+        "description": "The city's sacred heart, a deep, silent grotto where a colossal, living pearl pulses with the raw energy of the ocean. This is the nexus of the Tide lineage, a place of immense power and serene beauty. It is the destination of the prophecy and a place where Rya could attune to the Tide lineage.",
+        "exits": [
+          {
+            "direction": "Back to the Plaza",
+            "destination": "grand_plaza"
+          }
+        ]
+      },
+      "temple_of_the_first_wave": {
+        "name": "The Temple of the First Wave",
+        "description": "A magnificent, domed temple where the Astorani elders hold their council. This is where the party would make their case for entering the city, and where the decision would be made. A sense of profound tradition and unyielding law fills the air here. Orin, the Spire Sentinel, stands guard outside.",
+        "key_characters": [
+          "ASTORAN_ORIN"
+        ],
+        "exits": [
+          {
+            "direction": "Back to the Plaza",
+            "destination": "grand_plaza"
+          }
+        ]
+      }
+    }
+  }
+}
