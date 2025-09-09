@@ -1,0 +1,43 @@
+{
+  "current_location": "Fallen Sky Ship",
+  "session_number": 1,
+  "world_state": {
+    "major_events": [],
+    "active_quests": [
+      "prologue_the_calm_before"
+    ],
+    "completed_quests": [
+      "the_whispers_on_the_wind"
+    ]
+  },
+  "legacys_rest": {
+    "unlocked": false,
+    "master_builder": null,
+    "community_attributes": {
+      "Industry": 0,
+      "Diligence": 0,
+      "Culture": 0
+    },
+    "settlers": 0,
+    "buildings": []
+  },
+  "narrative_flags": {
+    "windmark_attacked": true,
+    "met_nina": true,
+    "met_talia": true,
+    "garrisons_trust_level": "Neutral"
+  },
+  "chronicle": {
+    "session_1": {
+      "title": "The Festival of First Flames",
+      "prologue": {
+        "title": "A Simple Errand",
+        "entry": "A Quiet Beginning: Rya, with her friend Zael, successfully retrieved a Sun-Kissed Petal for the Festival of First Flames, discovering a small pouch of 15 currency along the way. The peaceful festival was shattered by the arrival of Grand Inquisitor Valerius and his Champions of Order. In a moment of rage and desperation, Rya's latent draconic power awakened, manifesting as the chaotic force of the Storm lineage. The party, now consisting of Rya, Zael, and Selra, fled into the Whispering Woods. They expertly navigated the treacherous paths and defeated a monstrous Blightoad to secure their escape. Rya's mastery over her new power grew, with her Storm lineage progressing to level 2."
+      },
+      "chapter_one": {
+        "title": "The Whispers on the Wind",
+        "entry": "A Perilous Journey: Following a lead from a wounded Wyndian scout, the party traveled to the Serpent's Coil Mountains to investigate a crashed airship. They skillfully traversed a treacherous mountain pass and harpy-infested caves, acquiring a Spear along the way. Arriving at the wreckage, the party ambushed and defeated a squad of Arcane Dominion soldiers and their golem, The Incarcerator. The conflict was resolved with the arrival of the hunter Talia, who was a key ally in the fight. With the enemies defeated, the party discovered and rescued Princess Nina of Wyndia and formally allied with Talia. Their first chapter is complete, and their new fellowship is forged."
+      }
+    }
+  }
+}
