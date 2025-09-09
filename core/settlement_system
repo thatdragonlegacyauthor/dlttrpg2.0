@@ -52,6 +52,31 @@
         }
       ]
     },
+    "community_attributes_progression": {
+      "gaining_attributes": [
+        "Completing a Quest: The successful completion of a campaign quest or a companion's personal quest can grant a temporary or permanent bonus to a relevant attribute.",
+        "Narrative Moves: The outcomes of certain narrative moves can directly affect an attribute. For instance, a successful 'Guide Your Community' move to 'Hold a Festival' could temporarily boost the town's Culture attribute.",
+        "Recruiting a New Tenant: Bringing in a new tenant can provide a passive, ongoing bonus to a specific attribute as they contribute to the community.",
+        "Building a New Structure: Constructing certain buildings can provide a permanent bonus. The Resonance Spire could grant a bonus to Industry, while a new public park might boost Culture."
+      ],
+      "losing_attributes": [
+        "Failing a Quest: A failed quest or a missed opportunity could lead to a loss of a relevant attribute.",
+        "Faction Moves: The actions of hostile factions can directly harm the community.",
+        "Poor Management: Continually failing 'Guide Your Community' moves or ignoring a pressing town problem could cause a slow but steady decline in the relevant attribute."
+      ],
+      "problems_and_opportunities": {
+        "high_score_opportunities": [
+          "High Industry: The town produces a surplus of goods, leading to new trade opportunities or allowing the party to take on large-scale crafting projects.",
+          "High Diligence: The community may discover a new, hidden resource node or find a long-lost artifact on a scouting mission.",
+          "High Culture: The town becomes a popular destination for traveling merchants, artisans, and bards, bringing in new quests and resources."
+        ],
+        "low_score_problems": [
+          "Low Industry: The town struggles to produce enough food or equipment. This can lead to a resource shortage, forcing the party to go on a risky scavenging mission.",
+          "Low Diligence: The community is apathetic or disorganized. They could fall prey to a local bandit group, a monster in the nearby wilds, or even infighting over scarce resources.",
+          "Low Culture: The town is filled with despair and low morale. This could make it difficult for the party to get help, find new allies, or even gather rumors and information."
+        ]
+      }
+    },
     "master_builder_framework": {
       "description": "The choice of a Master Builder determines the architectural style, focus, and unique capstone building of Legacy's Rest.",
       "pre_defined_builders": [
@@ -72,8 +97,84 @@
           "char_id": "TANGLEWOOD_BRIAR",
           "architectural_style": "Verdant Harmony",
           "focus": "Nature & Sustainability"
+        },
+        {
+          "name": "Loremaster Oris",
+          "char_id": "ASTORAN_ORIS",
+          "architectural_style": "Submerged Harmony",
+          "focus": "Culture & Diplomacy"
         }
       ]
-    }
+    },
+    "specialized_tenants": [
+      {
+        "name": "Kael, the Mechanist",
+        "master_builder_id": "RUNEFORGE_ELARA",
+        "description": "A stoic, no-nonsense pangolin-kin mechanist who works tirelessly in his workshop. He specializes in repairing and upgrading the town's automated systems. He is an exile from his own clan for his fascination with pre-Shattering technology.",
+        "service": {
+          "name": "Overhaul",
+          "description": "Kael can take in damaged construct companions or salvaged Dominion technology. He can repair a character's disabled gear or provide a permanent minor upgrade, like giving a construct's move the 'Armor-Piercing' tag."
+        }
+      },
+      {
+        "name": "Lyra, the Wayfinder",
+        "master_builder_id": "ASTORAN_ORIS",
+        "description": "A young, Astorani acolyte who left her home to see the surface world. She is bright, curious, and fascinated by the lives of surface dwellers. She sees the town as a microcosm of the entire world and a source of endless stories.",
+        "service": {
+          "name": "Cultural Exchange & Gather Rumors",
+          "description": "Lyra helps improve the town's Culture attribute by sharing stories. She can also help the party with a new move: 'Gather Rumors'. A successful roll on this move allows the party to learn key information about an NPC or faction before encountering them."
+        }
+      },
+      {
+        "name": "Grorn, the Drillmaster",
+        "master_builder_id": "PANGOLIN_TORR",
+        "description": "A grizzled Scalebound warrior and a former barracks master from Stonegard. He is a master of martial discipline and tactical training. He believes that a strong community is a prepared one and that the forge is as important as the sword it creates.",
+        "service": {
+          "name": "Martial Drills & Tactical Insight",
+          "description": "Grorn offers a new downtime action: 'Martial Drills' to improve the town's Defense attribute and morale. He can also offer the party a new service: 'Tactical Insight', which grants a +1 bonus on a future 'Wreck' or 'Engage an Enemy' roll."
+        }
+      },
+      {
+        "name": "Karrus, the Master Smith",
+        "master_builder_id": "PANGOLIN_TORR",
+        "description": "A stoic and wise Pangolin-kin master smith who left Stonegard in search of rare minerals and new forging techniques. He is a master of materials and understands their hidden properties. He is fascinated by the fusion of natural and magical elements in a forging process.",
+        "service": {
+          "name": "Material Sourcing & Master Forging",
+          "description": "Karrus provides a new downtime action: 'Material Sourcing' to gain access to rare crafting components. He can also offer a new service: 'Master Forging', which allows a character to bring him a weapon or piece of armor to be permanently upgraded with a new tag."
+        }
+      },
+      {
+        "name": "Lyssa, the Spirit-Speaker",
+        "master_builder_id": "TANGLEWOOD_BRIAR",
+        "description": "A serene and wise Tanglewood spirit-speaker. She communes with the ancient spirits of the forest and believes that a community's harmony with nature is its greatest strength. She is a master of natural remedies and a wellspring of ancient, forgotten lore.",
+        "service": {
+          "name": "Spirit Mediation & Herbalist's Lore",
+          "description": "Lyssa offers a new downtime action: 'Spirit Mediation' to improve the town's Culture attribute and reveal a hidden detail about a nearby location. She can also offer a new service: 'Herbalist's Lore', which helps a character find the location of a rare, powerful medicinal herb."
+        }
+      },
+      {
+        "name": "Kaelen, the Lead Scout",
+        "master_builder_id": "TANGLEWOOD_BRIAR",
+        "description": "A pragmatic and quiet scout from Tanglewood Reach. He is a master of survival and tracking, and his knowledge of the Whispering Woods is unparalleled. He serves as the town's primary protector and is constantly on the lookout for corruption or outside threats.",
+        "service": {
+          "name": "Scout the Wilds & Track the Prey",
+          "description": "Kaelen offers a new downtime action: 'Scout the Wilds' to uncover new resource nodes. He can also offer a new service: 'Track the Prey', which grants a powerful bonus on the party's next 'Survey' or 'Prowl' roll when hunting a specific monster or tracking a key enemy."
+        }
+      }
+    ],
+    "capstone_buildings": [
+      {
+        "name": "The Resonance Spire",
+        "master_builder_id": "RUNEFORGE_ELARA",
+        "description": "A towering spire of polished brass and inscribed crystals. At its base, a massive power core hums with contained energy, illuminating the runes that pulse across its surface. The spire's presence makes every piece of technology in the town run more smoothly and efficiently.",
+        "effect": "Grants a permanent +1 bonus to all 'Tinker' rolls made by any character within the town's limits. Once per adventure, the party can spend a full day of downtime to 'Overcharge' the spire, gaining a temporary +1 to the town's 'Industry' and 'Diligence' attributes for the duration of a single project."
+      },
+      {
+        "name": "The Stillwater Library",
+        "master_builder_id": "ASTORAN_ORIS",
+        "description": "A serene, domed library crafted from pearlescent coral and imbued with silent, flowing water magic. Its interior is filled with floating, glowing tablets that record the history of the world. At its heart lies a perfectly still pool that reflects not only a person's image, but the echoes of their past.",
+        "effect": "Grants a permanent +1 bonus to all 'Know' rolls for any character within the town's limits. Once per adventure, the party can visit the library for a day of downtime to perform a 'Reflection' ritual. This ritual allows them to ask the GM one clarifying question about a past event in the campaign."
+      }
+    ]
   }
 }
