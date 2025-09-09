@@ -1,0 +1,44 @@
+{
+  "flashpoints": [
+    {
+      "name": "The Tidewatch Prophecy",
+      "theme": "Mystery & Forbidden Knowledge",
+      "factions_involved": ["The Astoran Conclave", "Arcane Dominion"],
+      "setup": "Loremaster Oris delivers a cryptic prophecy about a great power stirring in the Sunken City of Astora. As the party tries to gain entry to the reclusive city, they discover the Arcane Dominion is also racing to plunder its secrets.",
+      "key_players": [
+        "ASTORAN_ORIS",
+        "ASTORAN_ORIN",
+        "ASTORAN_ERA"
+      ],
+      "narrative_paths": [
+        {
+          "title": "The Honored Guests",
+          "outcome": "Through diplomacy or a heartfelt plea from Era, the party convinces the Astoran elders to grant them passage into the sunken city as honored guests, arriving before the Dominion.",
+          "consequences": [
+            "The party forges a powerful alliance with the Astoran Conclave.",
+            "Rya may have the opportunity to attune to the Tide Lineage.",
+            "The Dominion's expedition fails, and they now see the party as a significant threat."
+          ]
+        },
+        {
+          "title": "The Forbidden Path",
+          "outcome": "The party is unable to gain official entry and must find a secret way in, arriving just as the Dominion begins its violent assault on the city. The party is now trespassing in a sacred city.",
+          "consequences": [
+            "The party is now a trespasser in Astora and will be treated with suspicion, even as they fight the Dominion.",
+            "The climax is a chaotic three-way battle between the party, the Dominion, and the Astoran guardians.",
+            "The party earns the Conclave's enmity, being branded as defilers."
+          ]
+        },
+        {
+          "title": "Plunder of the Ancients",
+          "outcome": "The party fails to gain entry, and the Arcane Dominion successfully breaches the Sunken City and plunders its secrets, gaining a powerful artifact or piece of knowledge.",
+          "consequences": [
+            "The Dominion's 'Front' advances significantly, as they now possess a powerful artifact.",
+            "The Conclave is enraged and may lash out at the entire surface world, becoming a new and unpredictable global threat.",
+            "The party is now forced to deal with an empowered Dominion and potentially a hostile Conclave, all while knowing they failed to prevent the disaster."
+          ]
+        }
+      ]
+    }
+  ]
+}
