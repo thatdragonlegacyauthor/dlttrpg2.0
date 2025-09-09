@@ -1,0 +1,46 @@
+{
+  "flashpoint": {
+    "name": "The Wyndian Gambit",
+    "theme": "Diplomacy & Courtly Intrigue",
+    "factions_involved": [
+      "The Royal Court of Wyndia",
+      "The Party"
+    ],
+    "setup": "After hearing Nina's report, Lord Aerion praises the party for her rescue but forbids her from leaving the city, viewing her association with the 'chaotic' Rya as a political risk to the Ember Concord. The party must find a way to secure Nina's departure.",
+    "key_players": [
+      "DRAGON_HEIR_RYA",
+      "WYNDIA_NINA",
+      "WYNDIA_AERION",
+      "WYNDIA_FAELAN",
+      "WYNDIA_ZYLPHIA",
+      "WYNDIA_SOLANUS"
+    ],
+    "narrative_paths": [
+      {
+        "title": "A Diplomatic Victory",
+        "outcome": "The party successfully navigates the court. They either persuade Lord Aerion through a heartfelt plea, gain the backing of a powerful ally like Archmage Solanus, or cleverly expose a scheme by Lady Zylphia that makes Aerion indebted to them.",
+        "consequences": [
+          "Lord Aerion grudgingly gives his blessing. The party leaves Wyndia on good terms, securing a powerful (if strained) alliance.",
+          "Nina's personal quest, 'The Weight of the Crown,' advances positively as she successfully asserts her own agency."
+        ]
+      },
+      {
+        "title": "A Daring Escape",
+        "outcome": "The party fails to win over the court and must resort to stealth or subterfuge. They might sneak Nina out of the palace through the service ducts of the Aetherium Spires or create a diversion in the city to cover her exit. This path would likely involve Prowl and Maneuver moves and a tense confrontation with Captain Faelan.",
+        "consequences": [
+          "The party escapes with Nina, but they are now wanted criminals in Wyndia. Lord Aerion is angered, and Wyndia becomes a hostile power.",
+          "Captain Faelan is either disgraced for his failure or becomes a recurring, personal antagonist dedicated to recapturing Nina."
+        ]
+      },
+      {
+        "title": "Royal Entanglement",
+        "outcome": "The party's attempts at diplomacy or stealth fail spectacularly. They are caught and brought before Lord Aerion after a 'miss' on a critical roll.",
+        "consequences": [
+          "The party is exiled from Wyndia under threat of arrest, making future dealings with the Ember Concord extremely difficult.",
+          "Nina is placed under heavy guard in the Royal Palace. She is effectively removed from the party for the foreseeable future.",
+          "A new main quest, 'The Caged Princess,' is generated. The party must find a way to rescue Nina, likely by seeking aid from Wyndia's enemies or rivals."
+        ]
+      }
+    ]
+  }
+}
