@@ -149,6 +149,21 @@
         "Is the wild something to be tamed or revered?",
         "Who speaks for those without a voice?"
       ]
+    },
+    {
+      "name": "The Azure Syndicate",
+      "drive": "To seize control of Port Myria's trade routes and black markets, using any means necessary to undermine their rivals.",
+      "gm_moves": [
+        "Hijack a shipment, forcing a confrontation on the open road or sea.",
+        "Set an ambush for the party, using the environment to their advantage.",
+        "Bribe or threaten a local official to cut off a party resource or create a new obstacle.",
+        "Spread a rumor in the market to tarnish the reputation of a rival faction or the party."
+      ],
+      "key_questions": [
+        "What is the true price of 'free' trade?",
+        "When does ambition become avarice?",
+        "Can you ever truly trust someone who is motivated by profit alone?"
+      ]
     }
   ]
 }
