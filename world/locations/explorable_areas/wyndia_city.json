@@ -6,171 +6,92 @@
         "name": "Wyndia Landing Platform",
         "description": "You step off the airship onto a wide, alabaster platform open to the sky. The wind whips around you, carrying the scent of clouds and a faint hum of magic. Gleaming white towers with jade-green roofs rise into the sky, connected by elegant, arching bridges. Winged Wyndian guards, clad in silver armor, stand at attention, their expressions stern and watchful.",
         "exits": [
-          {
-            "direction": "Forward",
-            "destination": "central_plaza"
-          }
+          { "direction": "Forward", "destination": "central_plaza" }
         ]
       },
       "central_plaza": {
         "name": "The Grand Plaza of the Concord",
         "description": "The landing platform opens into a breathtaking circular plaza, the heart of Wyndia. In the center, a magnificent statue of a winged warrior, an ancestor of Nina, stands tall. The plaza is bustling with activity: nobles in fine silks converse in small groups, merchants hawk exotic goods from floating sky-barges, and acolytes from the Pinnacle of the Gale practice minor wind cantrips, their laughter carried on the breeze.",
         "exits": [
-          {
-            "direction": "Back",
-            "destination": "landing_platform"
-          },
-          {
-            "direction": "North (Up)",
-            "destination": "marble_way_bridge"
-          },
-          {
-            "direction": "East",
-            "destination": "bazaar_promenade"
-          },
-          {
-            "direction": "West",
-            "destination": "commons_walkway"
-          },
-          {
-            "direction": "South (Down)",
-            "destination": "aetherium_spires_access"
-          }
+          { "direction": "Back", "destination": "landing_platform" },
+          { "direction": "North (Up)", "destination": "marble_way_bridge" },
+          { "direction": "East", "destination": "bazaar_promenade" },
+          { "direction": "West", "destination": "commons_walkway" },
+          { "direction": "South (Down)", "destination": "aetherium_spires_access" }
         ]
       },
       "marble_way_bridge": {
         "name": "The Marble Way Bridge",
         "description": "A gracefully arched bridge of pure white marble, wide enough for a royal procession, ascends from the Grand Plaza towards the Noble Quarter. The bridge is lined with elegant, glowing crystals that serve as street lamps, and the view of the city's spires against the open sky is breathtaking. Nobles and their retinues can be seen strolling along its length, their conversations quiet and polite.",
         "exits": [
-          {
-            "direction": "Down to Plaza",
-            "destination": "central_plaza"
-          },
-          {
-            "direction": "Up to Noble Quarter",
-            "destination": "noble_quarter_gate"
-          }
+          { "direction": "Down to Plaza", "destination": "central_plaza" },
+          { "direction": "Up to Noble Quarter", "destination": "noble_quarter_gate" }
         ]
       },
       "noble_quarter_gate": {
         "name": "Noble Quarter Gate",
         "description": "The Marble Way Bridge ends at the formal gate to the Noble Quarter. The air here is noticeably calmer. Two stoic Royal Guards stand sentinel, their silver armor gleaming. They watch you with sharp eyes but do not bar your way.",
         "exits": [
-          {
-            "direction": "Back to Bridge",
-            "destination": "marble_way_bridge"
-          },
-          {
-            "direction": "Ahead to Palace",
-            "destination": "royal_palace_grounds"
-          },
-          {
-            "direction": "Toward Spire",
-            "destination": "pinnacle_approach"
-          }
+          { "direction": "Back to Bridge", "destination": "marble_way_bridge" },
+          { "direction": "Ahead to Palace", "destination": "royal_palace_grounds" },
+          { "direction": "Toward Spire", "destination": "pinnacle_approach" }
         ]
       },
       "royal_palace_grounds": {
         "name": "Royal Palace Grounds",
         "description": "You are standing before the magnificent Royal Palace of Wyndia. The structure is a breathtaking fusion of architecture and nature, with living, sculpted trees forming its support pillars and flowering vines creeping up its white walls. Waterfalls cascade from its balconies into shimmering pools in the gardens below. This is the home of Lord Aerion and, presumably, Nina.",
         "exits": [
-          {
-            "direction": "Back to Gate",
-            "destination": "noble_quarter_gate"
-          },
-          {
-            "direction": "Enter Palace",
-            "destination": "grand_foyer",
-            "status": "Guarded"
-          }
+          { "direction": "Back to Gate", "destination": "noble_quarter_gate" },
+          { "direction": "Enter Palace", "destination": "grand_foyer", "status": "Guarded" }
         ],
-        "key_characters": [
-          "Lord Aerion",
-          "WYNDIA_NINA"
-        ]
+        "key_characters": [ "Lord Aerion", "WYNDIA_NINA" ]
       },
       "grand_foyer": {
         "name": "Grand Foyer",
         "description": "The interior of the palace is even more stunning than the outside. The foyer is a massive, open-air chamber with a soaring, vaulted ceiling of enchanted glass that shows the swirling clouds above. The floor is polished marble that seems to have silver mist flowing within it. Royal Guards stand like statues in every alcove. The acoustics are such that every whisper seems to carry.",
         "exits": [
-          {
-            "direction": "Exit to Grounds",
-            "destination": "royal_palace_grounds"
-          },
-          {
-            "direction": "Throne Room",
-            "destination": "throne_room"
-          },
-          {
-            "direction": "West Wing",
-            "destination": "council_chamber"
-          },
-          {
-            "direction": "East Wing (Royal Apartments)",
-            "destination": "royal_apartments_hall",
-            "status": "Restricted"
-          }
+          { "direction": "Exit to Grounds", "destination": "royal_palace_grounds" },
+          { "direction": "Throne Room", "destination": "throne_room" },
+          { "direction": "West Wing", "destination": "council_chamber" },
+          { "direction": "East Wing (Royal Apartments)", "destination": "royal_apartments_hall", "status": "Restricted" }
         ]
       },
       "throne_room": {
         "name": "Throne Room",
         "description": "Two immense, silver-inlaid doors open into the throne room. The chamber is long and formal, lined with banners depicting the history of Wyndia. At the far end, upon a raised dais, sits the elegant but austere Throne of the Winds, carved from a single piece of solidified cloud. This is where Lord Aerion holds court.",
         "exits": [
-          {
-            "direction": "Back to Foyer",
-            "destination": "grand_foyer"
-          }
+          { "direction": "Back to Foyer", "destination": "grand_foyer" }
         ],
-        "key_characters": [
-          "Lord Aerion"
-        ]
+        "key_characters": [ "Lord Aerion" ]
       },
       "council_chamber": {
         "name": "Council Chamber",
         "description": "This circular chamber is dominated by a large, round table made of petrified ironwood. Intricate maps of Eryndor and charts of trade routes are magically projected in the air above it. This is where the secret deals and political strategies of the Ember Concord are forged. The room is soundproofed by wind magic.",
         "exits": [
-          {
-            "direction": "Back to Foyer",
-            "destination": "grand_foyer"
-          }
+          { "direction": "Back to Foyer", "destination": "grand_foyer" }
         ]
       },
       "royal_apartments_hall": {
         "name": "Hall of the Royal Apartments",
         "description": "This quiet, lushly carpeted hallway is a stark contrast to the public areas of the palace. The walls are lined with portraits of Wyndia's past rulers. The air is still and smells of night-blooming moonpetal flowers. Two ornate doors lead off from this hallway.",
         "exits": [
-          {
-            "direction": "Back to Foyer",
-            "destination": "grand_foyer"
-          },
-          {
-            "direction": "Lord Aerion's Chambers",
-            "destination": "aerions_chambers",
-            "status": "Locked"
-          },
-          {
-            "direction": "Nina's Chambers",
-            "destination": "ninas_chambers"
-          }
+          { "direction": "Back to Foyer", "destination": "grand_foyer" },
+          { "direction": "Lord Aerion's Chambers", "destination": "aerions_chambers", "status": "Locked" },
+          { "direction": "Nina's Chambers", "destination": "ninas_chambers" }
         ]
       },
       "ninas_chambers": {
         "name": "Nina's Chambers",
         "description": "Nina's room is a blend of royal elegance and practical training. A large, comfortable bed is neatly made, but across the room, a practice dummy is covered in scuff marks from sword practice. A bookshelf contains both treatises on Ember Concord law and well-worn adventure novels. A large, open-air balcony offers a stunning, private view of the clouds below, with a single, comfortable chair positioned to watch the sunset.",
-        "key_characters": [
-          "WYNDIA_NINA"
-        ],
+        "key_characters": [ "WYNDIA_NINA" ],
         "exits": [
-          {
-            "direction": "Back to Hallway",
-            "destination": "royal_apartments_hall"
-          }
+          { "direction": "Back to Hallway", "destination": "royal_apartments_hall" }
         ],
         "events": [
           {
             "trigger": "search_desk",
-            "action": "skill_check",
-            "details": "A successful Mind check might uncover Nina's personal journal, containing her private thoughts on her duties, her father, and perhaps, her feelings for Rya."
+            "action": "narrative_move",
+            "details": "When you Investigate the desk, roll 2d6 + Wits. On a 10+, you find Nina's personal journal, containing her private thoughts on her duties, her father, and perhaps her feelings for Rya. On a 7-9, you find the journal, but a page with crucial information has been torn out."
           }
         ]
       },
@@ -178,82 +99,52 @@
         "name": "Approach to the Pinnacle",
         "description": "A long, ascending bridge leads to the single tallest spire in the city, the Pinnacle of the Gale. You can hear the faint, melodic chime of wind-powered contraptions and see young acolytes in flowing robes gliding on controlled updrafts between the academy's balconies. The entrance is a grand archway buzzing with magical energy.",
         "exits": [
-          {
-            "direction": "Back to Gate",
-            "destination": "noble_quarter_gate"
-          }
+          { "direction": "Back to Gate", "destination": "noble_quarter_gate" }
         ]
       },
       "bazaar_promenade": {
         "name": "Bazaar Promenade",
         "description": "A wide, bustling avenue that serves as the main artery to the market. The path is crowded with citizens and travelers from all over Eryndor. Street vendors sell roasted nuts and sweet sky-wine, and the sound of a dozen different languages fills the air. The architecture here is more functional, designed to handle heavy foot traffic.",
         "exits": [
-          {
-            "direction": "West to Plaza",
-            "destination": "central_plaza"
-          },
-          {
-            "direction": "East to Bazaar",
-            "destination": "merchant_bazaar"
-          }
+          { "direction": "West to Plaza", "destination": "central_plaza" },
+          { "direction": "East to Bazaar", "destination": "merchant_bazaar" }
         ]
       },
       "merchant_bazaar": {
         "name": "Merchant Bazaar",
         "description": "You step into a bustling, open-air marketplace. The air is filled with the smells of exotic spices, the sounds of dozens of languages haggling over prices, and the sight of colorful banners fluttering from sky-barges moored to the platform. Merchants from all corners of Eryndor have stalls here, selling everything from Scalebound steel to enchanted Wyndian silks.",
         "exits": [
-          {
-            "direction": "Back to Promenade",
-            "destination": "bazaar_promenade"
-          },
-          {
-            "direction": "Fine Wares",
-            "destination": "bazaar_finewares"
-          },
-          {
-            "direction": "Artisan's Corner",
-            "destination": "bazaar_artisans"
-          },
-          {
-            "direction": "Shady Alley",
-            "destination": "bazaar_alley"
-          }
+          { "direction": "Back to Promenade", "destination": "bazaar_promenade" },
+          { "direction": "Fine Wares", "destination": "bazaar_finewares" },
+          { "direction": "Artisan's Corner", "destination": "bazaar_artisans" },
+          { "direction": "Shady Alley", "destination": "bazaar_alley" }
         ]
       },
       "bazaar_finewares": {
         "name": "Fine Wares Emporium",
         "description": "This section of the bazaar caters to the city's elite. The shops here are elegant, with magically illuminated displays showcasing high-quality armor, masterwork weapons, and rare magical foci. The prices are exorbitant, but the quality is undeniable.",
         "exits": [
-          {
-            "direction": "Back to Bazaar",
-            "destination": "merchant_bazaar"
-          }
+          { "direction": "Back to Bazaar", "destination": "merchant_bazaar" }
         ]
       },
       "bazaar_artisans": {
         "name": "Artisan's Corner",
         "description": "The sound of hammers on anvils and the smell of hot metal fill this corner of the bazaar. Here, skilled craftsmen and women offer their services. You can find blacksmiths who can repair armor, alchemists selling potent salves, and enchanters willing to identify magical items for a fee.",
         "exits": [
-          {
-            "direction": "Back to Bazaar",
-            "destination": "merchant_bazaar"
-          }
+          { "direction": "Back to Bazaar", "destination": "merchant_bazaar" }
         ]
       },
       "bazaar_alley": {
         "name": "Shady Alley",
         "description": "A narrow, crowded alley behind the main market stalls. The lighting is dim, and figures in hooded cloaks whisper in shadowed doorways. This is where one might go to find items that are not entirely legal, or to make contact with the Gilded Paw Caravan's information brokers.",
         "exits": [
-          {
-            "direction": "Back to Bazaar",
-            "destination": "merchant_bazaar"
-          }
+          { "direction": "Back to Bazaar", "destination": "merchant_bazaar" }
         ],
         "events": [
           {
             "trigger": "ask_around_for_information",
-            "action": "skill_check",
-            "details": "A successful Spirit (Diplomacy) or Mind (Lore) check could lead to a meeting with a Gilded Paw agent."
+            "action": "narrative_move",
+            "details": "When you try to find an information broker, roll 2d6 + Heart. On a 10+, you make contact with a reliable Gilded Paw agent. On a 7-9, you find someone, but they are a less reliable freelancer looking to make a quick profit."
           }
         ]
       },
@@ -261,42 +152,24 @@
         "name": "The Commons Walkway",
         "description": "This path is quieter than the others, a wide walkway lined with sky-oaks and glowing flora. It is a more peaceful and communal area, with public seating and small fountains of purified water. Families and off-duty citizens use this space to relax and enjoy the view of the clouds below.",
         "exits": [
-          {
-            "direction": "East to Plaza",
-            "destination": "central_plaza"
-          },
-          {
-            "direction": "West to Homes",
-            "destination": "residential_spoke"
-          }
+          { "direction": "East to Plaza", "destination": "central_plaza" },
+          { "direction": "West to Homes", "destination": "residential_spoke" }
         ]
       },
       "residential_spoke": {
         "name": "Residential Spoke",
         "description": "You enter a wide, peaceful promenade lined with elegant, multi-level homes. Unlike the grand palaces, these buildings are warmer and more inviting, with personal gardens on their balconies and wind chimes that create a constant, gentle melody. Winged citizens go about their daily lives; some carry groceries, others chat with neighbors, and children chase small, glowing motes of light that drift on the wind.",
         "exits": [
-          {
-            "direction": "Back to Walkway",
-            "destination": "commons_walkway"
-          },
-          {
-            "direction": "The Cloud-Top Tavern",
-            "destination": "cloud_top_tavern"
-          },
-          {
-            "direction": "Sky-Garden Path",
-            "destination": "sky_garden_path"
-          }
+          { "direction": "Back to Walkway", "destination": "commons_walkway" },
+          { "direction": "The Cloud-Top Tavern", "destination": "cloud_top_tavern" },
+          { "direction": "Sky-Garden Path", "destination": "sky_garden_path" }
         ]
       },
       "cloud_top_tavern": {
         "name": "The Cloud-Top Tavern",
         "description": "A cozy, welcoming tavern with large, open-air windows that offer a stunning view of the clouds below. It's a popular gathering spot for off-duty guards, merchants, and local residents. The air is filled with the smell of roasted sky-fish and the sound of lively conversation and the occasional bard's tune.",
         "exits": [
-          {
-            "direction": "Back to Promenade",
-            "destination": "residential_spoke"
-          }
+          { "direction": "Back to Promenade", "destination": "residential_spoke" }
         ],
         "events": [
           {
@@ -310,78 +183,46 @@
         "name": "Sky-Garden Path",
         "description": "A quiet, winding path that weaves through a series of small, public gardens. Each garden is filled with unique, high-altitude flora that glows faintly in the city's ambient light. It's a peaceful, romantic spot, popular with couples and those seeking a moment of quiet reflection away from the bustle of the plaza.",
         "exits": [
-          {
-            "direction": "Back to Promenade",
-            "destination": "residential_spoke"
-          }
+          { "direction": "Back to Promenade", "destination": "residential_spoke" }
         ]
       },
       "aetherium_spires_access": {
         "name": "Aetherium Spires Access",
         "description": "The path south from the plaza leads to a stark, functional gate of brass and iron. The air hums with immense power, and the scent of ozone is sharp. This is the entrance to the Aetherium Spires, the magical engine that keeps Wyndia afloat. Stern 'Spire Wardens' guard the entrance, barring entry to any without authorization.",
         "exits": [
-          {
-            "direction": "Back to Plaza",
-            "destination": "central_plaza"
-          },
-          {
-            "direction": "Enter the Spires",
-            "destination": "spire_catwalks_main",
-            "status": "Restricted"
-          }
+          { "direction": "Back to Plaza", "destination": "central_plaza" },
+          { "direction": "Enter the Spires", "destination": "spire_catwalks_main", "status": "Restricted" }
         ]
       },
       "spire_catwalks_main": {
         "name": "Main Spire Catwalks",
         "description": "You are on a dizzying network of narrow, metal catwalks suspended between three of the colossal Aetherium Spires. Below you is a sheer drop to the clouds. The air crackles with raw magical energy arcing between the spires. The path splits into three distinct walkways, each leading to a different spire.",
         "exits": [
-          {
-            "direction": "Exit to Gate",
-            "destination": "aetherium_spires_access"
-          },
-          {
-            "direction": "West Spire Path",
-            "destination": "west_spire_conduit"
-          },
-          {
-            "direction": "Central Spire Path",
-            "destination": "aetherium_control_hub"
-          },
-          {
-            "direction": "East Spire Path",
-            "destination": "east_spire_maintenance"
-          }
+          { "direction": "Exit to Gate", "destination": "aetherium_spires_access" },
+          { "direction": "West Spire Path", "destination": "west_spire_conduit" },
+          { "direction": "Central Spire Path", "destination": "aetherium_control_hub" },
+          { "direction": "East Spire Path", "destination": "east_spire_maintenance" }
         ]
       },
       "west_spire_conduit": {
         "name": "West Spire Conduit",
         "description": "This catwalk leads into the heart of the western spire, ending in a chamber filled with massive, humming arcane conduits that channel energy upwards. The heat is intense. A small, locked maintenance hatch is set into the far wall.",
         "exits": [
-          {
-            "direction": "Back to Main Catwalk",
-            "destination": "spire_catwalks_main"
-          },
-          {
-            "direction": "Maintenance Hatch",
-            "destination": "lower_service_duct",
-            "status": "Locked"
-          }
+          { "direction": "Back to Main Catwalk", "destination": "spire_catwalks_main" },
+          { "direction": "Maintenance Hatch", "destination": "lower_service_duct", "status": "Locked" }
         ]
       },
       "east_spire_maintenance": {
         "name": "East Spire Maintenance",
         "description": "The eastern catwalk ends at a small maintenance platform. Spare parts, tools, and containers of viscous, glowing lubricant are stored here. It seems to be a dead end, but a careful observer might notice scuff marks near a specific wall panel.",
         "exits": [
-          {
-            "direction": "Back to Main Catwalk",
-            "destination": "spire_catwalks_main"
-          }
+          { "direction": "Back to Main Catwalk", "destination": "spire_catwalks_main" }
         ],
         "events": [
           {
             "trigger": "search_the_area",
-            "action": "skill_check",
-            "details": "A successful Mind check reveals a hidden access panel leading to a service duct."
+            "action": "narrative_move",
+            "details": "When you Investigate the area, roll 2d6 + Wits. On a 10+, you discover a hidden access panel leading to a service duct. On a 7-9, you find the panel, but opening it is noisy and attracts the attention of a nearby patrol."
           }
         ]
       },
@@ -389,43 +230,25 @@
         "name": "Aetherium Control Hub",
         "description": "The central path leads to the primary control room for the entire spire network. A large, circular console of brass and crystal dominates the room, displaying the energy flow of the city. Standing before it, motionless as a statue, is a massive, gleaming construct of silver and gold, its single, crystalline eye glowing with a menacing red light. It is the Warden.",
         "exits": [
-          {
-            "direction": "Back to Main Catwalk",
-            "destination": "spire_catwalks_main"
-          }
+          { "direction": "Back to Main Catwalk", "destination": "spire_catwalks_main" }
         ],
         "events": [
-          {
-            "trigger": "approach_console",
-            "action": "initiate_combat",
-            "combatants": [
-              "Aetherium Warden"
-            ]
-          }
+          { "trigger": "approach_console", "action": "initiate_combat", "combatants": [ "Aetherium Warden" ] }
         ]
       },
       "lower_service_duct": {
         "name": "Lower Service Duct",
         "description": "A cramped, dark maintenance tunnel that runs beneath the main catwalks. The humming of the spires is muffled here, replaced by the sound of dripping condensation and the skittering of unseen things. This hidden path seems to bypass the main hub.",
         "exits": [
-          {
-            "direction": "To West Spire",
-            "destination": "west_spire_conduit"
-          },
-          {
-            "direction": "To Gyroscope",
-            "destination": "primary_gyroscope_chamber"
-          }
+          { "direction": "To West Spire", "destination": "west_spire_conduit" },
+          { "direction": "To Gyroscope", "destination": "primary_gyroscope_chamber" }
         ]
       },
       "primary_gyroscope_chamber": {
         "name": "Primary Gyroscope Chamber",
         "description": "You emerge from the duct into the heart of Wyndia. In the center of this vast, spherical chamber is a colossal, multi-ringed gyroscope of brass and gold, spinning silently and flawlessly. It is this marvel of pre-Shattering engineering that grants the city its impossible stability. A single, locked control panel is situated on a raised dais.",
         "exits": [
-          {
-            "direction": "Exit via Duct",
-            "destination": "lower_service_duct"
-          }
+          { "direction": "Exit via Duct", "destination": "lower_service_duct" }
         ],
         "events": [
           {
