@@ -2,83 +2,288 @@
   "bestiary": {
     "tier_6_10": [
       {
-        "name": "Sand Worm",
-        "description": "A colossal worm that burrows beneath the desert sands, emerging to swallow its prey whole.",
-        "impulse": "To devour anything that moves on the surface.",
-        "harm_capacity": 10,
-        "tags": [
-          "Beast",
-          "Large",
-          "Burrowing"
-        ],
-        "gm_moves": [
-          "Burst from the sand to swallow a target whole.",
-          "Create a sandstorm with its movement.",
-          "Tunnel away and emerge in a new location."
-        ]
-      },
-      {
-        "name": "Spectre",
-        "description": "A powerful, hateful ghost that can possess the living.",
-        "impulse": "To drain life and sow hatred.",
+        "name": "Banshee",
+        "description": "The sorrowful spirit of a woman whose shriek can drain the will to live.",
+        "impulse": "To share her unending sorrow.",
         "harm_capacity": 8,
         "tags": [
           "Undead",
           "Incorporeal",
-          "Possessing"
+          "Terrifying"
         ],
         "gm_moves": [
-          "Attempt to possess a character.",
-          "Drain the life force from a target.",
-          "Fade into the Ethereal Plane to escape harm."
+          "Unleash a wail of despair, overwhelming the senses and hearts of all who hear it.",
+          "Pass through a wall or character.",
+          "Touch a character with chilling sorrow, draining their will."
         ]
       },
       {
-        "name": "Troll",
-        "description": "A fearsome giant known for its incredible ability to regenerate from wounds.",
-        "impulse": "To hunt and feast.",
-        "harm_capacity": 9,
+        "name": "Basilisk",
+        "description": "A reptilian beast whose gaze can turn living flesh to stone.",
+        "impulse": "To hunt and add to its stone garden.",
+        "harm_capacity": 7,
+        "tags": [
+          "Monstrosity",
+          "Petrifying"
+        ],
+        "gm_moves": [
+          "Lock its gaze on a target, beginning the petrification process.",
+          "Deliver a powerful, crushing bite."
+        ]
+      },
+      {
+        "name": "Crystal Entity",
+        "description": "A being of living crystal animated by the power of the Crystal Spire. It reflects magical energy.",
+        "impulse": "To absorb and refract arcane energy.",
+        "harm_capacity": 7,
+        "tags": [
+          "Elemental",
+          "Magical",
+          "Armored"
+        ],
+        "gm_moves": [
+          "Reflect a spell back at its caster.",
+          "Unleash a focused beam of stored energy.",
+          "Shatter a crystalline limb, creating a field of sharp hazards."
+        ]
+      },
+      {
+        "name": "Dominion Sorcerer",
+        "description": "An accomplished mage of the Arcane Dominion, wielding powerful and destructive elemental spells.",
+        "impulse": "To demonstrate arcane superiority.",
+        "harm_capacity": 6,
+        "tags": [
+          "Humanoid",
+          "Magical",
+          "Ranged"
+        ],
+        "gm_moves": [
+          "Unleash a bolt of chain lightning that arcs between targets.",
+          "Create a barrier of magical force.",
+          "Teleport to a more advantageous position."
+        ]
+      },
+      {
+        "name": "Iron Golem",
+        "description": "An upgraded golem forged from iron, nearly impervious to conventional weapons.",
+        "impulse": "To obey its master's commands without question.",
+        "harm_capacity": 10,
+        "tags": [
+          "Construct",
+          "Armored",
+          "Large",
+          "Magic-Resistant"
+        ],
+        "gm_moves": [
+          "Deliver a crushing iron fist blow.",
+          "Ignore a magical effect through sheer force of will.",
+          "Create a deafening, metallic roar."
+        ]
+      },
+      {
+        "name": "Mimic",
+        "description": "A cunning predator that disguises itself as a treasure chest, lashing out at greedy adventurers.",
+        "impulse": "To lure and consume the unwary.",
+        "harm_capacity": 6,
+        "tags": [
+          "Aberration",
+          "Ambusher",
+          "Amorphous"
+        ],
+        "gm_moves": [
+          "Reveal its true form in a surprise attack.",
+          "Adhere to a character's weapon or body.",
+          "Change its shape to escape or block a path."
+        ]
+      },
+      {
+        "name": "Minotaur",
+        "description": "A bull-headed humanoid of immense strength, often found in labyrinths.",
+        "impulse": "To stalk and overpower its prey.",
+        "harm_capacity": 8,
+        "tags": [
+          "Monstrosity",
+          "Brute",
+          "Large"
+        ],
+        "gm_moves": [
+          "Gore a target with its horns after a powerful charge.",
+          "Swing a massive greataxe.",
+          "Let out a bestial roar of frustration."
+        ]
+      },
+      {
+        "name": "Nightmare",
+        "description": "A terrifying horse-like creature with a mane of shadow and hooves of burning embers.",
+        "impulse": "To spread fear and fire.",
+        "harm_capacity": 7,
+        "tags": [
+          "Fiend",
+          "Fire",
+          "Fast"
+        ],
+        "gm_moves": [
+          "Charge forward, leaving a trail of fire in its wake.",
+          "Exhale a cloud of choking smoke.",
+          "Disappear into the shadows, only to reappear elsewhere."
+        ]
+      },
+      {
+        "name": "Ogre",
+        "description": "A large, brutish giant that is dim-witted but incredibly strong.",
+        "impulse": "To smash things.",
+        "harm_capacity": 8,
         "tags": [
           "Giant",
           "Brute",
-          "Regenerating"
+          "Large"
         ],
         "gm_moves": [
-          "Attack with rending claws.",
-          "Regenerate a grievous wound unless struck by fire or acid.",
-          "Throw a large rock."
+          "Swing a greatclub with devastating force.",
+          "Throw a rock or another smaller creature.",
+          "Fly into a rage when wounded."
         ]
       },
       {
-        "name": "Wyndian Royal Guard",
-        "description": "An elite winged soldier from Wyndia, skilled with both sword and wind magic.",
-        "impulse": "To protect Wyndian royalty and interests.",
-        "harm_capacity": 7,
+        "name": "Order Knight",
+        "description": "A disciplined warrior of the Champions of Order, clad in steel plate armor.",
+        "impulse": "To enforce Elysia's will.",
+        "harm_capacity": 6,
         "tags": [
           "Humanoid",
-          "Flying",
+          "Armored",
           "Soldier"
         ],
         "gm_moves": [
-          "Execute a precise Gale Slash, pushing a target back.",
-          "Use their wings to gain a superior position.",
-          "Create a defensive gust of wind."
+          "Attack with a greatsword.",
+          "Use a shield to daze a target.",
+          "Form a defensive shield wall with other knights."
         ]
       },
       {
-        "name": "Wyvern",
-        "description": "A lesser relative of dragons, with two legs and winged arms. It possesses a venomous stinger on its tail.",
-        "impulse": "To hunt from the skies.",
-        "harm_capacity": 8,
+        "name": "Saberclaw Tiger",
+        "description": "A prehistoric tiger with immense fangs, a patient and deadly predator.",
+        "impulse": "To stalk and ambush its prey.",
+        "harm_capacity": 6,
         "tags": [
-          "Dragonkin",
-          "Flying",
-          "Venomous"
+          "Beast",
+          "Ambusher",
+          "Fast"
         ],
         "gm_moves": [
-          "Attack with claws and bite.",
-          "Strike with a potent poison stinger.",
-          "Grab a target and fly into the air."
+          "Pounce from hiding with advantage.",
+          "Deliver a deep, bleeding bite with its fangs.",
+          "Drag a smaller target away."
+        ]
+      },
+      {
+        "name": "Runic Sentinel",
+        "description": "A bipedal, armored automaton of bronze and iron, with a single, glowing eye of pulsing arcane crystal. Its body is covered in ancient, glowing runes that flicker with power. Its movements are slow and deliberate, but each step shakes the ground with immense weight.",
+        "impulse": "To protect the vaults from all intruders.",
+        "harm_capacity": 10,
+        "tags": [
+          "Construct",
+          "Armored (+2)",
+          "Magical",
+          "Large",
+          "Slow"
+        ],
+        "gm_moves": [
+          "Deliver a crushing, two-handed slam with its forelegs.",
+          "When it takes harm: The runes on its body flare, releasing a burst of arcane energy that deals 1-harm (ap) to everyone nearby.",
+          "Let out a deafening, metallic roar that stuns and disorients opponents.",
+          "Slam its forelegs into the ground, creating a localized tremor that puts all nearby characters in a bad spot."
+        ]
+      },
+      {
+        "name": "Bio-Mutant",
+        "description": "A twisted, hulking creature from Magister Vorlag's experiments. Its flesh is a patchwork of muscle and bone, and a sickly green energy pulses from its core. Its movements are erratic and violent, and it seems to be in a constant state of agonizing transformation.",
+        "impulse": "To lash out in a confused, pain-fueled frenzy.",
+        "harm_capacity": 8,
+        "tags": [
+          "Monstrosity",
+          "Volatile",
+          "Corrupted",
+          "Regenerating"
+        ],
+        "gm_moves": [
+          "Lash out with a powerful, unpredictable strike.",
+          "When harmed: Release a cloud of corrosive spores that deal 1-harm to everyone nearby.",
+          "Mutate a limb, gaining a new, temporary ability (e.g., a massive, armored claw).",
+          "Absorb a nearby magical effect, causing it to go into an uncontrollable rage."
+        ]
+      },
+      {
+        "name": "Tide Guardian",
+        "description": "An ancient, living sculpture of water, kelp, and polished stone. It is a serpentine creature of immense size with a flowing, multi-tentacled body. It is a non-hostile, but challenging, guardian of a key location, driven only by its sacred duty to protect the city's heart.",
+        "impulse": "To guard its location from intruders, but not to kill.",
+        "harm_capacity": 15,
+        "tags": [
+          "Elemental",
+          "Aquatic",
+          "Large",
+          "Magical"
+        ],
+        "gm_moves": [
+          "Create a powerful tidal current that pushes a target back.",
+          "Ensnare a character in a tangle of living kelp.",
+          "Unleash a geyser of water to create a screen of mist, providing cover for its allies.",
+          "Heal itself by absorbing water from the surrounding environment."
+        ]
+      },
+      {
+        "name": "Coral Revenant",
+        "description": "The spirit of a corrupted Astoran, bound to a skeleton of razor-sharp, luminescent coral. It moves with an unnatural, chilling silence, and its touch feels like the crushing pressure of the deep ocean. Its eyes are twin points of cold, malevolent light.",
+        "impulse": "To protect its territory and drain the life from the living.",
+        "harm_capacity": 7,
+        "tags": [
+          "Undead",
+          "Incorporeal",
+          "Magical",
+          "Chilling"
+        ],
+        "gm_moves": [
+          "Strike with a chilling touch that deals necrotic harm.",
+          "Pass through a wall or character, reappearing in a new location.",
+          "Unleash a mournful wail that disorients and terrifies opponents.",
+          "Summon a small coral golem to fight alongside it."
+        ]
+      },
+      {
+        "name": "Blighted Elemental",
+        "description": "A monstrous plant creature, formed from a twisted fusion of a treant and Magister Vorlag's magic. Its body is a grotesque amalgamation of thorny vines, fungus, and weeping, black sap. It is a force of pure corruption, driven to spread its blight wherever it goes.",
+        "impulse": "To corrupt and ensnare.",
+        "harm_capacity": 9,
+        "tags": [
+          "Plant",
+          "Large",
+          "Corrupted",
+          "Magical",
+          "Forceful"
+        ],
+        "gm_moves": [
+          "Lash out with massive, thorny vines to ensnare a character.",
+          "Spit a glob of black sap that spreads corruption and creates a hazardous zone.",
+          "When harmed: Release a cloud of blight spores that deal ongoing harm to everyone nearby.",
+          "Slam its body into a target, dealing immense physical harm."
+        ]
+      },
+      {
+        "name": "The Black Fin",
+        "description": "A ruthless, high-level assassin who operates in Port Myria's waterways. She is a master of water magic and stealth, and her true face is always concealed beneath a dark leather mask. She is swift, deadly, and leaves no witnesses.",
+        "impulse": "To eliminate her target with swift, silent efficiency.",
+        "harm_capacity": 8,
+        "tags": [
+          "Humanoid",
+          "Magical",
+          "Stealthy",
+          "Assassin"
+        ],
+        "gm_moves": [
+          "Strike with a pair of poisoned daggers.",
+          "Submerge herself in the water and disappear from sight, only to reappear behind her target.",
+          "Unleash a high-pressure jet of water that pushes a target off-balance.",
+          "Leave a trail of slick, oily water that creates a hazardous zone for everyone."
         ]
       }
     ],
@@ -466,6 +671,81 @@
           "Whisper words of despair, causing the party to lose their resolve.",
           "Gaze into a character's soul, draining their power and vitality.",
           "Summon a lesser horror from the Void to aid him."
+        ]
+      },
+      {
+        "name": "Kilgore, the Cinder-Clad",
+        "description": "A massive, heavily armored warrior who has been granted a sliver of draconic power through the Brood's dark rituals. His armor is fused to his flesh, and his eyes glow with a malevolent, fiery light. He is the unstoppable will of the Ashen Priest made manifest.",
+        "impulse": "To serve the Ashen Priest as an instrument of pure, unthinking destruction.",
+        "harm_capacity": 15,
+        "tags": [
+          "Humanoid",
+          "Armored",
+          "Magical",
+          "Fire",
+          "Brute",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Deliver a colossal, fiery slam, dealing massive harm.",
+          "Create a wall of fire with his sword, reshaping the battlefield and providing cover.",
+          "When bloodied: He enters a furious rage, attacking with blind, unthinking ferocity."
+        ]
+      },
+      {
+        "name": "The Ashen Priest",
+        "description": "The charismatic and fanatical leader of the Brood of Dragnor. His face is hidden behind a mask of obsidian, and his robes are perpetually covered in a fine layer of volcanic ash. He preaches a doctrine of nihilistic destruction, believing that the world must be cleansed in fire to pave the way for a new age of dragons.",
+        "impulse": "To bring about a fiery apocalypse and a new age of draconic rule.",
+        "harm_capacity": 12,
+        "tags": [
+          "Humanoid",
+          "Magical",
+          "Ritualist",
+          "Boss"
+        ],
+        "gm_moves": [
+          "Incite a crowd of followers to a religious frenzy.",
+          "Perform a dark ritual to awaken a fire-based monster.",
+          "Unleash a devastating, area-of-effect fire spell.",
+          "Offer a character a taste of draconic power in exchange for their loyalty."
+        ]
+      },
+      {
+        "name": "Resonance Warden",
+        "description": "A pre-Shattering guardian that floats silently in the center of a key junction or chamber. It is a complex, geometric lattice of humming crystal and polished brass, about the size of a carriage. It has no visible weapons, and its surface ripples with shifting patterns of light.",
+        "impulse": "To pacify intruders through sensory overload.",
+        "harm_capacity": 12,
+        "tags": [
+          "Construct",
+          "Magical",
+          "Sonic",
+          "Luminous",
+          "Puzzle"
+        ],
+        "special_rule": "Harmonic Shielding: The Resonance Warden is immune to all direct harm. To defeat it, the party must first destroy the three 'Focusing Crystals' set into the walls of its chamber. Each crystal has a Harm Capacity of 4.",
+        "gm_moves": [
+          "Emit a high-frequency sonic pulse, forcing all characters to make a Force roll or be stunned for a moment.",
+          "Unleash a disorienting strobe of light, forcing all characters to make a Finesse roll or be blinded for their next action.",
+          "Channel energy into the Focusing Crystals, causing them to emit damaging beams of light.",
+          "Create a resonant field that makes all verbal communication impossible for a short time."
+        ]
+      },
+      {
+        "name": "The Black Fin",
+        "description": "A ruthless, high-level assassin who operates in Port Myria's waterways. She is a master of water magic and stealth, and her true face is always concealed beneath a dark leather mask. She is swift, deadly, and leaves no witnesses.",
+        "impulse": "To eliminate her target with swift, silent efficiency.",
+        "harm_capacity": 8,
+        "tags": [
+          "Humanoid",
+          "Magical",
+          "Stealthy",
+          "Assassin"
+        ],
+        "gm_moves": [
+          "Strike with a pair of poisoned daggers.",
+          "Submerge herself in the water and disappear from sight, only to reappear behind her target.",
+          "Unleash a high-pressure jet of water that pushes a target off-balance.",
+          "Leave a trail of slick, oily water that creates a hazardous zone for everyone."
         ]
       }
     ]
