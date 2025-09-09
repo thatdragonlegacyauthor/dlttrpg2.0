@@ -1,0 +1,45 @@
+{
+  "flashpoints": [
+    {
+      "name": "The Siege of Stonegard",
+      "theme": "Conflict & Alliance",
+      "factions_involved": ["Champions of Order", "Scalebound Clans", "The Party"],
+      "setup": "Grand Inquisitor Valerius leads a full-scale assault on the fortress of Stonegard to seize the draconic relics of the Dragon's Graveyard. The party must convince the skeptical Scalebound Elders of the threat and help defend the fortress from the Champions' military might.",
+      "key_players": [
+        "CHAMPIONS_VALERIUS",
+        "SCALEBOUND_GRORN",
+        "CHAMPIONS_KAELEN",
+        "DRAGON_HEIR_RYA"
+      ],
+      "narrative_paths": [
+        {
+          "title": "Decisive Victory",
+          "outcome": "The party's actions are heroic and undeniable. The Champions' assault is broken, and Valerius's forces are forced into a full retreat.",
+          "consequences": [
+            "The party secures a firm alliance with the Scalebound Clans and gains access to their resources.",
+            "Valerius now sees the party as a formidable threat and will become a more direct antagonist.",
+            "A powerful Scalebound Master, like Grorn, may offer to train the party."
+          ]
+        },
+        {
+          "title": "A Costly Defense",
+          "outcome": "The party holds the line, but at a terrible cost. Stonegard is heavily damaged, and the Scalebound suffer significant casualties. The victory is one of survival, not triumph.",
+          "consequences": [
+            "The party earns the 'grudging respect' of the clans, resulting in a tenuous, temporary alliance.",
+            "Valerius, though thwarted, has identified a key weakness in Stonegard's defenses that he will exploit later.",
+            "The party may face a new quest to help rebuild the fortress or avenge a fallen ally."
+          ]
+        },
+        {
+          "title": "The Fall of Stonegard",
+          "outcome": "The party is outmaneuvered, and the Champions breach the defenses. Stonegard falls, and the draconic relics are seized by Valerius's forces.",
+          "consequences": [
+            "The Champions' 'Front' advances, and they now possess powerful relics that can be used against Rya.",
+            "The Scalebound Clans are scattered and broken, and the party loses a powerful potential ally.",
+            "The campaign's focus shifts to a desperate race to reclaim the stolen relics and find the scattered clan members."
+          ]
+        }
+      ]
+    }
+  ]
+}
