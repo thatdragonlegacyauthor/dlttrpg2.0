@@ -1,0 +1,73 @@
+{
+  "mount_dragnor": {
+    "start_room": "mountain_pass",
+    "rooms": {
+      "mountain_pass": {
+        "name": "The Cinder Pass",
+        "description": "The path to Mount Dragnor is a treacherous, winding trail of black volcanic rock and brittle pumice. The air is thick with the scent of sulfur and a palpable heat. Faint, reddish plumes of smoke rise from the caldera in the distance, a grim promise of the power within.",
+        "exits": [
+          {
+            "direction": "Continue Upward",
+            "destination": "caldera_edge"
+          }
+        ]
+      },
+      "caldera_edge": {
+        "name": "Caldera's Edge",
+        "description": "You stand on the very lip of Mount Dragnor's caldera. Below, a vast, jagged landscape of cooling lava and obsidian cliffs descends into a central chamber where a massive, glowing fissure pulses with a malevolent, orange light. This is the heart of the dormant volcano, and the air here is a shimmering curtain of heat and raw, elemental power. A narrow, treacherous path leads down into the caldera itself.",
+        "exits": [
+          {
+            "direction": "Back Down the Pass",
+            "destination": "mountain_pass"
+          },
+          {
+            "direction": "Descend into the Caldera",
+            "destination": "inner_sanctum_approach"
+          }
+        ]
+      },
+      "inner_sanctum_approach": {
+        "name": "Inner Sanctum Approach",
+        "description": "The path is now a narrow, treacherous ledge clinging to the caldera wall. A constant stream of volcanic gases and ash makes the air thick and difficult to breathe. The sound of chanting and the rhythmic clang of a hammer against stone can be heard echoing up from the depths below. A massive, heavily armored figure stands guard before the entrance to the inner sanctum.",
+        "exits": [
+          {
+            "direction": "Back to the Edge",
+            "destination": "caldera_edge"
+          },
+          {
+            "direction": "Enter the Sanctum",
+            "destination": "ritual_chamber"
+          }
+        ],
+        "key_characters": [
+          "BROOD_KILGORE"
+        ]
+      },
+      "ritual_chamber": {
+        "name": "The Heart of the Inferno",
+        "description": "You stand in a vast, open cavern at the very heart of Mount Dragnor. A massive, circular platform of obsidian juts out over a lake of bubbling, molten lava. In the center of the platform, the Ashen Priest stands before a colossal, draconic effigy of obsidian and fire, performing a dark ritual. His chanting fills the cavern, and a palpable wave of heat and chaotic energy radiates from him.",
+        "exits": [
+          {
+            "direction": "Exit the Caldera",
+            "destination": "inner_sanctum_approach"
+          }
+        ],
+        "key_characters": [
+          "BROOD_ASHEN_PRIEST"
+        ],
+        "events": [
+          {
+            "trigger": "enter_room",
+            "action": "initiate_combat",
+            "combatants": [
+              "Brood Cultist",
+              "Brood Cultist",
+              "BROOD_ASHEN_PRIEST"
+            ],
+            "details": "The party must interrupt the ritual while dealing with the priest and his fanatical followers. The lava lake is a dangerous environmental hazard."
+          }
+        ]
+      }
+    }
+  }
+}
