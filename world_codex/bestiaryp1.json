@@ -216,182 +216,283 @@
           "Demand valuables with a clumsy threat.",
           "Flee when the fight looks lost."
         ]
-      }
-    ],
-    "tier_6_10": [
+      },
       {
-        "name": "Banshee",
-        "description": "The sorrowful spirit of a woman whose shriek can drain the will to live.",
-        "impulse": "To share her unending sorrow.",
-        "harm_capacity": 8,
+        "name": "Syndicate Thug",
+        "description": "A common thug or cutthroat, often found in the back alleys of Port Myria. They are crude, opportunistic, and fight with dirty tactics and cheap weapons. They are dangerous in numbers but will scatter if a fight turns against them.",
+        "impulse": "To rob and intimidate.",
+        "harm_capacity": 3,
         "tags": [
-          "Undead",
-          "Incorporeal",
-          "Terrifying"
+          "Humanoid",
+          "Skirmisher"
         ],
         "gm_moves": [
-          "Unleash a wail of despair, overwhelming the senses and hearts of all who hear it.",
-          "Pass through a wall or character.",
-          "Touch a character with chilling sorrow, draining their will."
+          "Attack with a crude blade or a heavy club.",
+          "Throw sand in someone's eyes, disorienting them.",
+          "Attempt to flee when the fight turns against them.",
+          "Surround a single target, creating an opening for an ally."
         ]
       },
       {
-        "name": "Basilisk",
-        "description": "A reptilian beast whose gaze can turn living flesh to stone.",
-        "impulse": "To hunt and add to its stone garden.",
-        "harm_capacity": 7,
+        "name": "Gloom Stalker",
+        "description": "A sleek, pack-hunting feline with a venomous bite. It is a master of stealth, and its fur is a shifting mosaic of shadows and dark greens, allowing it to blend seamlessly into the dense foliage of the jungle. It communicates with low, predatory growls and unnerving, silent hisses.",
+        "impulse": "To hunt and wear down its prey.",
+        "harm_capacity": 5,
         "tags": [
-          "Monstrosity",
-          "Petrifying"
+          "Beast",
+          "Ambusher",
+          "Pack Hunter",
+          "Venomous",
+          "Stealthy"
         ],
         "gm_moves": [
-          "Lock its gaze on a target, beginning the petrification process.",
-          "Deliver a powerful, crushing bite."
+          "Pounce from hiding with advantage.",
+          "Deliver a deep, venomous bite, inflicting poison harm.",
+          "Circle and harry a target, creating an opening for an ally.",
+          "Let out a piercing shriek that signals other pack members."
         ]
       },
       {
-        "name": "Crystal Entity",
-        "description": "A being of living crystal animated by the power of the Crystal Spire. It reflects magical energy.",
-        "impulse": "To absorb and refract arcane energy.",
-        "harm_capacity": 7,
+        "name": "Frog",
+        "description": "A large, warty frog with a surprisingly long tongue. It is a common foe found in swamps and wetlands, and its croaking is said to disorient travelers.",
+        "impulse": "To ambush and swallow its prey whole.",
+        "harm_capacity": 4,
+        "tags": [
+          "Beast",
+          "Aquatic",
+          "Venomous"
+        ],
+        "gm_moves": [
+          "Lash out with a long, sticky tongue, grabbing a target.",
+          "Release a cloud of disorienting gas.",
+          "Jump to a new, advantageous position."
+        ]
+      },
+      {
+        "name": "Wisp",
+        "description": "A small, ethereal ball of light and energy. They are elusive and mischievous, often playing tricks on travelers before delivering a shocking electrical attack. They are notoriously hard to hit with physical weapons.",
+        "impulse": "To confuse and shock its victims with magical energy.",
+        "harm_capacity": 3,
         "tags": [
           "Elemental",
-          "Magical",
+          "Flying",
+          "Magical"
+        ],
+        "gm_moves": [
+          "Flash a blinding light, imposing a penalty on a target's next action.",
+          "Unleash a small bolt of lightning.",
+          "Teleport to a new location in a flash of light.",
+          "Absorb a magical effect, healing itself for 1 harm."
+        ]
+      },
+      {
+        "name": "Bulla",
+        "description": "A small, bull-like creature with a thick, armored hide and a short, stout horn. They are docile by nature, but when threatened, they will charge with surprising force.",
+        "impulse": "To protect its herd and charge at threats.",
+        "harm_capacity": 5,
+        "tags": [
+          "Beast",
+          "Armored",
+          "Forceful"
+        ],
+        "gm_moves": [
+          "Charge forward with surprising speed, dealing forceful harm.",
+          "Hunker down, increasing its defenses for the next turn.",
+          "Let out a bellow that rallies nearby animals."
+        ]
+      },
+      {
+        "name": "Beak",
+        "description": "A small, winged creature with a razor-sharp beak. They are fast and agile, often swarming a single target to peck at their eyes and skin. They are often found in groups, where their nuisance attacks can become deadly.",
+        "impulse": "To harass and overwhelm their prey with numbers.",
+        "harm_capacity": 2,
+        "tags": [
+          "Beast",
+          "Flying",
+          "Pack Hunter"
+        ],
+        "gm_moves": [
+          "Swoop in for a quick, painful peck.",
+          "Swarm a single target with the rest of the flock.",
+          "Let out a piercing screech that disorients the party."
+        ]
+      },
+      {
+        "name": "Lancer",
+        "description": "A disciplined soldier armed with a spear and a small, light shield. They are often found in military encampments or guarding important locations, and they fight with a martial precision that sets them apart from common thugs.",
+        "impulse": "To defend their position and attack with discipline.",
+        "harm_capacity": 4,
+        "tags": [
+          "Humanoid",
+          "Soldier",
           "Armored"
         ],
         "gm_moves": [
-          "Reflect a spell back at its caster.",
-          "Unleash a focused beam of stored energy.",
-          "Shatter a crystalline limb, creating a field of sharp hazards."
+          "Attack with a precise thrust of its spear.",
+          "Use its shield to block an attack or push a foe off balance.",
+          "Hold a position, forming a defensive line with its allies."
         ]
       },
       {
-        "name": "Dominion Sorcerer",
-        "description": "An accomplished mage of the Arcane Dominion, wielding powerful and destructive elemental spells.",
-        "impulse": "To demonstrate arcane superiority.",
-        "harm_capacity": 6,
+        "name": "Gargoyle",
+        "description": "A small, living stone statue that can be found perched on ancient ruins. They are incredibly tough for their size and can attack with surprising ferocity. When they fall, they shatter into harmless pieces of stone.",
+        "impulse": "To remain hidden and ambush unwary travelers.",
+        "harm_capacity": 4,
+        "tags": [
+          "Construct",
+          "Armored",
+          "Flying"
+        ],
+        "gm_moves": [
+          "Slam into a target with its stony body.",
+          "Use its claws to cling to a wall or ceiling.",
+          "Drop a small rock on a target from a great height.",
+          "Shatter into pieces when dealt a fatal blow, leaving behind a small hazard."
+        ]
+      },
+      {
+        "name": "Goblin Shaman",
+        "description": "A scrawny, green-skinned goblin with a gnarled staff and a pouch full of foul-smelling herbs. They are cunning and cowardly, preferring to fight from a distance with crude magic and debilitating curses.",
+        "impulse": "To curse and debilitate the party from a safe distance.",
+        "harm_capacity": 3,
         "tags": [
           "Humanoid",
           "Magical",
           "Ranged"
         ],
         "gm_moves": [
-          "Unleash a bolt of chain lightning that arcs between targets.",
-          "Create a barrier of magical force.",
-          "Teleport to a more advantageous position."
+          "Launch a glob of vile magic at a target, inflicting a random curse.",
+          "Heal a nearby goblinoid with a crude spell.",
+          "Teleport to a safe distance in a puff of foul-smelling smoke."
         ]
       },
       {
-        "name": "Iron Golem",
-        "description": "An upgraded golem forged from iron, nearly impervious to conventional weapons.",
-        "impulse": "To obey its master's commands without question.",
-        "harm_capacity": 10,
-        "tags": [
-          "Construct",
-          "Armored",
-          "Large",
-          "Magic-Resistant"
-        ],
-        "gm_moves": [
-          "Deliver a crushing iron fist blow.",
-          "Ignore a magical effect through sheer force of will.",
-          "Create a deafening, metallic roar."
-        ]
-      },
-      {
-        "name": "Mimic",
-        "description": "A cunning predator that disguises itself as a treasure chest, lashing out at greedy adventurers.",
-        "impulse": "To lure and consume the unwary.",
-        "harm_capacity": 6,
-        "tags": [
-          "Aberration",
-          "Ambusher",
-          "Amorphous"
-        ],
-        "gm_moves": [
-          "Reveal its true form in a surprise attack.",
-          "Adhere to a character's weapon or body.",
-          "Change its shape to escape or block a path."
-        ]
-      },
-      {
-        "name": "Minotaur",
-        "description": "A bull-headed humanoid of immense strength, often found in labyrinths.",
-        "impulse": "To stalk and overpower its prey.",
-        "harm_capacity": 8,
-        "tags": [
-          "Monstrosity",
-          "Brute",
-          "Large"
-        ],
-        "gm_moves": [
-          "Gore a target with its horns after a powerful charge.",
-          "Swing a massive greataxe.",
-          "Let out a bestial roar of frustration."
-        ]
-      },
-      {
-        "name": "Nightmare",
-        "description": "A terrifying horse-like creature with a mane of shadow and hooves of burning embers.",
-        "impulse": "To spread fear and fire.",
-        "harm_capacity": 7,
-        "tags": [
-          "Fiend",
-          "Fire",
-          "Fast"
-        ],
-        "gm_moves": [
-          "Charge forward, leaving a trail of fire in its wake.",
-          "Exhale a cloud of choking smoke.",
-          "Disappear into the shadows, only to reappear elsewhere."
-        ]
-      },
-      {
-        "name": "Ogre",
-        "description": "A large, brutish giant that is dim-witted but incredibly strong.",
-        "impulse": "To smash things.",
-        "harm_capacity": 8,
-        "tags": [
-          "Giant",
-          "Brute",
-          "Large"
-        ],
-        "gm_moves": [
-          "Swing a greatclub with devastating force.",
-          "Throw a rock or another smaller creature.",
-          "Fly into a rage when wounded."
-        ]
-      },
-      {
-        "name": "Order Knight",
-        "description": "A disciplined warrior of the Champions of Order, clad in steel plate armor.",
-        "impulse": "To enforce Elysia's will.",
+        "name": "Harpy",
+        "description": "A winged humanoid with the legs and claws of a bird. They are vicious and territorial, often living in rocky outcroppings and mountains. Their haunting song can confuse and disorient a target, leaving them vulnerable to a pack attack.",
+        "impulse": "To disorient its prey with its song before descending for the kill.",
         "harm_capacity": 6,
         "tags": [
           "Humanoid",
-          "Armored",
-          "Soldier"
+          "Flying",
+          "Pack Hunter"
         ],
         "gm_moves": [
-          "Attack with a greatsword.",
-          "Use a shield to daze a target.",
-          "Form a defensive shield wall with other knights."
+          "Let out a haunting song, confusing a target and making them vulnerable.",
+          "Swoop down and grab a target with its claws, dragging them into the air.",
+          "Attack with a piercing stab from a small, crude spear."
         ]
       },
       {
-        "name": "Saberclaw Tiger",
-        "description": "A prehistoric tiger with immense fangs, a patient and deadly predator.",
-        "impulse": "To stalk and ambush its prey.",
-        "harm_capacity": 6,
+        "name": "Kobold Slinger",
+        "description": "A small, reptilian humanoid with a leather sling. They are cunning and cowardly, preferring to fight from a distance and retreat when faced with a strong opponent. They are often found in numbers, where they can overwhelm a single foe.",
+        "impulse": "To harass the party from a safe distance and flee when threatened.",
+        "harm_capacity": 3,
         "tags": [
-          "Beast",
-          "Ambusher",
-          "Fast"
+          "Humanoid",
+          "Ranged",
+          "Pack Hunter"
         ],
         "gm_moves": [
-          "Pounce from hiding with advantage.",
-          "Deliver a deep, bleeding bite with its fangs.",
-          "Drag a smaller target away."
+          "Hurl a small stone with its sling, dealing harm.",
+          "Run to a new, advantageous position after an attack.",
+          "Lay a small, crude trap in a path or doorway."
+        ]
+      },
+      {
+        "name": "Stoneling",
+        "description": "A small, living rock creature that can be found in mountain passes and caves. They are often mistaken for common stones until they begin to move, revealing their powerful legs and a mouth full of razor-sharp teeth.",
+        "impulse": "To camouflage itself and ambush unwary prey.",
+        "harm_capacity": 5,
+        "tags": [
+          "Elemental",
+          "Armored",
+          "Ambusher"
+        ],
+        "gm_moves": [
+          "Remain perfectly still, making it hard to spot until it attacks.",
+          "Bite with powerful jaws.",
+          "Roll forward with surprising speed, knocking a target down."
+        ]
+      },
+      {
+        "name": "Forest Nymph",
+        "description": "A beautiful, ethereal being of wood and leaves. They are protectors of the forest and will use their magic to defend their home from any who would cause it harm. Their song can heal or bewitch a target, making them a dangerous foe.",
+        "impulse": "To protect its grove and defend its home with magic.",
+        "harm_capacity": 5,
+        "tags": [
+          "Plant",
+          "Magical",
+          "Intelligent"
+        ],
+        "gm_moves": [
+          "Release a cloud of healing spores, restoring a nearby creature's harm.",
+          "Sing a beautiful, mesmerizing song that charms a target into doing its bidding.",
+          "Command the nearby plants and trees to ensnare a target."
+        ]
+      },
+      {
+        "name": "Scavenger",
+        "description": "A desperate human or beastman who has turned to scavenging to survive. They are often found in the Shattered Lands, picking through ruins for scraps of food and technology. They are opportunistic and will use dirty tricks and cheap weapons to get what they want.",
+        "impulse": "To survive and take what they can get.",
+        "harm_capacity": 4,
+        "tags": [
+          "Humanoid",
+          "Skirmisher"
+        ],
+        "gm_moves": [
+          "Attack with a crude, salvaged weapon.",
+          "Throw a handful of rusty scrap, causing a target to falter.",
+          "Flee when the fight turns against them."
+        ]
+      },
+      {
+        "name": "Cinderling",
+        "description": "A small, four-legged creature of pure, solidified lava. It is a common elemental found on Mount Dragnor, and its fiery body makes it a danger to any who get too close. When it dies, it leaves behind a pool of lava that can burn a careless opponent.",
+        "impulse": "To burn and melt.",
+        "harm_capacity": 4,
+        "tags": [
+          "Elemental",
+          "Fire",
+          "Volatile"
+        ],
+        "gm_moves": [
+          "Lash out with its burning body, dealing fire harm.",
+          "Let out a puff of superheated smoke, obscuring vision.",
+          "Explode in a burst of fire and lava when it dies, dealing harm to everyone nearby."
+        ]
+      },
+      {
+        "name": "Red Slime",
+        "description": "A large, gelatinous creature of pure, fiery magic. They are a more powerful and aggressive version of the common Goo Ball, and their body is hot to the touch. They are often found in warm, subterranean caves and ruins.",
+        "impulse": "To melt and consume.",
+        "harm_capacity": 6,
+        "tags": [
+          "Ooze",
+          "Magical",
+          "Fire",
+          "Amorphous"
+        ],
+        "gm_moves": [
+          "Engulf a target, dealing ongoing harm each turn.",
+          "Absorb a magical effect, growing in size and power.",
+          "Leave a trail of fire on the ground wherever it goes."
+        ]
+      },
+      {
+        "name": "Shadow Bat",
+        "description": "A small, winged creature of pure shadow and malicious intent. They are a common pest in caves and dark ruins, and their bite can drain the will to live from a target. They are often found in swarms, where their small, persistent attacks can become a major problem.",
+        "impulse": "To drain the will and life from its prey.",
+        "harm_capacity": 3,
+        "tags": [
+          "Beast",
+          "Flying",
+          "Necrotic",
+          "Pack Hunter"
+        ],
+        "gm_moves": [
+          "Swoop down and bite a target, dealing necrotic harm.",
+          "Swarm a single target, making them unable to act on their next turn.",
+          "Disappear into the shadows, only to reappear behind a different target."
         ]
       }
     ]
