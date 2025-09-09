@@ -18,7 +18,7 @@
       "max_harm": 7,
       "legacy_points": 3,
       "experience_points": 0,
-      "attuned_lineage": "Fire",
+      "attuned_lineage": null,
       "mastery_progress": {
         "Fire": 0,
         "Earth": 0,
@@ -33,6 +33,132 @@
         "Chrono": 0,
         "Cosmic": 0
       }
+    },
+    {
+      "char_id": "VOID_ZAEL",
+      "current_harm": 0,
+      "max_harm": 6,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "ELYSIAN_SELRA",
+      "current_harm": 0,
+      "max_harm": 6,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "SKYVEIL_TALIA",
+      "current_harm": 0,
+      "max_harm": 6,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "WYNDIA_NINA",
+      "current_harm": 0,
+      "max_harm": 6,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "FROSTFANG_KEI",
+      "current_harm": 0,
+      "max_harm": 7,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "PANGOLIN_TORR",
+      "current_harm": 0,
+      "max_harm": 8,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "SEEDLING_SPROUT",
+      "current_harm": 0,
+      "max_harm": 8,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "RUNEFORGE_ZYKAR",
+      "current_harm": 0,
+      "max_harm": 8,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "RUNEFORGE_RUNE",
+      "current_harm": 0,
+      "max_harm": 8,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "MISTWRAITH_ELDRA",
+      "current_harm": 0,
+      "max_harm": 5,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "SPIRIT_VERIDIA",
+      "current_harm": 0,
+      "max_harm": 6,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "SHADOWPELT_LIRIEN",
+      "current_harm": 0,
+      "max_harm": 6,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "ASTORAN_ERA",
+      "current_harm": 0,
+      "max_harm": 6,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
+    },
+    {
+      "char_id": "VOID_GARRICK",
+      "current_harm": 0,
+      "max_harm": 5,
+      "legacy_points": 3,
+      "experience_points": 0,
+      "attuned_lineage": null,
+      "mastery_progress": {}
     }
   ]
 }
