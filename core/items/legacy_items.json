@@ -36,7 +36,7 @@
       "name": "Whispering Parallax",
       "wielder": "Zael",
       "type": "A blade that seems carved from a tear in reality, humming with the silent energy of the Void.",
-      "tags": "Melee, 1-harm, Finesse, Magical, Void-touched",
+      "tags": "Melee, 1-harm, Finesse, Magical, Void-touched, Necrotic",
       "evolution": [
         {
           "state": "Dormant",
@@ -68,7 +68,7 @@
       "name": "Heartwood Scepter",
       "wielder": "Selra",
       "type": "A staff crafted from the heartwood of a pre-Shattering tree, capped with a light-infused crystal.",
-      "tags": "Melee, 1-harm, Magical, Holy",
+      "tags": "Melee, 1-harm, Magical, Holy, Restorative",
       "evolution": [
         {
           "state": "Dormant",
@@ -100,7 +100,7 @@
       "name": "Forgeheart",
       "wielder": "Torr",
       "type": "The masterwork hammer Torr has spent his life trying to create, forged from the heart of a fallen star.",
-      "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Siege",
+      "tags": "Melee, 3-harm (ap), Two-Handed, Forceful, Siege, Stalwart",
       "evolution": [
         {
           "state": "Dormant",
@@ -132,7 +132,7 @@
       "name": "Heartseed of the First Forest",
       "wielder": "Sprout",
       "type": "An absorbed artifact; a petrified seed that contains the purest essence of natural life.",
-      "tags": "Artifact, Evolving, Primal",
+      "tags": "Artifact, Evolving, Primal, Restorative",
       "evolution": [
         {
           "state": "Dormant",
@@ -196,7 +196,7 @@
       "name": "Spiteblade",
       "wielder": "Garrick",
       "type": "A blade of solidified shadow and malice, coalesced from Garrick's own undying thirst for revenge.",
-      "tags": "Melee, 2-harm, Magical, Necrotic, Armor-Piercing",
+      "tags": "Melee, 2-harm, Magical, Necrotic, Armor-Piercing, Void-touched",
       "evolution": [
         {
           "state": "Dormant",
@@ -388,7 +388,7 @@
       "name": "The Resonance Core",
       "wielder": "Rune",
       "type": "The masterwork power core that houses the fragmented soul of Rune's creator.",
-      "tags": "Artifact, Evolving, Arcane",
+      "tags": "Artifact, Evolving, Arcane, Magical, Protective",
       "evolution": [
         {
           "state": "Dormant",
@@ -412,6 +412,38 @@
           "move": {
             "name": "Creator's Will",
             "description": "Once per session, you can unleash the core's full power. For the rest of the scene, you and all allies nearby gain a +1 bonus to all rolls."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Heart of the Tides",
+      "wielder": "Era",
+      "type": "A fist-sized, opalescent pearl that hums with the life-giving energy of the deep ocean.",
+      "tags": "Artifact, Evolving, Protective, Restorative",
+      "evolution": [
+        {
+          "state": "Dormant",
+          "unlock_condition": "Found within the Sunken City of Astora, guarded by an ancient kraken spawn.",
+          "move": {
+            "name": "Tidal Boon (Passive)",
+            "description": "Once per scene, when Era uses her 'Mending Tide' move to heal an ally, she may heal an additional 1-harm."
+          }
+        },
+        {
+          "state": "Awakened",
+          "unlock_condition": "Used to pacify a corrupting entity or to heal a blighted land on the surface world.",
+          "move": {
+            "name": "Flood of Life",
+            "description": "Once per scene, you can hold the pearl aloft and cause a wave of pure life energy to surge through all allies nearby, healing them all of 1-harm."
+          }
+        },
+        {
+          "state": "Ascended",
+          "unlock_condition": "Used to purify a major source of corruption, such as the Void Chasm or the Crystal Spire, and restore the world's balance.",
+          "move": {
+            "name": "Genesis of the Deep",
+            "description": "Once per session, you can unleash the pearl's full power to purify an entire area, cleansing it of all corruption and restoring it to its natural state. This also cleanses all negative status effects from all allies."
           }
         }
       ]
