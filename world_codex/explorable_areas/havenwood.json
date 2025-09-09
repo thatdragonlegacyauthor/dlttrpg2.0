@@ -1,0 +1,82 @@
+{
+  "havenwood": {
+    "start_room": "village_square",
+    "rooms": {
+      "village_square": {
+        "name": "The Village Square",
+        "description": "The central square of Havenwood is a picture of quiet devotion. A large, well-tended shrine to the goddess Elysia stands in the center, surrounded by neatly arranged homes and a small marketplace. The air is calm, but an undercurrent of tension is palpable, with villagers speaking in hushed tones and casting wary glances at the Champions of Order patrol. The scent of woodsmoke and freshly baked bread is undercut by the sterile smell of the Champions' holy incense.",
+        "exits": [
+          {
+            "direction": "Path to the Whispering Woods",
+            "destination": "whispering_woods_path"
+          },
+          {
+            "direction": "The Great Smithy",
+            "destination": "great_smithy"
+          },
+          {
+            "direction": "The Mayor's Home",
+            "destination": "mayors_home"
+          },
+          {
+            "direction": "The Shrine of Elysia",
+            "destination": "shrine_of_elysia"
+          }
+        ]
+      },
+      "whispering_woods_path": {
+        "name": "Path to the Whispering Woods",
+        "description": "The path to the woods is overgrown and barely used. Villagers avoid this area, believing the forest to be a place of 'chaotic' old magic. Faint traces of ancient, natural runes can be seen on the trees, a stark contrast to the perfect symmetry of Havenwood.",
+        "exits": [
+          {
+            "direction": "Back to the Square",
+            "destination": "village_square"
+          },
+          {
+            "direction": "To the Elderwood Grove",
+            "destination": "elderwood_grove"
+          }
+        ]
+      },
+      "great_smithy": {
+        "name": "The Great Smithy",
+        "description": "The loud clang of a hammer on an anvil is the only cheerful sound in the village. This large, bustling smithy is run by the village blacksmith and his brave daughter, Brenna. The walls are lined with farm implements and well-forged tools, but a small, concealed area holds a few small, pointed swords and simple wooden shields—the tools of a desperate rebellion.",
+        "key_characters": [
+          "HAVENWOOD_BRENNA"
+        ],
+        "exits": [
+          {
+            "direction": "Back to the Square",
+            "destination": "village_square"
+          }
+        ]
+      },
+      "mayors_home": {
+        "name": "The Mayor's Home",
+        "description": "A well-kept but modest home, filled with the comfortable signs of a long life. Mayor Theron, a weary and anxious man, can be found here, often poring over ledgers or staring out the window with a look of deep worry. He is clearly a man torn between his love for his community and his fear of the Champions.",
+        "key_characters": [
+          "HAVENWOOD_THERON"
+        ],
+        "exits": [
+          {
+            "direction": "Back to the Square",
+            "destination": "village_square"
+          }
+        ]
+      },
+      "shrine_of_elysia": {
+        "name": "The Shrine of Elysia",
+        "description": "A pristine, circular shrine of white marble. A perfect, golden circle—Elysia's symbol—is etched into the floor, and the air smells of holy incense. Priestess Isolde can often be found here, leading a small prayer circle or issuing her decrees. The shrine is a place of profound calm, but it is also a hub of subtle control and indoctrination.",
+        "key_characters": [
+          "CHAMPIONS_ISOLDE"
+        ],
+        "exits": [
+          {
+            "direction": "Back to the Square",
+            "destination": "village_square"
+          }
+        ]
+      }
+    }
+  }
+}
