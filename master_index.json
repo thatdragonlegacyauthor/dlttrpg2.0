@@ -162,6 +162,10 @@
           {
             "file_name": "system/subsystems/gm_guide",
             "purpose": "The guide for the Game Master, outlining principles, agenda, and a list of generic GM moves."
+          },
+          {
+            "file_name": "system/subsystems/exploration_rules.json",
+            "purpose": "Contains custom tables and outcomes for the 'Make the Journey' move in specific world regions."
           }
         ]
       },
