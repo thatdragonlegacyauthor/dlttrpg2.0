@@ -1,0 +1,85 @@
+{
+  "arcanum_vaults": {
+    "start_room": "outer_ruins",
+    "rooms": {
+      "outer_ruins": {
+        "name": "Outer Ruins",
+        "description": "You stand before the half-buried entrance to a vast, pre-Shattering ruin. The landscape is littered with the shattered remains of colossal, brass golems and strange, geometric structures. The air is unnaturally still, and the entire area is permeated with a faint, humming arcane energy. The ruins are surrounded by a makeshift Arcane Dominion encampment, bustling with sorcerers and soldiers.",
+        "exits": [
+          {
+            "direction": "Enter the Vaults",
+            "destination": "central_atrium"
+          }
+        ]
+      },
+      "central_atrium": {
+        "name": "Central Atrium",
+        "description": "The entrance gives way to a massive, circular atrium. The floor is an intricate mosaic of gears and cogs, and the ceiling is a dome of crackled, arcane glass. Three massive, sealed doors stand in the walls, each one humming with a different kind of magical energy. The area is filled with Dominion soldiers and scientists, all working to bypass the ancient security systems.",
+        "exits": [
+          {
+            "direction": "Back to the Ruins",
+            "destination": "outer_ruins"
+          },
+          {
+            "direction": "West Wing",
+            "destination": "west_runic_chamber"
+          },
+          {
+            "direction": "East Wing",
+            "destination": "east_power_conduit"
+          },
+          {
+            "direction": "Central Sanctum",
+            "destination": "central_vault_sanctum"
+          }
+        ]
+      },
+      "west_runic_chamber": {
+        "name": "West Runic Chamber",
+        "description": "This long, rectangular chamber is filled with shelves of glowing, runic crystals and ancient texts. A small, hidden enclave of Runeforge Remnants—scholars and archivists—are working in secret, trying to decipher the technology before the Dominion can plunder it. Archivist Linnea, their leader, is poring over a large map on a central table.",
+        "key_characters": [
+          "RUNEFORGE_LINNEA"
+        ],
+        "exits": [
+          {
+            "direction": "Back to the Atrium",
+            "destination": "central_atrium"
+          }
+        ]
+      },
+      "east_power_conduit": {
+        "name": "East Power Conduit",
+        "description": "This chamber is a maze of humming arcane conduits and sparking wires. Magister Vorlag and his apprentices are attempting to bypass the power systems and reroute energy to the central sanctum. A volatile, crystal-based power source sits at the heart of the room, radiating with dangerous, chaotic energy.",
+        "key_characters": [
+          "DOMINION_VORLAG"
+        ],
+        "exits": [
+          {
+            "direction": "Back to the Atrium",
+            "destination": "central_atrium"
+          }
+        ]
+      },
+      "central_vault_sanctum": {
+        "name": "Central Vault Sanctum",
+        "description": "The largest of the three doors leads to a vast, circular chamber. In the center of the room, floating in the air, is a complex, geometric lattice of humming crystal and polished brass—the Resonance Warden. It is a guardian of pure sound and light, and it stands between the party and the secrets of the vaults.",
+        "exits": [
+          {
+            "direction": "Back to the Atrium",
+            "destination": "central_atrium"
+          }
+        ],
+        "events": [
+          {
+            "trigger": "enter_room",
+            "action": "initiate_combat",
+            "combatants": [
+              "Resonance Warden"
+            ],
+            "details": "This is a puzzle-like boss fight where the party must destroy the three Focusing Crystals in the room to defeat the Warden."
+          }
+        ]
+      }
+    }
+  }
+}
