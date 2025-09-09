@@ -1,0 +1,45 @@
+{
+  "flashpoints": [
+    {
+      "name": "The Havenwood Heresy",
+      "theme": "Moral & Ideological Rebellion",
+      "factions_involved": ["Champions of Order", "Havenwood Villagers"],
+      "setup": "Priestess Isolde declares an ancient village festival a heresy, demanding its purge. The party's arrival with Selra acts as a catalyst for a quiet rebellion among the villagers, forcing a moral choice.",
+      "key_players": [
+        "CHAMPIONS_ISOLDE",
+        "ELYSIAN_SELRA",
+        "HAVENWOOD_BRENNA",
+        "HAVENWOOD_THERON"
+      ],
+      "narrative_paths": [
+        {
+          "title": "A New Faith Forged",
+          "outcome": "The party supports the villagers, and Isolde's authority is broken. Selra defines her faith, and Havenwood becomes a secret, safe haven for the party, earning the Champions' enmity.",
+          "consequences": [
+            "Selra takes a major step in her quest 'Selra's Faith'.",
+            "Havenwood becomes a powerful ally against the Champions of Order.",
+            "The Champions' 'Front' advances against the party, who are now seen as direct agents of heresy."
+          ]
+        },
+        {
+          "title": "A Bitter Lesson",
+          "outcome": "The party succeeds, but at a terrible cost. Violence erupts, and the community is scarred by loss. The victory is somber and leaves a lasting scar on the village and the party.",
+          "consequences": [
+            "Selra succeeds but is wracked with guilt and doubt, taking a penalty on her next move.",
+            "The Champions are bloodied but may return later to enact a full-scale 'purification'.",
+            "The party earns the villagers' gratitude but also their fear and hesitation."
+          ]
+        },
+        {
+          "title": "The Price of Order",
+          "outcome": "The rebellion is crushed. Isolde seizes control, and Havenwood becomes an oppressive, hostile town. The party is forced to flee, having failed to save the community.",
+          "consequences": [
+            "Selra's faith is shattered, potentially rendering her divine abilities unusable.",
+            "Havenwood becomes a hostile location and a source of Champion patrols.",
+            "The Champions' 'Front' advances significantly, solidifying their regional control."
+          ]
+        }
+      ]
+    }
+  ]
+}
