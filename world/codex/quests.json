@@ -136,12 +136,18 @@
       {
         "name": "The Oracle's Burden",
         "type": "Companion (Eldra)",
-        "description": "As the ghostly remnant of an ancient oracle, Eldra is bound to uncover the true history of the Shattering, but her spectral presence attracts other spirits, some benevolent, some malevolent.",
+        "description": "As the ghostly remnant of an an`cient oracle, Eldra is bound to uncover the true history of the Shattering, but her spectral presence attracts other spirits, some benevolent, some malevolent.",
         "trigger": "Eldra joins the party.",
         "narrative_move": {
           "name": "Commune with the Past",
           "description": "When Eldra attempts to commune with a powerful spirit, roll 2d6 + Wits. On a 10+, she receives a clear, useful vision of the past. On a 7-9, the vision is fragmented and cryptic. On a 6-, the spirit is malevolent and attempts to possess her."
         }
+      },
+      {
+        "name": "The Heart in the Stone",
+        "type": "Side Quest / Companion Recruitment",
+        "trigger": "The party discovers a hidden pre-Shattering ruin sealed by petrified vines that react only to Rya's draconic energy.",
+        "description": "Within a forgotten ruin, the party discovers a hidden sanctuary protected by a dormant, seed-like guardian. Rya's power may be the key to awakening it and learning its purpose."
       }
     ]
   }
