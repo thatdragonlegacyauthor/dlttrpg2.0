@@ -3,64 +3,55 @@
     "description": "The master index for all core campaign and system data files for the Dragon Legacy Narrative System (dlttrpg2.0).",
     "file_groups": [
       {
-        "category": "Core System Files",
+        "category": "Campaign & Subsystems",
         "files": [
           {
-            "file_name": "core/core_rules.json",
-            "purpose": "The foundational rules for the 2d6 narrative system, including attributes, skills, and progression."
+            "file_name": "campaign/story_arc/prologue.json",
+            "purpose": "The introductory chapter of the campaign."
           },
           {
-            "file_name": "core/core_moves",
-            "purpose": "Contains the universal moves that any character can perform (e.g., Engage an Enemy, Investigate a Scene)."
+            "file_name": "campaign/story_arc/chapter_one.json",
+            "purpose": "The narrative roadmap for the first chapter of the campaign."
           },
           {
-            "file_name": "core/gm_guide",
-            "purpose": "The guide for the Game Master, outlining principles, agenda, and a list of generic GM moves."
+            "file_name": "system/subsystems/masters_system",
+            "purpose": "Details the system for finding hidden Masters who can teach unique 'Master Moves'."
+          },
+          {
+            "file_name": "system/subsystems/settlement_system",
+            "purpose": "Details the 'Legacy's Rest' town-building subsystem and its core mechanics."
           }
         ]
       },
       {
         "category": "Player & Character Options",
         "files": [
-          { "file_name": "core/heros/rya/rya.json", "purpose": "The playbook for The Dragon Heir, Rya." },
-          { "file_name": "core/heros/zael.json", "purpose": "The playbook for The Whisperer, Zael." },
-          { "file_name": "core/heros/selra.json", "purpose": "The playbook for The Shepherd, Selra." },
-          { "file_name": "core/heros/garrick.json", "purpose": "The playbook for The Vengeful Spirit, Garrick." },
-          { "file_name": "core/heros/nina.json", "purpose": "The playbook for The Sky-Princess, Nina." },
-          { "file_name": "core/heros/talia.json", "purpose": "The playbook for The Falconer, Talia." },
-          { "file_name": "core/heros/torr.json", "purpose": "The playbook for The Bastion, Torr." },
-          { "file_name": "core/heros/sprout.json", "purpose": "The playbook for The Grove Tender, Sprout." },
-          { "file_name": "core/heros/kei.json", "purpose": "The playbook for The Pack Leader, Kei." },
-          { "file_name": "core/heros/zykar.json", "purpose": "The playbook for The Soul-Bound Aegis, Zykar." },
-          { "file_name": "core/heros/eldra.json", "purpose": "The playbook for The Oracle, Eldra." },
-          { "file_name": "core/heros/veridia.json", "purpose": "The playbook for The Verdant Tempest, Veridia." },
-          { "file_name": "core/heros/lirien.json", "purpose": "The playbook for The Ghost Panther, Lirien." },
-          { "file_name": "core/heros/rune.json", "purpose": "The playbook for The Living Ruin, Rune." },
-          { "file_name": "core/heros/era.json", "purpose": "The playbook for The Scrivener, Era." },
+          { "file_name": "characters/player_characters/rya/rya.json", "purpose": "The playbook for The Dragon Heir, Rya." },
+          { "file_name": "characters/player_characters/zael.json", "purpose": "The playbook for The Whisperer, Zael." },
+          { "file_name": "characters/player_characters/selra.json", "purpose": "The playbook for The Shepherd, Selra." },
+          { "file_name": "characters/player_characters/garrick.json", "purpose": "The playbook for The Vengeful Spirit, Garrick." },
+          { "file_name": "characters/player_characters/nina.json", "purpose": "The playbook for The Sky-Princess, Nina." },
+          { "file_name": "characters/player_characters/talia.json", "purpose": "The playbook for The Falconer, Talia." },
+          { "file_name": "characters/player_characters/torr.json", "purpose": "The playbook for The Bastion, Torr." },
+          { "file_name": "characters/player_characters/sprout.json", "purpose": "The playbook for The Grove Tender, Sprout." },
+          { "file_name": "characters/player_characters/kei.json", "purpose": "The playbook for The Pack Leader, Kei." },
+          { "file_name": "characters/player_characters/zykar.json", "purpose": "The playbook for The Soul-Bound Aegis, Zykar." },
+          { "file_name": "characters/player_characters/eldra.json", "purpose": "The playbook for The Oracle, Eldra." },
+          { "file_name": "characters/player_characters/veridia.json", "purpose": "The playbook for The Verdant Tempest, Veridia." },
+          { "file_name": "characters/player_characters/lirien.json", "purpose": "The playbook for The Ghost Panther, Lirien." },
+          { "file_name": "characters/player_characters/rune.json", "purpose": "The playbook for The Living Ruin, Rune." },
+          { "file_name": "characters/player_characters/era.json", "purpose": "The playbook for The Scrivener, Era." },
           {
-            "file_name": "core/heros/rya/draconic_moves.json",
+            "file_name": "characters/player_characters/rya/draconic_moves.json",
             "purpose": "Defines the core 'Unleash Draconic Power' move for all 12 of Rya's lineages."
           },
           {
-            "file_name": "core/heros/rya/draconic_powers.json",
+            "file_name": "characters/player_characters/rya/draconic_powers.json",
             "purpose": "Details the supporting systems for Rya's abilities, including Aspect Mastery, Manifestations, and Draconic Unity."
           },
           {
-            "file_name": "core/heros/rya/draconic_grimoire",
+            "file_name": "characters/player_characters/rya/draconic_grimoire",
             "purpose": "A comprehensive list of the specific 'Draconic Techniques' Rya can learn as she masters her lineages."
-          }
-        ]
-      },
-      {
-        "category": "Equipment & Items",
-        "files": [
-          {
-            "file_name": "core/items/core_items.json",
-            "purpose": "The consolidated and complete list of all standard and magical weapons, armor, and gear."
-          },
-          {
-            "file_name": "core/items/legacy_items.json",
-            "purpose": "The fully converted list of powerful, evolving legacy artifacts tied to specific characters and their narrative arcs."
           }
         ]
       },
@@ -68,67 +59,88 @@
         "category": "World Codex",
         "files": [
           {
-            "file_name": "world_codex/narrative.json",
+            "file_name": "world/codex/narrative.json",
             "purpose": "Contains the core world lore, including the Public History, the Secret Truth, and narrative Lore Moves."
           },
           {
-            "file_name": "world_codex/factions_narrative.json",
+            "file_name": "world/codex/factions_narrative.json",
             "purpose": "Details on all world factions, reframed with narrative drives, GM moves, and key questions."
           },
+           {
+            "file_name": "world/codex/flashpoints.json",
+            "purpose": "A list of major, world-shaping scenarios with branching narrative outcomes."
+          },
           {
-            "file_name": "world_codex/locations.json",
+            "file_name": "world/locations/locations_gazetteer.json",
             "purpose": "A comprehensive gazetteer of all world locations, complete with descriptions and narrative GM hooks."
           },
           {
-            "file_name": "world_codex/npcs.json",
+            "file_name": "characters/npcs/npcs.json",
             "purpose": "A list of key non-player characters with their drives, moves, and key questions."
           },
           {
-            "file_name": "world_codex/quests.json",
+            "file_name": "world/codex/quests.json",
             "purpose": "A list of main and companion quests with narrative moves."
           },
           {
-            "file_name": "world_codex/world_map.json",
+            "file_name": "world/locations/world_map.json",
             "purpose": "Defines the world map and the core 'Make the Journey' move for handling travel."
           },
           {
-            "file_name": "world_codex/bestiaryp1.json",
+            "file_name": "world/bestiary/bestiaryp1.json",
             "purpose": "The first part of the monster manual (Tiers 1-5), converted to the narrative system."
           },
           {
-            "file_name": "world_codex/bestiaryp2.json",
+            "file_name": "world/bestiary/bestiaryp2.json",
             "purpose": "The second part of the monster manual (Tiers 6+ and Bosses), converted to the narrative system."
           },
-          { "file_name": "world_codex/explorable_areas/crossroads_garrison.json", "purpose": "Detailed map for the Crossroads Garrison." },
-          { "file_name": "world_codex/explorable_areas/elysian_grand_catherdral.json", "purpose": "Detailed map for the Elysian Grand Cathedral." },
-          { "file_name": "world_codex/explorable_areas/fallen_sky_ship.json", "purpose": "Detailed map for the Fallen Sky Ship." },
-          { "file_name": "world_codex/explorable_areas/port_myria.json", "purpose": "Detailed map for Port Myria." },
-          { "file_name": "world_codex/explorable_areas/roost_of_the_tempest.json", "purpose": "Detailed map for the Roost of the Tempest." },
-          { "file_name": "world_codex/explorable_areas/serpents_coil_pass.json", "purpose": "Detailed map for Serpent's Coil Pass." },
-          { "file_name": "world_codex/explorable_areas/sky_reach_aerie.json", "purpose": "Detailed map for Sky-Reach Aerie." },
-          { "file_name": "world_codex/explorable_areas/tanglewood_reach.json", "purpose": "Detailed map for Tanglewood Reach." },
-          { "file_name": "world_codex/explorable_areas/void_chasm.json", "purpose": "Detailed map for the Void Chasm." },
-          { "file_name": "world_codex/explorable_areas/wyndia_city.json", "purpose": "Detailed map for the city of Wyndia." }
+          { "file_name": "world/locations/explorable_areas/arcanum_vaults", "purpose": "Detailed map for the Arcanum Vaults."},
+          { "file_name": "world/locations/explorable_areas/crossroads_garrison.json", "purpose": "Detailed map for the Crossroads Garrison." },
+          { "file_name": "world/locations/explorable_areas/elysian_grand_catherdral.json", "purpose": "Detailed map for the Elysian Grand Cathedral." },
+          { "file_name": "world/locations/explorable_areas/fallen_sky_ship.json", "purpose": "Detailed map for the Fallen Sky Ship." },
+          { "file_name": "world/locations/explorable_areas/havenwood.json", "purpose": "Detailed map for Havenwood village."},
+          { "file_name": "world/locations/explorable_areas/mount_dragnor", "purpose": "Detailed map for Mount Dragnor."},
+          { "file_name": "world/locations/explorable_areas/port_myria.json", "purpose": "Detailed map for Port Myria." },
+          { "file_name": "world/locations/explorable_areas/roost_of_the_tempest.json", "purpose": "Detailed map for the Roost of the Tempest." },
+          { "file_name": "world/locations/explorable_areas/serpents_coil_pass.json", "purpose": "Detailed map for Serpent's Coil Pass." },
+          { "file_name": "world/locations/explorable_areas/sky_reach_aerie.json", "purpose": "Detailed map for Sky-Reach Aerie." },
+          { "file_name": "world/locations/explorable_areas/sunken_city_astora", "purpose": "Detailed map for the Sunken City of Astora."},
+          { "file_name": "world/locations/explorable_areas/tanglewood_reach.json", "purpose": "Detailed map for Tanglewood Reach." },
+          { "file_name": "world/locations/explorable_areas/void_chasm.json", "purpose": "Detailed map for the Void Chasm." },
+          { "file_name": "world/locations/explorable_areas/wyndia_city.json", "purpose": "Detailed map for the city of Wyndia." }
+        ]
+      },
+       {
+        "category": "Equipment & Items",
+        "files": [
+          {
+            "file_name": "world/items/armory.json",
+            "purpose": "The consolidated and complete list of all standard and magical weapons, armor, and gear."
+          },
+          {
+            "file_name": "world/items/legacy_items.json",
+            "purpose": "The fully converted list of powerful, evolving legacy artifacts tied to specific characters and their narrative arcs."
+          }
         ]
       },
       {
-        "category": "Campaign & Subsystems",
+        "category": "Core System Files",
         "files": [
           {
-            "file_name": "story/prologue.json",
-            "purpose": "The introductory chapter of the campaign."
+            "file_name": "system/core_rules/core_rules.json",
+            "purpose": "The foundational rules for the 2d6 narrative system, including attributes, skills, and progression."
           },
           {
-            "file_name": "story/chapter_one.json",
-            "purpose": "The narrative roadmap for the first chapter of the campaign."
+            "file_name": "system/core_rules/core_moves",
+            "purpose": "Contains the universal moves that any character can perform (e.g., Engage an Enemy, Investigate a Scene)."
           },
           {
-            "file_name": "core/masters_system",
-            "purpose": "Details the system for finding hidden Masters who can teach unique 'Master Moves'."
+            "file_name": "system/core_rules/core_glossary",
+            "purpose": "A glossary of all gameplay tags and their meanings."
           },
           {
-            "file_name": "core/settlement_system",
-            "purpose": "Details the 'Legacy's Rest' town-building subsystem and its core mechanics."
+            "file_name": "system/subsystems/gm_guide",
+            "purpose": "The guide for the Game Master, outlining principles, agenda, and a list of generic GM moves."
           }
         ]
       },
@@ -136,19 +148,19 @@
         "category": "Save Data",
         "files": [
           {
-            "file_name": "save/current/campaign_state",
+            "file_name": "campaign/save/current/campaign_state.json",
             "purpose": "The active campaign's state file."
           },
           {
-            "file_name": "save/current/party_status",
+            "file_name": "campaign/save/current/party_status",
             "purpose": "The active party's status file."
           },
           {
-            "file_name": "save/empty/campaign_state_shell",
+            "file_name": "campaign/save/empty/campaign_state_shell",
             "purpose": "The template file for a new campaign state."
           },
           {
-            "file_name": "save/empty/party_status_shell",
+            "file_name": "campaign/save/empty/party_status_shell",
             "purpose": "The template file for a new party status."
           }
         ]
