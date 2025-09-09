@@ -2,9 +2,25 @@
   "tanglewood_reach": {
     "start_room": "canopy_lift",
     "rooms": {
+      "canopy_lift": {
+        "name": "The Canopy Lift",
+        "description": "After a long climb up a massive, ancient tree, you arrive at a wooden platform. A simple, hand-cranked rope lift is the only way up or down from the forest floor. The air is cooler here, high above the forest floor, and the sounds of the woods are a distant murmur. A sturdy rope bridge sways gently, leading to the main village.",
+        "exits": [
+          { "direction": "Cross the bridge", "destination": "great_bough_commons" }
+        ]
+      },
       "great_bough_commons": {
         "name": "The Great Bough Commons",
         "description": "The rope bridge opens onto a series of massive, interconnected platforms built around the thickest boughs of the canopy. This is the heart of Tanglewood Reach. Villagers with clothes of woven leaves and bark move with quiet purpose, tending to moss gardens and conversing in low tones. Lanterns carved from glowing fungi provide a soft, warm light.",
+        "exits": [
+          { "direction": "Back to Lift", "destination": "canopy_lift" },
+          { "direction": "Elder's Hut", "destination": "elders_hut" },
+          { "direction": "Apothecary's Nook", "destination": "apothecarys_nook" },
+          { "direction": "Scout's Perch", "destination": "scouts_perch" },
+          { "direction": "Weaver's Den", "destination": "weavers_den" },
+          { "direction": "Path of Spirits", "destination": "spirit_totem_grove" },
+          { "direction": "The Gloomwood Path", "destination": "gloomwood_path", "status": "Guarded" }
+        ],
         "events": [
           {
             "trigger": "talk_to_villagers",
@@ -13,15 +29,64 @@
           }
         ]
       },
+      "elders_hut": {
+        "name": "Elder Briar's Hut",
+        "description": "The largest and oldest hut in the village, built into a hollow in the main trunk of the great tree. The air inside smells of old wood, drying herbs, and ancient knowledge. Elder Briar, the village's cautious leader, can often be found here, consulting with the spirits of the forest.",
+        "exits": [
+          { "direction": "Back to Commons", "destination": "great_bough_commons" }
+        ],
+        "key_characters": [ "TANGLEWOOD_BRIAR" ]
+      },
+      "apothecarys_nook": {
+        "name": "The Apothecary's Nook",
+        "description": "A small, cluttered hut filled with bundles of rare herbs, bubbling potions, and strange, spirit-warding charms. This is the domain of Lyssa, the village's healer and spirit-speaker. She can be found here, communing with forest spirits or brewing potent remedies.",
+        "exits": [
+          { "direction": "Back to Commons", "destination": "great_bough_commons" }
+        ],
+        "key_characters": [ "TANGLEWOOD_LYSSA" ]
+      },
+      "scouts_perch": {
+        "name": "The Scout's Perch",
+        "description": "A high platform on the very edge of the village, offering a commanding view of the forest canopy for miles around. This is the domain of Kaelen, the lead scout. Maps of the forest floor, half-finished arrows, and observation logs are scattered about. It's a functional, no-nonsense space.",
+        "exits": [
+          { "direction": "Back to Commons", "destination": "great_bough_commons" }
+        ],
+        "key_characters": [ "TANGLEWOOD_KAELEN" ]
+      },
+      "weavers_den": {
+        "name": "The Weaver's Den",
+        "description": "A warm, communal hut where the village's artisans work. The air smells of drying leaves and floral dyes. Weavers sit at looms, crafting intricate clothing and sturdy rope from bark and vines. Fletchers carefully craft arrows with feathers from canopy birds. It is a place of quiet, focused community.",
+        "exits": [
+          { "direction": "Back to Commons", "destination": "great_bough_commons" }
+        ],
+        "events": [
+          {
+            "trigger": "interact_with_artisans",
+            "action": "story_beat",
+            "details": "The party can commission custom leather armor or other mundane goods here, perhaps in exchange for rare materials from the forest floor."
+          }
+        ]
+      },
       "spirit_totem_grove": {
         "name": "Spirit Totem Grove",
         "description": "A secluded, quiet platform surrounding a small, ancient-looking tree. Dozens of small, hand-carved wooden totems representing forest spirits hang from its branches, swaying gently in the wind. This is a sacred space where villagers come to meditate and leave offerings for the spirits.",
+        "exits": [
+          { "direction": "Back to Commons", "destination": "great_bough_commons" }
+        ],
         "events": [
           {
             "trigger": "meditate_at_grove",
             "action": "narrative_move",
             "details": "When you meditate at the grove and open your mind to the spirits, roll 2d6 + Wits. On a 10+, you receive a clear, prophetic vision or a temporary blessing. On a 7-9, you receive a vision, but it is fragmented and unsettling."
           }
+        ]
+      },
+      "gloomwood_path": {
+        "name": "The Gloomwood Path",
+        "description": "A long, rickety rope bridge that leads away from the relative safety of the village and deeper into the Whispering Woods, towards the corrupted area known as the Gloomwood. The air grows colder here, and the natural light seems to dim. The villagers have posted a single, grim-faced scout here to warn others from venturing further.",
+        "exits": [
+          { "direction": "Back to Commons", "destination": "great_bough_commons" },
+          { "direction": "Into the Gloomwood", "destination": "gloomwood_heart_map" }
         ]
       }
     }
