@@ -1,0 +1,45 @@
+{
+  "flashpoints": [
+    {
+      "name": "The Heart of the Inferno",
+      "theme": "Apocalypse vs. Preservation",
+      "factions_involved": ["The Brood of Dragnor", "Wardens of the Wilds"],
+      "setup": "The fanatical Brood of Dragnor, led by the Ashen Priest, is attempting a dark ritual to awaken the dormant Mount Dragnor. Characters with a connection to nature, like Veridia or Sprout, feel the mountain's pain and must race to stop the ritual before the world is consumed by fire.",
+      "key_players": [
+        "BROOD_ASHEN_PRIEST",
+        "BROOD_KILGORE",
+        "SPIRIT_VERIDIA",
+        "SEEDLING_SPROUT"
+      ],
+      "narrative_paths": [
+        {
+          "title": "The Mountain Sleeps",
+          "outcome": "The party successfully navigates Mount Dragnor, defeats its guardians, and stops the ritual just in time. The tremors cease, and the volcano sleeps once more.",
+          "consequences": [
+            "The party makes a powerful enemy in the Brood of Dragnor.",
+            "The Wardens of the Wilds view the party as powerful allies, and the world is saved from a cataclysm.",
+            "Rya may have the opportunity to attune to the Fire Lineage."
+          ]
+        },
+        {
+          "title": "A Violent Eruption",
+          "outcome": "The party is delayed, and the ritual partially succeeds, causing a violent regional eruption. While not a world-ender, the landscape is permanently scarred, and new dangers are unleashed.",
+          "consequences": [
+            "The map of Eryndor is permanently changed, and the Shattered Lands become even more hostile.",
+            "The party must now deal with the fallout of the eruption, such as refugees and new environmental hazards.",
+            "The Ashen Priest escapes, now believing the 'Great Cleansing' has begun."
+          ]
+        },
+        {
+          "title": "The Age of Fire Begins",
+          "outcome": "The party fails. The ritual is a success, and Mount Dragnor awakens fully. The world is plunged into a new age of fire and ash, and the campaign shifts to a post-apocalyptic tone.",
+          "consequences": [
+            "The balance of power is completely upended, and the campaign's tone shifts to one of survival.",
+            "The Brood of Dragnor's 'Front' advances to its final stage.",
+            "The party's primary objective is no longer preventing threats, but finding a way to survive in the new world."
+          ]
+        }
+      ]
+    }
+  ]
+}
