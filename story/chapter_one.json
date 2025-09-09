@@ -45,8 +45,8 @@
         "title": "The Siege of the Stonekin (Chapter Climax)",
         "location": "Stonegard, Scalebound Clans Territory",
         "plot": "Using the intel from Rhys, the party deduces that Valerius is not seeking the Well of Souls for its own power, but as a staging ground for an assault on Stonegard to seize the draconic relics in the Dragon's Graveyard. The party must race to warn the isolationist Scalebound Clans.",
-        "conflict": "The party must first get past the deeply suspicious Stonekin guards and convince the clan elders of the imminent threat. The climax is a multi-stage battle to defend Stonegard. The party will be tasked with a critical objective, such as holding a key chokepoint in the pass, sabotaging Champion siege weapons, or dueling one of Valerius's lieutenants to break the morale of the attacking force.",
-        "outcome": "The Champions' initial assault is repelled. While Valerius is not defeated, his plans are thwarted. The party's actions earn them the grudging respect and a temporary alliance with the powerful Scalebound Clans. The chapter concludes with the party having successfully forged their group into a capable unit and secured their first major allies in the fight to come."
+        "conflict": "This is a direct military conflict detailed in the 'flashpoints.json' file under the entry 'The Siege of Stonegard'. The party will be tasked with a critical objective to help defend the fortress from a full-scale Champion assault.",
+        "outcome": "The outcome of this climax will be determined by the party's success or failure in the 'The Siege of Stonegard' flashpoint."
       }
     ]
   }
