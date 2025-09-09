@@ -2,28 +2,80 @@
   "port_myria": {
     "start_room": "city_gates",
     "rooms": {
-        "salty_siren_tavern": {
-            "name": "The Salty Siren Tavern",
-            "description": "A rowdy, welcoming tavern filled with off-duty sailors and merchants. The air is thick with smoke and the stories of the sea. It's the best place in town to gather rumors or find a game of cards. You spot a grizzled old fisherman, Old Man Hemlock, nursing a drink in the corner.",
-            "events": [
-              {
-                "trigger": "buy_hemlock_a_drink",
-                "action": "narrative_move",
-                "details": "When you try to get a story from Old Man Hemlock, roll 2d6 + Heart. On a 10+, he regales you with detailed sea legends, including tales of the Sunken City of Astora. On a 7-9, he gives you a cryptic clue about the sunken city, but his memory is hazy from the drink."
-              }
-            ]
-        },
-        "silken_market": {
-            "name": "The Silken Market",
-            "description": "Beyond the curtain lies a sprawling underground marketplace, lit by glowing fungi and arcane lanterns. Here, one can find anything for the right price, from rare artifacts and illegal spell components to sensitive political information. This is the domain of the Gilded Paw Caravan, and their agent, 'Silas', can be found in a quiet corner, dealing in secrets.",
-            "events": [
-              {
-                "trigger": "seek_information",
-                "action": "narrative_move",
-                "details": "When you try to navigate the underworld's social codes to deal with Silas, roll 2d6 + Wits. On a 10+, you impress him, and he will offer you reliable information for a fair price. On a 7-9, you make a minor faux pas; he'll still deal with you, but the price will be significantly higher."
-              }
-            ]
-        }
+      "city_gates": {
+        "name": "Port Myria City Gates",
+        "description": "You stand before the main gates of Port Myria. The salt of the sea hangs heavy in the air, mixing with the scent of exotic spices and packed crowds. The road from the Crossroads Garrison ends here, and a constant stream of merchants, sailors, and travelers flows in and out of the bustling port city.",
+        "exits": [
+          { "direction": "To the Crossroads Garrison", "destination": "CROSSROADS_GARRISON" },
+          { "direction": "Enter the City", "destination": "market_square" }
+        ]
+      },
+      "market_square": {
+        "name": "Market Square",
+        "description": "The heart of Port Myria's legitimate trade. The square is a vibrant, chaotic symphony of commerce. Merchants from Wyndia, Stonegard, and even the distant deserts hawk their wares from colorful stalls. The sounds of haggling, street performers, and city guards trying to maintain order fill the air.",
+        "exits": [
+          { "direction": "Back to the Gates", "destination": "city_gates" },
+          { "direction": "To the Docks", "destination": "main_docks" },
+          { "direction": "To the Salty Siren", "destination": "salty_siren_tavern" },
+          { "direction": "Shady Alleyway (Silken Market)", "destination": "silken_market_entrance", "status": "Hidden" }
+        ]
+      },
+      "main_docks": {
+        "name": "The Main Docks",
+        "description": "The docks are a forest of masts and rigging. Ships of all shapes and sizes are moored here, loading and unloading cargo under the watchful eye of the Harbormaster's officials. The smell of tar, salt, and sea life is overpowering. You can see Captain Eva's ship, 'The Serpent's Kiss,' among the vessels.",
+        "exits": [
+          { "direction": "Back to the Market", "destination": "market_square" },
+          { "direction": "Harbormaster's Office", "destination": "harbormaster_office" },
+          { "direction": "Board The Serpent's Kiss", "destination": "serpents_kiss_deck" }
+        ],
+        "key_characters": [ "PORTMYRIA_EVA" ]
+      },
+      "harbormaster_office": {
+        "name": "Harbormaster's Office",
+        "description": "A sturdy, stone building that offers a commanding view of the entire harbor. Inside, the office is filled with shipping manifests, maps, and ledgers. The overly officious Master Alistair Thorne can usually be found here, meticulously stamping documents with an air of immense self-importance.",
+        "exits": [
+          { "direction": "Exit to Docks", "destination": "main_docks" }
+        ],
+        "key_characters": [ "PORTMYRIA_THORNE" ]
+      },
+      "salty_siren_tavern": {
+        "name": "The Salty Siren Tavern",
+        "description": "A rowdy, welcoming tavern filled with off-duty sailors and merchants. The air is thick with smoke and the stories of the sea. It's the best place in town to gather rumors or find a game of cards. You spot a grizzled old fisherman, Old Man Hemlock, nursing a drink in the corner.",
+        "exits": [
+          { "direction": "Exit to Market", "destination": "market_square" }
+        ],
+        "key_characters": [ "PORTMYRIA_HEMLOCK" ],
+        "events": [
+          {
+            "trigger": "buy_hemlock_a_drink",
+            "action": "narrative_move",
+            "details": "When you try to get a story from Old Man Hemlock, roll 2d6 + Heart. On a 10+, he regales you with detailed sea legends, including tales of the Sunken City of Astora. On a 7-9, he gives you a cryptic clue about the sunken city, but his memory is hazy from the drink."
+          }
+        ]
+      },
+      "silken_market_entrance": {
+        "name": "Entrance to the Silken Market",
+        "description": "A narrow, shadowed alleyway tucked between two warehouses. A heavy, silk curtain obscures the entrance, and a large, imposing guard eyes you suspiciously. This is the entrance to Port Myria's infamous black market.",
+        "exits": [
+          { "direction": "Back to the Square", "destination": "market_square" },
+          { "direction": "Enter the Silken Market", "destination": "silken_market", "status": "Guarded" }
+        ]
+      },
+      "silken_market": {
+        "name": "The Silken Market",
+        "description": "Beyond the curtain lies a sprawling underground marketplace, lit by glowing fungi and arcane lanterns. Here, one can find anything for the right price, from rare artifacts and illegal spell components to sensitive political information. This is the domain of the Gilded Paw Caravan, and their agent, 'Silas', can be found in a quiet corner, dealing in secrets.",
+        "exits": [
+          { "direction": "Exit to the Alley", "destination": "silken_market_entrance" }
+        ],
+        "key_characters": [ "GILDEDPAW_SILAS" ],
+        "events": [
+          {
+            "trigger": "seek_information",
+            "action": "narrative_move",
+            "details": "When you try to navigate the underworld's social codes to deal with Silas, roll 2d6 + Wits. On a 10+, you impress him, and he will offer you reliable information for a fair price. On a 7-9, you make a minor faux pas; he'll still deal with you, but the price will be significantly higher."
+          }
+        ]
+      }
     }
   }
 }
