@@ -1,0 +1,63 @@
+{
+  "system_info": {
+    "system": "Dragon Legacy TTRPG",
+    "version": "2.9.6",
+    "update_log": "New rules and glossary for status effects, movement, and damage types."
+  },
+  "rules_glossary_updates": {
+    "status_effects": [
+      {
+        "name": "Ablaze",
+        "description": "The target is engulfed in fire. It takes 1d8 fire damage at the start of each of its turns until the fire is extinguished."
+      },
+      {
+        "name": "Bleeding",
+        "description": "The target takes 1d6 physical damage at the start of its turn from a deep wound. This can be ended by a healing ability or a successful Mind (Survival) check."
+      },
+      {
+        "name": "Slowed",
+        "description": "The target's movement speed is halved, and they have a -1 penalty to all Agility checks."
+      },
+      {
+        "name": "Deafened",
+        "description": "A deafened creature can't hear and automatically fails any checks that require it."
+      },
+      {
+        "name": "Confused",
+        "description": "A confused creature cannot take reactions and must roll a d10 at the start of its turn to determine its action."
+      },
+      {
+        "name": "Diseased",
+        "description": "The afflicted creature takes a -2 penalty to its maximum Vitality and Resolve until cured."
+      },
+      {
+        "name": "Paralyzed",
+        "description": "An incapacitated creature that cannot move or speak. Attacks against it have advantage."
+      },
+      {
+        "name": "Broken",
+        "description": "An item that is broken is unusable until it is repaired. A broken weapon can't be used to attack, and a broken piece of armor or a shield provides no benefit to the wearer."
+      }
+    ],
+    "movement_and_range_rules": {
+      "area_of_effect": {
+        "radius": "A circular area that expands from a central point. All creatures within the circle are affected.",
+        "cone": "A triangular area that originates from the caster and extends outwards in a specific direction.",
+        "line": "A straight line that extends from the caster in a specific direction. All creatures in the line are affected."
+      },
+      "movement_types": {
+        "push": "To move a creature away from you. The creature is moved the specified number of feet in a straight line.",
+        "pull": "To move a creature toward you. The creature is moved the specified number of feet in a straight line.",
+        "teleport": "To move from one space to another instantly. This movement does not provoke attacks of opportunity."
+      },
+      "damage_types": [
+        "necrotic",
+        "arcane",
+        "entropic",
+        "bludgeoning",
+        "sonic",
+        "light"
+      ]
+    }
+  }
+}
