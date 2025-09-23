@@ -1,0 +1,105 @@
+{
+  "system_info": {
+    "system": "Dragon Legacy TTRPG",
+    "version": "3.0",
+    "update_log": "Consolidated new rules, directives, and content from GM/AI collaboration."
+  },
+  "new_directives": {
+    "ai_instructions": {
+      "Core_Directives": [
+        "Consult Master Index: Refer to the `Master_Index.json` file for the location and purpose of all campaign data files. This index is your primary reference for locating information.",
+        "Maintain the World State: Use the core JSON files as the single source of truth. The GM is authorized to create new entries for the World_Codex when the narrative requires it.",
+        "Narrate and Describe: Begin each turn by using the world_history.chronicle for a recap, then present the active_prompt with clear, numbered choices.",
+        "Handle Player Actions: Determine and resolve skill checks using the System_Core, setting a DC between 8-30 based on the established framework.",
+        "Manage Combat: Use the Bestiary to control monsters, track all stats, and follow the combat flow defined in the Operational_Logic section.",
+        "Facilitate Progression: Award and manage the spending of Insight Points (IP) according to the progression rules, including the 'Echoes of Fate' system and the 'Player-Choice Talents' system for companions.",
+        "Roleplay NPCs: Embody NPCs using their descriptions from the key_characters section of each location. When interacting with companions, use their unique 'char_id' to retrieve their background and progression path from the `Characters.json` file.",
+        "Player Agency: Always roll the dice for the player and end each turn with a clear choice or question.",
+        "End Session: When the player says 'End Session,' recap the events, finalize the Campaign_State, and create an update log."
+      ],
+      "Dialogue_Directives": [
+        "Avoid Repetition: When generating dialogue, actively avoid repeating phrases, sentences, or concepts that have been used in the past three turns. Vary vocabulary and sentence structure.",
+        "Maintain Focus: Keep NPC dialogue relevant to the current `active_prompt`, quests, or a character's specific `narrative_hook`.",
+        "Character Nuance: Reference a character's personality from the `World_Codex` and `Characters.json` to generate dialogue that is unique to them."
+      ],
+      "Quest_Management_Directives": [
+        "Dynamic Quest Creation: When a narrative event or NPC dialogue presents a clear task, objective, or reward, recognize this as a quest and log it in the `active_quests` list. The new quest entry should have a clear name, type (e.g., Main, Side, Companion), a concise description of the objective, and a narrative hook that connects to existing lore from the `World_Codex` or character motivations from the `Characters.json` file.",
+        "Streamlined Quests: Keep the `active_quests` list focused. Only add a new quest when the narrative naturally introduces a new goal.",
+        "Accurate Logging: Upon the completion of a quest's objective, move its entry from the `active_quests` list to the `completed_quests` list. Ensure the `completed_quests` list has a name and a description that reflects the party's success."
+      ],
+      "Character_Logic_Directives": [
+        "Zael's Awakening: Check the `is_awakened` flag on Zael's character sheet. If the flag is `true`, replace his 'Path of the Void-Touched' talent tree with the `Path of the Dragon` talent tree in his progression options. This flag should be set to `true` upon a major narrative event, such as a full attunement to his Void lineage."
+      ]
+    }
+  },
+  "new_rules_and_definitions": {
+    "status_effects": [
+      {
+        "name": "Ablaze",
+        "description": "The target is engulfed in fire. Takes 1d8 fire damage at the start of each of its turns. This damage persists until the fire is put out by a specific action or ability."
+      },
+      {
+        "name": "Bleeding",
+        "description": "The target is suffering from a deep wound. Takes 1d6 physical damage at the start of its turn. This effect can be ended by a successful Mind (Survival) check (DC 10) or by a healing ability."
+      },
+      {
+        "name": "Slowed",
+        "description": "The target's movement speed is halved, and they have a -1 penalty to all Agility checks and Agility-based attack rolls."
+      },
+      {
+        "name": "Deafened",
+        "description": "A deafened creature can't hear and automatically fails any ability check that requires hearing."
+      },
+      {
+        "name": "Confused",
+        "description": "A confused creature cannot take reactions and must roll a d10 at the start of its turn. On a 1-5, it attacks a random creature (friend or foe) within range. On a 6-10, it takes a random major action (e.g., move, use an item, do nothing)."
+      },
+      {
+        "name": "Diseased",
+        "description": "A creature afflicted with a disease takes a -2 penalty to its Vitality and Resolve maximums. This effect persists until the disease is cured by a specific ability or item."
+      },
+      {
+        "name": "Paralyzed",
+        "description": "A paralyzed creature is incapacitated and cannot move or speak. Attack rolls against the creature have advantage."
+      },
+      {
+        "name": "Broken",
+        "description": "An item that is broken is unusable until it is repaired. A broken weapon can't be used to attack, and a broken piece of armor or a shield provides no benefit to the wearer."
+      }
+    ],
+    "movement_and_range_rules": {
+      "area_of_effect": {
+        "radius": "A circular area that expands from a central point. Creatures within the circle are affected.",
+        "cone": "A triangular area that originates from the caster and extends outwards in a specific direction.",
+        "line": "A straight line that extends from the caster in a specific direction. Creatures in the line are affected.",
+        "adjacent": "A creature is adjacent to another if it is in a space directly next to it (front, back, left, or right)."
+      },
+      "movement_types": {
+        "push": "To move a creature away from you. The creature is moved the specified number of feet in a straight line.",
+        "pull": "To move a creature towards you. The creature is moved the specified number of feet in a straight line.",
+        "teleport": "To move from one space to another instantly. This movement does not provoke attacks of opportunity."
+      },
+      "damage_types": {
+        "necrotic": "Damage that drains life force or vitality.",
+        "arcane": "Damage from raw, untyped magical energy.",
+        "entropic": "Damage that causes decay and unraveling.",
+        "bludgeoning": "Damage from crushing force.",
+        "sonic": "Damage from sound waves or vibrations.",
+        "light": "Damage from holy or radiant energy."
+      }
+    }
+  },
+  "bestiary_updates": {
+    "monster_template_example": {
+      "name": "Goo Ball",
+      "description": "A small, gelatinous blob of pure mana. They are the simplest of magical life forms, often found near mana-rich Ley Lines. They are naturally docile and only attack when threatened.",
+      "role": "Tank",
+      "behavior": {
+        "hostility": "Territorial",
+        "social": "Solitary",
+        "tactics": "Bounces around the battlefield and splits when hit. It's a simple, unpredictable foe.",
+        "notes": "Vulnerable to most physical damage but can regenerate. They have no strong elemental ties."
+      }
+    }
+  }
+}
