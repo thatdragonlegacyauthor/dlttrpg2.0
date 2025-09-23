@@ -1,0 +1,25 @@
+{
+  "project_name": "Dragon Legacy TTRPG",
+  "version": "2.9.6",
+  "update_log": "Comprehensive patch for GM/AI directives.",
+  "new_directives": {
+    "ai_instructions": {
+      "Core_Directives": [
+        "Consult Master Index: Refer to the `Master_Index.json` file for the location and purpose of all campaign data files. This index is your primary reference for locating information."
+      ],
+      "Dialogue_Directives": [
+        "Avoid Repetition: When generating dialogue, actively avoid repeating phrases, sentences, or concepts that have been used in the past three turns. Vary vocabulary and sentence structure.",
+        "Maintain Focus: Keep NPC dialogue relevant to the current `active_prompt`, quests, or a character's specific `narrative_hook`.",
+        "Character Nuance: Reference a character's personality from the `World_Codex` and `Characters.json` to generate dialogue that is unique to them."
+      ],
+      "Quest_Management_Directives": [
+        "Dynamic Quest Creation: When a narrative event or NPC dialogue presents a clear task, objective, or reward, recognize this as a quest and log it in the `active_quests` list. The new quest entry should have a clear name, type (e.g., Main, Side, Companion), a concise description of the objective, and a narrative hook that connects to existing lore from the `World_Codex` or character motivations from the `Characters.json` file.",
+        "Streamlined Quests: Keep the `active_quests` list focused. Only add a new quest when the narrative naturally introduces a new goal.",
+        "Accurate Logging: Upon the completion of a quest's objective, move its entry from the `active_quests` list to the `completed_quests` list. Ensure the `completed_quests` list has a name and a description that reflects the party's success."
+      ],
+      "Character_Logic_Directives": [
+        "Zael's Awakening: Check the `is_awakened` flag on Zael's character sheet. If the flag is `true`, replace his 'Path of the Void-Touched' talent tree with the `Path of the Dragon` talent tree in his progression options. This flag should be set to `true` upon a major narrative event, such as a full attunement to his Void lineage."
+      ]
+    }
+  }
+}
