@@ -1,0 +1,134 @@
+{
+  "system_info": {
+    "system": "Dragon Legacy TTRPG",
+    "version": "2.9.6",
+    "update_log": "Comprehensive patch to address missing rules, definitions, and AI directives from the original dataset."
+  },
+  "new_ai_directives": {
+    "purpose": "These directives should be added to the `ai_instructions` section of the `GM_AI_Tools.json` file to improve AI behavior.",
+    "directives": [
+      {
+        "directive_name": "Consult Master Index",
+        "description": "Add a new core directive instructing the AI to first refer to the `Master_Index.json` to locate the correct file for any given piece of information."
+      },
+      {
+        "directive_name": "Dialogue Directives",
+        "rules": [
+          "Avoid Repetition: Avoid repeating phrases, sentences, or concepts that have been used in the past three turns.",
+          "Maintain Focus: Keep dialogue relevant to the current quest or character's narrative hook.",
+          "Character Nuance: Reference character personalities from the `World_Codex` and `Characters.json` for unique dialogue."
+        ]
+      },
+      {
+        "directive_name": "Quest Management Directives",
+        "rules": [
+          "Dynamic Quest Creation: When a narrative event presents a clear task or objective, log it as a new quest in `active_quests`.",
+          "Streamlined Quests: Keep the `active_quests` list focused and only add a new quest when a new goal is introduced.",
+          "Accurate Logging: Upon completion, move the quest to the `completed_quests` list with a description that reflects the party's success."
+        ]
+      },
+      {
+        "directive_name": "Character Logic Directives",
+        "rules": [
+          "Zael's Awakening: Add a rule to check for an `is_awakened` flag on Zael’s character sheet. If `true`, replace his 'Path of the Void-Touched' talent tree with the 'Path of the Dragon' tree."
+        ]
+      },
+      {
+        "directive_name": "End-of-Session Protocol",
+        "rules": "Upon player request, end the session by recapping events and finalizing the `Campaign_State.json` with an updated timestamp."
+      }
+    ]
+  },
+  "rules_and_glossary_updates": {
+    "purpose": "These definitions and rules should be added to the `System_Core.json` file or a new `Rules_Glossary.json` file for consistency.",
+    "status_effects": [
+      {
+        "name": "Ablaze",
+        [cite_start]"description": "The target is engulfed in fire. It takes 1d8 fire damage at the start of each of its turns until the fire is extinguished. [cite: 3523, 3524, 3525]"
+      },
+      {
+        "name": "Bleeding",
+        "description": "The target takes 1d6 physical damage at the start of its turn from a deep wound. [cite_start]This can be ended by a healing ability or a successful Mind (Survival) check. [cite: 3527, 3528, 3529]"
+      },
+      {
+        "name": "Slowed",
+        [cite_start]"description": "The target's movement speed is halved, and they have a -1 penalty to all Agility checks. [cite: 3531, 3532, 3533]"
+      },
+      {
+        "name": "Deafened",
+        [cite_start]"description": "A deafened creature can't hear and automatically fails any checks that require it. [cite: 3535, 3536, 3537]"
+      },
+      {
+        "name": "Confused",
+        [cite_start]"description": "A confused creature cannot take reactions and must roll a d10 at the start of its turn to determine its action. [cite: 3540, 3541]"
+      },
+      {
+        "name": "Diseased",
+        [cite_start]"description": "The afflicted creature takes a -2 penalty to its maximum Vitality and Resolve until cured. [cite: 3543, 3544, 3545]"
+      },
+      {
+        "name": "Paralyzed",
+        "description": "An incapacitated creature that cannot move or speak. [cite_start]Attacks against it have advantage. [cite: 3548, 3549]"
+      },
+      {
+        "name": "Broken",
+        "description": "An item that is broken is unusable until it is repaired. A broken weapon can't be used to attack, and a broken piece of armor or a shield provides no benefit to the wearer."
+      }
+    ],
+    "movement_and_range_rules": {
+      "area_of_effect": {
+        "radius": "A circular area that expands from a central point. All creatures within the circle are affected.",
+        "cone": "A triangular area that originates from the caster and extends outwards in a specific direction.",
+        "line": "A straight line that extends from the caster in a specific direction. All creatures in the line are affected."
+      },
+      "movement_types": {
+        "push": "To move a creature away from you. The creature is moved the specified number of feet in a straight line.",
+        "pull": "To move a creature toward you. The creature is moved the specified number of feet in a straight line.",
+        "teleport": "To move from one space to another instantly. This movement does not provoke attacks of opportunity."
+      },
+      "damage_types": {
+        "necrotic": "Damage that drains life force or vitality.",
+        "arcane": "Damage from raw, untyped magical energy.",
+        "entropic": "Damage that causes decay and unraveling.",
+        "bludgeoning": "Damage from crushing force.",
+        "sonic": "Damage from sound waves or vibrations.",
+        "light": "Damage from holy or radiant energy."
+      }
+    }
+  },
+  "bestiary_updates": {
+    "purpose": "This shows the new structure for monster entries. This format should be applied to all monsters in the `Bestiary.json` file.",
+    "monster_template": {
+      "name": "Goo Ball",
+      "cr": 1,
+      "type": "Ooze",
+      "description": "A small, gelatinous blob of pure mana. They are the simplest of magical life forms, often found near mana-rich Ley Lines. [cite_start]They are naturally docile and only attack when threatened. [cite: 4547, 4551, 4552, 4557, 4558]",
+      "role": "Tank",
+      "behavior": {
+        "hostility": "Territorial",
+        [cite_start]"social": "Solitary, but will merge to form a King Goo when threatened. [cite: 4555]",
+        "tactics": "Bounces around the battlefield and splits when hit. [cite_start]It's a simple, unpredictable foe. [cite: 4556, 4571, 4575]",
+        "notes": "Vulnerable to most physical damage but can regenerate. [cite_start]They have no strong elemental ties. [cite: 4557]"
+      },
+      "stats": {
+        "Might": 2,
+        "Agility": 2,
+        "Mind": 1,
+        "Spirit": 1
+      },
+      "resources": {
+        "vitality": 8
+      },
+      "abilities": [
+        {
+          "name": "Bounce",
+          [cite_start]"effect": "Deals 1d4 physical damage. [cite: 4571]"
+        },
+        {
+          "name": "Split",
+          [cite_start]"effect": "The first time the Goo Ball is hit, it splits into two smaller Goo Balls, each with half the current Vitality. [cite: 4575]"
+        }
+      ]
+    }
+  }
+}
