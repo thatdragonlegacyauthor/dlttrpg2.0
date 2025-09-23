@@ -1,0 +1,38 @@
+{
+  "system_info": {
+    "system": "Dragon Legacy TTRPG",
+    "version": "2.9.6",
+    "update_log": "New structure for monster entries, including description, role, and behavior."
+  },
+  "bestiary_updates": {
+    "monster_template": {
+      "name": "Monster Name",
+      "cr": "Challenge Rating",
+      "type": "Monster Type",
+      "description": "A detailed narrative description of the monster's appearance and lore.",
+      "role": "The monster's combat role (e.g., Tank, Striker, Controller).",
+      "behavior": {
+        "hostility": "The monster's baseline hostility (e.g., Docile, Territorial, Aggressive).",
+        "social": "Whether the monster is solitary or social (e.g., Solitary, Packs, Swarms).",
+        "tactics": "A brief summary of its preferred combat tactics.",
+        "notes": "Any other unique traits or vulnerabilities."
+      },
+      "stats": {
+        "Might": 1,
+        "Agility": 1,
+        "Mind": 1,
+        "Spirit": 1
+      },
+      "resources": {
+        "vitality": "Monster Vitality"
+      },
+      "abilities": [
+        {
+          "name": "Ability Name",
+          "effect": "Ability Description"
+        }
+      ]
+    },
+    "all_monsters_should_be_updated_to_this_format": true
+  }
+}
