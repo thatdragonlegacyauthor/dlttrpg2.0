@@ -1,0 +1,30 @@
+name: "Bug report"
+description: "Report a problem in rules, data, or automation"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened? What did you expect?
+      placeholder: Clear and concise description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Steps to reproduce the behavior.
+      placeholder: 1) Go to ...\n2) Do ...
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Links or files related to the issue (e.g., which JSON files).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I validated affected JSON files locally (jq -e .)
+          required: false
